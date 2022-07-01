@@ -1,0 +1,39 @@
+---
+user-guide-title: AEM Guides용 튜토리얼
+user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
+breadcrumb-title: AEM Guides 튜토리얼
+source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 28%
+
+---
+
+
+# Tutorials 대상 [!DNL Adobe Experience Manager Guides] {#tutorials}
+
++ [Tutorials 대상 [!DNL AEM Guides] AEM](overview.md)
++ 릴리스 정보 {#release-info}
+   + [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
+   + 릴리스 정보 {#release-notes}
+      + 클라우드 서비스 {#cloud-release-notes}
+         + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
+         + [최신 릴리스 정보](./release-info/release-notes-2022.5.0.md)
+         + [4월 릴리스 노트](./release-info/release-notes-2022.4.0.md)
+         + [3월 릴리스 노트](./release-info/release-notes-2022.3.0.md)
+         + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
+         + [1월 릴리스 노트](./release-info/release-notes-2022.1.0.md)
+      + 온-프레미스/Managed Services {#on-prem-release-notes}
+         + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
++ 컨텐츠 아키텍처 및 사용 사례 {#content-arch}
+   + [조건부 출력 작업](./content-architecture/create-and-use-conditions.md)
+   + [글로벌 키 만들기](./content-architecture/create-global-keys.md)
++ 구성 {#configuring}
+   + [사용자 정의 DITA-OT 설정](./configuring/setup-a-custom-dita-ot.md)
++ 번역 {#translation}
+   + [번역에서 단락 제외](./translation/exclude-paragraphs-from-translation.md)
++ 웹 편집기 {#web-editor}
+   + [PDF 출력 게시](./web-editor/native-pdf-web-editor.md)
+   + [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
++ 버전 관리 {#versioning}
