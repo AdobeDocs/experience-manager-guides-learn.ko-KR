@@ -1,9 +1,10 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 4.1 릴리스
-description: 'Adobe Experience Manager 안내서의 최신 릴리스 '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: Adobe Experience Manager 안내서의 최신 릴리스
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 * 버전 3.8.5를 사용하는 경우 4.1로 업그레이드하기 전에 버전 4.0.x로 업그레이드해야 합니다.
 * 3.8.5 이전 버전을 사용하는 경우 제품별 설치 안내서의 업그레이드 섹션을 참조하십시오.
 
-자세한 내용은 [업그레이드 지침](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+자세한 내용은 [업그레이드 지침](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## 호환성 매트릭스
 
@@ -289,4 +290,3 @@ AEM 가이드는 더 이상 FrameMaker 문서에 대한 DITA 출력 형식 생�
 * XML 편집기의 작성자 모드에서 올바르게 렌더링되지 않는 SVG 이미지. (9426)
 * Salesforce를 통해 게시하는 동안 기준선이 적용되지 않습니다. (8953)
 * 사용자 환경 설정 설정에서 루트 맵을 지울 수 없는 기능이 있습니다. (8534)
-
