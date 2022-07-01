@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0502ab60d45ebac97415b4ae44afc2763380a7cd
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 28%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 28%
          + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
          + [1월 릴리스 노트](./release-info/release-notes-2022.1.0.md)
       + 온-프레미스/Managed Services {#on-prem-release-notes}
+         + [4.1 릴리스 노트](./release-info/release-notes-4.1.md)
          + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 컨텐츠 아키텍처 및 사용 사례 {#content-arch}
