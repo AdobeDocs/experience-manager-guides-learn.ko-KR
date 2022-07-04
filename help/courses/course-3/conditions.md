@@ -2,7 +2,7 @@
 title: 조건
 description: AEM 지침에서 조건 작업
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ DITA에서는 종종 제품, 플랫폼 및 대상과 같은 속성을 통해 조
 
 5. 필수 필드를 작성합니다.
 
-   ・ Name 은 프로파일링에 사용되는 속성과 일치해야 합니다.
+   - Name은 프로파일링에 사용되는 속성과 일치해야 합니다.
 
-   ・ 값은 DITA 코드 소스에서 사용할 정확한 항목입니다.
+   - 값은 DITA 코드 소스에서 사용할 정확한 항목입니다.
 
-   ・ 레이블은 속성을 입력하는 사용자가 볼 수 있는 단어입니다.
+   - 레이블은 속성을 입력하는 사용자가 보게 되는 단어입니다.
 
 6. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
@@ -104,7 +104,6 @@ DITA에서는 종종 제품, 플랫폼 및 대상과 같은 속성을 통해 조
    >[!IMPORTANT]
    >
    >중요 사항: 선택한 루트 맵은 제목 체계를 포함하는 맵이어야 합니다.
-
 
    ![사용자 환경 설정](images/lesson-13/user-preferences-2.png)
 

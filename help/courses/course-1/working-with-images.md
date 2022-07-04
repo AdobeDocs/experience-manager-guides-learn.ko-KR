@@ -2,7 +2,7 @@
 title: AEM 안내서에서 이미지 작업
 description: Adobe Experience Manager 안내서의 이미지 작업
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ ht-degree: 0%
 
    ![자산 업로드](images/lesson-4/upload-assets.png)
 
-
 1. 로컬 시스템에서 업로드할 이미지를 선택하고 을(를) 선택합니다 **열기**.
 
    다음 [!UICONTROL 자산 업로드] 대화 상자가 표시됩니다.
+
 1. 선택 **업로드**.
 
 ## 주제에 이미지 삽입
@@ -52,7 +52,6 @@ ht-degree: 0%
 1. 을(를) 선택합니다 **이미지 삽입** 아이콘.
 
    ![이미지 삽입 아이콘](images/lesson-4/insert-image.png)
-
 
    이미지 삽입 대화 상자가 나타납니다.
 
@@ -88,9 +87,11 @@ ht-degree: 0%
 1. 버전 레이블 필드에 관련 레이블을 입력합니다.
 
    레이블을 사용하면 게시할 때 포함할 버전을 지정할 수 있습니다.
+
    >[!NOTE]
    > 
    > 프로그램이 사전 정의된 레이블로 구성된 경우 이 중에서 선택하여 일관된 레이블 지정을 보장할 수 있습니다.
+
 1. **저장**&#x200B;을 선택합니다.
 
    항목의 새 버전을 만들면 버전 번호가 업데이트됩니다.

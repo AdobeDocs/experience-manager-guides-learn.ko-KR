@@ -2,7 +2,7 @@
 title: 버전 매기기 콘텐츠 [!DNL AEM Guides]
 description: 버전 매기기 콘텐츠 [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 1%
@@ -29,8 +29,9 @@ ht-degree: 1%
    레이블을 사용하면 게시할 때 포함할 버전을 지정할 수 있습니다.
 
    >[!NOTE]
-   > 
-   > 프로그램이 사전 정의된 레이블로 구성된 경우 이 중에서 선택하여 일관된 레이블 지정을 보장할 수 있습니다.
+   >
+   >프로그램이 사전 정의된 레이블로 구성된 경우 이 중에서 선택하여 일관된 레이블 지정을 보장할 수 있습니다.
+
 1. **저장**&#x200B;을 선택합니다.
 
    항목의 새 버전을 만들면 버전 번호가 업데이트됩니다. 문서의 첫 번째 버전은 버전 1.0입니다.

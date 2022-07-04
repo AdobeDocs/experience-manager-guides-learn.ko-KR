@@ -2,7 +2,7 @@
 title: 에서 컨텐츠 만들기 [!DNL AEM Guides]
 description: 에서 컨텐츠 만들기 [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ ht-degree: 1%
 1. 을(를) 선택합니다 **+** 아이콘 및 **폴더**.
 
    ![+ 아이콘](images/lesson-3/+-icon.png)
+
 1. 폴더에 제목을 지정합니다.
 1. **만들기**를 선택합니다.
 이제 저장소에 표시되는 새 폴더를 만들었습니다. 이 폴더는 모든 교육 과정 컨텐츠의 홈이 됩니다.
@@ -37,6 +38,7 @@ ht-degree: 1%
    ![줄임표 아이콘](images/lesson-3/ellipses-icon.png)
 
    옵션 메뉴가 표시됩니다.
+
 1. 선택 **\> 폴더 만들기**.
    ![하위 폴더 만들기](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -49,6 +51,7 @@ ht-degree: 1%
    ![줄임표 아이콘](images/lesson-3/ellipses-icon.png)
 
    옵션 메뉴가 표시됩니다.
+
 1. 선택 **만들기 \> 항목**.
 
    ![새 항목 만들기](images/lesson-3/create-topic-with-markings.png)
@@ -93,6 +96,7 @@ ht-degree: 1%
    >[!NOTE]
    > 
    > 프로그램이 사전 정의된 레이블로 구성된 경우 이 중에서 선택하여 일관된 레이블 지정을 보장할 수 있습니다.
+
 1. **저장**&#x200B;을 선택합니다.
 
    항목의 새 버전을 만들면 버전 번호가 업데이트됩니다.
