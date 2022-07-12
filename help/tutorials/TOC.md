@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 5579e219478ca37489d63faa2edc8f9ebc089def
+source-git-commit: 66e04e9e7a7514be2629c59cbb5332ea77c264a4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,5 @@ ht-degree: 0%
    + [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
 + 버전 관리 {#versioning}
 + 숨겨진 문서 {#hidden}
-+ 
    + [숨겨진 PDF 템플릿](./native-pdf/pdf-template.md)
-+ 
-   + [숨겨진 PDF 템플릿](./native-pdf/components-pdf-template.md)
+   + [PDF 템플릿의 숨겨진 구성 요소](./native-pdf/components-pdf-template.md)
