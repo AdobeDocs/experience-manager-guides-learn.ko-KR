@@ -1,7 +1,9 @@
 ---
 title: 기본 PDF 게시 기능 | 기본 PDF 기능 사용자 지정 및 구성
 description: 기본 PDF 기능의 다양한 구성 요소를 사용자 지정하고 구성하는 방법을 알아봅니다.
-source-git-commit: bd62afd85ddbcf5f305b18b9a9c226a4790d383a
+hide: true
+hidefromtoc: true
+source-git-commit: 0f18d9f7d7967b6f25c5d05b54a22f65e9fc20f7
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
