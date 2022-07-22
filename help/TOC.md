@@ -2,10 +2,10 @@
 user-guide-title: AEM 안내서를 위한 Tutorials 및 비디오 교육 과정
 user-guide-description: Adobe Experience Manager 안내서를 위한 자습서 및 비디오 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM 안내서 Tutorials 및 비디오
-source-git-commit: f08fe1a96f0a0bcb9a50e316bd0b6c9ff2670104
+source-git-commit: d8ffc09abc0a79d21d2d1df1832f75a34130a65e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 7%
+source-wordcount: '228'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,8 @@ ht-degree: 7%
    + WIP 기본 PDF 문서 {#hidden}
       + [숨겨진 PDF 템플릿](./tutorials/native-pdf/pdf-template.md)
       + [PDF 템플릿의 숨겨진 구성 요소](./tutorials/native-pdf/components-pdf-template.md)
-+ [비디오](./courses/overview.md)
++ 비디오 {#videos}
+   + [개요](./courses/overview.md)
    + 시작하기 [!DNL AEM Guides] {#getting-started}
       + [교육 과정 개요](./courses/course-1/overview.md)
       + [AEM 사용자 인터페이스 이해](./courses/course-1/understanding-the-aem-user-interface.md)
