@@ -2,16 +2,14 @@
 title: 비디오 기반 학습 교육 과정 [!DNL Adobe Experience Manager Guides]
 description: 비디오 자습서 보기 [!DNL Adobe Experience Manager Guides], AEM XML 추가 기능, AEM XML 플러그인, AEM DoX 및 AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
 
 # 대상 비디오 교육 과정 [!DNL Adobe Experience Manager Guides] {#overview}
-
-Adobe Experience Manager 안내서(이하 [!DNL AEM Guides] 솔루션(이 공간의 뒷부분)은 강력한 엔터프라이즈급 구성 요소 컨텐츠 관리 솔루션(CMS)입니다.
 
 비디오 기반 교육 과정에 대한 이 공간을 확인하십시오. [!DNL Adobe Experience Manager Guides].
 
