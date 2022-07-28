@@ -4,7 +4,7 @@ description: PDF 출력의 다른 섹션에 있는 정보를 제공하기 위해
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ PDF 문서에는 일반적으로 다음 섹션이 포함됩니다.
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ PDF 문서에는 일반적으로 다음 섹션이 포함됩니다.
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| 개발자 코너: | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _개발자 코너_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 소스 보기로 이동하여 코드를 변경하여 이를 수행할 수도 있습니다. 다음 코드 조각은 코드를 통해 수행된 동일한 바닥글 설정을 보여 줍니다.
 
 ```md
@@ -206,7 +207,7 @@ CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 �
    기본 장 TOC가 콘텐츠 영역에 삽입됩니다.
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 �
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 �
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    DITA 요소에 Span Column 속성을 적용할 수 있습니다.
