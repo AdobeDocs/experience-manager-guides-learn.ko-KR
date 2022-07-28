@@ -1,14 +1,16 @@
 ---
 title: 기본 PDF 게시 기능 | 페이지 레이아웃 디자인
-description: 'PDF 출력의 다른 섹션에 있는 정보를 제공하기 위해 페이지 레이아웃을 디자인하는 방법을 알아봅니다. '
+description: PDF 출력의 다른 섹션에 있는 정보를 제공하기 위해 페이지 레이아웃을 디자인하는 방법을 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # 페이지 레이아웃 디자인
 
@@ -85,7 +87,7 @@ PDF 문서에는 일반적으로 다음 섹션이 포함됩니다.
 
 1. 헤더 편집 (<img src="./assets/header-icon.svg" width="25">) 아이콘을 클릭하여 헤더 영역에 커서를 놓습니다.
 
-1. 비활성 이미지(<img src="./assets/insert-image-icon.svg" width="25"> ) 아이콘.
+1. 비활성 이미지(<img src="./assets/insert-image-icon.svg" width="25">) 아이콘.
 
    경로 선택 팝업이 나타납니다.
 
@@ -135,6 +137,8 @@ PDF 문서에는 일반적으로 다음 섹션이 포함됩니다.
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >기본 형식을 제외하고 모든 필드의 형식을 편집할 수도 있습니다. 편집하려면 편집할 형식 옆에 있는 편집 아이콘을 클릭하고 변경한 다음 확인을 클릭합니다.
@@ -169,9 +173,9 @@ PDF 문서에는 일반적으로 다음 섹션이 포함됩니다.
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| 개발자 코너: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| 개발자 코너: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 소스 보기로 이동하여 코드를 변경하여 이를 수행할 수도 있습니다. 다음 코드 조각은 코드를 통해 수행된 동일한 바닥글 설정을 보여 줍니다.
+| CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 소스 보기로 이동하여 코드를 변경하여 이를 수행할 수도 있습니다. 다음 코드 조각은 코드를 통해 수행된 동일한 바닥글 설정을 보여 줍니다. |
 
 ```md
 …
@@ -217,6 +221,8 @@ CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 �
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >마지막으로 게시된 PDF은 장의 컨텐츠를 기반으로 하는 TOC 항목만 표시됩니다. 장에 수준 5 제목이 없으면 최종 출력에 표시되지 않습니다.
@@ -258,6 +264,8 @@ CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 �
    다음 예제와 같이 제목 텍스트의 Span Column 속성이 모두 로 설정됩니다. 이렇게 하면 문서가 여러 열로 구성되어 있어도 제목이 여러 열로 확장됩니다.
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    DITA 요소에 Span Column 속성을 적용할 수 있습니다.
@@ -385,4 +393,3 @@ CSS 및 HTML 코드로 직접 작업하려는 경우 페이지 레이아웃의 �
 * **배경**: 배경 이미지나 색상 음영을 포함하는 속성을 포함합니다. [이미지 크기](높이 또는 폭 설정), [배경 반복](반복, 반복 없음, 라운드 이상)및 [배경 위치]를 왼쪽 위, 오른쪽 가운데, 가운데 하단 등으로 설정할 수 있습니다.
 
 * **여러 열**: 페이지 또는 특정 요소(예: 장 TOC)에 대한 다중 열 속성을 구성하는 속성을 포함합니다. 속성 및 속성 사용 방법에 대한 자세한 내용은 _다중 열 페이지 레이아웃으로 작업_.
-
