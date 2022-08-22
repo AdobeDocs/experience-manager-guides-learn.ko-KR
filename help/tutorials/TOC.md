@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: cb066f0e09aec000f216c11c774c8da111b2a7f7
+source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '124'
 ht-degree: 23%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 23%
    + 릴리스 정보 {#release-notes}
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
-         + [최신 릴리스 정보](./release-info/release-notes-2022.5.0.md)
+         + [최신 릴리스 정보](./release-info/release-notes-2022.8.0.md)
+         + [5월 릴리스 노트](./release-info/release-notes-2022.5.0.md)
          + [4월 릴리스 노트](./release-info/release-notes-2022.4.0.md)
          + [3월 릴리스 노트](./release-info/release-notes-2022.3.0.md)
          + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
