@@ -1,15 +1,15 @@
 ---
-title: Experience Manager 안내서용 Tutorials
+title: Experience Manager 안내서 자습서
 description: Experience Manager 안내서(이전 XML Documentation for Adobe Experience Manager)을 위한 자습서 모음입니다.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 에 대한 Tutorials 및 비디오 교육 과정 [!DNL Adobe Experience Manager Guides] {#overview}
+# [!DNL Adobe Experience Manager Guides] 튜토리얼 {#overview}
 
 [!DNL Adobe Experience Manager Guides] (이하 [!DNL AEM Guides] 솔루션(이 안내서의 뒷부분)은 강력한 엔터프라이즈급 구성 요소 컨텐츠 관리 솔루션(CMS)입니다. Adobe Experience Manager에서 기본 DITA를 지원하므로 AEM에서 DITA 기반 콘텐츠 작성 및 전달을 처리할 수 있습니다. 작성자는 Adobe FrameMaker과 같은 오프라인 DITA 작성 도구 또는 사용하기 쉬운 내장 웹 편집기를 사용하여 컨텐츠를 만들 수 있습니다.
 
@@ -30,6 +30,10 @@ ht-degree: 3%
 * **[[!DNL AEM Guides] 시작 교육 과정](course-1/overview.md)**
 
    *을 사용하여 컨텐츠를 작성, 구성, 작성 및 게시하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides].*
+
+* **[기본 제공 웹 편집기에서 작성](course-3/overview.md)**
+
+   *Experience Manager 안내서에서 기본 웹 편집기를 사용하여 컨텐츠를 작성하는 방법을 알아봅니다. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해할 수 있습니다.*
 
 * **[출력 생성 [!DNL AEM Guides]](course-2/overview.md)**
 
