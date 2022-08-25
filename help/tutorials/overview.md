@@ -1,17 +1,17 @@
 ---
 title: Experience Manager 안내서용 Tutorials
-description: Experience Manager 안내서(이전 XML Documentation for Adobe Experience Manager)을 위한 자습서 모음입니다.
+description: Experience Manager 안내서(이전 XML Documentation for Adobe Experience Manager)용 튜토리얼 비디오를 찾습니다. Experience Manager에서 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 8a0049d737dd4d80cf42f8b9d4ffa8adc349682f
+source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 3%
 
 ---
 
 # Tutorials 대상 [!DNL Adobe Experience Manager Guides] {#overview}
 
-[!DNL Adobe Experience Manager Guides] (이하 [!DNL AEM Guides] 솔루션(이 안내서의 뒷부분)은 강력한 엔터프라이즈급 구성 요소 컨텐츠 관리 솔루션(CMS)입니다. Adobe Experience Manager에서 기본 DITA를 지원하므로 AEM에서 DITA 기반 콘텐츠 작성 및 전달을 처리할 수 있습니다. 작성자는 Adobe FrameMaker과 같은 오프라인 DITA 작성 도구 또는 사용하기 쉬운 내장 웹 편집기를 사용하여 컨텐츠를 만들 수 있습니다.
+[!DNL Experience Manager Guides] (이하 _[!DNL AEM Guides]_(이하)은 강력한 엔터프라이즈급 구성 요소 컨텐츠 관리 솔루션(CMS)입니다. Experience Manager에서 기본 DITA를 지원할 수 있으므로 AEM에서 DITA 기반 콘텐츠 작성 및 전달을 처리할 수 있습니다. 작성자는 Adobe FrameMaker과 같은 오프라인 DITA 작성 도구 또는 사용하기 쉬운 내장 웹 편집기를 사용하여 컨텐츠를 만들 수 있습니다.
 
 [!DNL AEM Guides] 솔루션은 공동 작업, 검토, 번역, 검색, DITA 콘텐츠 보고서 등 모든 핵심 CMS 기능을 제공하므로 작성자가 효율적인 컨텐츠 재사용 및 강력한 워크플로우를 통해 적은 시간에 더 많은 작업을 수행할 수 있습니다. 또한 사용자는 동급 최고의 단일 클릭 게시 기능을 활용하여 가장 인기 있는 형식(Experience Manager Sites, PDF, HTML5, EPUB 및 DITA-OT를 통한 사용자 정의 출력)에 대한 DITA 기반 출력을 생성할 수 있습니다.
 
@@ -19,17 +19,17 @@ ht-degree: 3%
 
 >[!NOTE]
 > 
-> Adobe Experience Manager 가이드는 이전에 &quot;XML Documentation for Adobe Experience Manager&quot;으로 지정되었습니다. 설명서 내의 특정 참조는 여전히 이전 브랜딩을 참조하지만 현재 오퍼링에 적용할 수 있습니다.
+> Adobe Experience Manager 가이드는 이전에 _XML Documentation for Adobe Experience Manager_. 설명서 내의 특정 참조는 여전히 이전 브랜딩을 참조하지만 현재 오퍼링에 적용할 수 있습니다.
 
 ## 새로운 기능
 
 * **[[!DNL AEM Guides] 시작 교육 과정](../courses/course-1/overview.md)**
 
-   *을 사용하여 컨텐츠를 작성, 구성, 작성 및 게시하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides].*
+   _을 사용하여 컨텐츠를 작성, 구성, 작성 및 게시하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides]._
 
 * **[출력 생성 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   *을 사용하여 출력을 생성하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides]. 출력 생성에 사용할 수 있는 다양한 기능(보고서, 기준, 조건, 문제 해결, 일괄 게시 및 활성화)에 대해 알아봅니다.*
+   _을 사용하여 출력을 생성하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides]. 출력 생성에 사용할 수 있는 다양한 기능(보고서, 기준, 조건, 문제 해결, 일괄 게시 및 활성화)에 대해 알아봅니다._
 
 
 <!--
