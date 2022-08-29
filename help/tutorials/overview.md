@@ -2,10 +2,10 @@
 title: Experience Manager 안내서용 Tutorials
 description: Experience Manager 안내서(이전 XML Documentation for Adobe Experience Manager)용 튜토리얼 비디오를 찾습니다. Experience Manager에서 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
+source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 3%
 * **[[!DNL AEM Guides] 시작 교육 과정](../courses/course-1/overview.md)**
 
    _을 사용하여 컨텐츠를 작성, 구성, 작성 및 게시하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides]._
+
+
+* **[[!DNL AEM Guides] 기본 제공 웹 편집기에서 작성](../courses/course-3/overview.md)**
+
+   _에서 기본 웹 편집기를 사용하여 컨텐츠를 작성하는 방법을 알아봅니다.  [!DNL Adobe Experience Manager Guides]. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해할 수 있습니다._
 
 * **[출력 생성 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
