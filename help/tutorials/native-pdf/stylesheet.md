@@ -1,9 +1,7 @@
 ---
 title: 기본 PDF 게시 기능 | 일반적인 컨텐츠 스타일을 사용하여 작업
 description: 스타일시트를 만들고 내용에 대한 스타일을 만드는 방법을 알아봅니다.
-hide: true
-hidefromtoc: true
-source-git-commit: cbd5f4b0763bf4087d016f3d3c8d723518f0b8e7
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 0%

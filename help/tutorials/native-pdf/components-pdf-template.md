@@ -1,10 +1,8 @@
 ---
 title: 기본 PDF 게시 기능 | PDF 템플릿의 구성 요소
 description: PDF 템플릿의 다양한 구성 요소와 사용자 지정 및 구성 방법을 알아봅니다.
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%

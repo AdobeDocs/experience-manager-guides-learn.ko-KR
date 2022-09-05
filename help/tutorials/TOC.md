@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 23%
+source-wordcount: '127'
+ht-degree: 22%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 23%
    + [조건부 출력 작업](./content-architecture/create-and-use-conditions.md)
    + [글로벌 키 만들기](./content-architecture/create-global-keys.md)
 + 구성 {#configuring}
+   + 기본 PDF 게시 기능 구성 {#config-native-pdf-publish}
+      + [PDF 템플릿](./native-pdf/pdf-template.md)
+      + [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
+      + [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
+      + [일반적인 콘텐츠 스타일 작업](./native-pdf/stylesheet.md)
    + [사용자 정의 DITA-OT 설정](./configuring/setup-a-custom-dita-ot.md)
 + 번역 {#translation}
    + [번역에서 단락 제외](./translation/exclude-paragraphs-from-translation.md)
@@ -39,8 +44,3 @@ ht-degree: 23%
    + [PDF 출력 게시](./web-editor/native-pdf-web-editor.md)
    + [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
 + 버전 관리 {#versioning}
-+ WIP 기본 PDF 문서 {#hidden}
-   + [숨겨진 PDF 템플릿](./native-pdf/pdf-template.md)
-   + [PDF 템플릿의 숨겨진 구성 요소](./native-pdf/components-pdf-template.md)
-   + [숨겨진 페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
-   + [숨겨진 스타일시트](./native-pdf/stylesheet.md)
