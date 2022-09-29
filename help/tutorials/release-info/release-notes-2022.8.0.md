@@ -1,21 +1,21 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2022년 8월 릴리스
-description: Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
-source-git-commit: 7cc33e4621c2bfbf08a720f173e8e419c5424a6c
+description: Adobe Experience Manager 안내서 8월 릴리스 as a Cloud Service
+source-git-commit: d49ccb3f654dede0c0447849d89ecbab333a1055
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
+# Adobe Experience Manager 안내서 8월 릴리스 as a Cloud Service
 
-## 최신 릴리스로 업그레이드
+## 8월 릴리스로 업그레이드
 
 현재 Adobe Experience Manager 가이드를 as a Cloud Service(라고 함)로 업그레이드합니다 *AEM 안내서 as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
 1. Cloud Services의 Git 코드를 확인하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
 2. 업데이트 `<dox.version>` 속성 `/dox/dox.installer/pom.xml` Cloud Services Git 코드 파일을 2022.8.167에 추가합니다.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service 최신 릴리스로 업그레이드합니다.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service 8월 릴리스로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ## 새로운 기능 및 향상된 기능
 
-AEM 안내서에서는 최신 릴리스의 다양한 향상된 기능과 새로운 기능을 as a Cloud Service으로 제공합니다.
+AEM 안내서는 8월 릴리스의 다양한 개선 사항과 새로운 기능을 제공합니다.
 
 ### 맵 편집기의 레이아웃 보기
 
