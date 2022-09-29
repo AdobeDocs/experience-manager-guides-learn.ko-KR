@@ -1,7 +1,7 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2022년 9월 릴리스
 description: Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEM 안내서에서는 최신 릴리스의 다양한 향상된 기능과 새로�
 이제 AEM 안내서에서는 레이블을 기반으로 동적 기준선을 만드는 기능을 제공합니다. 베이스라인을 생성하거나 베이스라인을 다운로드하거나 베이스라인을 사용하여 번역 프로젝트를 생성하는 경우 업데이트된 레이블에 따라 파일이 동적으로 선택됩니다. 레이블을 업데이트할 때 기준선을 수정할 필요가 없으므로 이 기능은 편리합니다.
 베이스라인의 스냅샷을 CSV로 내보낼 수도 있습니다.
 
-![기준선 만들기](assets/preset-metadata.png)
+![기준선 만들기](assets/dynamic-baseline.png)
 
 ### 맵 수준에서 텍스트 찾기 및 바꾸기
 
