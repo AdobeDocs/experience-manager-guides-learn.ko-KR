@@ -2,17 +2,17 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
+source-git-commit: e65bad1487c957894fd206f7e42a998c15497905
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 22%
+source-wordcount: '126'
+ht-degree: 23%
 
 ---
 
 
 # Tutorials 대상 [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials 대상 [!DNL AEM Guides] AEM](overview.md)
++ [Tutorials 대상 [!DNL AEM Guides]](overview.md)
 + 릴리스 정보 {#release-info}
    + [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
    + 릴리스 정보 {#release-notes}
