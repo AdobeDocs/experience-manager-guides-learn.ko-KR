@@ -26,7 +26,6 @@ ht-degree: 22%
          + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
          + [1월 릴리스 노트](./release-info/release-notes-2022.1.0.md)
       + 온-프레미스/Managed Services {#on-prem-release-notes}
-+
          + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
          + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
