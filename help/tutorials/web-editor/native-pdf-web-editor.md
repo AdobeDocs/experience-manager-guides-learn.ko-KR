@@ -2,10 +2,10 @@
 title: 기본 PDF | PDF 출력 생성
 description: Adobe Experience Manager 안내서에서 PDF 출력 생성 as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2299'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ PDF 출력 사전 설정을 만들거나 구성하려면:
    * 에 대해 + 아이콘을 클릭합니다. **사전 설정** 새 출력 사전 설정을 추가하려면 **유형: PDF**
 3. 기존 PDF 사전 설정의 설정을 구성하려면 다음을 수행하십시오.
    * 을(를) 클릭합니다.  **옵션** ![옵션](assets/options.svg) 원하는 출력 사전 설정 옆에 있는 아이콘을 선택하고 을(를) 선택합니다 **편집**.
-에서는 다음 설정을 사용할 수 있습니다 **일반**, **레이아웃**, **보안**, 및 **고급** PDF 출력 사전 설정을 구성하는 탭:
+에서는 다음 설정을 사용할 수 있습니다 **일반**, **메타데이터**, **레이아웃**, **보안**, 및 **고급** PDF 출력 사전 설정을 구성하는 탭:
 
 **일반**
 
@@ -74,6 +74,23 @@ PDF 출력 사전 설정을 만들거나 구성하려면:
 | **PDF 파일** | PDF을 저장할 파일 이름을 지정합니다. 기본적으로 PDF 파일 이름은 사전 설정 이름과 함께 DITA 맵 이름을 추가합니다. 예를 들어 ditamap는 &#39;TestMap&#39;이고 사전 설정의 이름은 &#39;preset1&#39;이면 pdf의 기본 이름은 &#39;TestMap_preset1.pdf&#39;입니다. |
 | **을 사용하여 조건 적용** | 조건부 콘텐츠의 경우 아래 옵션 중에서 선택하여 해당 조건을 기반으로 PDF 출력을 생성합니다. <br>* **적용된 항목 없음** 맵 및 소스 컨텐츠에 조건을 적용하지 않으려면 이 옵션을 선택합니다. <br> * **Ditaval 파일** 조건부 컨텐츠를 생성하려면 DITAVAL 파일을 선택합니다. 선택하려면 조건 사전 설정에 대해 를 클릭하고 파일을 찾습니다. <br> * **조건 사전 설정** 출력을 게시하는 동안 조건을 적용하려면 드롭다운에서 조건 사전 설정을 선택합니다. DITA 맵 파일에 조건을 추가한 경우 이 옵션이 표시됩니다. 조건부 설정은 DITA 맵 콘솔의 조건 사전 설정 탭에서 사용할 수 있습니다. 조건 사전 설정에 대한 자세한 내용은 [조건 사전 설정 사용](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **기준선 사용** | 선택한 DITA 맵에 대한 기준선을 생성한 경우 이 옵션을 선택하여 게시할 버전을 지정합니다. 자세한 내용은 [기준선을 사용한 작업](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 자세한 내용 |
+
+**메타데이터**
+
+메타데이터는 컨텐츠에 대한 설명 또는 정의입니다. 메타데이터는 컨텐츠 관리에 도움이 되며 인터넷에서 파일을 검색하는 데 도움이 됩니다.
+
+메타데이터 탭을 사용하여 PDF 출력에 대한 제목, 작성자, 제목 및 키워드를 설정합니다. 이 메타데이터는 출력 PDF의 문서 속성 내의 설명 탭에 있는 메타데이터에 매핑됩니다.
+
+**참고**: 이 메타데이터는 책 수준에서 정의된 메타데이터보다 우선합니다.
+
+![메타데이터 탭](assets/pdf-metadata.png)
+
+| 설정 | 설명 |
+|---|---|
+| **제목** | 문서를 정의하는 짧고 명확한 제목을 지정합니다. |
+| **작성자** | 문서를 만든 작성자의 이름을 지정합니다. |
+| **제목** | 문서가 관련된 주체 또는 컬렉션을 정의합니다. |
+| **키워드** | 관련 키워드를 사용하여 SEO(검색 엔진 최적화)를 향상시키고 사용자가 관련 콘텐츠를 찾을 수 있도록 하십시오. |
 
 **레이아웃**
 
