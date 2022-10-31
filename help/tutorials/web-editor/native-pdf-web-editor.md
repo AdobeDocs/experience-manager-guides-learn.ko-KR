@@ -2,16 +2,16 @@
 title: 기본 PDF | PDF 출력 생성
 description: Adobe Experience Manager 안내서에서 PDF 출력 생성 as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
+source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2297'
 ht-degree: 1%
 
 ---
 
 # PDF 출력 게시
 
-AEM 안내서 솔루션을 사용하여 개별 주제 PDF 또는 전체 맵 파일을 생성할 수 있습니다. 아래 세 가지 방법 중 하나를 사용하여 컨텐츠를 PDF 형식으로 게시할 수 있습니다.
+AEM 가이드를 사용하여 개별 주제 또는 전체 맵 파일의 PDF을 생성할 수 있습니다. 아래 세 가지 방법 중 하나를 사용하여 컨텐츠를 PDF 형식으로 게시할 수 있습니다.
 
 * **DITA-OT**
 
