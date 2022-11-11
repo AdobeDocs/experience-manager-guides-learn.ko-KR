@@ -2,9 +2,9 @@
 title: 릴리스 노트 | Adobe Experience Manager 안내서 4.1 릴리스
 description: Adobe Experience Manager 안내서의 최신 릴리스
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
+source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3400'
 ht-degree: 3%
 
 ---
@@ -119,6 +119,18 @@ ht-degree: 3%
 ## 새로운 기능 및 향상된 기능
 
 AEM 안내서에서는 4.1 릴리스의 다양한 개선 사항과 새로운 기능을 제공합니다.
+
+### 기본 PDF 게시
+
+AEM 안내서 4.1 릴리스에도 기본 PDF 만들기에 대한 지원이 추가되었습니다. 새 게시 엔진에는 다음 기능이 도입되었습니다.
+* CSS 템플릿 만들기
+* 다른 페이지 템플릿 만들기
+* CSS 및 페이지 템플릿을 포함하는 디자인 PDF 템플릿
+* 맵 및 주제 컨텐츠를 PDF 형식으로 게시
+
+### 문서 기반 게시에서 기술 자료 사이트 경로 지원
+
+AEM 가이드는 하나 이상의 주제에 대한 출력을 점진적으로 생성하거나 컨텐츠를 기술 자료 플랫폼에 게시할 수 있는 문서 기반 게시 기능을 제공합니다. 4.1 릴리스에서는 주제/맵을 게시해야 하는 기술 자료 사이트 경로를 선택할 수 있는 추가 옵션이 있습니다. 경로를 선택하면 지정된 경로에 출력이 생성됩니다.
 
 ### 향상된 웹 편집기
 
