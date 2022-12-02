@@ -2,9 +2,9 @@
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2022년 11월 릴리스
 description: Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -101,9 +101,7 @@ AEM 안내서에서는 전역 및 폴더 프로필에 대한 출력 사전 설�
 <img src="assets/send-translation.png" alt="번역 보내기" width="600">
 
 
-## 기본 PDF 게시 개선 사항
-
-### 문서 버전 간의 차이점을 보여주는 변경 막대가 있는 PDF
+### 기본 PDF | 문서 버전 간의 차이점을 보여주는 변경 막대로 PDF
 
 이제 변경 내용 표시줄을 사용하여 두 버전 간의 콘텐츠 차이점을 보여주는 PDF을 만들 수 있습니다. 현재 버전을 이전 버전의 베이스라인과 비교하거나 선택한 두 베이스라인 버전 간에 비교할 수 있습니다.
 
@@ -113,7 +111,7 @@ PDF에 수정, 삽입 또는 삭제된 콘텐츠를 나타내는 변경 표시�
 * 삽입된 콘텐츠를 녹색 및 밑줄로 표시
 * 삭제된 콘텐츠를 빨간색으로 표시하고 취소선을 표시함
 
-### 출력 경로 및 PDF 파일 이름에 대한 변수 지원
+### 기본 PDF | 출력 경로 및 PDF 파일 이름에 대한 변수 지원
 
 이제 다음 기본 변수를 사용하여 출력 경로 및 PDF 파일을 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 다음 옵션을 정의할 수 있습니다.
 * `${map_filename}`
@@ -124,7 +122,7 @@ PDF에 수정, 삽입 또는 삭제된 콘텐츠를 나타내는 변경 표시�
 * `${path_after_langfolder}` (출력 경로에 대해서만)
 
 
-### DITA 맵 및 페이지 레이아웃 재정렬용 목차 생성
+### 기본 PDF | DITA 맵 및 페이지 레이아웃 재정렬용 목차 생성
 
 이제 템플릿의 고급 PDF 설정을 사용하여 DITA 맵에서 목차를 생성할 수도 있습니다. 다양한 페이지 레이아웃의 표시를 활성화 또는 비활성화하고 위치를 다시 정렬할 수도 있습니다.
 
