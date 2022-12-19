@@ -2,7 +2,7 @@
 title: AEM 안내서 릴리스
 description: 최신 AEM 안내서 릴리스 및 사전 요구 AEM 버전
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: f74a9168708299d66d014dbc4bf280a1a4f07592
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ AEM 안내서 패키지는 UUID 빌드 및 UUID 이외 빌드의 두 가지 변�
 
 UUID와 Non-UUID 빌드의 주요 차이점은 다음과 같습니다.
 
-|  | UUID 빌드 | 비 UUID 빌드 |
+|  | 비 UUID 빌드 | UUID 빌드 |
 |---|---|---|
 | **자산 식별** | 모든 자산은 저장소의 자산 경로를 사용하여 식별됩니다. | 모든 자산은 UUID를 사용하여 식별됩니다(자산이 처음 업로드될 때 시스템에서 생성한 고유 ID). |
 | **참조 만들기** | 모든 컨텐츠 참조는 경로를 기준으로 만들어집니다. | 모든 컨텐츠 참조는 UUID를 기반으로 만들어집니다. |
