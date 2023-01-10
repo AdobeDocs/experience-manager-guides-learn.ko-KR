@@ -5,7 +5,7 @@ breadcrumb-title: AEM Guides 비디오
 source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
