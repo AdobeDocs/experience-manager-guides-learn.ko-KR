@@ -2,7 +2,7 @@
 title: AEM 안내서 편집기 구성
 description: AEM 안내서용 편집기 구성
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 이 단원에서 사용할 수 있는 샘플 파일은 파일에 제공됩니다 [xmlditorconfiguration.zip](assets/xmleditorconfiguration.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342762)
+>[!VIDEO](https://video.tv.adobe.com/v/342762?quality=12&learn=on)
 
 ## 기본 편집기 UI 구성 사용자 지정
 

@@ -2,10 +2,10 @@
 title: 패널
 description: AEM 안내서에서 패널 사용
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1446'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 AEM 안내서 웹 편집기는 기본 도구 모음, 보조 도구 모음, 왼쪽 패널, 컨텐츠 편집 영역 및 오른쪽 패널을 포함하여 여러 섹션으로 나누어져 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342760)
+>[!VIDEO](https://video.tv.adobe.com/v/342760?quality=12&learn=on)
 
 ## 왼쪽 패널 크기 조정
 

@@ -2,7 +2,7 @@
 title: 출력 사전 설정
 description: 출력 사전 설정은 맵에 지정된 게시 속성의 컬렉션입니다
 exl-id: b0c64737-48a0-4337-8a7f-35d1deb03366
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 출력 사전 설정은 맵에 지정된 게시 속성의 컬렉션입니다. 필요한 경우 이러한 매개 변수를 만들거나 수정할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/338989)
+>[!VIDEO](https://video.tv.adobe.com/v/338989?quality=12&learn=on)
 
 ## 출력 사전 설정 액세스
 

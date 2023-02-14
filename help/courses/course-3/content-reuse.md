@@ -2,7 +2,7 @@
 title: 컨텐츠 재사용
 description: AEM 안내서의 기능을 반복적으로 사용
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 DITA의 주요 기능 중 하나는 컨텐츠를 재사용하는 기능입니다. 이렇게 하면 작은 구부터 전체 주제 또는 맵까지 컨텐츠를 재사용할 수 있습니다.  그러나 컨텐츠를 효과적으로 재사용하기 위해서는 잘 관리해야 합니다. 재사용 가능한 정보로 작업할 때 효과적인 컨텐츠 전략을 사용할 수 있는지 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/342757)
+>[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## 재사용 가능한 항목 만들기
 

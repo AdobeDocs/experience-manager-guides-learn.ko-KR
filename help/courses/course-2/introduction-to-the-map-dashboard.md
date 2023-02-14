@@ -2,7 +2,7 @@
 title: 맵 대시보드 소개
 description: 맵 대시보드 소개
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 다음은 맵 대시보드의 주요 기능에 대한 개요를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/339040)
+>[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
 ## 맵 대시보드에서 맵 열기
 

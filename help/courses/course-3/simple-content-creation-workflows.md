@@ -2,7 +2,7 @@
 title: 간단한 컨텐츠 작성 워크플로우
 description: AEM 안내서에서 컨텐츠 만들기
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 AEM 안내서 편집기에는 컨텐츠 작성 워크플로우를 간소화하는 여러 단축키가 있습니다. 이러한 단축키를 사용하면 이미지를 빠르게 추가 및 수정하고, 여러 항목을 한 번에 작업하고, 오류를 수정하고, 주제 PDF을 다운로드하고, 버전과 레이블을 사용할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## 이미지 추가
 

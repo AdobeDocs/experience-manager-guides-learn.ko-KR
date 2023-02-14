@@ -2,7 +2,7 @@
 title: 사용자 환경 설정, 편집기 설정 및 편집기 도구 모음
 description: AEM 안내서의 사용자 환경 설정 및 편집기 설정 변경
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 편집기에는 구성 가능한 인터페이스가 있습니다. 사용자 환경 설정, 편집기 설정 및 폴더 프로필을 혼합하여 특정 작업 환경에 거의 모든 측면을 사용자 지정할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342769)
+>[!VIDEO](https://video.tv.adobe.com/v/342769?quality=12&learn=on)
 
 ## 요소 태그 표시 또는 숨기기
 

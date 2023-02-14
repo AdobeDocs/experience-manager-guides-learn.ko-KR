@@ -2,7 +2,7 @@
 title: 키
 description: 키를 사용하면 AEM 안내서에서 DITA를 사용할 때 변수 정보를에 포함할 수 있습니다
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 이 단원에서 사용할 수 있는 샘플 파일은 파일에 제공됩니다 [keys.zip](assets/keys.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342756)
+>[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
 ## 키 사용
 

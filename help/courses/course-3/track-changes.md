@@ -2,7 +2,7 @@
 title: 변경 사항 추적
 description: AEM 안내서의 변경 사항 추적
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 변경 내용 추적 모드를 활성화하여 문서에서 수행된 모든 업데이트를 추적할 수 있습니다. 이 모드에서는 사용자와 팀이 문서 검토 프로세스 중에 모든 삽입 및 삭제를 캡처할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342763)
+>[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
 ## 변경 내용 추적 기능 사용
 

@@ -2,7 +2,7 @@
 title: 개요 보기
 description: AEM 안내서에서 개요 보기 사용
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 구조화된 문서를 사용할 때 아웃라인 뷰는 광범위한 지원을 제공합니다. 보기를 확장 및 축소하고, 구조를 탐색하고, 속성을 사용하여 작업하고(예: 새 ID를 만드는 경우), 단추를 클릭하면 요소를 재구성, 언래핑 및 재구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342767)
+>[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
 ## 아웃라인 뷰 확장 및 축소
 

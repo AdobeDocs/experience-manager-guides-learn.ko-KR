@@ -2,7 +2,7 @@
 title: 게시 오류 문제 해결
 description: 의 게시 오류 문제 해결 [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 맵을 게시하는 것은 일반적으로 간단합니다. 맵을 열고 출력 사전 설정을 선택한 다음 출력을 생성합니다! 그러나 맵이나 해당 주제에 오류가 있는 경우 출력 생성에 실패할 수 있습니다. 이런 경우 문제를 해결하는 방법을 알고 있어야 합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/338990)
+>[!VIDEO](https://video.tv.adobe.com/v/338990?quality=12&learn=on)
 
 ## 운동 준비
 

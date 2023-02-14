@@ -2,7 +2,7 @@
 title: 조건을 사용하여 게시
 description: Adobe Experience Manager 안내서를 사용하여 조건을 사용한 게시
 exl-id: ea94824a-884b-447f-9562-e6c629b8133b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 조건부 게시를 사용하면 하나 이상의 대상, 제품 또는 플랫폼에 대해 한 개의 콘텐츠 소스를 작성할 수 있습니다. 그런 다음 이 정보를 동적으로 게시할 수 있으며 출력에 포함된 특별히 필요한 컨텐츠만 게시할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/339041)
+>[!VIDEO](https://video.tv.adobe.com/v/339041?quality=12&learn=on)
 
 ## 운동 준비
 

@@ -2,7 +2,7 @@
 title: 폴더 프로필
 description: AEM 안내서용 폴더 프로필 만들기 및 사용
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -15,7 +15,7 @@ AEM에서는 구성 도구에 빠르게 액세스할 수 있습니다. 폴더 �
 
 이 단원에서 사용할 수 있는 샘플 파일은 파일에 제공됩니다 [folderprofiles.zip](assets/folderprofiles.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342758)
+>[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
 ## 폴더 프로필 액세스
 

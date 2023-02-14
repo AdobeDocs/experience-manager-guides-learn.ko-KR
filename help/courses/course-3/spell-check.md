@@ -2,7 +2,7 @@
 title: 맞춤법 검사 및 찾기/바꾸기
 description: AEM 안내서에서 맞춤법 검사 및 찾기/바꾸기 사용
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 AEM 안내서 편집기에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기능이 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 맞춤법 오류 수정
 

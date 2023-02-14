@@ -2,7 +2,7 @@
 title: 벌크 게시
 description: 대량 게시 위치 [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 게시할 때 두 개 이상의 유형의 설명서가 필요한 경우가 있습니다. 맵 컬렉션을 사용하면 어셈블하고 생성하여 벌크 게시를 시작할 출력의 수와 유형을 제어할 수 있습니다. 게시 대시보드 를 사용하면 활성 게시 작업을 볼 수 있습니다. 벌크 게시 대시보드 에서는 컬렉션을 일괄적으로 활성화하는 방법을 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/338985)
+>[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
 ## 맵 컬렉션 작업
 

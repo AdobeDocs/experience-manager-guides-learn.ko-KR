@@ -2,7 +2,7 @@
 title: 맵 및 북맵
 description: AEM 안내서에서 맵 및 북맵 만들기 및 편집
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 Adobe Experience Manager 안내서의 맵 편집기를 사용하면 맵 파일을 만들고 편집할 수 있습니다. 맵 편집기를 사용하여 DITA 맵과 북맵의 두 가지 파일 유형을 편집할 수 있습니다. 우리의 목적을 위해, 이것들을 대체로 서로 바꿔서 사용할 수 있는 개념들로 간주하십시오.
 맵 편집기는 기본 맵 편집기와 고급 맵 편집기의 두 가지 모드로 제공됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## 맵 만들기
 

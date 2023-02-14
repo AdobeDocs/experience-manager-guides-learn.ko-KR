@@ -2,7 +2,7 @@
 title: 기준선을 사용하여 만들기 및 게시
 description: 의 기준선을 사용하여 작성 및 게시 [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 기준선을 사용하면 맵 주제와 관련 참조 컨텐츠의 버전을 만들 수 있습니다. 특정 날짜 또는 시간 또는 레이블을 기반으로 할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/338993)
+>[!VIDEO](https://video.tv.adobe.com/v/338993?quality=12&learn=on)
 
 ## 맵 대시보드에서 기준선 탭 액세스
 

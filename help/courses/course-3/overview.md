@@ -2,16 +2,16 @@
 title: Adobe Experience Manager 안내서 편집기 교육 과정 3
 description: AEM 안내서 웹 편집기에 대한 고급 사용 안내서
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 교육 과정 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/342759)
+>[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
 이 과정에서는 다음을 사용하여 작업하는 방법을 학습합니다.
 

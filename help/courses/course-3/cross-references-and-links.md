@@ -2,7 +2,7 @@
 title: 상호 참조 및 링크
 description: AEM 안내서에서 상호 참조 및 링크 만들기
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,7 +16,7 @@ XML 편집기와 DITA는 주제 간에 강력한 연결 방법을 제공합니�
 이 단원에서 사용할 수 있는 샘플 파일은 파일에 제공됩니다
 [crossreferencesandlinks.zip](assets/crossreferencesandlinks.zip)
 
->[!VIDEO](https://video.tv.adobe.com/v/342764)
+>[!VIDEO](https://video.tv.adobe.com/v/342764?quality=12&learn=on)
 
 ## 외부 주제에 대한 상호 참조 만들기
 
