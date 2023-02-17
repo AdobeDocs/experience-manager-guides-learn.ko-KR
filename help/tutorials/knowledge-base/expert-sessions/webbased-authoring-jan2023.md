@@ -1,13 +1,13 @@
 ---
 title: 웹 기반 컨텐츠 작성
 description: 웹 편집기를 사용하여 구조화된 컨텐츠를 작성하는 방법을 알아봅니다.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # 웹 기반 컨텐츠 작성
 
@@ -19,7 +19,7 @@ AEM 안내서에는 구조화된 컨텐츠를 작성하는 기본 제공 웹 편
 
 ## 세션 기록
 
->기록된 내용을 확인합니다 [비디오](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) 세션.
+>[비디오](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 강조 표시
 
@@ -51,11 +51,11 @@ AEM 안내서에는 구조화된 컨텐츠를 작성하는 기본 제공 웹 편
 > - Cloud Services 2211 이상
 
 
-## 추가 전문가 세션
+## 다음 전문가 세션
 
 - **주제** - 기본 PDF 게시 *(설문 조사 결과 기준)*
 - **예약됨** - 2023년 2월 23일
 
 ## 문의
 
-문의 사항은 techcomm@adobe.com으로 이메일을 보내주십시오.
+문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>

@@ -1,10 +1,11 @@
 ---
 title: 콘텐츠 번역
 description: 콘텐츠를 여러 언어로 변환하는 방법을 알아봅니다.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ AEM 가이드는 강력한 번역 기능을 사용하여 다국어 콘텐츠 제
 
 ## 세션 기록
 
->기록된 내용을 확인합니다 [비디오](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on) 세션.
+>[비디오](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## 강조 표시
 
@@ -50,11 +51,11 @@ AEM 가이드는 강력한 번역 기능을 사용하여 다국어 콘텐츠 제
 > - Cloud Services 2207 이상
 
 
-## 추가 전문가 세션
+## 다음 전문가 세션
 
 - **주제** - [기준선을 사용하여 컨텐츠 관리](baselines-dec22.md)
 - **예약됨** - 2022년 12월 8일
 
 ## 문의
 
-문의 사항은 techcomm@adobe.com으로 이메일을 보내주십시오.
+문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>

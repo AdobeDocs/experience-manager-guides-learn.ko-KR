@@ -1,9 +1,10 @@
 ---
 title: 기준선을 사용하여 컨텐츠 관리
 description: 기준선을 사용하여 컨텐츠를 효과적으로 관리하는 방법을 알아봅니다.
-source-git-commit: 34b373b5f2cdd082ea7b9f9c33bfb903bd8a493a
+exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ AEM 안내서의 릴리스 관리는 항목 및 자산의 버전을 선택할 �
 
 ## 세션 기록
 
->기록된 내용을 확인합니다 [비디오](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on) 세션.
+>[비디오](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## 강조 표시
 
@@ -50,11 +51,11 @@ AEM 안내서의 릴리스 관리는 항목 및 자산의 버전을 선택할 �
 > - Cloud Services 2211 이상
 
 
-## 추가 전문가 세션
+## 다음 전문가 세션
 
 - **주제** - [웹 기반 컨텐츠 작성](webbased-authoring-jan2023.md)
 - **예약됨** - 2023년 1월 19일
 
 ## 문의
 
-문의 사항은 techcomm@adobe.com으로 이메일을 보내주십시오.
+문의 사항은 다음 주소로 이메일을 보내주십시오. <techcomm@adobe.com>
