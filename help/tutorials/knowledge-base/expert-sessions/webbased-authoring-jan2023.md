@@ -2,9 +2,9 @@
 title: 웹 기반 컨텐츠 작성
 description: 웹 편집기를 사용하여 구조화된 컨텐츠를 작성하는 방법을 알아봅니다.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ AEM 안내서에는 구조화된 컨텐츠를 작성하는 기본 제공 웹 편
 
 ## 세션 기록
 
->[비디오](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 강조 표시
 

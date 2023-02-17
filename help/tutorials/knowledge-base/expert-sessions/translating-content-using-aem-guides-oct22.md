@@ -2,10 +2,10 @@
 title: 콘텐츠 번역
 description: 콘텐츠를 여러 언어로 변환하는 방법을 알아봅니다.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '194'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ AEM 가이드는 강력한 번역 기능을 사용하여 다국어 콘텐츠 제
 
 ## 세션 기록
 
->[비디오](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## 강조 표시
 
