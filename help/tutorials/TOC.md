@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
+source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 22%
          + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
          + [1월 릴리스 노트](./release-info/release-notes-2022.1.0.md)
       + 온-프레미스/Managed Services {#on-prem-release-notes}
+         + [4.2 릴리스 노트](./release-info/release-notes-4.2.md)
          + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
          + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -40,6 +41,9 @@ ht-degree: 22%
       + [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
       + [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
       + [일반적인 콘텐츠 스타일 작업](./native-pdf/stylesheet.md)
+      + [목차 항목 및 주제 컨텐츠에 사용자 지정 스타일 적용](./native-pdf/custom-style-toc.md)
+      + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
+      + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
    + [사용자 정의 DITA-OT 설정](./configuring/setup-a-custom-dita-ot.md)
 + 번역 {#translation}
    + [번역에서 단락 제외](./translation/exclude-paragraphs-from-translation.md)
