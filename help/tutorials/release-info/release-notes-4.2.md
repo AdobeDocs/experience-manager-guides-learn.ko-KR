@@ -1,9 +1,10 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 4.2 릴리스
 description: Adobe Experience Manager 안내서의 최신 릴리스
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ PDF에 수정, 삽입 또는 삭제된 콘텐츠를 나타내는 변경 표시�
 ### 기본 PDF | 출력 경로 및 PDF 파일 이름에 대한 변수 지원
 
 이제 다음 기본 변수를 사용하여 출력 경로 및 PDF 파일을 정의할 수도 있습니다. 단일 또는 변수 조합을 사용하여 다음 옵션을 정의할 수 있습니다.
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath}(출력 경로에 대해서만)
-* ${path_after_langfolder}(출력 경로에 대해서만)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` (출력 경로에 대해서만)
+* `${path_after_langfolder}` (출력 경로에 대해서만)
 
 ### 기본 PDF | DITA 맵 및 페이지 레이아웃 재정렬용 목차 생성
 
