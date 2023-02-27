@@ -2,9 +2,9 @@
 title: 웹 기반 컨텐츠 작성
 description: 웹 편집기를 사용하여 구조화된 컨텐츠를 작성하는 방법을 알아봅니다.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ AEM 안내서에는 구조화된 컨텐츠를 작성하는 기본 제공 웹 편
 
 ## 다음 전문가 세션
 
-- **주제** - 기본 PDF 게시 *(설문 조사 결과 기준)*
+- **주제** - [기본 PDF 게시 핵심 사항](native-pdf-publishing-essentials-feb23.md)
 - **예약됨** - 2023년 2월 23일
 
 ## 문의

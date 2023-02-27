@@ -1,9 +1,9 @@
 ---
 title: 기본 PDF 게시 핵심 사항
 description: AEM 안내서에서 기본 pdf 엔진을 사용하여 PDF을 게시하는 방법을 알아봅니다.
-source-git-commit: b79e7287cdf7eaff0a6fa47d94e12c8928a44b49
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ AEM 안내서에서는 PDF 형식으로 컨텐츠를 만들고, 개발하고, �
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **사용 안내서** - [컨텐츠 작성](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **사용 안내서** - [기본 PDF 게시](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **커뮤니티 포럼** - Experience League 시 세션별 커뮤니티 상호 작용에 대해서는 을 참조하십시오.  [AEM 안내서 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -53,7 +53,7 @@ AEM 안내서에서는 PDF 형식으로 컨텐츠를 만들고, 개발하고, �
 
 ## 다음 전문가 세션
 
-- **주제** - 게시 및 보고서 *(설문 조사 결과 기준)*
+- **주제** - TBD *(설문 조사 결과 대기 중)*
 - **예약됨** - 2023년 3월 30일
 
 ## 문의
