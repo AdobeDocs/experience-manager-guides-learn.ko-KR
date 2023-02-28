@@ -1,45 +1,45 @@
 ---
-title: Webeditor의 스키마 지원
-description: 웨비더에서 스키마 작업
-source-git-commit: 2a036ec628424f0dedfdb69a5e860906ca100cc6
+title: 웨비터에서의 스키마 지원
+description: 웨비저에서 Schematron 작업
+exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
+source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
+# 웹 편집기 내 콘텐츠 품질 제어
 
-# 웹 편집기 내에서 컨텐츠 품질 제어
+이 문서에서는 AEM Guides 웹 편집기의 유효성 검사 가능성에 대한 개요를 제공합니다.
+디자인 웹 편집기에서 시스템의 DITA 스키마 설정을 활용하여 사용자가 DITA 규격 콘텐츠를 만들도록 강제합니다. 이를 통해 시스템에 저장된 모든 콘텐츠는 구조화되고 재사용 가능하며 유효한 DITA 콘텐츠입니다.
 
-이 문서에서는 AEM 안내서 웹 편집기 내의 유효성 검사 가능성에 대한 개요를 제공합니다.
-디자인 웹 편집기는 시스템의 DITA 스키마 설정을 활용하여 사용자를 강제 적용하여 DITA 규격 컨텐츠를 만듭니다. 이렇게 하면 시스템에 저장된 모든 컨텐츠가 구조화되고 재사용 가능하며 유효한 DITA 컨텐츠입니다.
+DITA 규칙에 대한 지원 외에도 웹 편집기는 를 기반으로 하는 콘텐츠 유효성 검사도 지원합니다.*도식 문자*&quot;규칙.
 
-DITA 규칙에 대한 지원을 넘어 웹 편집기에서도 &quot;*스키마트론*&quot; 규칙을 사용합니다.
+&quot;*도식 문자*&#x200B;는 XML 파일에 대한 테스트를 정의하는 데 사용되는 규칙 기반 유효성 검사 언어를 나타냅니다. Schematron 파일을 가져와서 웹 편집기에서 편집할 수도 있습니다. &quot;Schematron&quot; 파일을 사용하여 특정 규칙을 정의한 다음 DITA 주제 또는 맵에 대해 유효성을 검사할 수 있습니다. Schematron 규칙은 규칙으로 정의된 제한을 적용하여 XML 구조의 일관성을 보장할 수 있습니다. 이러한 제약은 콘텐츠의 품질과 일관성을 소유한 중소기업에 의해 이루어진다.
 
-&quot;*스키마트론*&quot;은(는) XML 파일에 대한 테스트를 정의하는 데 사용되는 규칙 기반 유효성 검사 언어를 나타냅니다. 스키마 파일을 가져와 웹 편집기에서 편집할 수도 있습니다. &quot;스키마&quot; 파일을 사용하여 특정 규칙을 정의한 다음 DITA 주제 또는 맵에 대해 유효성을 검사할 수 있습니다. 스키마 규칙은 규칙으로 정의된 제한을 적용하여 XML 구조의 일관성을 보장할 수 있습니다. 이러한 제한 사항은 컨텐츠의 품질과 일관성을 보유한 SME에 의해 결정됩니다.
-
-    참고: 웹 편집기는 ISO 스키마를 지원합니다.
+    참고: 웹 편집기는 ISO Schematron을 지원합니다.
 
 
-## 웹 편집기에서 &quot;스키마&quot;가 작동하는 방식 알기
+## 웹 편집기에서 &quot;Schematron&quot;이 작동하는 방법 알아보기
 
 ### 스키마 규칙 구성
 
-의 &quot;스키마 파일 지원&quot; 섹션을 참조하십시오. [사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+의 &quot;Schematron 파일 지원&quot; 섹션을 참조하십시오. [사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### 파일 저장에 유효성 검사 규칙 적용
 
-Webeditor 설정을 사용하면 사용자가 컨텐츠를 업데이트할 때마다 실행될 스키마 규칙/파일을 설정할 수 있습니다. 자세한 내용은 [사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Webeditor 설정을 사용하면 사용자가 콘텐츠를 업데이트할 때마다 실행되는 Schematron 규칙/파일을 설정할 수 있습니다. 자세한 내용은 의 &quot;유효성 검사&quot; 섹션을 참조하십시오. [사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
 ![웹 편집기 설정에서 규칙 설정](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
-### 수동으로 유효성 검사를 실행할 수 있습니까?
+### 유효성 검사를 수동으로 실행할 수 있습니까?
 
-예. 컨텐츠를 작성하는 동안 작성자/사용자는 웨비더의 스키마 패널을 사용하여 스키마 파일을 업로드하고 편집기에 열려 있는 파일에서 유효성 검사를 실행할 수 있습니다.
+예. 콘텐츠를 만드는 동안 작성자/사용자로서 웹 편집기의 Schematron 패널을 사용하여 schematron 파일을 업로드하고 편집기에서 열려 있는 파일에 유효성 검사를 실행할 수 있습니다.
 
-    이를 수행하려면 폴더 프로필 관리자가 모든 사용자가 유효성 검사 패널에서 Schemtron 파일을 추가할 수 있도록 허용해야 합니다. 편집기 설정 참조(위에 표시된 스크린샷)
+    이 작업을 수행하려면 폴더 프로필 관리자는 모든 사용자가 유효성 검사 패널에서 Schemtron 파일을 추가하도록 허용해야 합니다. 편집기 설정(위의 스크린샷)을 참조하십시오.
 
 ![스키마 파일 선택](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![유효성 검사 실행](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -47,14 +47,14 @@ Webeditor 설정을 사용하면 사용자가 컨텐츠를 업데이트할 때�
 
 ### 지원되는 규칙
 
-현재 버전의 AEM 안내서는 &quot;검증&quot; 기반 규칙만 사용하는 유효성 검사를 지원합니다. 자세한 내용은 [자산과 보고서](https://schematron.com/document/205.html)) &quot;보고서&quot;를 기반으로 하는 모든 규칙은 아직 지원되지 않습니다.
+현재 버전의 AEM Guides에서는 &quot;어설션&quot; 기반 규칙을 사용하는 유효성 검사만 지원합니다. (참조 [에셋과 보고서](https://schematron.com/document/205.html)) &quot;보고서&quot;를 기반으로 하는 모든 규칙은 아직 지원되지 않습니다.
 
 
-### 스키마 규칙에 대한 샘플 및 추가 도움말
+### 샘플 및 Schematron 규칙에 대한 추가 도움말
 
 #### 샘플 사용 사례
 
-- 링크가 외부 링크인지 및 범위가 &quot;외부&quot;인지 확인합니다
+- 링크가 외부인지, 그리고 범위 &quot;외부&quot;가 있는지 확인
 
    ```
    <sch:pattern>
@@ -98,6 +98,6 @@ Webeditor 설정을 사용하면 사용자가 컨텐츠를 업데이트할 때�
 
 #### 리소스
 
-- 이해  [스키마 기본 사항](https://da2022.xatapult.com/#what-is-schematron)
-- 추가 정보 [스키마트론의 검증 규칙](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
-- [샘플 스키마 파일](../../../assets/authoring/sample_schematron.sch)
+- 이해  [Schematron 기본 사항](https://da2022.xatapult.com/#what-is-schematron)
+- 다음에 대한 추가 정보 [Schematron의 어설션 규칙](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- [샘플 Schematron 파일](../../../assets/authoring/sample_schematron.sch)
