@@ -1,7 +1,7 @@
 ---
 title: AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성
 description: AEM Guides의 새로운 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
-source-git-commit: afbc1712cf45dd0b570e20683946af6a86edae7e
+source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행하십시오.
 
-1. 개발자 콘솔을 엽니다. `https://developer.adobe.com/console`.
+1. Developer Console을 엽니다. `https://developer.adobe.com/console`.
 
 1. 다음으로 전환 **프로젝트** 맨 위에 있는 탭입니다.
 
