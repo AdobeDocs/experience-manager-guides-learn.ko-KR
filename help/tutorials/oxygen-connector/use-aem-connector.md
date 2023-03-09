@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -633,33 +633,33 @@ Oxygen XML 작성자의 콘텐츠에 조건부 특성을 추가하려면 다음 
 
 ### AEM Guides 패널이 열린 파일 위치 { .section}(으)로 이동하지 않음
 
-문제 : AEM 서버에서 Oxygen XML Author로 편집할 파일을 열도록 선택하면 Oxygen XML Author에서 편집할 파일이 열립니다. 그러나 AEM Guides 패널에는 탐색 트리에서 파일의 위치가 표시되지 않습니다.
+문제: AEM 서버에서 Oxygen XML Author에서 편집할 파일을 열도록 선택하면 Oxygen XML Author에서 편집할 파일이 열립니다. 그러나 AEM Guides 패널에는 탐색 트리에서 파일의 위치가 표시되지 않습니다.
 
-해결 방법 : 이 문제는 파일 경로에 /content/dam이 두 번 포함되어 있는 시나리오에서 관찰되었습니다. 기본적으로 AEM의 모든 에셋은 /content/dam 폴더 아래에 저장됩니다. /content/dam도 포함된 폴더 구조를 업로드하거나 만들면 이 문제가 발생합니다. 이러한 파일에 대해 모든 일반 작업을 수행할 수 있지만 탐색 트리 내의 해당 위치는 기본적으로 표시되지 않습니다. 탐색 트리에서 이러한 파일에 액세스하려면 파일의 위치를 수동으로 찾아야 합니다. 탐색 트리에서 중복 /content/dam 경로는 /content/assets로 대체됩니다.
+해결 방법: 이 문제는 파일 경로에 /content/dam 이 두 번 포함되어 있는 시나리오에서 발견되었습니다. 기본적으로 AEM의 모든 에셋은 /content/dam 폴더 아래에 저장됩니다. /content/dam도 포함된 폴더 구조를 업로드하거나 만들면 이 문제가 발생합니다. 이러한 파일에 대해 모든 일반 작업을 수행할 수 있지만 탐색 트리 내의 해당 위치는 기본적으로 표시되지 않습니다. 탐색 트리에서 이러한 파일에 액세스하려면 파일의 위치를 수동으로 찾아야 합니다. 탐색 트리에서 중복 /content/dam 경로는 /content/assets로 대체됩니다.
 
 ### { .section} 로깅 구성
 
-문제 : 기본적으로 AEM Guides용 산소 플러그인은 로그를 생성하지 않으므로 오류 시나리오를 디버깅하기 어렵습니다.
+문제: 기본적으로 AEM Guides용 산소 플러그인은 로그를 생성하지 않으므로 오류 시나리오를 디버깅하기 어렵습니다.
 
-해결 방법 : 플러그인에서 로그 생성 기능을 활성화하려면 다음 단계를 수행하십시오.
+해결 방법: 플러그인에서 로그 생성 기능을 활성화하려면 다음 단계를 수행하십시오.
 
     1.  Oxygen XML 작성자의 설치 위치로 이동합니다.
     
-    2.  텍스트 편집기에서 oxygenAuthor19.1.vmoptions 파일을 엽니다.
+    1.  텍스트 편집기에서 oxygenAuthor19.1.vmoptions 파일을 엽니다.
     
     **참고:**
     
     파일의 버전 번호는 시스템에 설치된 애플리케이션의 버전 번호에 따라 다를 수 있습니다.
     
-    3.  파일에 다음 줄을 추가합니다.
+    1.  파일에 다음 줄을 추가합니다.
     
     &quot;
     -Djava.util.logging.config.file=./log.properties
     &quot;
     
-    4.  파일을 저장하고 닫습니다.
+    1.  파일을 저장하고 닫습니다.
     
-    5.  동일한 위치에서 다음 내용으로 log.properties라는 파일을 만듭니다.
+    1.  동일한 위치에서 다음 내용으로 log.properties라는 파일을 만듭니다.
     
     &quot;
     handlers=java.util.logging.FileHandler
@@ -671,9 +671,9 @@ Oxygen XML 작성자의 콘텐츠에 조건부 특성을 추가하려면 다음 
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;
     
-    6.  파일을 저장하고 닫습니다.
+    1.  파일을 저장하고 닫습니다.
     
-    7.  Oxygen XML 작성자를 시작합니다.
+    1.  Oxygen XML 작성자를 시작합니다.
     
     
     이제 플러그인이 사용자의 홈 디렉터리에 파일 이름 aem-pluginX.log \(*여기서 X는 회전 번호*\)로 로그를 만듭니다.
