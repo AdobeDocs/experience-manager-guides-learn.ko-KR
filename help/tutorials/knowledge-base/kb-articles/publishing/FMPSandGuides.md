@@ -1,7 +1,7 @@
 ---
 title: FMPS 및 AEM 안내서
 description: AEM Guides를 사용하여 FMPS로 게시
-source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
+source-git-commit: abf6b9502615e5029ce51f860e05cadc8d94edc2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -92,10 +92,10 @@ approx의 이상적인 고정 헤더가 있을 것입니다. 다른 엔진 이�
 
 ## 기타 리소스:
 
-### [FMPS 학습 및 지원](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS 학습 및 지원](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-### [AEM 학습 및 지원](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[AEM 학습 및 지원](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-### [FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker 및 FMPS 커뮤니티](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-### [AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
