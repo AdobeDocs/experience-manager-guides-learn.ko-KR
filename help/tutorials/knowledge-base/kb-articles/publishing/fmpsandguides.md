@@ -1,7 +1,7 @@
 ---
 title: FMPS 및 AEM 안내서
 description: AEM Guides를 사용하여 FMPS로 게시
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ FMPS를 사용하면 자동으로 게시할 수 있습니다 **PDF, 반응형 HT
 사용자는 &quot;settings File(.sts)&quot; 및 &quot;ditaval&quot;을 제공할 수 있습니다. 필터링은 제공된 조건에 따라 distaval을 사용하여 수행됩니다.
 
 - **파일 설정 중**: 게시 중에 FMPS에서 적용할 모든 설정이 들어 있는 FrameMaker /FMPS 게시 설정입니다. 예: 사용자 지정된 템플릿으로 출력 생성, 표시 및 재단 물림(PDF) 생성, 목차, 색인으로 PDF 생성 등.
-- **FMP 표시:** Dispatcher 및 설정 파일의 사전 정의된 조합. 별도의 Dispatcher 및 설정 파일을 제공하는 대신 사용자는 게시 요구에 다시 사용할 수 있는 FMPS 사전 설정을 미리 만들 수 있습니다.
+- **FMPS 사전 설정:** Dispatcher 및 설정 파일의 사전 정의된 조합. 별도의 Dispatcher 및 설정 파일을 제공하는 대신 사용자는 게시 요구에 다시 사용할 수 있는 FMPS 사전 설정을 미리 만들 수 있습니다.
 
 **참고:** 설정이나 FMPS 사전 설정을 선택하지 않으면 FMPS가 기본 시스템 설정으로 게시됩니다.
 
