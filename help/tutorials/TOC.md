@@ -68,5 +68,5 @@ ht-degree: 19%
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 게시 {#publishing}
          + [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      + 워크플로 {#workflows}
+      + 워크플로우 {#workflows}
          + [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
