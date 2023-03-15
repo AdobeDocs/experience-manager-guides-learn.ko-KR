@@ -1,7 +1,7 @@
 ---
 title: 기본 PDF 게시 기능 | 사용자 지정 변경 막대 스타일을 사용한 작업
 description: 변경 막대에 스타일을 적용하는 방법을 알아봅니다.
-source-git-commit: 79de97e667bffae8d120deee68a0a82011047cf5
+source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 변경 표시줄은 새 컨텐츠나 수정된 컨텐츠를 시각적으로 식별하는 세로 줄입니다. AEM 가이드를 사용하면 주제 내에서 변경된 컨텐츠의 왼쪽에 변경 막대를 표시하고 PDF 출력의 TOC에서 변경된 주제를 표시할 수 있습니다.
 
-변경 내용 표시줄 표시에 대한 자세한 내용은 *게시된 버전 간 변경 막대를 사용하여 PDF 만들기* 설정
-[PDF 출력 게시](../web-editor/native-pdf-web-editor.md).
+변경 내용 표시줄 표시에 대한 자세한 내용은 *게시된 버전 간 변경 막대를 사용하여 PDF 만들기* 설정 [PDF 출력 게시](../web-editor/native-pdf-web-editor.md).
 
 ## 항목 내에서 변경된 콘텐츠
 
