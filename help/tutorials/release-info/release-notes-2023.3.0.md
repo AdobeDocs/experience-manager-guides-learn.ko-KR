@@ -1,7 +1,7 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2023년 3월 릴리스
 description: Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
-source-git-commit: 27c8c0f3ac5c6d9c318ac8fb7ed13299ac9994de
+source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 기존 컨텐츠를 색인화하는 단계(AEM 안내서 9월 릴리스 이전 버전을 사용 중인 경우에만 as a Cloud Service)
 
-기존 컨텐츠를 인덱싱하고 맵 수준에서 새 찾기 및 바꾸기 텍스트를 사용하려면 다음 단계를 수행하십시오.
+기존 컨텐츠를 인덱싱하고 맵 수준에서 새 찾기 및 바꾸기 텍스트를 사용하는 다음 단계를 수행합니다.
 
 * 서버에 대한 POST 요청 실행(올바른 인증 사용) - `http://<server:port>/bin/guides/map-find/indexing`.
 (선택 사항: 맵의 특정 경로를 전달하여 색인화할 수 있습니다. 기본적으로 모든 맵은 색인화됩니다 || 예 : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
