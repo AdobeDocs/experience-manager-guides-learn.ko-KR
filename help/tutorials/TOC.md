@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 17%
 
 ---
@@ -18,16 +18,19 @@ ht-degree: 17%
    + 릴리스 정보 {#release-notes}
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
-         + [최신 릴리스 정보](./release-info/release-notes-2023.2.0.md)
-         + [11월 릴리스 노트](./release-info/release-notes-2022.11.0.md)
-         + [10월 릴리스 노트](./release-info/release-notes-2022.10.0.md)
-         + [9월 릴리스 노트](./release-info/release-notes-2022.9.0.md)
-         + [8월 릴리스 노트](./release-info/release-notes-2022.8.0.md)
-         + [5월 릴리스 노트](./release-info/release-notes-2022.5.0.md)
-         + [4월 릴리스 노트](./release-info/release-notes-2022.4.0.md)
-         + [3월 릴리스 노트](./release-info/release-notes-2022.3.0.md)
-         + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
-         + [1월 릴리스 노트](./release-info/release-notes-2022.1.0.md)
+         + 2023년 릴리스{#2023-releases}
+            + [최신 릴리스 정보](./release-info/release-notes-2023.3.0.md)
+            + [2월 릴리스 노트](./release-info/release-notes-2023.2.0.md)
+         + 2022년 릴리스 {#2022-releases}
+            + [11월 릴리스 노트](./release-info/release-notes-2022.11.0.md)
+            + [10월 릴리스 노트](./release-info/release-notes-2022.10.0.md)
+            + [9월 릴리스 노트](./release-info/release-notes-2022.9.0.md)
+            + [8월 릴리스 노트](./release-info/release-notes-2022.8.0.md)
+            + [5월 릴리스 노트](./release-info/release-notes-2022.5.0.md)
+            + [4월 릴리스 노트](./release-info/release-notes-2022.4.0.md)
+            + [3월 릴리스 노트](./release-info/release-notes-2022.3.0.md)
+            + [2월 릴리스 노트](./release-info/release-notes-2022.2.0.md)
+            + [1월 릴리스 노트](./release-info/release-notes-2022.1.0.md)
       + 온-프레미스/Managed Services {#on-prem-release-notes}
          + [4.2 릴리스 노트](./release-info/release-notes-4.2.md)
          + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
@@ -71,5 +74,5 @@ ht-degree: 17%
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 게시 {#publishing}
          + [MPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      + 워크플로 {#workflows}
+      + 워크플로우 {#workflows}
          + [생성 후 워크플로우](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
