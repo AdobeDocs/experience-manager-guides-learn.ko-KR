@@ -1,10 +1,11 @@
 ---
 title: 기본 PDF 게시 핵심 사항
 description: AEM 안내서에서 기본 pdf 엔진을 사용하여 PDF을 게시하는 방법을 알아봅니다.
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
+source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +28,7 @@ AEM 안내서에서는 PDF 형식으로 컨텐츠를 만들고, 개발하고, �
 - **기간** - 60분
 - **Audience** - 고객, 파트너 및 Adobe 직원
 
-## 주요 이점
+## 핵심 사항
 
 이 세션에서 다음 내용을 알아봅니다.
 - PDF 게시 핵심 사항
@@ -50,11 +51,6 @@ AEM 안내서에서는 PDF 형식으로 컨텐츠를 만들고, 개발하고, �
 > - On-prem 4.2 이상
 > - Cloud Services 2211 이상
 
-
-## 다음 전문가 세션
-
-- **주제** - TBD *(설문 조사 결과 대기 중)*
-- **예약됨** - 2023년 3월 30일
 
 ## 문의
 

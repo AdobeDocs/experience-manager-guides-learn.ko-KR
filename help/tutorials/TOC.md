@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
+source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '223'
 ht-degree: 17%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 17%
       + [기준선을 사용하여 컨텐츠 관리](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [웹 기반 컨텐츠 작성](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [기본 PDF 게시 핵심 사항](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+      + [AEM 안내서의 보고서](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
    + 게시{#publishing}
       + [마이크로 서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
    + 기사 {#kb-articles}
@@ -74,5 +75,5 @@ ht-degree: 17%
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 게시 {#publishing}
          + [MPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      + 워크플로우 {#workflows}
+      + 워크플로 {#workflows}
          + [생성 후 워크플로우](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
