@@ -1,7 +1,7 @@
 ---
 title: AEM 안내서의 보고서
 description: AEM에서 사용 가능한 모든 보고서를 확인하여 컨텐츠 품질을 개선할 수 있습니다.
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
@@ -38,10 +38,10 @@ ht-degree: 1%
 
 ## 핵심 사항
 
-이 세션에서 다음 내용을 알아봅니다.
+이 세션에서 다음 내용을 숙지했습니다.
 - CMS에서의 보고서 중요성
-- 어떤 보고서를 즉시 사용할 수 있습니까
-- 보고 기능을 확장하는 방법
+- 어떤 보고서를 즉시 사용할 수 있습니까?
+- 보고 기능을 확장하려면 어떻게 해야 합니까?
 - 컨텐츠에 대한 보고의 예
 
 
