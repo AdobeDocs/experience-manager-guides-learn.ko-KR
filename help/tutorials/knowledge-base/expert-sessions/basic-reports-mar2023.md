@@ -1,10 +1,10 @@
 ---
 title: AEM 안내서의 보고서
 description: AEM에서 사용 가능한 모든 보고서를 확인하여 컨텐츠 품질을 개선할 수 있습니다.
-source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
+source-git-commit: 98c81b20a5ae6347d7c06a98112564d5a5b3d81b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 관련 리소스
 
-- [다운로드 PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) 세션에 나와 있는 사용 사례와 유사한 보고서를 만들려면
+- **[다운로드 PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)** 를 참조하십시오.
 
 - **기능 비디오** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
