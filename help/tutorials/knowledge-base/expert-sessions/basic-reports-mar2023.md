@@ -1,7 +1,8 @@
 ---
 title: AEM 안내서의 보고서
 description: AEM에서 사용 가능한 모든 보고서를 확인하여 컨텐츠 품질을 개선할 수 있습니다.
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 ## 다음 전문가 세션
 
-- **주제** - TBD *(설문 조사 결과 대기 중)*
+- **주제** - 콘텐츠 및 템플릿 설정
 - **예약됨** - 2023년 4월 27일
 
 
