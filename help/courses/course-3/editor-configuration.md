@@ -2,7 +2,7 @@
 title: AEM 안내서 편집기 구성
 description: AEM 안내서용 편집기 구성
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ ht-degree: 0%
 
    ![도구 아이콘](images/reuse/tools-icon.png)
 
-2. 선택 **안내서** 왼쪽 패널에 표시됩니다.
+1. 선택 **안내서** 왼쪽 패널에 표시됩니다.
 
-3. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
+1. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
 
    ![폴더 프로필](images/reuse/folder-profiles-tile.png)
 
-4. 폴더 프로필을 선택합니다.
+1. 폴더 프로필을 선택합니다.
 
-5. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
+1. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
 
-6. 클릭 [!UICONTROL **다운로드**] 기본값.
+1. 클릭 [!UICONTROL **다운로드**] 기본값.
 
    ![다운로드 기본값](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ UI 구성을 사용자 지정한 후 업로드할 수 있습니다. 샘플 구�
 
 1. 폴더 프로필 내에서 [!UICONTROL **XML 편집기 구성**] 탭.
 
-2. XML 편집기 UI 구성에서 [!UICONTROL **업로드**].
+1. XML 편집기 UI 구성에서 [!UICONTROL **업로드**].
 
    ![업로드](images/lesson-4/upload.png)
 
-3. 수정된 UI 구성에 대한 파일 또는 제공된 샘플 파일을 두 번 클릭합니다.
+1. 수정된 UI 구성에 대한 파일 또는 제공된 샘플 파일을 두 번 클릭합니다.
 
    ![샘플 구성 파일](images/lesson-4/sample-config-file.png)
 
-4. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
+1. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
 
 수정된 UI 구성을 성공적으로 업로드했습니다.
 
@@ -67,17 +67,17 @@ UI 구성과 마찬가지로 CSS 템플릿 레이아웃을 다운로드할 수 �
 
    ![도구 아이콘](images/reuse/tools-icon.png)
 
-2. 선택 **안내서** 왼쪽 패널에 표시됩니다.
+1. 선택 **안내서** 왼쪽 패널에 표시됩니다.
 
-3. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
+1. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
 
    ![폴더 프로필](images/reuse/folder-profiles-tile.png)
 
-4. 폴더 프로필을 선택합니다.
+1. 폴더 프로필을 선택합니다.
 
-5. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
+1. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
 
-6. CSS 템플릿 레이아웃 아래에서 를 클릭합니다 [!UICONTROL **다운로드**].
+1. CSS 템플릿 레이아웃 아래에서 를 클릭합니다 [!UICONTROL **다운로드**].
 
    ![CSS 다운로드](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ CSS 템플릿 레이아웃을 사용자 지정한 후 업로드할 수 있습니
 
 1. 폴더 프로필 내에서 [!UICONTROL **XML 편집기 구성**] 탭.
 
-2. CSS 템플릿 레이아웃 아래에서 를 클릭합니다 [!UICONTROL **업로드**].
+1. CSS 템플릿 레이아웃 아래에서 를 클릭합니다 [!UICONTROL **업로드**].
 
    ![CSS 업로드](images/lesson-4/upload-css.png)
 
-3. 여기에 표시된 사용자 지정 CSS 레이아웃 또는 제공된 샘플 파일에 대한 파일을 두 번 클릭합니다.
+1. 여기에 표시된 사용자 지정 CSS 레이아웃 또는 제공된 샘플 파일에 대한 파일을 두 번 클릭합니다.
 
    ![샘플 CSS 파일](images/lesson-4/sample-css-file.png)
 
-4. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
+1. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
 사용자 지정된 CSS 템플릿 레이아웃을 성공적으로 업로드했습니다.
 
 ## XML 편집기 코드 조각 편집
@@ -108,25 +108,25 @@ CSS 템플릿 레이아웃을 사용자 지정한 후 업로드할 수 있습니
 
    ![도구 아이콘](images/reuse/tools-icon.png)
 
-2. 선택 **안내서** 왼쪽 패널에 표시됩니다.
+1. 선택 **안내서** 왼쪽 패널에 표시됩니다.
 
-3. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
+1. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
 
    ![폴더 프로필](images/reuse/folder-profiles-tile.png)
 
-4. 폴더 프로필을 선택합니다.
+1. 폴더 프로필을 선택합니다.
 
-5. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
+1. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
 
-6. XML 편집기 코드 조각에서 **업로드**.
+1. XML 편집기 코드 조각에서 **업로드**.
 
    ![코드 조각 업로드](images/lesson-4/upload-snippets.png)
 
-7. 자신의 코드 조각을 선택하거나 제공된 샘플을 사용하십시오.
+1. 자신의 코드 조각을 선택하거나 제공된 샘플을 사용하십시오.
 
    ![샘플 코드 조각](images/lesson-4/sample-snippet.png)
 
-8. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
+1. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
 
 편집기에 새 코드 조각을 추가했습니다.
 
@@ -138,17 +138,17 @@ CSS 템플릿 레이아웃을 사용자 지정한 후 업로드할 수 있습니
 
    ![도구 아이콘](images/reuse/tools-icon.png)
 
-2. 선택 **안내서** 왼쪽 패널에 표시됩니다.
+1. 선택 **안내서** 왼쪽 패널에 표시됩니다.
 
-3. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
+1. 을(를) 클릭합니다. [!UICONTROL **폴더 프로필**] 타일.
 
    ![폴더 프로필](images/reuse/folder-profiles-tile.png)
 
-4. 폴더 프로필을 선택합니다.
+1. 폴더 프로필을 선택합니다.
 
-5. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
+1. 을(를) 클릭합니다. [!UICONTROL **XML 편집기 구성**] 탭.
 
-6. XML 컨텐트 버전 레이블에서 [!UICONTROL **다운로드**].
+1. XML 컨텐트 버전 레이블에서 [!UICONTROL **다운로드**].
 
    ![다운로드 레이블](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ CSS 템플릿 레이아웃을 사용자 지정한 후 업로드할 수 있습니
 
 1. 폴더 프로필 내에서 [!UICONTROL **XML 편집기 구성**] 탭.
 
-2. XML 컨텐트 버전 레이블에서 [!UICONTROL **업로드**].
+1. XML 컨텐트 버전 레이블에서 [!UICONTROL **업로드**].
 
    ![레이블 업로드](images/lesson-4/upload-labels.png)
 
-3. 사용자 지정 레이블이나 여기에 표시된 제공된 샘플 파일에 대해 파일을 두 번 클릭합니다.
+1. 사용자 지정 레이블이나 여기에 표시된 제공된 샘플 파일에 대해 파일을 두 번 클릭합니다.
 
    ![샘플 레이블 파일](images/lesson-4/sample-labels-file.png)
 
-4. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
+1. 클릭 [!UICONTROL **저장**] 화면 왼쪽 상단 모서리에서 을(를) 클릭합니다.
 
 사용자 정의 XML 콘텐츠 버전 레이블을 업로드했습니다.

@@ -2,7 +2,7 @@
 title: AEM 안내서에서 기본 출력 게시
 description: 에 기본 출력 게시 [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
    맵 대시보드가 다른 탭에 열립니다.
 
-2. [출력 사전 설정] 탭에서 AEM Site 및 PDF을 선택합니다.
+1. [출력 사전 설정] 탭에서 AEM Site 및 PDF을 선택합니다.
 
    ![출력 사전 설정](images/lesson-9/pdf-aem.png)
 
-3. 선택 **생성.**
+1. 선택 **생성.**
 
-4. 출력 페이지로 이동하여 생성된 출력의 상태를 확인합니다.
+1. 출력 페이지로 이동하여 생성된 출력의 상태를 확인합니다.
 
    녹색 원은 생성이 완료되었음을 나타냅니다.
 

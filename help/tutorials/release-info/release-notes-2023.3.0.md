@@ -1,7 +1,7 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2023년 3월 릴리스
-description: Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
-source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
+description: Adobe Experience Manager 안내서 3월 릴리스 as a Cloud Service
+source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -10,12 +10,12 @@ ht-degree: 2%
 
 # Adobe Experience Manager 안내서 3월 릴리스 as a Cloud Service
 
-## 최신 릴리스로 업그레이드
+## 3월 릴리스로 업그레이드
 
 현재 Adobe Experience Manager 가이드를 as a Cloud Service(라고 함)로 업그레이드합니다 *AEM 안내서 as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
 1. Cloud Services의 Git 코드를 확인하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
 2. 업데이트 `<dox.version>` 속성 `/dox/dox.installer/pom.xml` Cloud Services Git 코드 파일을 2023.3.242에 추가합니다.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service 최신 릴리스로 업그레이드합니다.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service 3월 릴리스로 업그레이드합니다.
 
 ## 기존 컨텐츠를 색인화하는 단계(AEM 안내서 9월 릴리스 이전 버전을 사용 중인 경우에만 as a Cloud Service)
 
@@ -52,7 +52,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 ## 새로운 기능 및 향상된 기능
 
-AEM 안내서에서는 최신 릴리스의 향상된 기능과 새로운 기능을 제공합니다.
+AEM 안내서에서는 2023년 3월 릴리스의 향상된 기능 및 새로운 기능을 제공합니다.
 
 ### 웹 편집기에서 비디오 또는 오디오 파일 열기 및 재생
 

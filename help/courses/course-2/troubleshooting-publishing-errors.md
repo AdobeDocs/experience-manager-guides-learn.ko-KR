@@ -2,7 +2,7 @@
 title: 게시 오류 문제 해결
 description: 의 게시 오류 문제 해결 [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![error-log](images/error-log.png)
 
-2. 오류 로그를 스크롤합니다.
+1. 오류 로그를 스크롤합니다.
 
 ## 오류 유형 표시 및 숨기기
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. **선택** 또는 **선택 취소** 강조 표시를 표시하거나 숨길 오류 유형입니다.
 
-2. 을 사용하여 오류 탐색 **다음** 또는 **이전** 단추(화살표).
+1. 을 사용하여 오류 탐색 **다음** 또는 **이전** 단추(화살표).
 
 ## 오류 해결
 

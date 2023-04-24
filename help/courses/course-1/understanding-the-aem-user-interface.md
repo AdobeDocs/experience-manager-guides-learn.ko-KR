@@ -2,7 +2,7 @@
 title: 의 AEM 사용자 인터페이스 이해 [!DNL AEM Guides]
 description: 의 AEM 사용자 인터페이스 이해 [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Experience Manager을 위해 XML 편집기에서 자산, 파일 및 폴더를 �
 ## XML 편집기 액세스
 
 1. 로그인 화면에서 사용자 이름과 암호를 입력하고 을 선택합니다 **[!UICONTROL 로그인]**.
-2. 선택 **[!UICONTROL XML 편집기]** AEM 탐색 페이지에서 을 참조하십시오.
+1. 선택 **[!UICONTROL XML 편집기]** AEM 탐색 페이지에서 을 참조하십시오.
 
 ## XML 편집기 보기
 
@@ -81,7 +81,7 @@ Experience Manager을 위해 XML 편집기에서 자산, 파일 및 폴더를 �
 
 1. 목록에서 편집할 항목을 선택합니다.
 자산 UI에 항목이 표시됩니다.
-2. 선택 **편집** 상단 도구 모음에서 를 클릭합니다.
+1. 선택 **편집** 상단 도구 모음에서 를 클릭합니다.
 XML 편집기로 돌아갑니다.
 
 ### 카드 보기에서 반환

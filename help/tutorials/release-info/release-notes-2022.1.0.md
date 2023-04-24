@@ -2,7 +2,7 @@
 title: 용 릴리스 노트 [!DNL AEM Guides], 2022년 1월 릴리스
 description: 의 1월 릴리스 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 현재 업그레이드 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 [!DNL AEM Guides] as a Cloud Service) 다음 단계를 수행하여 설정합니다.
 1. Cloud Services의 Git 코드를 확인하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-2. 업데이트 `<dox.version>` 속성 `/dox/dox.installer/pom.xml` 파일의 Cloud Services Git 코드를 2022.1.78에 추가합니다.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 의 1월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
+1. 업데이트 `<dox.version>` 속성 `/dox/dox.installer/pom.xml` 파일의 Cloud Services Git 코드를 2022.1.78에 추가합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 의 1월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
 
 ## 호환성 매트릭스
 
@@ -212,7 +212,7 @@ Oxygen에서 AEM Server의 파일을 새로 고치면 현재 Oxygen 세션에 �
 * 관련성이 있는 참조된 항목은 기준선 탭에 표시됩니다. (5424)
 * 제목에 conkeyref가 있는 주제에 대한 증분 게시가 예상대로 작동하지 않습니다. (4474)
 * 페이지 제목은 이 설정을 선택하더라도 출력 URL 생성에 사용되지 않습니다. (8257)
-* 기준선 게시 고정된 노드 대신 현재 버전의 이미지를 선택합니다. 이미지에 파일 이름에 공백 또는 특수 문자가 있는 경우에도 표시됩니다. (8274,8322)
+* 기준선 게시 고정된 노드 대신 현재 버전의 이미지를 선택합니다. 이미지에 파일 이름에 공백 또는 특수 문자가 있는 경우에도 표시됩니다. (8274, 8322)
 * mapref가 있는 유형 주체 체계와 함께 DITA 맵에 증분 게시가 실패합니다. (8218)
 * 맵이 일괄 게시 대시보드에 추가될 때마다 Null이 추가됩니다. (8695)
 * 이미지에서 기준선 게시를 주제의 참조로 사용할 때 이미지가 출력에 게시되지 않습니다. (8564)

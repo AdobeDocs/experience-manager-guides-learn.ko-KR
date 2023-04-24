@@ -2,7 +2,7 @@
 title: 의 웹 사이트에 연결 [!DNL AEM Guides]
 description: 의 웹 사이트에 연결 [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -18,18 +18,18 @@ ht-degree: 1%
 ## 링크 삽입
 
 1. 저장소에서 개념을 선택하고 편집기에서 엽니다.
-2. 개념에 텍스트 문자열을 추가하고 강조하거나 선택한 기존 텍스트를 강조 표시합니다.
+1. 개념에 텍스트 문자열을 추가하고 강조하거나 선택한 기존 텍스트를 강조 표시합니다.
 
    강조 표시된 텍스트는 링크가 삽입되는 위치입니다.
-3. 을(를) 선택합니다 **상호 참조 삽입** 단추를 클릭합니다.
+1. 을(를) 선택합니다 **상호 참조 삽입** 단추를 클릭합니다.
 
    ![상호 참조 삽입 아이콘](images/lesson-5/insert-crossref-icon.png)
 
    참조(Reference) 대화상자가 표시됩니다.
 
 
-4. 선택 **웹 링크** 왼쪽 메뉴에서 를 클릭합니다.
-5. 원하는 URL을 붙여넣은 다음 를 클릭합니다 **선택**.
+1. 선택 **웹 링크** 왼쪽 메뉴에서 를 클릭합니다.
+1. 원하는 URL을 붙여넣은 다음 를 클릭합니다 **선택**.
 
    링크가 작동하므로 클릭하면 새 브라우저 탭에서 웹 페이지가 열립니다.
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 1. 선택 **미리 보기** 맨 위 검은색 메뉴 막대에서
 
-   ![미리 보기 단추](images/common/select-preview.png)
+   ![미리보기 버튼](images/common/select-preview.png)
 
    개념이 미리 보기에서 열립니다.
 

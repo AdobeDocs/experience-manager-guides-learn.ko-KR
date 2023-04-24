@@ -2,7 +2,7 @@
 title: 에서 맵 만들기 [!DNL AEM Guides]
 description: 에서 맵을 만드는 방법을 알아봅니다 [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 1. 선택 **[!UICONTROL 미리 보기]** 맨 위 검은색 메뉴 막대에서
 
-   ![미리 보기 단추](images/common/select-preview.png)
+   ![미리보기 버튼](images/common/select-preview.png)
 
 컨텐츠가 다음에 열립니다 [!UICONTROL 미리 보기].
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 맵 내에서 주제 계층 구조를 편집할 수 있습니다.
 
 1. 주제 아이콘을 클릭하여 선택합니다.
-2. 화살표를 사용하여 요소의 수준을 내리고 승격합니다.
+1. 화살표를 사용하여 요소의 수준을 내리고 승격합니다.
 
    ![저장소 아이콘](images/lesson-8/left-right.png)
 

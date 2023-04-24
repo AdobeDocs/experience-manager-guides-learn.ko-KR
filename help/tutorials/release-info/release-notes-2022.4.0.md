@@ -2,7 +2,7 @@
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2022년 4월 릴리스
 description: Adobe Experience Manager 안내서 4월 릴리스 as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 현재 업그레이드 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 *[!DNL AEM Guides]as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
 1. Cloud Services의 Git 코드를 확인하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-2. 업데이트 `<dox.version>` 속성 `/dox/dox.installer/pom.xml` Cloud Services Git 코드 파일을 2022.4.133에 추가합니다.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 4월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
+1. 업데이트 `<dox.version>` 속성 `/dox/dox.installer/pom.xml` Cloud Services Git 코드 파일을 2022.4.133에 추가합니다.
+1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 4월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
 
 ## 호환성 매트릭스
 
@@ -52,8 +52,8 @@ DITA 콘텐츠 키 참조는 한 항목의 컨텐트 일부를 다른 주제에 
 이제 키 참조는 다음 우선 순위 순서로 설정된 루트 맵을 기반으로 해결됩니다.
 
 1. 사용자 환경 설정
-2. 맵 보기 패널
-3. 폴더 프로필
+1. 맵 보기 패널
+1. 폴더 프로필
 
 자세한 내용은 *주요 참조 확인* 섹션을 참조하십시오.
 
