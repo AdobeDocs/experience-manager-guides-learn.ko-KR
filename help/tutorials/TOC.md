@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: b841ea84c473fbd4781589618e50cfbbb6b43b9e
+source-git-commit: e75005906ab280d577914b879b866cd0a3f83b5a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 7%
 
 ---
@@ -190,6 +190,7 @@ ht-degree: 7%
             + 스키마트론 {#schematron}
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 게시 {#publishing}
+         + [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [MPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + 워크플로 {#workflows}
          + [생성 후 워크플로우](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
