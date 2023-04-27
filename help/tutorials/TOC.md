@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: e75005906ab280d577914b879b866cd0a3f83b5a
+source-git-commit: d6edeaf6b0d309d1e8301b1695edbc5b2f953d7a
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 7%
