@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: d6edeaf6b0d309d1e8301b1695edbc5b2f953d7a
+source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -182,15 +182,19 @@ ht-degree: 7%
       + [기준선을 사용하여 컨텐츠 관리](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [웹 기반 컨텐츠 작성](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [기본 PDF 게시 핵심 사항](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-   + 게시{#publishing}
-      + [마이크로 서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
+      + [AEM 안내서의 보고서](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      + [컨텐츠 및 템플릿 설정](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
    + 기사 {#kb-articles}
       + 작성 {#authoring}
          + 웨베디터 {#webeditor}
+            + 사용자 지정 {#customizing}
+               + [도구 모음에 사용자 지정 단추 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [웹 편집기에 사용자 지정 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 스키마트론 {#schematron}
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 게시 {#publishing}
          + [기본 PDF 게시를 위한 AEM 환경 구성](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [MPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [마이크로 서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
       + 워크플로 {#workflows}
          + [생성 후 워크플로우](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
