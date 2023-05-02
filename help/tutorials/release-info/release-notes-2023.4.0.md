@@ -1,7 +1,8 @@
 ---
 title: 릴리스 노트 | Adobe Experience Manager 안내서 as a Cloud Service, 2023년 4월 릴리스
 description: Adobe Experience Manager 안내서의 최신 릴리스 as a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 2%
@@ -66,7 +67,7 @@ XMP 파일을 가져올 수 있고 AEM 가이드가 파일에서 정보를 선�
 
 ### 향상된 개요 보기 패널
 
-AEM Guides는 문서에 사용되는 요소의 계층적 뷰를 얻을 수 있는 임시 아웃라인 뷰 패널을 제공합니다.
+AEM Guides는 문서에 사용되는 요소의 계층 보기를 가져올 수 있는 향상된 개요 보기 패널을 제공합니다.
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" 기본 pdf 메타데이터">
 
@@ -104,4 +105,3 @@ AEM Guides는 마이크로 서비스 기반 게시와 동시에 대규모 게시
 Adobe은 2023년 4월 AEM Guides as a Cloud Service 릴리스에 대해 알려진 다음과 같은 문제를 식별했습니다.
 
 * 기본 PDF | 이전 메타데이터는 출력 사전 설정이 명시적으로 열릴 때까지 채워지지 않습니다.
-
