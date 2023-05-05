@@ -1,13 +1,13 @@
 ---
 title: 게시 대시보드를 사용하여 게시 작업 관리
 description: 게시 대시보드를 사용하여 게시 작업을 관리하는 방법을 알아봅니다
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
 
 ---
-
 
 # 게시 대시보드를 사용하여 게시 작업 관리 {#id205CC08305Z}
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 게시 대시보드 는 시스템에서 현재 실행 중인 모든 게시 작업에 대한 전체 개요를 제공합니다.
 
-![](images/publish-dashboard.png)
+![](images/publish-dashboard.png){width="800" align="left"}
 
 게시 대시보드에는 다음 세부 정보가 포함되어 있습니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 - **출력 사전 설정** - 현재 활성 상태인 게시 작업을 표시할 출력 사전 설정을 하나 이상 선택합니다. 다음 스크린샷에서는 게시 작업이 필터링되어 AEM Site 출력 사전 설정을 사용하는 작업만 표시합니다.
 
-![](images/publish-dashboard-preset-filter.png)
+   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **시작한 사람** - 목록에서 사용자 이름을 선택하여 선택한 사용자가 시작한 게시 작업을 표시합니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    파일 이름 링크를 클릭하면 선택한 맵의 DITA 맵 콘솔이 표시됩니다.
 
-   ![](images/publish-dashboard-click-filename-link.png)
+   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
@@ -76,14 +76,13 @@ ht-degree: 0%
 
 1. 활성 게시 작업 목록에서 취소할 작업의 삭제 아이콘을 클릭합니다.
 
-   ![](images/publish-dashboard-cancel-task.png)
+   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
 1. 클릭 **예** 취소 확인 메시지 프롬프트에서 다음을 수행합니다.
 
    작업이 활성 상태인 경우 취소 명령을 수락하고 취소를 시도합니다. 작업이 성공적으로 종료되면 현재 활성 작업 목록에서 제거됩니다. 작업의 상태도 DITA 맵 콘솔에서 취소됨으로 업데이트됩니다. 다음 스크린샷에서는 *HTML5* 게시 대시보드에서 작업이 취소되고 DITA 맵 콘솔에서도 상태가 변경됩니다.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)
-

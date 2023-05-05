@@ -1,13 +1,13 @@
 ---
 title: 출력 생성에 맵 컬렉션 사용
 description: 출력 생성을 위해 Map Collection을 사용하는 방법을 알아봅니다
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # 출력 생성에 맵 컬렉션 사용 {#id1723F20G0HS}
 
@@ -25,7 +25,7 @@ AEM 안내서에서는 Map Collection이라는 대시보드를 사용하여 게�
 
    컬렉션 매핑 링크를 사용할 수 없는 경우 **탐색** 왼쪽 레일에서 옵션을 선택하고 **컬렉션 매핑**.
 
-   ![](images/access-map-collection-left-rail.png)
+   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1. 맵 컬렉션에 사용할 제목 을 입력합니다.
 1. **만들기**&#x200B;를 클릭합니다.
@@ -47,8 +47,7 @@ AEM 안내서에서는 Map Collection이라는 대시보드를 사용하여 게�
 
    DITA 맵 파일이 맵 컬렉션에 추가됩니다.
 
-
-![](images/maps_presets_62_63.png)
+   ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 다음 필터링 옵션 및 맵 세부 정보가 컬렉션 페이지에 표시됩니다.
 
@@ -93,7 +92,6 @@ AEM 안내서에서는 Map Collection이라는 대시보드를 사용하여 게�
 
 에서 출력 생성 작업을 취소하는 방법과 비슷합니다. [DITA 맵 콘솔](generate-output-for-a-dita-map.md#id2061H100T5Z) 또는 [대시보드 게시](generate-output-publish-dashboard.md#)맵 컬렉션에서 출력 생성 작업을 취소할 수 있습니다. 맵 컬렉션의 출력 탭에 액세스하여 취소할 게시 작업으로 이동한 다음 **이 작업 취소** 아이콘을 클릭하여 게시 작업을 취소합니다.
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)
-

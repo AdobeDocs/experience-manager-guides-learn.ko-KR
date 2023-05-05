@@ -1,13 +1,13 @@
 ---
 title: 출력 생성 작업의 상태 보기
 description: 출력 생성 작업의 상태를 보는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
 
 ---
-
 
 # 출력 생성 작업의 상태 보기 {#viewing_output_history}
 
@@ -19,7 +19,7 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides에�
 
 1. 출력을 클릭합니다.
 
-   ![](images/output-queued-fm.png)
+   ![](images/output-queued-fm.png){width="800" align="left"}
 
 1. [출력] 페이지는 다음 두 부분으로 나누어집니다.
 
@@ -35,4 +35,3 @@ FrameMaker 문서에 대한 출력 생성 작업을 시작하면 AEM Guides에�
 
 
 **상위 항목:**[ FrameMaker 문서의 출력 생성](fm-output-generatation.md)
-

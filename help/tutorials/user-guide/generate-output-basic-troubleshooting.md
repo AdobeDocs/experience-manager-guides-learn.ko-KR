@@ -1,13 +1,13 @@
 ---
 title: 기본 문제 해결
 description: 기본 문제 해결 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # 기본 문제 해결 {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ AEM 안내서를 사용하는 동안 문서를 게시하거나 여는 동안 오
 
    다음 **일반** 열 **생성된 출력** 출력 생성의 성공 또는 실패에 대한 시각적 단서를 제공하는 아이콘을 표시합니다.
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    위의 스크린샷에서 첫 번째 및 세 번째 아이콘은 실패한 출력 생성을 보여줍니다. 두 번째 아이콘은 성공적인 출력 생성을 보여주지만 메시지는 있습니다. 마지막 항목은 메시지가 없는 성공적인 출력 생성입니다.
 
@@ -29,7 +29,7 @@ AEM 안내서를 사용하는 동안 문서를 게시하거나 여는 동안 오
 
    로그 파일이 새 탭에서 열립니다.
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. 다음 필터를 적용하여 로그 파일의 텍스트를 강조 표시합니다.
    - 치명적: 로그 파일의 치명적인 오류를 분홍색 색상으로 강조 표시합니다.
@@ -61,15 +61,15 @@ AEM 안내서를 사용하는 동안 문서를 게시하거나 여는 동안 오
 
    - *DITA 맵 파일 관련 오류*: DITA 맵 파일 또는 DITA 맵에 포함된 다른 파일에 오류가 있는 경우 로그 파일에 &quot;BUILD FAILED&quot; 문자열이 포함됩니다. 로그 파일에 제공된 정보를 확인하여 잘못된 파일을 찾아 문제를 해결할 수 있습니다.
 
-      다음 샘플 로그 파일 코드 조각에서 `BUILD FAILED` 메시지와 함께 오류 원인을 입력합니다.
+   다음 샘플 로그 파일 코드 조각에서 `BUILD FAILED` 메시지와 함께 오류 원인을 입력합니다.
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *AEM 안내서 관련 오류*: 로그 파일에서 식별할 수 있는 다른 유형의 오류는 AEM 안내서 프로세스 자체와 관련되어 있습니다. 이 경우 DITA 맵 파일을 구문 분석했지만 AEM 안내서의 일부 내부 오류로 인해 출력 생성 프로세스가 실패합니다. 이러한 유형의 오류는 기술 지원 팀에서 도움을 요청해야 합니다.
+   - *AEM 안내서 관련 오류*: 로그 파일에서 식별할 수 있는 다른 유형의 오류는 AEM 안내서 프로세스 자체와 관련되어 있습니다. 이 경우 DITA 맵 파일을 구문 분석했지만 AEM 안내서의 일부 내부 오류로 인해 출력 생성 프로세스가 실패합니다. 이러한 유형의 오류는 기술 지원 팀에서 도움을 요청해야 합니다.
 
-         다음 샘플 로그 파일 코드 조각에서 `BUILD SUCCESSFUL` 메시지 다음에 다른 기술 오류가 표시됩니다.
+   다음 샘플 로그 파일 코드 조각에서 `BUILD SUCCESSFUL` 메시지 다음에 다른 기술 오류가 표시됩니다.
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## JSP 컴파일 오류 해결
@@ -90,4 +90,3 @@ DITA 주제가 너무 큰 경우 JSP 컴파일 오류 \()가 표시될 수 있�
 
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)
-

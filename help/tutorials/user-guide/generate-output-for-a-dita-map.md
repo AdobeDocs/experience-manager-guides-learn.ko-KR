@@ -1,13 +1,13 @@
 ---
 title: 맵 콘솔에서 DITA 맵에 대한 출력 생성
 description: 맵 콘솔에서 DITA 맵에 대한 출력을 생성하는 방법을 알아봅니다
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # 맵 콘솔에서 DITA 맵에 대한 출력 생성 {#id1825FG00UHT}
 
@@ -19,7 +19,7 @@ DITA 맵에 대한 출력을 생성하려면 다음 단계를 수행합니다.
 
 1. 출력을 생성하는 데 사용할 출력 사전 설정을 하나 이상 선택합니다.
 
-   ![](images/generate-multiple-outputs-uuid.png)
+   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ DITA 맵에서 몇 개의 주제만 업데이트하고 업데이트된 주제만
    >
    > DITA 맵에 새 주제를 추가한 경우 여기에서 해당 새 주제를 생성할 수 없습니다. 먼저 DITA 맵 게시 기능을 사용하여 새로 추가한 주제를 게시해야 합니다.
 
-   ![](images/regenerate-topics.png)
+   ![](images/regenerate-topics.png){width="800" align="left"}
 
 1. 클릭 **재생성**.
 
@@ -95,7 +95,7 @@ DITA 맵에서 몇 개의 주제만 업데이트하고 업데이트된 주제만
 
 1. 클릭 **출력**.
 
-   ![](images/output-queued.png)
+   ![](images/output-queued.png){width="800" align="left"}
 
    [출력] 페이지는 다음 두 부분으로 나누어집니다.
 
@@ -132,17 +132,17 @@ DITA 맵 콘솔에서 출력 생성 작업을 취소하려면 다음 단계를 �
 
 1. 을(를) 클릭합니다. *이 작업 취소* 아이콘.
 
-   ![](images/cancel-publish-task-map-console.png)
+   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
 1. 클릭 **예** 취소 확인 메시지 프롬프트에서 다음을 수행합니다.
 
-   ![](images/confirm-cancel-output-map-condole.png)
+   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    작업이 아직 시작되지 않은 경우 작업에 대해 취소 명령이 실행됩니다. 취소되는 작업의 경우 상태는 취소로 설정됩니다.
 
    작업이 성공적으로 취소되면 **생성된 출력** 목록 **취소됨** 상태. 취소된 작업을 마우스로 가리키면 작업을 취소한 사용자의 이름이 표시됩니다. 다음 스크린샷에서는 *HTML5* 작업이 취소되었습니다.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## DITA 맵 콘솔에서 출력 작업 삭제
@@ -159,7 +159,7 @@ DITA 맵에 대해 여러 출력을 생성할 때 일정 기간 동안 이러한
 
 1. 삭제 아이콘을 클릭합니다.
 
-   ![](images/delete-output-task.png)
+   ![](images/delete-output-task.png){width="800" align="left"}
 
 1. 클릭 **예** 삭제 확인 메시지 프롬프트에서 다음을 수행합니다.
 
@@ -167,4 +167,3 @@ DITA 맵에 대해 여러 출력을 생성할 때 일정 기간 동안 이러한
 
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)
-

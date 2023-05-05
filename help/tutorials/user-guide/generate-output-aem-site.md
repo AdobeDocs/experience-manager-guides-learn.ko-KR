@@ -1,13 +1,13 @@
 ---
 title: AEM 사이트
 description: AEM 사이트 사용 방법 알아보기
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # AEM 사이트 {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ AEM 사이트 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 
 게시 컨텍스트를 사용하면 맵에서 특정 출력을 게시할 항목을 지정할 수 있습니다. 예를 들어 다음과 같은 네 개의 폴더가 있다고 가정합니다. 샘플 a, 샘플 b, 샘플 c, 및 샘플 d. 각 폴더에는 DITA 맵(DITA 맵 A, DITA 맵 B, DITA 맵 C 및 DITA 맵 D)이 있습니다. DITA 맵 A의 주제가 DITA 맵 B, C 또는 D의 주제에 링크될 때 맵 간 연결이 발생합니다. 다음 스크린샷에서 샘플 개념 항목에는 다른 DITA 맵의 일부인 파일에 대한 링크 \(또는 참조\)가 포함되어 있습니다.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 이제 이 항목을 포함하는 맵 파일에 대한 AEM 사이트 게시 설정을 구성할 때 게시 중에 링크된 컨텐츠에 대한 게시 컨텍스트를 선택할 수 있습니다. 게시 컨텍스트는 DITA 맵과 해당 출력 사전 설정의 조합입니다. 출력 사전 설정에는 특정 버전의 콘텐츠 및 조건부 사전 설정이 포함되어 있습니다. DITA 맵, 출력 사전 설정, \(파일\) 버전 및 조건의 전체 조합을 통해 연결된 맵에 대한 게시 컨텍스트를 정의합니다.
 
@@ -143,8 +143,7 @@ AEM 안내서는 기존 AEM 사이트에 DITA 콘텐츠 게시를 지원합니�
 
 AEM 사이트 출력에서 문자열을 검색할 수 있습니다. 기본적으로 제목에서만 문자열을 검색할 수 있습니다. 컨텐츠 또는 AEM 사이트 출력의 본문에서 문자열을 검색하려면 시스템 관리자에게 문의하여 flattening.enabled 속성을 활성화합니다.
 
-
-<img src="images/aem-output-search.png" alt="AEM 사이트 출력 검색" width="800">
+![AEM 사이트 출력 검색](images/aem-output-search.png){width="650" align="left"}
 
 자세한 내용은 *AEM Site 노드 구조의 병합 구성* 섹션을 참조하십시오.
 

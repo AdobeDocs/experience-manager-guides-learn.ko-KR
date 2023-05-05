@@ -1,13 +1,13 @@
 ---
 title: 변환 상태 보고서
 description: 전환 상태 보고서를 작성하는 방법 알아보기
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # 변환 상태 보고서 {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ AEM 안내서에서는 다양한 형식의 문서를 DITA로 변환할 수 있�
 
    시스템에서 실행된 모든 변환 작업에 대해 변환 상태 보고서가 표시됩니다.
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. 보고서 페이지는 다음 두 부분으로 나뉘어져 있습니다.
 
@@ -33,7 +33,7 @@ AEM 안내서에서는 다양한 형식의 문서를 DITA로 변환할 수 있�
 
       다음 스크린샷에는 실패, 활성 및 큐 상태가 있는 변환 작업에 대한 보고서 데이터가 표시됩니다.
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **보고서 데이터:**
 
@@ -55,4 +55,3 @@ AEM 안내서에서는 다양한 형식의 문서를 DITA로 변환할 수 있�
 
 
 **상위 항목:**[&#x200B;보고서](reports-intro.md)
-

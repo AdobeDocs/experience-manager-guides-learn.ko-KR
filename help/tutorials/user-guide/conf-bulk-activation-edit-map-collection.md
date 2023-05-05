@@ -1,13 +1,13 @@
 ---
 title: 벌크 활성화 맵 컬렉션 편집
 description: 벌크 활성화 맵 컬렉션을 편집하는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # 벌크 활성화 맵 컬렉션 편집 {#id214GI40B0XA}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 1. **삭제**&#x200B;를 클릭합니다.
 
-   ![](images/bulk-activation-delete-map.png)
+   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
 
    선택한 맵이 벌크 활성화 맵 컬렉션에서 제거됩니다.
 
@@ -41,4 +41,3 @@ ht-degree: 1%
 
 
 **상위 항목:**[&#x200B;게시된 컨텐츠의 벌크 활성화](conf-bulk-activation.md)
-

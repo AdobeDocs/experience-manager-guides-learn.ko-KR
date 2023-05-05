@@ -1,13 +1,13 @@
 ---
 title: 벌크 활성화 맵 컬렉션 만들기
 description: 벌크 활성화 맵 컬렉션을 만드는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # 벌크 활성화 맵 컬렉션 만들기 {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    DITA 맵 파일이 벌크 활성화 맵 컬렉션에 추가됩니다.
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 맵 및 사전 설정 탭에는 다음 열에 정보가 표시됩니다.
@@ -70,4 +70,3 @@ ht-degree: 0%
 - **맵 및 사전 설정** 표: 맵 및 사전 설정 테이블에는 다음 열이 표시됩니다.
 
 **상위 항목:**[&#x200B;게시된 컨텐츠의 벌크 활성화](conf-bulk-activation.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 컨텐츠 재사용 보고서
 description: 컨텐츠 재사용 보고서 방법 알아보기
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # 컨텐츠 재사용 보고서 {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 클릭 **보고서 생성** 컨텐츠 재사용 보고서를 얻기 위해
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    보고서 페이지는 다음 두 부분으로 나뉘어져 있습니다.
 
@@ -61,4 +61,3 @@ ht-degree: 0%
 > 컨텐츠 재사용 보고서를 CSV 형식으로 내보낼 수도 있습니다. 이렇게 하려면 화면의 왼쪽 상단 모서리에 있는 CSV로 내보내기 링크를 클릭하고 CSV 파일을 저장할 위치를 선택합니다. 그런 다음 임의의 CSV 편집기에서 이 CSV 파일을 열 수 있습니다.
 
 **상위 항목:**[&#x200B;보고서](reports-intro.md)
-

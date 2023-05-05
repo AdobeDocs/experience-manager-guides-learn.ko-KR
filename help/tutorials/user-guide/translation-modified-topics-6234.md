@@ -1,13 +1,13 @@
 ---
 title: 수정된 항목 번역
 description: 수정된 주제를 번역하는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # 수정된 항목 번역 {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    화살표를 클릭하여 자세한 내용을 확인합니다. 오래된 특정 언어 사본을 볼 수 있습니다.
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. 재번역을 위해 전송할 항목을 선택하려면 확인란을 클릭하십시오.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 프로젝트 콘솔에서 번역 프로젝트로 이동합니다. 폴더에 새 번역 작업 카드가 만들어집니다. 폴더의 자산을 보려면 줄임표를 클릭합니다.
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. 번역을 시작하려면 번역 작업 카드의 화살표를 클릭하고 **시작** 참조하십시오. 작업이 시작되었음을 알리는 메시지가 표시됩니다.
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 
 
 **상위 항목:**[&#x200B;컨텐츠 번역](translation.md)
-

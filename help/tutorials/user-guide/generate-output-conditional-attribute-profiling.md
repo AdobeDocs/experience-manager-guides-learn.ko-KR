@@ -1,13 +1,13 @@
 ---
 title: 조건부 특성 프로파일링
 description: 조건부 속성 프로파일링을 사용하는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # 조건부 특성 프로파일링 {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ AEM 가이드를 사용하면 관련 DITA 속성을 사용하여 조건부 속�
 
    다음 스크린샷에서는 다음에 대한 정의를 보여 줍니다 `platform` 값이 인 특성 `unix` 및 `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. 동일한 속성에 대해 값을 더 추가하려면 **+** 아이콘을 클릭하고 추가 값과 레이블을 입력합니다.
 
@@ -54,7 +54,6 @@ AEM 가이드를 사용하면 관련 DITA 속성을 사용하여 조건부 속�
 
 다음 `platform` 속성은 시스템에 저장됩니다. 작성자가 를 사용하려는 경우 `platform` 속성을 폴더에 있는 DITA 주제의 경우 웹 편집기의 속성 탭에 값이 표시됩니다.
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)
-

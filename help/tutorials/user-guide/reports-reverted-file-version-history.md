@@ -1,13 +1,13 @@
 ---
 title: 파일 버전 기록 보고서를 되돌렸습니다.
 description: 복귀된 파일 버전 기록 보고서 작성 방법 알아보기
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # 파일 버전 기록 보고서를 되돌렸습니다. {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ AEM 가이드를 사용하면 개별 파일 또는 폴더의 모든 파일에 �
 
 - **자산 UI**: 파일을 선택하고 **버전 기록** 왼쪽 레일에서 다음 **버전 기록** 보기에 다음이 포함되어 있습니다. **버전 로그 되돌리기** 패널 하단에 연결합니다. 이 링크를 클릭하면 복귀된 버전의 선택한 파일의 기록이 표시됩니다.
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **항목 미리 보기**: 항목을 미리 볼 때 **버전 기록** 왼쪽 레일에서 패널. 을 클릭할 수 있는 자산 UI와 유사한 패널이 표시됩니다 **버전 로그 되돌리기** 활성 문서의 복귀된 버전 기록에 액세스하는 링크입니다.
 
@@ -38,7 +38,7 @@ AEM 가이드를 사용하면 개별 파일 또는 폴더의 모든 파일에 �
 
 1. 클릭 **로그 표시** 를 입력하여 선택한 파일 또는 폴더에 대한 보고서를 생성합니다.
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    이 보고서에는 다음과 같은 세부 정보가 포함되어 있습니다.
 
@@ -56,4 +56,3 @@ AEM 가이드를 사용하면 개별 파일 또는 폴더의 모든 파일에 �
 
 
 **상위 항목:**[&#x200B;보고서](reports-intro.md)
-

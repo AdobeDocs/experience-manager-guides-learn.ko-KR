@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: JSON을 사용하는 방법을 알아봅니다
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ JSON 사전 설정에 대해 다음 옵션을 사용할 수 있습니다.
 >
 > 웹 편집기에서 JSON 파일을 편집할 수도 있습니다.
 
-| JSON 출력 옵션 | 설명 |
+| JSON 옵션 | 설명 |
 | --- | --- |
 | 출력 경로 | JSON 출력이 저장되는 AEM 저장소 내의 경로입니다. |
 | 인덱스 파일 | JSON 출력용으로 만드는 인덱스 파일의 이름을 지정할 수 있습니다. 기본적으로 DITA 맵의 파일 이름을 선택하고 접미사(예: `map_filename_index.json`).<br><br>인덱스 파일을 설정하는 동안 변수를 사용할 수도 있습니다. 변수 사용에 대한 자세한 내용은 [대상 경로, 사이트 이름 또는 파일 이름 옵션을 설정할 변수를 사용합니다](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ JSON 사전 설정에 대해 다음 옵션을 사용할 수 있습니다.
 | 생성 후 워크플로우 | 이 옵션을 선택하면 AEM에 구성된 모든 워크플로우를 포함하는 새 생성 워크플로우 드롭다운 목록이 표시됩니다. 출력 생성 워크플로우가 완료된 후 실행할 워크플로우를 선택해야 합니다.<br><br>**참고**: 사용자 지정 사후 출력 생성 워크플로우를 만드는 방법에 대한 자세한 내용은 _출력 후 생성 워크플로우 사용자 정의_ Adobe Experience Manager 안내서 설치 및 구성 as a Cloud Service 안내서에서 를 참조하십시오. |
 
 **상위 항목:**[&#x200B;출력 사전 설정 이해](generate-output-understand-presets.md)
-

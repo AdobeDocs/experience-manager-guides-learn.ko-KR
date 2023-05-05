@@ -1,13 +1,13 @@
 ---
 title: 콘텐츠 번역 우수 사례
 description: 콘텐츠 번역 우수 사례 학습
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 1%
 
 ---
-
 
 # 콘텐츠 번역 우수 사례 {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 다음 그림은 컨텐츠 및 3개의 언어 사본을 전체적으로 사용한 AEM 폴더 구조의 예를 보여줍니다.
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## 번역 서비스 구성
 
@@ -129,4 +129,3 @@ ht-degree: 1%
 > 번역 작업에서 하나 이상의 항목에 대한 번역을 거부하면 **진행 중** 거부된 모든 주제에 대한 번역 상태는 원래 상태로 되돌아갑니다. 참조 항목의 상태는 최신 번역 상태에 따라 확인되고 복귀됩니다. 또한 대상 프로젝트에서 만든 번역 파일은 번역이 거부되더라도 삭제되지 않습니다.
 
 **상위 항목:**[&#x200B;컨텐츠 번역](translation.md)
-
