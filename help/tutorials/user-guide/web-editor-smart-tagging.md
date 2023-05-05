@@ -1,13 +1,13 @@
 ---
 title: 스마트 태깅
 description: 스마트 태그 지정 방법 알아보기
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # 스마트 태깅 {#id216KH0ID0Y8}
 
@@ -23,12 +23,12 @@ AEM 안내서에는 스마트 태그를 추가하는 기능이 포함되어 있�
 1. 미리 보기 모드에서 항목을 열고 을 선택합니다 **자산 재처리** 아이콘을 클릭합니다.
 1. 관련 키워드를 추출하려면 XML 키워드 추출 을 선택합니다.
 
-   ![](images/smart-tag-reprocess-asset.png)
+   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
 1. 사후 프로세스 실행 옵션을 선택합니다. 도구를 성공적으로 초기화하면 메시지가 표시됩니다.
 1. 태그가 자동으로 추출되며 선택한 항목의 속성 페이지에서 볼 수 있습니다.
 
-   ![](images/properties-smart-tags.png)
+   ![](images/properties-smart-tags.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -38,4 +38,3 @@ AEM 안내서에는 스마트 태그를 추가하는 기능이 포함되어 있�
 *고객 성공 팀에 문의하여 이 기능을 환경에서 활성화하십시오. 이 기능은 기본 지원의 일부로 활성화되지 않습니다.*
 
 **상위 항목:**[&#x200B;메타데이터 관리](manage-metadata.md)
-

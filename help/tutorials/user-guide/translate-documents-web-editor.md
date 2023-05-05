@@ -1,13 +1,13 @@
 ---
 title: 웹 편집기에서 문서 번역
 description: 웹 편집기에서 문서를 번역하는 방법 알아보기
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 0%
 
 ---
-
 
 # 웹 편집기에서 문서 번역 {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ AEM 안내서에는 웹 편집기의 강력한 기능이 포함되어 있으므�
    >
    > 언어는 언어 폴더가 소스 언어와 병렬로 생성되는 언어만 표시합니다. 소스 언어 폴더에서 한 수준 아래로 이동되는 등 다른 수준에서 작성된 언어 폴더도 표시되지 않습니다. 소스 언어 폴더와 동일한 수준에서 모든 대상 언어 폴더를 만들어야 합니다.
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. 다음 옵션을 사용할 수도 있습니다.
 
@@ -72,11 +72,11 @@ AEM 안내서에는 웹 편집기의 강력한 기능이 포함되어 있으므�
    - **Target 레이블**: 선택한 대상 파일 버전에 대한 레이블입니다
 1. 클릭 **번역 보내기** 오른쪽 상단 모서리에서
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. 드롭다운에서 을 선택합니다. **새 번역 프로젝트 만들기**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    새 번역 프로젝트 외에 다음 옵션 중에서 선택할 수도 있습니다.
 
@@ -107,7 +107,7 @@ AEM 가이드를 사용하면 소스 파일의 레이블을 대상 파일에 전
 
 예를 들어 버전 레이블이 있는 소스 파일이 있는 경우 `Release 1.0` 적용된 다음 소스 레이블 \(`Release 1.0`\)를 번역된 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제를 해결했습니다.
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ AEM 가이드를 사용하면 소스 파일의 레이블을 대상 파일에 전
 
 AEM 안내서에서는 선택한 버전과 마지막 번역된 소스 버전의 차이점을 확인하는 기능을 제공합니다. 을(를) 번역하도록 선택할 수 있습니다 **동기화되지 않음** 변경한 내용을 기반으로 한 파일입니다.
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 을(를) 선택합니다 **차이 표시**&#x200B;아이콘 \(![](images/show-difference-icon.svg)\) 항목을 보려면 마지막 번역된 버전과 선택한 파일의 현재 버전 간의 차이점을 확인하십시오.
 
@@ -127,7 +127,7 @@ AEM 안내서에서는 선택한 버전과 마지막 번역된 소스 버전의 
 
 다음 **버전 차이** 대화 상자가 나타납니다. 다음 내용이 표시됩니다. **마지막 번역 버전** 그리고 **선택한 버전** 왼쪽에 있는 번호 미리 보기 창에는 마지막 번역된 버전과 선택한 항목 버전 간의 차이가 표시됩니다.
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## 자산 동기화 중단
 
@@ -138,7 +138,7 @@ AEM 안내서에서는 선택한 버전과 마지막 번역된 소스 버전의 
 1. 상태를 변경할 동기화되지 않은 자산을 선택합니다.
 1. 을(를) 선택합니다 **동기화 표시** button \(![](images/translation-mark-in-sync-icon.svg)\) 위에 있어야 합니다. 다음 **동기화 표시** 대화 상자가 나타납니다.
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. 클릭 **강제 동기화**. 선택한 동기화되지 않은 자산에 대해 상태를 동기화 중으로 설정합니다.
 
@@ -156,7 +156,6 @@ AEM 안내서에서는 선택한 버전과 마지막 번역된 소스 버전의 
 
 대화 상자에서 참조 이름을 클릭하여 미리 보기 모드에서 엽니다. 번역 프로젝트를 클릭하여 번역을 시작할 수도 있습니다.
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **상위 항목:**[&#x200B;웹 편집기 작업](web-editor.md)
-

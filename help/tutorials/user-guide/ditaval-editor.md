@@ -1,15 +1,15 @@
 ---
 title: DITAVAL 편집기 사용
 description: DITAVAL 편집기 사용 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 
-# DITAVAL 편집기 {#id17C5E0U0OQE}
+# DITAVAL 편집기 {#ditaval-editor}
 
 조건부 출력을 생성하는 데 DITAVAL 파일이 사용됩니다. 단일 주제에서는 요소 속성을 사용하여 조건을 추가하여 컨텐츠를 조건부 화할 수 있습니다. 그런 다음 컨텐츠를 생성하기 위해 선택되어야 하는 조건과 최종 출력에서 제외해야 하는 조건을 지정하는 DITAVAL 파일을 만듭니다.
 
@@ -48,25 +48,25 @@ AEM 가이드를 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일�
 
    DITAVAL 편집기를 사용하면 다음 작업을 수행할 수 있습니다.
 
-   A: 왼쪽 패널 전환 : 왼쪽 패널 보기를 전환합니다. DITA 맵을 통해 DITAVAL 파일을 연 경우 맵과 저장소가 이 패널에 표시됩니다. DITA 맵을 통해 파일을 여는 방법에 대한 자세한 내용은 [DITA 맵을 통해 주제 편집](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   A: 왼쪽 패널 전환 왼쪽 패널 보기를 전환합니다. DITA 맵을 통해 DITAVAL 파일을 연 경우 맵과 저장소가 이 패널에 표시됩니다. DITA 맵을 통해 파일을 여는 방법에 대한 자세한 내용은 [DITA 맵을 통해 주제 편집](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-   B: 저장 : 파일에서 변경한 내용을 저장합니다. 모든 변경 사항은 파일의 현재 버전에 저장됩니다.
+   B: 저장 파일에서 변경한 내용을 저장합니다. 모든 변경 사항은 파일의 현재 버전에 저장됩니다.
 
-   C: 속성 추가 : DITAVAL 파일에 단일 속성을 추가합니다.
+   C: 속성 추가 DITAVAL 파일에 단일 속성을 추가합니다.
 
-       ![](images/ditaval-editor-props.png)
-       
-       첫 번째 드롭다운에는 DITAVAL 파일에서 사용할 수 있는 허용되는 DITA 속성이 나열됩니다. 지원되는 속성은 &#39;audience&#39;, &#39;platform&#39;, &#39;product&#39;, &#39;props&#39; 및 &#39;otherprop&#39;인 다섯 가지가 있습니다.
-   
-   : 두 번째 드롭다운 목록에는 선택한 속성에 대해 구성된 값이 표시됩니다. 그런 다음 다음 다음 드롭다운 목록에 선택한 속성에서 구성할 수 있는 작업이 표시됩니다. 작업 드롭다운에서 허용되는 값은 다음과 같습니다. `include`, `exclude`, `passthrough`, 및 `flag`. 이러한 값에 대한 자세한 내용은 [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) oasis DITA 설명서의 요소
+   ![](images/ditaval-editor-props.png)
 
-   D: 모든 속성 추가 : 한 번의 클릭으로 시스템에 정의된 모든 조건부 속성 또는 속성을 추가하려면 모든 속성 추가 기능을 사용합니다.
+   첫 번째 드롭다운에는 DITAVAL 파일에서 사용할 수 있는 허용되는 DITA 속성이 나열됩니다. 지원되는 속성은 5개입니다. `audience`, `platform`, `product`, `props`, 및 `otherprops`.
 
->[!NOTE]
->
-> 정의된 모든 조건부 속성이 DITAVAL 파일에 이미 있으면 속성을 더 추가할 수 없습니다. 이 시나리오에서 오류 메시지가 표시됩니다.
+   두 번째 드롭다운 목록에는 선택한 속성에 대해 구성된 값이 표시됩니다. 그런 다음 다음 다음 드롭다운 목록에 선택한 속성에서 구성할 수 있는 작업이 표시됩니다. 작업 드롭다운에서 허용되는 값은 다음과 같습니다. `include`, `exclude`, `passthrough`, 및 `flag`. 이러한 값에 대한 자세한 내용은 [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) oasis DITA 설명서의 요소
 
-    ![](images/ditaval-all-props.png)
+   D: 모든 속성 추가 한 번의 클릭으로 시스템에 정의된 모든 조건부 속성 또는 속성을 추가하려면 모든 속성 추가 기능을 사용합니다.
+
+   >[!NOTE]
+   >
+   > 정의된 모든 조건부 속성이 DITAVAL 파일에 이미 있으면 속성을 더 추가할 수 없습니다. 이 시나리오에서 오류 메시지가 표시됩니다.
+
+   ![](images/ditaval-all-props.png)
 
 1. DITAVAL 파일 편집을 완료했으면 **저장**.
 
@@ -79,13 +79,13 @@ AEM 가이드를 사용하면 DITAVAL 편집기를 사용하여 DITAVAL 파일�
 
 AEM 안내서의 DITAVAL 편집기는 두 가지 다른 모드나 보기에서 DITAVAL 파일 보기를 지원합니다.
 
-작성자 : 여기서는 일반적인 DITAVAL 편집기의 \(WYSISYG\) 보기를 확인할 수 있습니다. 드롭다운 목록에서 속성, 해당 값 및 작업을 나타내는 간단한 사용자 인터페이스를 사용하여 속성을 추가하거나 제거할 수 있습니다. 작성자 보기에서는 개별 속성을 삽입하고 한 번의 클릭으로 모든 속성을 삽입할 수 있는 옵션이 있습니다.
+**작성자**: 여기서는 일반적인 DITAVAL 편집기의 \(WYSISYG\) 보기를 확인할 수 있습니다. 드롭다운 목록에서 속성, 해당 값 및 작업을 나타내는 간단한 사용자 인터페이스를 사용하여 속성을 추가하거나 제거할 수 있습니다. 작성자 보기에서는 개별 속성을 삽입하고 한 번의 클릭으로 모든 속성을 삽입할 수 있는 옵션이 있습니다.
 
-: 포인터를 파일 이름으로 가져가면 현재 작업 중인 DITAVAL 파일의 버전을 찾을 수도 있습니다.
+포인터를 파일 이름으로 가져가면 현재 작업 중인 DITAVAL 파일의 버전을 찾을 수도 있습니다.
 
-소스 : 소스 뷰는 DITAVAL 파일을 구성하는 기본 XML을 표시합니다. 작성자는 이 보기에서 일반적인 텍스트를 편집하는 것 외에도 스마트 카탈로그를 사용하여 속성을 추가하거나 편집할 수도 있습니다.
+**소스**: 소스 뷰는 DITAVAL 파일을 구성하는 기본 XML을 표시합니다. 작성자는 이 보기에서 일반적인 텍스트를 편집하는 것 외에도 스마트 카탈로그를 사용하여 속성을 추가하거나 편집할 수도 있습니다.
 
-    Smart Catalog를 호출하려면 속성 정의 끝에 커서를 놓고 &quot;&lt;&quot;를 입력합니다. 편집기에 해당 위치에 삽입할 수 있는 모든 유효한 XML 요소의 목록이 표시됩니다.
-    
-    ![](images/ditaval-source-view.png)
+Smart Catalog를 호출하려면 속성 정의 끝에 커서를 놓고 &quot;&lt;&quot;를 입력합니다. 편집기에 해당 위치에 삽입할 수 있는 모든 유효한 XML 요소의 목록이 표시됩니다.
+
+![](images/ditaval-source-view.png)
 

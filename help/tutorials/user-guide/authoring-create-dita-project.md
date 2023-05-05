@@ -1,13 +1,13 @@
 ---
 title: DITA 프로젝트 만들기
 description: DITA 프로젝트를 만드는 방법 알아보기
-source-git-commit: 101766d51d43eb728f0316155acffd19548f83be
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # DITA 프로젝트 만들기 {#id1645HA00NM6}
 
@@ -33,7 +33,7 @@ DITA 프로젝트를 만들면 웹 편집기 또는 자산 UI에서 검토를 �
 
 1. 클릭 **만들기** \> **프로젝트** 프로젝트 만들기 마법사를 시작하려면 다음을 수행하십시오.
 
-   ![](images/project-console-63.png)
+   ![](images/project-console-63.png){width="650" align="left"}
 
 1. 프로젝트 만들기 페이지에서 **DITA 프로젝트** 템플릿을 선택하고 **다음**.
 
@@ -41,7 +41,7 @@ DITA 프로젝트를 만들면 웹 편집기 또는 자산 UI에서 검토를 �
 
    의 정보 **기본** 탭:
 
-   ![](images/create-project.png)
+   ![](images/create-project.png){width="650" align="left"}
 
    - 프로젝트 입력 **제목**, **설명**, 및 **기한**.
 
@@ -75,4 +75,3 @@ DITA 프로젝트를 만들면 웹 편집기 또는 자산 UI에서 검토를 �
 
 
 **상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
-

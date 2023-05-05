@@ -1,13 +1,13 @@
 ---
 title: 항목 검토
 description: 항목을 검토하는 방법 알아보기
-source-git-commit: 849985574a4d21334ac73be3e664ff5ea9a898c4
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
 
 ---
-
 
 # 항목 검토 {#id2056B0W0FBI}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    DITA 맵을 사용하여 검토 워크플로우를 시작할 때 다음 화면이 나타납니다.
 
-   ![](images/multiple-topics-review.png)
+   ![](images/multiple-topics-review.png){width="800" align="left"}
 
    이 화면에서는 다음 옵션을 사용할 수 있습니다.
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
    맵의 모든 항목은 단일 복합 문서로 표시됩니다. 검토자가 검토할 수 있는 항목은 정상적으로 표시됩니다. 검토가 허용되지 않는 항목은 표시되지 않습니다.
 
-   ![](images/review-read-only.png)
+   ![](images/review-read-only.png){width="800" align="left"}
 
    위의 스크린샷에서는 일반적으로 표시되는 현재 검토자를 검토하기 위해 일반 설명 주제가 공유됩니다. 그러나 다음 항목인 비행 콘텐츠의 기록은 검토를 위해 공유되지 않으며 읽기 전용 모드로 표시됩니다. 현재 포커스가 있는 주제도 목차에서 강조 표시됩니다.
 
    검토를 위해 주제 또는 여러 주제를 선택하고 공유하면 다음 화면이 나타납니다.
 
-   ![](images/review-composite-view.png)
+   ![](images/review-composite-view.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -85,15 +85,15 @@ ht-degree: 0%
 
 단일 항목을 보면 문서 보기로 다시 전환할 수 있는 추가 옵션이 제공됩니다. 다음 스크린샷에서는 맵 파일의 특정 주제가 검토용으로 열립니다. 강조 표시된 옵션 — **문서 보기 표시** 사용자가 맵 파일의 문서 보기로 다시 전환할 수 있습니다.
 
-![](images/switch-document-view.png)
+![](images/switch-document-view.png){width="800" align="left"}
 
 **다양한 유형의 주석 달기 도구 작업** - 텍스트를 강조 표시하고 텍스트를 강조하거나 텍스트를 삽입하거나 주석 메모를 추가하여 인라인 주석을 추가할 수 있습니다. [주석] 도구 모음에서 제공하는 다양한 유형의 주석 달기 도구는 아래에 설명되어 있습니다.
 
-![](images/comments-toolbar.png)
+![](images/comments-toolbar.png){width="350" align="left"}
 
 - **강조 표시** \(![](images/review-highlight-icon.svg)\): 강조 표시 주석을 추가하려면 텍스트를 선택하고 강조 표시 아이콘을 클릭합니다. 또는 강조 표시 아이콘을 클릭하고 원하는 텍스트를 선택합니다.
 
-   ![](images/highlight-comment.png)
+   ![](images/highlight-comment.png){width="650" align="left"}
 
    [주석] 패널에 강조 표시된 컨텐츠에 대한 설명을 추가할 수 있는 팝업이 나타납니다.
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. 강조표시하거나 건너뛸 텍스트를 선택합니다. 상황별 도구 모음이 표시됩니다.
 
-   ![](images/review-quick-launch-toolbar.png)
+   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
 1. 을(를) 클릭합니다. **강조 표시**&#x200B;또는 **취소선** 아이콘.
 1. 주석 패널에 강조 표시 또는 취소선 작업에 대한 주석을 추가할 수 있습니다.
@@ -128,7 +128,7 @@ ht-degree: 0%
 - 주석 패널에서 주석 텍스트를 클릭한 다음 선택하여 주석을 편집할 수 있습니다 **편집** 옵션 메뉴에서 을 클릭합니다.
 - 댓글 패널에서 주석을 클릭한 다음 **삭제** 옵션 메뉴의 옵션을 선택합니다.
 
-   ![](images/review-comment-options-menu.png)
+   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
    >[!NOTE]
    >
@@ -142,17 +142,17 @@ ht-degree: 0%
 
 - 다음 스크린샷에서는 의 컨텐츠를 보여줍니다. *검토* 모드:
 
-![](images/review-author-mode.png)
+![](images/review-author-mode.png){width="550" align="left"}
 
 다음 스크린샷에서는 의 컨텐츠를 보여줍니다. *미리 보기* 모드:
 
-![](images/review-preview-mode.png)
+![](images/review-preview-mode.png){width="550" align="left"}
 
 **주석에 첨부 파일 추가** - 다른 파일에서 사용 가능한 추가 정보를 제공하여 주석을 보완하려면 주석에 첨부하면 됩니다. 검토자는 로컬 시스템에서 한 개 또는 여러 개의 파일을 주석에 쉽게 추가할 수 있습니다. 지원되는 모든 형태의 주석(강조 표시, 취소선, 텍스트 삽입 또는 주석)에 파일을 추가할 수 있습니다.
 
 주석을 삽입하면 주석 추가 팝업이 나타납니다. 팝업에 추가 설명이나 정보를 제공한 후 Enter 키를 눌러 제출합니다. 주석이 추가되면 해당 주석에 첨부 파일을 추가하는 옵션이 제공됩니다.
 
-![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png){width="800" align="left"}
 
 위의 스크린샷에서는 강조 표시 댓글의 팝업이 문서에 포함되어 있으며 [주석] 패널에도 주석이 추가됩니다. 첨부 파일 아이콘 ![](images/file-attach-review.svg)두 위치 모두에서 주석과 함께 사용할 수 있습니다.
 
@@ -177,21 +177,21 @@ ht-degree: 0%
 
 - 기본적으로 주석이 첨부된 두 파일만 표시됩니다. 파일이 더 있으면 **첨부 파일 보기** 오른쪽 버튼은 주석과 연결된 모든 첨부 파일 \(둘 이상)의 수를 표시합니다. 숫자를 클릭하여 모든 첨부 파일을 볼 수 있습니다. 예를 들어 주석에 첨부된 첨부 파일이 4개 있는 경우 단추에 +2가 표시됩니다.
 
-![](images/review-view-attachment.png)
+![](images/review-view-attachment.png){width="550" align="left"}
 
 - 첨부 파일 위에 마우스 포인터를 두면 첨부 파일을 다운로드하거나 제거할 수 있는 옵션이 제공됩니다. 다음 스크린샷과 같이 현재 검토자가 해당 주석을 추가한 경우에만 첨부 파일을 제거할 수 있습니다.
 
-![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png){width="550" align="left"}
 
 다른 검토자나 작성자는 첨부 파일 다운로드 옵션만 받습니다.
 
-![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png){width="550" align="left"}
 
 - 주석에서 주석과 연관된 모든 첨부 파일을 다운로드할 수 있습니다 **첨부 파일 보기** 대화 상자. 첨부 파일을 선택하고 **다운로드** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
 
 - 주석에서 주석과 연관된 첨부 파일을 삭제할 수도 있습니다 **첨부 파일 보기** 대화 상자. 첨부 파일을 선택하고 **삭제** 아이콘.
 
-![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
 **조건 패널** - 주제에 조건부 콘텐츠가 있다면 **조건** \(![](images/conditions-icon.svg)\) 아이콘을 클릭합니다. 클릭 **조건** 아이콘을 클릭하면 항목의 사용 가능한 조건에 따라 컨텐츠를 강조 표시할 수 있는 조건 패널이 열립니다.
@@ -200,7 +200,7 @@ ht-degree: 0%
 
 : 비활성화할 수 있습니다 **모든 조건 강조 표시** 옵션을 선택하면 주제에 있는 모든 컨텐츠를 강조 표시 없이 일반 텍스트로 볼 수 있습니다.
 
-![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png){width="350" align="left"}
 
 특정 조건을 숨기거나 표시하도록 선택할 수 있습니다.
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 - 조건 조건부 콘텐츠를 표시하는 경우 검토 모드에서 강조 표시됩니다. 예를 들어 다음 스크린샷에서는 컨텐츠만 두 가지 조건을 사용합니다. `win` 및 `mac` 이 강조 표시됩니다.
 
 
-![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png){width="650" align="left"}
 
 미리 보기 모드에서는 표시된 두 가지 조건을 사용하는 조건부 콘텐츠 및 조건부 콘텐츠 `win` 및 `mac` 이 표시됩니다. 조건이 숨겨지는 나머지 조건부 콘텐츠는 표시되지 않습니다.
 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 - 오래된 주석 아이콘 \( 클릭)![](images/outdated-comment-icon.svg)\)는 문서의 최신 버전과 주석 처리된 버전 간의 차이를 표시합니다. 비교 중인 버전 번호 \(버전 번호\)가 문서 맨 위에 표시됩니다.
 
-   ![](images/comments-page-review-mode.png)
+   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -244,4 +244,3 @@ ht-degree: 0%
 필터를 제거하고 모든 주석을 보려면 **필터 유형** 대화 상자 및 클릭 **적용**.
 
 **상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 사용자 지정된 템플릿을 기반으로 맵 만들기
 description: 사용자 지정된 템플릿을 기반으로 맵을 만드는 방법을 알아봅니다
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정된 템플릿을 기반으로 맵 만들기 {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ AEM 가이드를 사용하면 dita-templates 폴더에서 사용자 정의된 �
 
 1. 에서 **자산 UI**&#x200B;를 클릭하고 dita-templates 폴더로 이동합니다.
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. 클릭 **항목** 폴더를 열어 엽니다. **\> DITA 템플릿 만들기**.
 1. 블루프린트 페이지에서 **주제** 을 클릭한 다음 **다음.**
@@ -55,7 +55,7 @@ AEM 가이드를 사용하면 dita-templates 폴더에서 사용자 정의된 �
 1. 클릭 **지도** 폴더를 열어 엽니다.
 1. 클릭 **\> DITA 템플릿 만들기.**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. 블루프린트 페이지에서 **맵** 을(를) 클릭합니다. **다음**.
 1. 속성 페이지에서 맵 템플릿을 지정합니다 **제목**.
@@ -104,7 +104,11 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 예
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## 맵 템플릿을 사용하여 새 맵 만들기
@@ -144,4 +148,3 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 - 폴더의 동일한 수준에서 다른 맵이나 주제를 만들 경우 새로 만든 자산의 이름에 0,1,2 등이 추가됩니다. 편집할 맵을 열거나 저장소에 맵 파일을 저장하도록 선택할 수 있습니다.
 
 **상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
-

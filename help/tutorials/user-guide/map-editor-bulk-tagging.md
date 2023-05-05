@@ -1,13 +1,13 @@
 ---
 title: DITA 컨텐츠의 벌크 태그 지정
 description: DITA 컨텐츠의 벌크 태그 지정 방법 알아보기
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # DITA 컨텐츠의 벌크 태그 지정 {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ AEM 가이드를 사용하면 몇 번의 클릭으로 DITA 콘텐츠에 태그�
 
 1. 태그를 적용할 주제 또는 하위 맵을 선택합니다.
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ AEM 가이드를 사용하면 몇 번의 클릭으로 DITA 콘텐츠에 태그�
 주제에 적용되는 태그 목록이 긴 경우 탐색하기가 약간 번거로울 수 있습니다. 태그 숨기기 아이콘을 클릭하여 DITA 맵 콘솔 보기에서 태그를 쉽게 숨길 수 있습니다. 마찬가지로 태그가 표시되지 않으면 태그 표시를 클릭하면 모든 태그가 표시됩니다.
 
 **상위 항목:**[&#x200B;메타데이터 관리](manage-metadata.md)
-

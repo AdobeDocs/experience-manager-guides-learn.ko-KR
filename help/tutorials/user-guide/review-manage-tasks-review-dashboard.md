@@ -1,13 +1,13 @@
 ---
 title: 검토 대시보드를 사용하여 검토 작업 관리
 description: 검토 대시보드를 사용하여 검토 작업을 관리하는 방법을 알아봅니다
-source-git-commit: f3d747082103c73a365ee400cbd4dcdabd36eabf
+exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
 
 ---
-
 
 # 검토 대시보드를 사용하여 검토 작업 관리 {#id2056B0Y70X4}
 
@@ -23,13 +23,13 @@ ht-degree: 0%
 
    작업 타일이 있는 프로젝트 패널이 표시됩니다.
 
-   ![](images/review-management.png)
+   ![](images/review-management.png){width="800" align="left"}
 
 1. 에서 세 점을 클릭합니다 **검토** 타일.
 
    검토 대시보드가 표시됩니다. 대시보드에는 사용자가 만든 모든 검토 작업이 나열됩니다.
 
-   ![](images/review-dashboard.png)
+   ![](images/review-dashboard.png){width="800" align="left"}
 
    검토 대시보드는 작업 이름, 검토를 시작한 날짜, 검토를 시작한 날짜, 기한 날짜, 상태, 작성자가 수락하거나 거부하지 않은 새 주석 수, 검토자 이름 등 검토 작업에 대한 세부 정보를 표시합니다. 작업은 새로 생성된 작업 순서대로 이전 작업에 나열됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 작업 탭
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 에서는 다음 작업을 수행할 수 있습니다 **작업** 탭:
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 콘텐츠 탭
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 에서는 다음 작업을 수행할 수 있습니다 **컨텐츠** 탭:
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 검토자 탭 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 에서는 다음 작업을 수행할 수 있습니다 **검토자** 탭:
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 기본 검토 대시보드 페이지에서 검토 작업을 선택하고 을 클릭합니다 **상태**&#x200B;로 설정되면 검토 작업의 상태 보고서가 표시됩니다.
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 검토 작업의 상태 보고서에는 다음 세부 정보가 포함됩니다.
 
@@ -123,4 +123,3 @@ ht-degree: 0%
 - 검토자가 항목을 마지막으로 액세스한 날짜입니다.
 
 **상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
-

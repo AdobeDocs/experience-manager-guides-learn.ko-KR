@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
+source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 7%
@@ -86,7 +86,7 @@ ht-degree: 7%
                + [기본 맵 편집기 작업](./user-guide/map-editor-basic-map-editor.md)
                + [맵 편집기의 기타 기능](./user-guide/map-editor-other-features.md)
             + DITAVAL 편집기 {#ditaval-editor}
-               + [DITAVAL 편집기를 사용하여 작업](./user-guide/id17C5E0U0OQE.md)
+               + [DITAVAL 편집기를 사용하여 작업](./user-guide/ditaval-editor.md)
          + 컨텐츠 작성을 위한 데스크탑 도구 {#author-using-desktop-tools}
             + [데스크탑 도구를 사용하여 컨텐츠 작성](./user-guide/author-desktop-tools.md)
             + [FrameMaker 작업](./user-guide/author-desktop-framemaker.md)

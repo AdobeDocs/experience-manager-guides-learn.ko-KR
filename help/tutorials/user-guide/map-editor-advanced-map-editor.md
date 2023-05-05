@@ -1,13 +1,13 @@
 ---
 title: 고급 맵 편집기 작업
 description: 고급 맵 편집기 작업 방법 알아보기
-source-git-commit: cb0f21b0e22c58da478a4b1a6d6aa99ad42f0f3d
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '3675'
 ht-degree: 0%
 
 ---
-
 
 # 고급 맵 편집기 작업 {#id1942D0S0IHS}
 
@@ -33,21 +33,21 @@ ht-degree: 0%
 
 1. 맵 파일을 선택한 상태에서 **항목 편집**.
 
-   ![](images/edit-map-main-menu.png)
+   ![](images/edit-map-main-menu.png){width="800" align="left"}
 
    또는 다음을 선택할 수도 있습니다 **항목 편집** 맵 파일의 작업 메뉴에서 옵션:
 
-   ![](images/edit-map-action-menu.png)
+   ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    맵 파일은에서 편집할 수 있도록 웹 편집기에서 열립니다.
 
 1. 을(를) 클릭합니다. **편집** 아이콘.
 
-   ![](images/edit-map-icon.png)
+   ![](images/edit-map-icon.png){width="550" align="left"}
 
    맵이 고급 맵 편집기 인터페이스에서 열립니다. 새 맵 파일을 연 경우 맵의 제목만 편집기에 표시됩니다.
 
-   ![](images/new-map-file-in-editor.png)
+   ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
    - **A** - \(*기본 도구 모음*\): 이는 웹 편집기의 기본 도구 모음과 유사합니다. 자세한 내용은 [기본 도구 모음](web-editor-features.md#id2051EA0G05Z) 를 참조하십시오.
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    맵에 주제가 추가됩니다.
 
-   ![](images/map-editor-add-topic.png)
+   ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. 후속 주제나 하위 맵을 추가하려면 주제 또는 하위 맵을 맵의 필요한 위치에 드래그하여 놓습니다.
 
@@ -77,15 +77,15 @@ ht-degree: 0%
 
    - 맵 편집 영역에 가로 막대가 나타나는 위치에 파일이 추가됩니다. 다음 스크린샷에서는 *개요* 사이에 주제가 추가됩니다. *일반 설명* 및 *시작 및 랜딩 사이트* 주제.
 
-      ![](images/horizontal-line-in-adv-map-editor.png)
+      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - 주제를 바꾸려면 바꿀 항목의 위쪽, 왼쪽 또는 오른쪽에 주제를 놓습니다. 항목의 왼쪽 또는 오른쪽에 있는 세로 막대는 해당 주제와 함께 삭제되는 항목으로 대체됨을 나타냅니다.
 
-      ![](images/vertical-bar-left-right.png)
+      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
       그러나 항목을 대체하기 전에 확인 메시지가 표시됩니다. 확인 메시지를 표시한 후에만 해당 항목이 교체됩니다.
 
-      ![](images/replace-topic-confirm.png)
+      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - 하위 맵을 DITA 맵에 추가하면 하위 맵이 DITA 맵에 링크로 표시됩니다. 하위 맵의 모든 항목을 보려면 하위 맵 링크를 Crtl+클릭합니다. 하위 맵의 컨텐츠가 새 탭에 표시됩니다. 마찬가지로 DITA 맵에서 주제를 열려면 Crtl+주제 링크를 클릭하면 새 탭에 열립니다.
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
    - 주제의 위치를 변경하려면 \(주제 아이콘\ 을 클릭하여) 주제를 선택한 다음, 맵 파일에서 원하는 위치에 항목을 드래그하여 놓습니다. 항목을 배치할 위치에 가로 막대가 표시되는지 확인합니다. 다음 스크린샷에서는 주제가 다음과 같습니다 *시작 및 랜딩 사이트* 다음 이후 이동 중 *개요* 주제.
 
-      ![](images/move-topic-adv-map-editor.png)
+      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - 맵 파일의 속성을 확인하려면 맵 편집 영역의 아무 곳이나 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **속성** 컨텍스트 메뉴에서 을 클릭합니다. AEM 버전을 기준으로 메타데이터, 예약 \(de\)활성화, 참조, 문서 상태 등과 같은 속성을 볼 수 있습니다.
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 **항목 참조 삽입** - ![](images/insert-topic-reference.png)
 
 항목 검색 대화 상자를 표시합니다. 삽입할 주제/맵 파일로 이동하고 선택 을 클릭하여 맵에 추가합니다.
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **항목 그룹 삽입** - ![](images/insert-topic-group.png)
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 EDEF 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하여 맵에서 사용할 키 정의를 정의합니다.
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **다음 항목 앞에 삽입/다음 항목 뒤에 삽입** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -199,7 +199,7 @@ EDEF 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하여 
 
 맵 파일에서 항목을 구성하는 것 외에도 레이아웃 보기의 요소에 사용할 수 있는 옵션 메뉴를 사용하여 다음 작업을 수행할 수도 있습니다.
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **추가**: 맵 편집기에서 새 주제나 빈 참조를 추가하도록 선택할 수 있습니다.
    - **빈 참조**: 이 옵션을 사용하면 DITA 맵에서 빈 참조를 추가할 수 있습니다. 나중에 삽입된 빈 참조를 두 번 클릭하고 주제 세부 사항을 추가할 수 있습니다. 자세한 내용은 [주제 만들기](web-editor-features.md#id228ICI0105U) 참조하십시오.
@@ -231,7 +231,7 @@ EDEF 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하여 
 
 - **기타 속성** 관리자가 속성에 대한 프로필을 생성한 경우 해당 속성이 구성된 값과 함께 제공됩니다. 컨텐츠 속성 패널을 사용하여 이러한 속성을 선택하고 주제의 관련 컨텐츠에 할당할 수 있습니다. 관리자가 구성한 속성을 **속성 표시** 편집기 설정에서 탭을 클릭합니다. 요소에 대해 정의된 속성이 레이아웃 및 개요 보기에 표시됩니다. 이렇게 하면 맵에서 특정 속성이 정의된 모든 항목을 빠르게 확인할 수 있습니다. 예를 들어 플랫폼 속성이 &#39;Android&#39;로 정의된 모든 항목이 있습니다.
 
-   ![](images/layout-inline-attributes.png)
+   ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
    자세한 내용은 *속성 표시* 내 *편집기 설정* 의 기능 설명 [왼쪽 패널](web-editor-features.md#id2051EA0M0HS) 섹션을 참조하십시오.
@@ -310,7 +310,7 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
    >
    > Assets UI에서 DITA 맵 파일을 선택하고 **항목 편집** 기본 도구 모음에서 웹 편집기를 실행합니다.
 
-   ![](images/web-editor-map-view_cs.png)
+   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1. \(*선택 사항입니다*\) 맵에서 항목을 선택하고 편집을 전에 파일을 체크 아웃할 수도 있습니다. 파일을 체크 아웃하려면\(s\) 왼쪽 창에서 하나 이상의 파일을 선택하고 을(를) 클릭합니다 **체크아웃**. 체크 아웃된 파일을 선택하고 **체크아웃 및 잠금 해제 취소** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
 
@@ -320,13 +320,13 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
 
    다음 스크린샷에서는 체크 아웃 및 잠금 \(A\), 체크 아웃 취소 및 잠금 해제 \(B\), 새 버전으로 저장 및 잠금 해제 \(C\), 편집 \(D\), 미리 보기 \(E\), 다른 DITA 파일 유형 \(F\) 및 체크 아웃된 파일의 아이콘을 강조 표시합니다.
 
-   ![](images/file-checkout-map-editor.png)
+   ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1. 주제 링크를 클릭하여 편집을 위해 웹 편집기에서 엽니다.
 
    편집기에서 여러 주제를 열 수 있으며 각 주제가 편집기의 새 탭에 열립니다. DITA 맵에 하위 맵이 포함되어 있어도 하위 맵의 주제가 새 탭에서 열리고 편집할 수도 있습니다. 하위 맵에서 항목을 보려면 하위 맵을 클릭하고 확장할 수 있습니다.
 
-   ![](images/web-editor-multiple-topics.png)
+   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
    맵 파일을 클릭하면 웹 브라우저의 새 탭에 맵이 열립니다.
 
@@ -334,14 +334,14 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
 
    - 개별적으로 저장할 수 있습니다. 을 클릭하면 **저장하지 않고 닫기** 저장되지 않은 항목을 저장하라는 대화 상자가 표시됩니다.
 
-      ![](images/save-multiple-topics.PNG)
+      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
       선택한 모든 항목을 저장하도록 선택하거나 저장하지 않으려는 항목을 선택 취소할 수 있습니다.
 
    - 다음 아이콘을 사용하여 항목을 확인할 수 있습니다. **새 버전으로 저장 및 잠금 해제** 버튼을 클릭합니다. 항목의 개정을 저장하면 새 개정이 생성되고 잠금도 해제됩니다.
    - 관리자가 파일 닫기 시 체크 인 옵션을 활성화한 경우 체크 아웃된 파일이 닫힐 때마다 파일을 저장하라는 메시지가 표시됩니다. 이 옵션을 활성화하면 변경된 파일로 편집기를 닫으면 저장해야 하는 체크 아웃된 파일 목록이 표시됩니다. 체크 아웃된 파일은 잠금 아이콘과 함께 표시됩니다.
 
-      ![](images/save-on-close.PNG)
+      ![](images/save-on-close.PNG){width="550" align="left"}
 
       - 클릭 **저장하지 않고 닫기** 단추는 변경 사항을 저장하지 않고 파일을 닫습니다.
 
@@ -364,7 +364,7 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
 
 - **고급 맵 편집기**: 고급 맵 편집기에서 미리 보기 아이콘을 클릭하여 현재 맵의 미리 보기를 확인합니다.
 
-   ![](images/map-preview-icon.png)
+   ![](images/map-preview-icon.png){width="350" align="left"}
 
    미리 보기 모드에서 다음 추가 작업을 수행할 수 있습니다.
 
@@ -380,4 +380,3 @@ DITA 맵을 통해 주제를 편집하려면 다음 단계를 수행합니다.
 
 
 **상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
-

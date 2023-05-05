@@ -1,13 +1,13 @@
 ---
 title: 알림을 사용하여 검토 작업 재할당
 description: 알림을 사용하여 검토 작업을 재할당하는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # 알림을 사용하여 검토 작업 재할당 {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
    >
    > 검토자는 재할당할 권한이 있어야 하며 사용자-관리자 그룹의 일부여야 합니다.
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. 선택 **재지정**.
 
@@ -37,4 +37,3 @@ ht-degree: 0%
 할당된 검토자가 받은 편지함에서 재할당된 검토 작업에 대한 알림을 받습니다.
 
 **상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
-

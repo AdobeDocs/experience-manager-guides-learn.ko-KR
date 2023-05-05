@@ -1,13 +1,13 @@
 ---
 title: 기본 맵 편집기 작업
 description: 기본 맵 편집기 작업 방법 알아보기
-source-git-commit: af5c64312a608affe95fd552b3dd1b2e05ea2b8e
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
 
 ---
-
 
 # 기본 맵 편집기 작업 {#id1942CM005Y4}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    맵 파일이 맵 편집기에서 편집을 위해 열립니다. 맵 편집기를 사용하여 참조 레일에 표시되는 현재 사용 가능한 주제를 사용하여 맵을 만듭니다.
 
-   ![](images/dita-map-01.png)
+   ![](images/dita-map-01.png){width="800" align="left"}
 
 1. 사용 **참조** 레일에서 추가할 주제 또는 하위 맵이 포함된 폴더로 이동합니다.
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 기본 맵 편집기의 기본 도구 모음에서 다음 작업을 수행할 수 있습니다.
 
-![](images/ditamap-toolbar-actions.png)
+![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
 **A: 검색**
 
 DAM에서 필요한 항목을 검색하고 포함할 수 있습니다. 이 아이콘을 클릭하면 검색 대화 상자가 표시됩니다.
 
-![](images/search-dita-map.png)
+![](images/search-dita-map.png){width="800" align="left"}
 
 검색할 키워드를 입력합니다. 이러한 키워드는 항목의 파일 이름, 컨텐츠 및 속성 값과도 일치합니다. 검색 결과를 사용할 수 있으면 원하는 항목을 선택하고 확인 단추를 클릭하여 맵 구조의 끝에 선택한 파일을 추가합니다. 날짜 수정 매개 변수를 지정하여 검색 결과를 필터링할 수 있습니다.
 
@@ -100,19 +100,19 @@ DAM에서 필요한 항목을 검색하고 포함할 수 있습니다. 이 아�
 **참고:** 기본 모드에서 키보드 단축키를 사용하여 \()를 실행 취소할 수 있습니다.`Ctrl+z`\) 또는 redo \(`Ctrl+y`\) 마지막 작업을 수행합니다.
 
 
-![](images/dita-map-invalid-source.png)
+![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: 맵 속성**
 
 맵에 대한 속성 및 메타데이터 정보를 설정할 수 있는 맵 속성 대화 상자를 표시합니다. 속성을 추가하려면 **추가** 대화 상자의 왼쪽 하단 모서리에 있는 버튼을 클릭하여 **속성** 드롭다운 목록. 목록에서 추가하려는 속성을 선택합니다. 선택한 속성에 DTD에 사전 정의된 값이 지정되어 있으면 해당 값이 새 드롭다운 목록에 표시됩니다. 드롭다운 목록에서 원하는 값을 선택할 수 있습니다. 사전 정의된 값이 없으면 선택한 속성에 대한 값을 입력하는 텍스트 상자가 표시됩니다.
 
-![](images/map-properties.png)
+![](images/map-properties.png){width="300" align="left"}
 
 ## 기본 맵 편집기의 주제 수준에서 사용할 수 있는 기능
 
 기본 맵 편집기에서 주제 또는 하위 맵 파일 위에 마우스 포인터를 두면 다음 작업을 수행할 수 있습니다.
 
-![](images/ditamap-actions.png)
+![](images/ditamap-actions.png){width="650" align="left"}
 
 **A: 왼쪽으로 이동 또는 오른쪽으로 이동**
 
@@ -123,7 +123,7 @@ DAM에서 필요한 항목을 검색하고 포함할 수 있습니다. 이 아�
 속성 아이콘을 클릭하여 Topicref 속성 대화 상자를 엽니다. 이 대화 상자를 사용하여 주제 속성 및 메타데이터 정보를 설정할 수 있습니다. 표준 주제 속성 및 메타데이터에 대한 자세한 내용은 [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) OASIS DITA Language Specification의 설명서입니다.
 
 
-![](images/map-properties-metadata.png)
+![](images/map-properties-metadata.png){width="350" align="left"}
 
 **C: 새 참조 추가**
 
@@ -155,7 +155,7 @@ AEM 안내서의 맵 편집기에는 DITA 맵에서 관계 테이블을 만들�
 
 1. 선택 **상대 가능** 를 클릭합니다.
 
-   ![](images/reltable.png)
+   ![](images/reltable.png){width="650" align="left"}
 
 1. 주제 목록에서 관련 항목을 테이블 편집기로 드래그하여 놓습니다.
 
@@ -163,13 +163,13 @@ AEM 안내서의 맵 편집기에는 DITA 맵에서 관계 테이블을 만들�
    >
    > 참조 레일의 모든 폴더에서 항목을 추가할 수 있습니다.
 
-   ![](images/create-reltable.png)
+   ![](images/create-reltable.png){width="550" align="left"}
 
 1. 관계 테이블에 헤더를 추가하려면 **Relheader 추가**.
 
 1. 관계 테이블에 열을 추가하려면 **열 추가**.
 
-   ![](images/complete-reltable.png)
+   ![](images/complete-reltable.png){width="550" align="left"}
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -189,4 +189,3 @@ AEM 안내서의 맵 편집기에는 DITA 맵에서 관계 테이블을 만들�
 관계 테이블을 삭제하려면 관계 테이블 바깥쪽을 클릭하고 삭제를 누릅니다.
 
 **상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
-

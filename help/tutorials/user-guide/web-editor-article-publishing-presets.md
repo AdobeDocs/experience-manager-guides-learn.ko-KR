@@ -1,13 +1,13 @@
 ---
 title: 웹 편집기에서 출력 사전 설정 만들기
 description: 웹 편집기에서 출력 사전 설정을 만드는 방법을 알아봅니다
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # 웹 편집기에서 출력 사전 설정 만들기 {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 에서 **출력** 탭에서 + 아이콘을 선택하여 DITA 맵에 대한 출력 사전 설정을 만듭니다.
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. 사전 설정 추가 대화 상자에 사전 설정 이름을 입력한 다음 을 클릭합니다 **추가**.
 
@@ -43,20 +43,19 @@ ht-degree: 0%
    1. 에서 **문서** 탭에서 출력을 생성할 항목을 선택합니다.
 1. 을(를) 선택합니다 **사전 설정 생성** 아이콘을 클릭하여 출력을 생성합니다.
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. 출력 생성 프로세스의 상태가 표시됩니다. 다음 **항목** 열에는 **상태** 열에는 각 항목의 게시 상태가 표시됩니다.
 
    출력을 보려면 주제 위에 마우스 포인터를 놓고 출력 보기를 클릭합니다.
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > 옵션 메뉴에서 기존 출력 사전 설정을 편집, 이름 변경, 복제 또는 삭제할 수도 있습니다.
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **상위 항목:**[&#x200B;웹 편집기에서 문서 기반 게시](web-editor-article-publishing.md)
-

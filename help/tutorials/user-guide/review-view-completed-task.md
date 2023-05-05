@@ -1,13 +1,13 @@
 ---
 title: 완료된 검토 작업 보기
 description: 완료된 검토 작업을 보는 방법 알아보기
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # 완료된 검토 작업 보기
 
@@ -19,8 +19,7 @@ ht-degree: 0%
 
 그러나 주석을 검색하거나 필터링할 수 있습니다. 조건을 표시하거나 숨기거나 조건부 콘텐츠를 그에 따라 표시하도록 선택할 수도 있습니다. 첨부 파일을 다운로드할 수 있지만 주석에 대한 첨부 파일을 업로드하거나 삭제할 수 없습니다.
 
-<img src="images/complete-task-reviewer.png" alt="작업 검토자 검토 완료" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## 작성자
@@ -29,7 +28,6 @@ ht-degree: 0%
 
 그러나 주석을 검색하거나 필터링할 수 있습니다. 첨부 파일을 다운로드할 수 있지만 주석에 대한 첨부 파일을 업로드하거나 삭제할 수 없습니다.
 
-<img src="images/completed-task-author.png" alt=" 완료된 검토 작업 작성자" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 따라서 검토자나 작성자는 검토자가 모두 주석과 함께 검토된 컨텐츠를 볼 수 있지만 완료된 검토 작업에서는 변경할 수 없습니다.
-

@@ -1,13 +1,13 @@
 ---
 title: 빠른 생성 패널 사용
 description: 빠른 생성 패널을 사용하는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # 빠른 생성 패널을 사용하여 출력을 생성하고 볼 수 있습니다 {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ AEM 안내서에서는 **빠른 생성** 패널은 웹 편집기 내에 통합�
 >
 > 다음 **빠른 생성** 맵 보기 패널에서 열린 DITA 맵에 대해 패널이 나타납니다.
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 다음 단계를 수행하여 을 통해 출력을 생성합니다. **빠른 생성** 패널:
 
@@ -28,4 +28,3 @@ AEM 안내서에서는 **빠른 생성** 패널은 웹 편집기 내에 통합�
 1. 클릭 **출력 보기** \( ![](images/view-output-icon.svg)\) 특정 사전 설정의 아이콘을 클릭하여 사전 설정에 대해 생성된 출력을 확인합니다.
 
 **상위 항목:**[&#x200B;웹 편집기 작업](web-editor.md)
-

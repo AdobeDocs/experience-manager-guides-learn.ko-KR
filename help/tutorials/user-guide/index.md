@@ -1,5 +1,5 @@
 ---
-source-git-commit: 09a77f4acac6902935c587af9a0568cd8761810f
+source-git-commit: 834e67fa1f015b86082b42c4213976ee24a403d5
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 2%
@@ -43,7 +43,7 @@ ht-degree: 2%
          - [고급 맵 편집기 작업](map-editor-advanced-map-editor.md)
          - [기본 맵 편집기 작업](map-editor-basic-map-editor.md)
          - [맵 편집기의 기타 기능](map-editor-other-features.md)
-      - [DITAVAL 편집기](id17C5E0U0OQE.md#id17C5E0U0OQE)
+      - [DITAVAL 편집기](ditaval-editor.md#ditaval-editor)
    - [데스크탑 도구를 사용하여 컨텐츠 작성](author-desktop-tools.md)
       - [FrameMaker 작업](author-desktop-framemaker.md)
       - [산소로 작업](author-desktop-oxygen.md)

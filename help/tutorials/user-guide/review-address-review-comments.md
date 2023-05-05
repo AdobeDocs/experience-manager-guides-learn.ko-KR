@@ -1,13 +1,13 @@
 ---
 title: 주소 검토 주석
 description: 검토 주석을 처리하는 방법 알아보기
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # 주소 검토 주석 {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 > 검토 주석\(활성 검토 문서의 경우\)의 주소를 지정하는 동안 전체 태그 보기가 활성화된 여러 탭에서 검토 중 항목을 열지 말고, 작성자와 소스 보기 모드 간을 전환하지 마십시오.
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 웹 편집기 모드에서 오른쪽 패널에는 검토 및 추적된 변경 사항 아이콘이 포함되어 있습니다. 검토 패널에는 검토자가 문서에 적용한 모든 주석이 표시됩니다. [변경 내용 추적] 패널에는 문서에 삽입되어 삭제된 모든 주석의 상태가 표시됩니다.
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
    제안된 변경 사항 \(삽입 또는 삭제\)를 한 번에 하나씩 통합하려면 컨텐츠의 설명을 마우스 오른쪽 단추로 클릭하고 변경 수락 또는 변경 거부 를 선택하면 됩니다. 선택한 내용에 따라 주석이 수락되거나 거부됩니다. 수락된 댓글의 경우 컨텐츠가 컨텐츠에 추가됩니다. 그리고 거부될 경우 콘텐츠에서 제거됩니다. 또한 [검토] 패널에서 주석 상태가 변경됩니다.
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    오른쪽 패널의 검토 기능을 사용하여 주석을 수락하거나 거부할 수도 있습니다. 주석을 클릭하면 문서에 있는 주석이 강조 표시됩니다.
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ ht-degree: 0%
 
 
 **상위 항목:**[&#x200B;항목 또는 맵 검토](review.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 문서 상태
 description: 상태를 문서화하는 방법 알아보기
-source-git-commit: 13106cd1c7f6d38fecb67dd93eef66263eb29bae
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # 문서 상태 {#id1821HC00URO}
 
@@ -69,11 +69,11 @@ AEM Guides는 문서 승인 작업 과정을 제공하여 문서 개발 프로�
 
 1. 문서가 승인됨으로 표시할 상태에 있는 경우 다음 대화 상자가 나타납니다.
 
-   ![](images/mark-approved-correct-state.png){width="550" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
    문서를 승인됨으로 표시할 수 없으면 다음 메시지가 표시됩니다.
 
-   ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1. 문서를 승인됨으로 표시할 준비가 된 경우 드롭다운 목록에서 레이블을 선택하고 을(를) 클릭합니다 **승인**.
 
@@ -102,4 +102,3 @@ AEM Guides는 문서 승인 작업 과정을 제공하여 문서 개발 프로�
 
 
 **상위 항목:**[&#x200B;웹 편집기 작업](web-editor.md)
-

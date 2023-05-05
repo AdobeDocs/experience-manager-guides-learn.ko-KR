@@ -1,13 +1,13 @@
 ---
 title: 레이블 사용
 description: 레이블 사용 방법 알아보기
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # 레이블 사용 {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ AEM 가이드를 사용하면 파일의 다른 버전에 레이블을 추가할 
 
    선택한 항목의 버전 기록에 레이블이 표시됩니다. 다음 스크린샷에는 레이블이 표시됩니다 *x.x 릴리스* 및 *사용 안내서* 강조 표시된 버전의 주제에 추가되었습니다.
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ AEM 가이드를 사용하면 파일의 다른 버전에 레이블을 추가할 
 
    버전 기록에는 주제의 모든 버전과 그에 첨부된 레이블이 표시됩니다. 다음 이미지는 여러 버전의 주제에 대한 예를 보여주고 한 버전에 추가된 레이블이 있습니다.
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. 삭제 단추 \(**X**\) 레이블을 삭제합니다.
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **상위 항목:**[&#x200B;웹 편집기 작업](web-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 맵 만들기
 description: 맵을 만드는 방법 알아보기
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # 맵 만들기 {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ AEM 안내서에서는 DITA 맵과 북맵, 이렇게 두 가지 기본 맵 템�
    >
    > 맵 파일에서 항목을 참조하는 방법은 맵 템플릿에 따라 다릅니다. 예를 들어, 맵 템플릿을 선택하면 해당 항목은 \(`topicref`\)은 항목을 참조하는 데 사용됩니다. 북맵의 경우, 주제 참조는 `chapter` 요소(DITA에 있음)를 참조하십시오.
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. 속성 페이지에서 맵을 지정합니다 **제목**.
 
@@ -41,7 +41,7 @@ AEM 안내서에서는 DITA 맵과 북맵, 이렇게 두 가지 기본 맵 템�
 
    자산 UI에서 만드는 모든 새 맵 파일 **만들기** \> **DITA 맵** 또는 웹 편집기에 고유한 맵 ID가 할당됩니다. 또한 새 맵은 DAM의 최신 작업 복사본으로 저장됩니다. 새로 만든 맵의 개정을 저장할 때까지 버전 내역에 버전 번호가 표시되지 않습니다. 편집할 맵을 열면 맵 파일 탭의 오른쪽 상단 모서리에 버전 정보가 표시됩니다.
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    새로 만든 맵의 버전 정보는 다음과 같이 표시됩니다 *없음*. 새 버전을 저장하면 버전 번호가 1.0으로 할당됩니다. 새 버전 저장에 대한 자세한 내용은 [새 버전으로 저장](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ AEM 안내서에서는 DITA 맵과 북맵, 이렇게 두 가지 기본 맵 템�
 
 
 **상위 항목:**[&#x200B;맵 편집기 작업](map-editor.md)
-
