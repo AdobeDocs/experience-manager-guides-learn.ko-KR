@@ -1,9 +1,9 @@
 ---
 title: 컨텐츠 및 템플릿 설정
 description: AEM 안내서에서 콘텐츠 및 템플릿을 설정하는 데 모든 고려 사항을 배웁니다.
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 1%
 
 ## 다음 전문가 세션
 
-- **주제** - TBD
-- **예약됨** - 2023년 5월 25일
+- **주제** - 기본 PDF 게시 - 예별 학습(1부)
+- **예약됨** - 2023년 6월 1일
 
 
 ## 문의
