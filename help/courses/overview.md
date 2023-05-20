@@ -1,6 +1,6 @@
 ---
-title: 비디오 기반 학습 교육 과정 [!DNL Adobe Experience Manager Guides]
-description: 비디오 자습서 보기 [!DNL Adobe Experience Manager Guides], AEM XML 추가 기능, AEM XML 플러그인, AEM DoX 및 AEM Dox.
+title: 비디오 기반 학습 과정 [!DNL Adobe Experience Manager Guides]
+description: 다음에 대한 비디오 튜토리얼 보기 [!DNL Adobe Experience Manager Guides], AEM XML 추가 기능, AEM XML 플러그인, AEM DoX 및 AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
 source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
 workflow-type: tm+mt
@@ -9,24 +9,24 @@ ht-degree: 1%
 
 ---
 
-# 대상 비디오 교육 과정 [!DNL Adobe Experience Manager Guides] {#overview}
+# 비디오 교육 과정 [!DNL Adobe Experience Manager Guides] {#overview}
 
-비디오 기반 교육 과정에 대한 이 공간을 확인하십시오. [!DNL Adobe Experience Manager Guides].
+이 스페이스에서에 대한 비디오 기반 교육 과정 확인 [!DNL Adobe Experience Manager Guides].
 
 >[!NOTE]
 > 
-> Adobe Experience Manager 가이드는 이전에 &quot;XML Documentation for Adobe Experience Manager&quot;으로 지정되었습니다. 설명서 내의 특정 참조는 여전히 이전 브랜딩을 참조하지만 현재 오퍼링에 적용할 수 있습니다.
+> Adobe Experience Manager Guides는 이전에 &quot;Adobe Experience Manager용 XML Documentation&quot;로 브랜딩되었습니다. 설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
 
 ## 새로운 기능
 
-* **[[!DNL AEM Guides] 작성 과정](course-3/overview.md)**
+* **[[!DNL AEM Guides] 강의 작성](course-3/overview.md)**
 
-   *고급 사용 안내서 - [!DNL AEM Guides] 편집자*
+   *고급 사용 안내서 [!DNL AEM Guides] 편집자*
 
-* **[[!DNL AEM Guides] 시작 교육 과정](course-1/overview.md)**
+* **[[!DNL AEM Guides] 시작 과정](course-1/overview.md)**
 
-   *을 사용하여 컨텐츠를 작성, 구성, 작성 및 게시하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides].*
+   *를 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다 [!DNL Adobe Experience Manager Guides].*
 
-* **[출력 생성 [!DNL AEM Guides]](course-2/overview.md)**
+* **[을 사용한 출력 생성 [!DNL AEM Guides]](course-2/overview.md)**
 
-   *을 사용하여 출력을 생성하는 방법을 알아봅니다. [!DNL Adobe Experience Manager Guides]. 출력 생성에 사용할 수 있는 다양한 기능(보고서, 기준, 조건, 문제 해결, 일괄 게시 및 활성화)에 대해 알아봅니다.*
+   *을 사용하여 출력을 생성하는 방법에 대해 알아봅니다. [!DNL Adobe Experience Manager Guides]. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다.*

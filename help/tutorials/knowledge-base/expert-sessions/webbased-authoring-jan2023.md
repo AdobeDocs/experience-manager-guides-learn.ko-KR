@@ -5,7 +5,7 @@ exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ AEM Guides에는 구조화된 콘텐츠를 작성할 수 있는 웹 편집기가
 - **기간** - 60분
 - **대상자** - 고객, 파트너 및 Adobe 직원
 
-## 주요 개선 사항
+## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
 - 웹 편집기에 대한 설정 구성

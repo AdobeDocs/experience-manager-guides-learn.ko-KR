@@ -13,8 +13,8 @@ ht-degree: 0%
 
 # 웹 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
 
-웹 편집기 도구 모음에 작성자가 이미 특수 문자를 삽입할 수 있는 바로 가기 옵션이 있습니다.
-아래 스크린샷에서도 같은 내용을 볼 수 있습니다.
+웹 편집기 도구 모음에는 작성자가 이미 특수 문자를 삽입할 수 있는 바로 가기 옵션이 있습니다.
+아래 스크린샷에서도 동일한 내용을 볼 수 있습니다.
 
 ![특수 문자](assets/special-chars.png)
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 + AEM에 로그인하고 CRXDE Lite 모드를 엽니다.
 
-+ 다음 위치에 symbol.json 파일을 만듭니다. &#39;/apps/fmdita/xmleditor/&#39;(기본값을 &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39; 위치에서 복사할 수 있음)
++ &#39;/apps/fmdita/xmleditor/&#39; 위치에 symbols.json 파일을 만듭니다. (&#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39; 위치에서 기본값을 복사할 수 있습니다.)
 
-+ symbol.json 파일에 다음과 같이 특수 문자 정의를 추가합니다.
++ symbols.json 파일에 다음과 같이 특수 문자 정의를 추가합니다.
 
 ```
 {
@@ -43,19 +43,19 @@ ht-degree: 0%
 }
 ```
 
-symbol.json 파일의 구조는 아래에 설명되어 있습니다.
+symbols.json 파일의 구조는 아래에 설명되어 있습니다.
 
-+ &quot;label&quot;: &quot;논리 기호&quot;: 특수 문자의 카테고리를 지정합니다. 코드 조각에서 이름이 &quot;논리 기호&quot;인 카테고리가 정의됩니다.
++ &quot;label&quot;: &quot;논리적 기호&quot;: 특수 문자의 범주를 지정합니다. 코드 조각에 &quot;논리 기호&quot;라는 이름의 범주가 정의되어 있습니다.
 
-+ &quot;items&quot;: 카테고리에서 특수 문자 컬렉션을 정의합니다.
++ &quot;items&quot;: 카테고리에 있는 특수 문자의 컬렉션을 정의합니다.
 
-+ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;크거나 같음&quot;: 이는 특수 문자의 정의입니다. 이름은 &quot;name&quot; 레이블로 시작하며 변경할 수 없습니다. 이름 뒤에는 특수 문자가 옵니다. &quot;제목&quot;은 해당 특수 문자의 도구 설명으로 표시되는 특수 문자의 이름 또는 제목입니다.
++ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;크거나 같음&quot;: 특수 문자의 정의입니다. 이름은 &quot;name&quot; 레이블로 시작하며, 이 레이블은 변경하면 안 됩니다. 이름 뒤에는 특수 문자가 옵니다. 제목은 해당 특수 문자의 도구 설명으로 나타나는 특수 문자의 이름 또는 제목입니다.
 
-카테고리 내에서 특수 문자의 여러 정의를 정의할 수 있습니다.
+범주 내에서 특수 문자에 대한 여러 정의를 정의할 수 있습니다.
 
-특수 문자 대화 상자에 다른 카테고리가 추가됩니다.
+이렇게 하면 특수 문자 대화 상자에 다른 범주가 추가됩니다.
 
-![특수 기호 카테고리](assets/special-char-category.png)
+![특수 기호 범주](assets/special-char-category.png)
 
 ![특수 문자 삽입](assets/insert-special-char.png)
 

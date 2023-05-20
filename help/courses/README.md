@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Adobe Experience Manager 안내서
 
-&quot;AEM 안내서&quot; 교육 과정의 비디오 및 Markdown 파일을 저장하는 보고서입니다.
+AEM Guides 교육 과정의 비디오와 Markdown 파일을 저장하는 저장소입니다.

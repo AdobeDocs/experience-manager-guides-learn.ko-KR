@@ -5,7 +5,7 @@ exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 - **기간** - 60분
 - **대상자** - 고객, 파트너 및 Adobe 직원
 
-## 주요 개선 사항
+## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
 - 기업이 비즈니스 개선을 위해 번역에 투자하는 이유

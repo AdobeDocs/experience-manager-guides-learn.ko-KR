@@ -5,7 +5,7 @@ exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ AEM Guides의 릴리스 관리는 게시나 번역에 사용할 수 있는 주�
 - **기간** - 60분
 - **대상자** - 고객, 파트너 및 Adobe 직원
 
-## 주요 개선 사항
+## 핵심 사항
 
 이 세션에서는 다음에 대해 알아봅니다.
 - AEM Guides의 다양한 기준선 작업

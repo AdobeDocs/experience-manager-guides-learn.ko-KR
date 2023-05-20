@@ -1,6 +1,6 @@
 ---
 title: .book 또는 .fm 파일의 출력 생성
-description: .book 또는 .fm 파일의 출력을 생성하는 방법을 알아봅니다.
+description: .book 또는 .fm 파일의 출력을 생성하는 방법에 대해 알아봅니다
 exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행합니다.
 
-1. Assets UI에서 로 이동하고 `.book` 또는 `.fm` 게시할 파일입니다.
+1. Assets UI에서 로 이동하여 `.book` 또는 `.fm` 게시할 파일입니다.
 
-   출력을 생성하는 데 사용할 수 있는 출력 사전 설정 목록을 표시하는 DITA 맵 콘솔이 나타납니다.
+   DITA 맵 콘솔이 나타나고 출력을 생성하는 데 사용할 수 있는 출력 사전 설정 목록이 표시됩니다.
 
    ![](images/publish-fm-doc.png){width="800" align="left"}
 
-1. 출력을 생성하는 데 사용할 출력 사전 설정을 하나 이상 선택합니다.
+1. 출력을 생성하는 데 사용할 [출력 사전 설정]을 하나 이상 선택합니다.
 
-1. 생성 아이콘을 눌러 출력 생성 프로세스를 시작합니다.
+1. 생성 아이콘을 클릭하여 출력 생성 프로세스를 시작합니다.
 
 
 >[!NOTE]

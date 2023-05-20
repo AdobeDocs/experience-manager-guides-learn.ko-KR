@@ -13,7 +13,7 @@ ht-degree: 8%
 
 >[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
-이 교육 과정에서는 다음과 같은 내용을 학습했습니다.
+이 과정에서 학습한 내용은 다음과 같습니다.
 
 - [사용자 환경 설정 및 설정](./user-settings-preferences-toolbars.md)
 
@@ -27,18 +27,18 @@ ht-degree: 8%
 
 - [상호 참조 및 링크](cross-references-and-links.md)
 
-- [컨텐츠 재사용](content-reuse.md)
+- [콘텐츠 재사용](content-reuse.md)
 
 - [키](keys.md)
 
 - [용어 설명](glossary.md)
 
-- [맞춤법 검사 및 찾기 및 바꾸기](spell-check.md)
+- [맞춤법 검사와 찾기 및 바꾸기](spell-check.md)
 
-- [변경 사항 추적](track-changes.md)
+- [변경 내용 추적](track-changes.md)
 
 - [조건](conditions.md)
 
-- [맵 및 책갈피](maps-and-bookmaps.md)
+- [지도 및 책갈피](maps-and-bookmaps.md)
 
-- [간단한 컨텐츠 작성 워크플로우](simple-content-creation-workflows.md)
+- [간단한 콘텐츠 작성 워크플로](simple-content-creation-workflows.md)
