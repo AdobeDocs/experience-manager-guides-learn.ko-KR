@@ -2,9 +2,9 @@
 title: 번역 상태 보기
 description: 번역 상태를 보는 방법 알아보기
 exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,5 @@ DITA 맵의 변환 상태를 보려면 다음 단계를 수행하십시오.
    >[!NOTE]
    >
    > 번역 상태 \(동기화되지 않은 사본, 진행 중 또는 동기화 중\), 소스 유형 \(모두, DITA, DITA 맵 또는 리소스\), 수정 날짜를 기준으로 콘텐츠를 추가로 필터링할 수 있습니다. 키워드를 입력하여 특정 주제를 검색할 수도 있습니다.
-
-   ![](images/status-translation-uuid.png){width="800" align="left"}
-
-
-번역 탭에는 다음 섹션이 있습니다.
-
-- **요약**: 참조된 주제 및 소스 언어의 수를 해당 코드와 함께 표시합니다.
-- **세부 사항**: 주제 제목, 주제 유형, 주제의 언어 코드, 소스 언어, 소스 주제의 버전, 주제에 추가된 레이블 및 번역 상태를 표시합니다.
 
 **상위 항목:**[&#x200B;콘텐츠 번역](translation.md)

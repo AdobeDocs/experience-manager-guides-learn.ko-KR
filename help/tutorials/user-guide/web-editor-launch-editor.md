@@ -2,9 +2,9 @@
 title: 웹 편집기 실행
 description: 웹 편집기를 시작하는 방법 알아보기
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,34 @@ ht-degree: 0%
 
 AEM에 로그인하면 탐색 페이지가 표시됩니다.
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-클릭 **XML 편집기** 링크를 클릭하면 웹 편집기로 바로 이동합니다.
+클릭 **안내서** 링크를 클릭하면 웹 편집기로 바로 이동합니다.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 파일을 선택하지 않고 웹 편집기를 시작하면 빈 웹 편집기 화면이 표시됩니다. AEM 저장소 또는 즐겨찾기 컬렉션에서 편집할 파일을 열 수 있습니다.
+
+- 다음을 클릭합니다. **안내서** 아이콘(![](images/aem-guides-icon.png) )를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
+
+- 다음 **닫기** 버튼을 클릭하면 설정에 따라 대상으로 이동합니다.
+
+
+
+   <details>
+
+   <summary> 클라우드 서비스 </summary>
+
+   Cloud Services을 사용하는 경우 **닫기** 단추를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
+   </details>
+
+   <details>
+
+   <summary> On-premise Software</summary>
+
+   AEM Guides On-premise Software(4.2.1 이상)를 사용 중인 경우 **닫기** 오른쪽의 버튼을 클릭하여 자산 UI에서 현재 파일 경로로 돌아갑니다.
+
+   </details>
 
 ## AEM ASSETS UI {#id2056BG0307U}
 

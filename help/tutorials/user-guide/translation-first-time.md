@@ -2,9 +2,9 @@
 title: 콘텐츠 번역 모범 사례
 description: 콘텐츠 번역 모범 사례 알아보기
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,16 @@ ht-degree: 1%
 1. 클릭 **시작** 를 클릭하여 새 번역 프로젝트를 만듭니다.
 
    선택한 버전의 주제로 새 번역 프로젝트가 만들어집니다. 이때 번역 프로젝트가 생성되었음을 확인하는 팝업 메시지가 표시됩니다. 번역 프로젝트에서 모든 타겟 언어 사본을 사용할 수 있게 되면 받은 편지함에서 알림을 받게 됩니다. 번역 프로젝트에서 타겟 언어 사본 영역을 사용할 수 있으면 번역 작업을 시작할 수 있습니다.
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+번역 탭에는 다음 섹션이 있습니다.
+
+- **요약**: 참조된 주제 및 소스 언어의 수를 해당 코드와 함께 표시합니다.
+- **세부 사항**: 주제 제목, 주제 유형, 주제의 언어 코드, 소스 언어, 소스 주제의 버전, 주제에 추가된 레이블 및 번역 상태를 표시합니다.
+
+
 
 
 ## 번역 작업 시작 {#id225IK030OE8}
