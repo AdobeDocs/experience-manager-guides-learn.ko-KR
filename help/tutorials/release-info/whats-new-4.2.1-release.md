@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2.1 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.2.1 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
+source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 * 다음을 클릭합니다. **안내서** 아이콘(![](assets/aem-guides-icon.png) )를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
 
 
-자세한 내용은 [AEM 탐색 페이지](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
+자세한 내용은 [AEM 탐색 페이지](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## PDF 게시의 고급 메타데이터 지원
 
