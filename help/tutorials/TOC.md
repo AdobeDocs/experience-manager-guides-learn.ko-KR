@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 6%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 6%
       + [콘텐츠 번역](./install-guide/translation.md)
       + [AEM Assets UI에 대한 검색 구성](./install-guide/conf-dita-search.md)
       + [부록](./install-guide/appendix.md)
-+ 콘텐츠 아키텍처 및 사용 사례 {#content-arch}
-   + [조건부 출력 작업](./content-architecture/create-and-use-conditions.md)
-   + [글로벌 키 만들기](./content-architecture/create-global-keys.md)
 + 구성 {#configuring}
    + 기본 PDF 게시 {#config-native-pdf-publish}
       + [PDF 템플릿](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 6%
          + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
          + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
          + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
-   + [사용자 지정 DITA-OT 설정](./configuring/setup-a-custom-dita-ot.md)
-+ 번역 {#translation}
-   + [번역에서 단락 제외](./translation/exclude-paragraphs-from-translation.md)
 + 버전 관리 {#versioning}
 + 기술 자료 {#knowledge-base}
    + 전문가 세션 {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 6%
          + [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
+         + [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + 워크플로 {#workflows}
          + [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + 번역 {#translation}
+         + [번역에서 단락 제외](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + 사용 사례 {#use-cases}
+         + [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
