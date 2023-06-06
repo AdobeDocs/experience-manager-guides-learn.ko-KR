@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 기능 | JavaScript를 사용하여 콘텐츠 또는 스타일 작업
 description: 사용 스타일시트를 만들고 콘텐츠의 스타일을 만드는 방법에 대해 알아봅니다.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,35 @@ window.addEventListener('DOMContentLoaded', function () {
 이 코드를 사용하여 출력이 생성되면 템플릿에 이미지 아래의 그림 제목이 표시됩니다.
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## 초안 문서의 PDF 출력에 워터마크 추가 {#watermark-draft-document}
+
+JavaScript를 사용하여 조건부 워터마크를 추가할 수도 있습니다. 이러한 워터마크는 정의된 조건이 충족되면 문서에 추가됩니다.\
+예를 들어 다음 코드를 사용하여 JavaScript 파일을 만들어 아직 승인되지 않은 문서의 PDF 출력에 대한 워터마크를 만들 수 있습니다. &#39;승인됨&#39; 문서 상태의 문서에 대한 PDF을 생성하는 경우에는 이 워터마크가 표시되지 않습니다.
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+이 코드를 사용하여 생성된 PDF 출력은 워터마크를 표시합니다 *초안* 문서의 표지에서:
+
+<img src="./assets/draft-watermark.png" width="500">

@@ -1,22 +1,26 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 3월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 3월 릴리스
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager Guides as a Cloud Service 3월 릴리스
 
-## 3월 릴리스로 업그레이드
+# 2023년 3월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 
-최신 Adobe Experience Manager Guides as a Cloud Service 업그레이드(나중에 참조) *AEM Guides as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
+이 릴리스 노트는 2023년 3월 Adobe Experience Manager Guides(이후 설명됨)의 버전에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다. *AEM Guides as a Cloud Service*).
+
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [AEM Guides as a Cloud Service의 2023년 3월 릴리스의 새로운 기능](whats-new-2023.3.0.md).
+
+## 2023년 3월 릴리스로 업그레이드
+
+다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드하십시오.
 1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
 2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2023.3.242로.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 3월 릴리스로 업그레이드합니다.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 2023년 3월 릴리스로 업그레이드합니다.
 
 ## 기존 콘텐츠를 색인화하는 절차(AEM Guides의 9월 릴리스 이전 버전을 as a Cloud Service으로 사용하는 경우에만)
 
@@ -51,34 +55,3 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 |  |  |  |  |
 
 
-## 새로운 기능 및 향상된 기능
-
-AEM Guides as a Cloud Service에서는 2023년 3월 릴리스의 개선 사항 및 새로운 기능을 제공합니다.
-
-### 웹 편집기에서 비디오 또는 오디오 파일 열기 및 재생
-
-이제 AEM Guides에서는 웹 편집기에서 오디오 또는 비디오 파일을 열고 재생하는 기능을 제공합니다. 볼륨 또는 비디오 보기를 변경할 수 있습니다. 바로 가기 메뉴에는 다음과 같은 옵션이 있습니다. **다운로드**, 변경 **재생 속도**, 또는 보기 **화면 속 화면**.
-
-<img src="assets/video-web-editor.png" alt="비디오 재생" width="600">
-
-
-## 해결된 문제
-
-다양한 영역에서 수정된 버그는 다음과 같습니다.
-
-* PDF 다운로드 프로세스가 웹 편집기에서 제대로 작동하지 않습니다. (11496)
-* JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑 `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11438)
-* 아래 YouTube 형식에서 오디오 및 비디오 멀티미디어 파일 삽입이 실패합니다. **멀티미디어 삽입** 아이콘. (11320)
-* 특화된 제목 요소가 있는 템플릿을 사용하여 맵을 만들 때 유효성 검사 오류가 발생합니다. (11212)
-* 기본 PDF | 표 머리글에 있는 각주는 PDF 출력 내의 해당 페이지 바닥글에 굵게 정렬되고 가운데 정렬된 텍스트로 이어집니다. (10610)
->[!NOTE]
->
->기본 PDF 변경 사항을 반영하려면 /content/dam/dita-templates에 있는 PDF 폴더를 삭제한 다음 최신 빌드로 업그레이드합니다. (10610)
-
-### 해결 방법에 대한 알려진 문제
-
-Adobe은 AEM Guides as a Cloud Service 2023년 3월 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
-
-* 사용자가 중복 에셋의 버전을 저장하거나 만들 수 없습니다.
-
-**해결 방법**: 중복 에셋을 변경하기 전에 에셋 UI에서 재처리합니다.

@@ -1,23 +1,27 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 4월 릴리스
-description: Adobe Experience Manager Guides as a Cloud Service의 최신 릴리스
+description: 2023년 4월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
+# 2023년 4월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 
-## 최신 릴리스로 업그레이드
+이 릴리스 노트는 2023년 4월 Adobe Experience Manager 안내서 버전에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다(나중에 설명). *AEM Guides as a Cloud Service*).
 
-최신 Adobe Experience Manager Guides as a Cloud Service 업그레이드(나중에 참조) *AEM Guides as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [AEM Guides as a Cloud Service의 2023년 4월 릴리스의 새로운 기능](whats-new-2023.4.0.md).
+
+## 2023년 4월 릴리스로 업그레이드
+
+다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드하십시오.
 
 1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
 2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2023.4.249입니다.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 최신 릴리스로 업그레이드합니다.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 2023년 4월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 기존 콘텐츠를 색인화하는 절차(AEM Guides의 9월 릴리스 이전 버전을 as a Cloud Service으로 사용하는 경우에만)
 
@@ -51,39 +55,6 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## 새로운 기능 및 향상된 기능
-
-AEM Guides as a Cloud Service에서는 최신 릴리스의 개선 사항 및 새로운 기능을 제공합니다.
-
-### PDF 게시의 고급 메타데이터 지원
-
-AEM Guides는 이제 PDF 출력의 메타데이터에 매핑되는 메타데이터에 대한 고급 지원을 제공합니다. 메타데이터 옵션에는 작성자 이름, 문서 제목, 키워드, 저작권 정보 및 기타 데이터 필드와 같은 문서 및 문서 콘텐츠에 대한 정보가 포함됩니다.
-
-<img src="assets/pdf-metadata.png" alt=" 기본 pdf 메타데이터">
-
-XMP 파일을 가져올 수 있으며 AEM Guides는 파일에서 정보를 선택할 수 있습니다. 드롭다운을 사용하여 메타데이터 이름 및 값을 제공하는 옵션도 있습니다. 이름 필드에 직접 입력하여 사용자 지정 메타데이터를 추가할 수도 있습니다.
-
-
-### 향상된 개요 보기 패널
-
-AEM Guides는 문서에 사용된 요소의 계층 구조를 확인할 수 있도록 향상된 개요 보기 패널을 제공합니다.
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 기본 pdf 메타데이터">
-
-아웃라인 뷰에서는 다음과 같은 기능이 개선되었습니다.
-
-* [개요 보기] 패널 위에 [보기 옵션] 드롭다운이 표시됩니다. 요소에 ID, 속성 및 텍스트가 있는 경우 드롭다운에서 해당 요소를 선택하여 요소와 함께 표시할 수 있습니다. 아웃라인 뷰 패널에 표시할 수 있는 속성은 관리자가 내에서 구성한 표시 속성 설정에 의해 결정됩니다. **편집기 설정**.
-
-* 검색 기능을 사용하여 이름, ID, 텍스트 또는 속성 값으로 요소를 검색할 수 있습니다.
-
-
-### AEM Guides as a Cloud Service에 대한 Microservice 기반 게시
-
-AEM Guides as a Cloud Service에서는 마이크로서비스 기반 게시와 동시에 대규모 게시 워크로드를 실행하고 업계 최고의 Adobe I/O Runtime 서버리스 플랫폼을 활용하는 기능을 제공합니다.
-
-이제 4월 릴리스에서는 마이크로서비스 기반 기본 PDF 게시를 사용하여 여러 게시 요청을 동시에 실행하고 벌크 PDF 출력을 매우 효율적으로 생성할 수 있습니다.
-자세한 내용은 [AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## 해결된 문제

@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 기능 | 페이지 레이아웃 디자인
 description: PDF 출력의 여러 섹션에 정보를 표시하기 위해 페이지 레이아웃을 디자인하는 방법을 알아봅니다.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ CSS 및 HTML 코드로 직접 작업하려면 다음 코드 조각에 표시된 
 
 이러한 필드 카테고리들 각각은 필드 정보가 삽입될 수 있는 상이한 변형들을 포함한다. 예를 들어 날짜 필드에는 다음과 같은 다양한 변형이 있을 수 있습니다. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` 기타 등등. 마찬가지로 페이지 번호에는 다음과 같은 로마자, 십진수 또는 로케일별 형식의 변형이 있을 수 있습니다. _아랍어_, _데바나가리_, _히브리어_&#x200B;등.
 
-사전 정의된 필드 외에도 메타데이터 정보를 페이지 레이아웃에 변수 또는 필드로 추가할 수도 있습니다. 이 메타데이터는 소스 DITA 맵 콘텐츠에 저장되며 페이지 레이아웃에 쉽게 삽입할 수 있습니다. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+사전 정의된 필드 외에도 메타데이터 정보를 페이지 레이아웃에 변수 또는 필드로 추가할 수도 있습니다. 이 메타데이터는 소스 DITA 맵 콘텐츠에 저장되며 페이지 레이아웃에 쉽게 삽입할 수 있습니다.
+
+에셋에서 메타데이터 속성을 선택하여 페이지 레이아웃에 추가할 수도 있습니다. 그런 다음 에셋 메타데이터가 PDF 출력에 게시됩니다. 에셋의 이러한 메타데이터 속성은 **속성** DITA 맵 또는 북맵 파일의 페이지입니다.
+
+>[!NOTE]
+>
+> 메타데이터 필드는에서 에셋 또는 맵의 선택에 따라 표시됩니다. **출처:** 드롭다운입니다.
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 다음 예제에서는 페이지 레이아웃의 바닥글 영역에 페이지 번호와 챕터 제목을 삽입합니다.
 

@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 12b37bd34dd066b92d932967c755480092935016
+source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1067'
 ht-degree: 6%
 
 ---
@@ -18,10 +18,19 @@ ht-degree: 6%
    + 릴리스 정보 {#release-notes}
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
-         + 2023 릴리스{#2023-releases}
-            + [최신 릴리스 정보](./release-info/release-notes-2023.4.0.md)
-            + [3월 릴리스 정보](./release-info/release-notes-2023.3.0.md)
-            + [2월 릴리스 정보](./release-info/release-notes-2023.2.0.md)
+         + 2023 릴리스 {#2023-releases}
+            + 6월 릴리스 {#2306-release}
+               + [새로운 기능](./release-info/whats-new-2023.6.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
+            + 4월 릴리스 {#2304-release}
+               + [새로운 기능](./release-info/whats-new-2023.4.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.4.0.md)
+            + 3월 릴리스 {#2303-release}
+               + [새로운 기능](./release-info/whats-new-2023.3.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.3.0.md)
+            + 2월 릴리스 {#2302-release}
+               + [새로운 기능](./release-info/whats-new-2023.2.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.2.0.md)
          + 2022 릴리스 {#2022-releases}
             + [11월 릴리스 노트](./release-info/release-notes-2022.11.0.md)
             + [10월 릴리스 정보](./release-info/release-notes-2022.10.0.md)
@@ -43,15 +52,13 @@ ht-degree: 6%
          + [4.1.x 릴리스 노트](./release-info/release-notes-4.1.md)
          + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-+ 숨겨진 문서 {#hidden}
-   + [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)
 + 사용 안내서 {#user-guide}
    + [면책조항](./user-guide/rebranding-disclaimer.md)
    + 소개 {#about-aem-guide}
-      + [Adobe Experience Manager 안내서 정보](./user-guide/intro.md)
-      + AEM Guides 작동 및 주요 기능 {#aemg-works-features}
-         + [AEM Guides 작동 방식](./user-guide/intro-how-dxml-works.md)
-         + [주요 AEM Guides 기능](./user-guide/intro-dxml-features.md)
+      + [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
+      + [!DNL AEM Guides] 작업 및 주요 기능 {#aemg-works-features}
+         + [방법 [!DNL AEM Guides] 작품](./user-guide/intro-how-dxml-works.md)
+         + [키 [!DNL AEM Guides] 기능](./user-guide/intro-dxml-features.md)
    + 컨텐츠 관리 {#manage-content}
       + [주요 개념, 역할 및 권한, 전제 조건](./user-guide/authoring.md)
       + [파일 업로드](./user-guide/authoring-upload-existing-files.md)
@@ -73,6 +80,7 @@ ht-degree: 6%
                + [웹 편집기의 키보드 단축키](./user-guide/web-editor-keyboard-shortcuts.md)
                + [웹 편집기의 기타 기능](./user-guide/web-editor-other-features.md)
                + [웹 편집기 보기](./user-guide/web-editor-views.md)
+               + [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                + [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
                + [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
                + 문서 기반 게시 {#article-based-pub}
@@ -166,24 +174,25 @@ ht-degree: 6%
    + 온프레미스 {#on-prem-ig}
       + [면책조항](./install-guide/rebranding-disclaimer.md)
       + [이 안내서 정보](./install-guide/introduction.md)
-      + 다운로드 및 설치 {#download-install-aemg}
+      + 다운로드, 설치 및 업그레이드 {#download-install-upgrade-aemg}
          + [개요](./install-guide/download-install.md)
          + [기술 요구 사항](./install-guide/download-install-technical-requirements.md)
          + [Adobe Experience Manager 설치](./install-guide/download-install-aem.md)
          + [처음으로 AEM Guides 다운로드 및 설치](./install-guide/download-install-aemg-first-time.md)
          + [Dispatcher 구성](./install-guide/download-install-configure-dispatcher.md)
          + [AEM Guides 설치 확인](./install-guide/download-install-verify-aemg-installation.md)
-         + [Adobe Experience Manager Guides 업그레이드](./install-guide/upgrade-xml-documentation.md)
+         + [AEM Guides 업그레이드](./install-guide/upgrade-xml-documentation.md)
          + [AEM Guides 제거](./install-guide/download-install-unistall-aemg.md)
          + [성능 최적화를 위한 Recommendations](./install-guide/download-install-recommend-perf-optimiz.md)
-      + [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
-      + [사용자 관리 및 보안](./install-guide/user-admin-sec.md)
-      + [사용자 지정 DITA-OT 및 DITA 특수화 사용](./install-guide/dita-ot-specialization.md)
-      + [문서 상태 구성](./install-guide/customize-doc-state.md)
+      + 사용자 그룹 및 보안 작업 {#user-group-sec}
+         + [사용자 관리 및 보안](./install-guide/user-admin-sec.md)
       + 콘텐츠 마이그레이션 {#content-migration}
+         + [비 UUID에서 UUID로의 콘텐츠 마이그레이션](./install-guide/migrate-uuid-non-uuid.md)
          + [기존 콘텐츠 마이그레이션](./install-guide/migrate-content.md)
          + [기존 DITA 콘텐츠 업로드](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [DITA가 아닌 콘텐츠 마이그레이션](./install-guide/migrate-content-non-dita.md)
+      + 사용자 지정 DITA-OT 및 특수화 작업 {#custom-dita-ot-spec}
+         + [사용자 지정 DITA-OT 및 DITA 특수화 사용](./install-guide/dita-ot-specialization.md)
       + UUID 및 비 UUID 기반 파일 이름 구성 {#conf-non-uuid-filename}
          + [파일 이름 구성](./install-guide/conf-file-names.md)
          + [UUID를 기반으로 자동 파일 이름 구성](./install-guide/conf-auto-uuid-filenames.md)
@@ -193,46 +202,53 @@ ht-degree: 6%
          + [주제 구성 및 템플릿 매핑](./install-guide/conf-template-tags.md)
          + [사용자 지정 DITA 주제 템플릿 구성](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [사용자 지정 DITA 맵 템플릿 구성](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + 문서 상태 작업 {#doc-state}
+         + [문서 상태 구성](./install-guide/customize-doc-state.md)
       + 웹 편집기 구성 작업 {#web-editor-configs}
-      + [웹 편집기 사용자 지정](./install-guide/conf-web-editor.md)
-      + [도구 모음 사용자 지정](./install-guide/conf-web-editor-customize-toolbar.md)
-      + [태그 보기에 대한 기본값 구성](./install-guide/configure-default-value-tags-view.md)
-      + [UUID 기반 링크 표시 구성](./install-guide/conf-uuid-based-links.md)
-      + [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./install-guide/open-dita-files-same-tab.md)
-      + [왼쪽 패널에서 사용자 정의 패널 구성](./install-guide/configure-custom-panel.md)
-      + [웹 편집기에서 파일 자동 저장 구성](./install-guide/auto-save-in-editor.md)
-      + [파일 찾아보기 대화 상자에 대한 필터 구성](./install-guide/conf-custom-file-filters.md)
-      + [닫을 때 새 버전으로 저장하라는 메시지 구성](./install-guide/conf-save-as-new-version-close.md)
-      + [닫을 때 파일을 체크 인하도록 프롬프트 구성](./install-guide/conf-checkin-file-close.md)
-      + [허용되는 특수 문자 구성](./install-guide/conf-special-chars.md)
-      + [요소 ID 자동 생성](./install-guide/auto-generate-ids.md)
-      + [AEM 기본 사전 사용자 지정](./install-guide/customize-aem-custom-dictionary.md)
-      + [텍스트 필터 구성](./install-guide/config-text-filters.md)
-      + [쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
-      + [문서 기반 게시용 패키지 설치](./install-guide/configure-article-based-publishing.md)
-      + [고급 맵 편집기 를 기본값으로 설정합니다.](./install-guide/conf-map-editor.md)
-      + [기본적@navtitle 속성 포함](./install-guide/auto-add-navtitle.md)
-      + [전역 또는 폴더 수준 프로필 구성](./install-guide/conf-folder-level.md)
-      + [버전 관리](./install-guide/version-management.md)
-      + [데스크탑 기반 XML 편집기 통합](./install-guide/integrate-desktop-editors.md)
-      + [출력 생성 설정 구성](./install-guide/conf-output-generation.md)
-      + [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
-      + [콘텐츠 번역](./install-guide/translation.md)
-      + [AEM Assets UI에 대한 검색 구성](./install-guide/conf-dita-search.md)
+         + [웹 편집기 사용자 지정](./install-guide/conf-web-editor.md)
+         + [도구 모음 사용자 지정](./install-guide/conf-web-editor-customize-toolbar.md)
+         + [태그 보기에 대한 기본값 구성](./install-guide/configure-default-value-tags-view.md)
+         + [UUID 기반 링크 표시 구성](./install-guide/conf-uuid-based-links.md)
+         + [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./install-guide/open-dita-files-same-tab.md)
+         + [왼쪽 패널에서 사용자 정의 패널 구성](./install-guide/configure-custom-panel.md)
+         + [웹 편집기에서 파일 자동 저장 구성](./install-guide/auto-save-in-editor.md)
+         + [파일 찾아보기 대화 상자에 대한 필터 구성](./install-guide/conf-custom-file-filters.md)
+         + [닫을 때 새 버전으로 저장하라는 메시지 구성](./install-guide/conf-save-as-new-version-close.md)
+         + [닫을 때 파일을 체크 인하도록 프롬프트 구성](./install-guide/conf-checkin-file-close.md)
+         + [허용되는 특수 문자 구성](./install-guide/conf-special-chars.md)
+         + [요소 ID 자동 생성](./install-guide/auto-generate-ids.md)
+         + [AEM 기본 사전 사용자 지정](./install-guide/customize-aem-custom-dictionary.md)
+         + [텍스트 필터 구성](./install-guide/config-text-filters.md)
+         + [쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
+         + [문서 기반 게시용 패키지 설치](./install-guide/configure-article-based-publishing.md)
+         + [고급 맵 편집기 를 기본값으로 설정합니다.](./install-guide/conf-map-editor.md)
+         + [기본적@navtitle 속성 포함](./install-guide/auto-add-navtitle.md)
+      + 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles}
+         + [전역 또는 폴더 수준 프로필 구성](./install-guide/conf-folder-level.md)
+      + 버전 구성 {#version-mgt}
+         + [버전 관리](./install-guide/version-management.md)
+      + 데스크탑 기반 XML 편집기 작업 {#desktop-xml-editor}
+         + [데스크탑 기반 XML 편집기 통합](./install-guide/integrate-desktop-editors.md)
+      + 출력 생성 설정을 사용한 작업 {#output-gen-config}
+         + [출력 생성 설정 구성](./install-guide/conf-output-generation.md)
+         + 기본 PDF 게시 {#config-native-pdf-publish}
+            + [PDF 템플릿](./native-pdf/pdf-template.md)
+            + [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
+            + [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
+            + 공통 컨텐츠 스타일 {#content-styles}
+               + [일반적인 콘텐츠 스타일 사용](./native-pdf/stylesheet.md)
+               + [사용자 정의 변경 막대 스타일 작업](./native-pdf/change-bar-style.md)
+               + [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](./native-pdf/custom-style-toc.md)
+               + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
+               + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
+               + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
+      + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
+         + [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
+      + 번역 구성 작업 {#translate-config}
+         + [콘텐츠 번역](./install-guide/translation.md)
+      + AEM Assets 검색 작업 {#aem-asset-search}
+         + [AEM Assets UI에 대한 검색 구성](./install-guide/conf-dita-search.md)
       + [부록](./install-guide/appendix.md)
-+ 구성 {#configuring}
-   + 기본 PDF 게시 {#config-native-pdf-publish}
-      + [PDF 템플릿](./native-pdf/pdf-template.md)
-      + [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
-      + [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
-      + 공통 컨텐츠 스타일 {#content-styles}
-         + [일반적인 콘텐츠 스타일 사용](./native-pdf/stylesheet.md)
-         + [사용자 정의 변경 막대 스타일 작업](./native-pdf/change-bar-style.md)
-         + [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](./native-pdf/custom-style-toc.md)
-         + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
-         + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
-         + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
-+ 버전 관리 {#versioning}
 + 기술 자료 {#knowledge-base}
    + 전문가 세션 {#expert-session}
       + [전문가 세션 개요](./knowledge-base/expert-sessions/expert-session.md)
@@ -264,3 +280,5 @@ ht-degree: 6%
       + 사용 사례 {#use-cases}
          + [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
++ 숨겨진 문서 {#hidden}
+   + [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)

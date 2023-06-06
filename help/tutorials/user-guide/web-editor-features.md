@@ -2,9 +2,9 @@
 title: 웹 편집기 기능 이해
 description: 웹 편집기 기능을 아는 방법 알아보기
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 0%
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **장치 테마 사용**: 이 확인란을 선택하면 AEM Guides가 장치 테마를 기반으로 밝은 테마와 어두운 테마 간을 자동으로 전환할 수 있습니다.
 - **테마**: 편집기의 [밝게], [밝게], [어둡게] 또는 [어둡게] 테마 중에서 선택할 수 있습니다. 가장 밝은 테마의 경우 도구 모음과 패널에서 더 밝은 회색 배경을 사용합니다. 라이트 테마의 경우 도구 모음과 패널은 밝은 회색 배경색을 사용합니다. 가장 어두운 테마의 경우 도구 모음과 패널에서 더 어두운 검정색 배경을 사용합니다. 어두운 테마의 경우 도구 모음과 패널은 검정색 배경을 사용합니다. 모든 테마에서 컨텐츠 편집 영역이 흰색 배경에 표시됩니다.
 
 - **폴더 프로필**: 폴더 프로필은 조건부 속성, 작성 템플릿, 출력 사전 설정 및 웹 편집기 구성과 관련된 다양한 구성을 제어합니다. 기본적으로 글로벌 프로필이 표시됩니다. 또한 관리자가 시스템에서 폴더 프로필을 구성한 경우 해당 폴더 프로필이 폴더 프로필 목록에도 표시됩니다.
@@ -671,9 +672,20 @@ AEM Guides를 사용하면 자유 형식 텍스트 형식으로 레이블을 지
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+** 컬렉션에 대한 옵션 메뉴**\
+즐겨찾기 컬렉션에 사용할 수 있는 옵션 메뉴를 사용하여 여러 가지 작업을 수행할 수도 있습니다.
+
+![](images/favorites-options.png){width="400" align="left"}
+- **이름 바꾸기**: 선택한 컬렉션의 이름을 변경합니다.
+- **삭제**: 선택한 파일을 삭제합니다.
+- **새로 고침**: 저장소에서 파일 및 폴더의 새 목록을 가져옵니다.
+- **에셋 UI에서 보기**: 에셋 UI에 파일 또는 폴더 콘텐츠를 표시합니다.
+
+
 >[!NOTE]
 >
-> 즐겨찾기 목록에서 항목을 제거하려면 즐겨찾기 목록에서 파일 또는 폴더 옆에 있는 옵션 아이콘을 클릭하고 **즐겨찾기에서 제거**.
+> 맨 위에 있는 새로 고침 아이콘을 사용하여 목록을 새로 고칠 수도 있습니다.
+
 
 **저장소 보기** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ DAM 내에서 필요한 파일로 이동하여 웹 편집기에서 열 수 있�
 - 복제
 - 체크아웃/체크인
 - 미리보기
+- 이동 위치
+- 이름 변경
 - 삭제
 - 복사
 - 모두 축소
@@ -784,6 +798,41 @@ DAM 내에서 필요한 파일로 이동하여 웹 편집기에서 열 수 있�
 - **미리 보기**: \(.dita/.xml\) 파일을 열지 않고 빠르게 미리 봅니다.
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **이름 바꾸기**: 이 옵션을 사용하여 선택한 파일의 이름을 변경합니다. 새 파일 이름을 **에셋 이름 바꾸기** 대화 상자.
+   - 모든 유형의 파일 이름을 바꿀 수 있습니다.
+   - 파일의 확장자는 변경할 수 없습니다.
+   - 두 파일의 이름은 같을 수 없습니다. 따라서 파일 이름을 이미 존재하는 이름으로 바꿀 수는 없습니다. 오류가 표시됩니다.
+
+- **이동 위치:**: 이 옵션을 사용하여 선택한 파일을 다른 폴더로 이동합니다.
+   - 대상 폴더의 이름을 입력하거나 **경로 선택** 대상 폴더를 선택합니다.
+   - 모든 유형의 파일을 콘텐츠 폴더 내의 모든 대상으로 이동할 수 있습니다.
+   - 두 파일의 이름은 같을 수 없습니다. 따라서 같은 이름의 파일이 이미 있는 폴더로 파일을 이동할 수 없습니다.
+
+   이름이 같지만 제목이 다른 파일이 있는 폴더로 파일을 이동하려고 하면 파일 이름 바꾸기 및 이동 대화 상자가 표시되고 파일을 이동하기 전에 파일 이름을 변경해야 합니다. 대상 폴더에서 이동된 파일의 새 파일 이름이 표시됩니다.
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > 파일을 다른 대상 폴더로 끌어다 놓을 수도 있습니다.
+
+   **제외 시나리오**
+
+   AEM Guides에서는 다음 시나리오에서 파일 이름을 바꾸거나 파일을 이동할 수 없습니다.
+
+   - 검토 또는 번역 워크플로의 일부인 파일은 이동하거나 이름을 바꿀 수 없습니다.
+
+   - 다른 사용자가 체크 아웃한 파일의 이름을 바꾸거나 이동할 수 없는 경우 파일에 대한 이름 바꾸기 또는 이동 옵션이 표시되지 않습니다.
+   >[!NOTE]
+   > 관리자가 폴더에 대한 권한을 부여한 경우 **이름 바꾸기** 또는 **이동 위치:** 옵션이 표시됩니다.
+
+   <details>
+    <summary> 클라우드 서비스 </summary>
+
+   모든 파일에 고유한 UUID가 있으므로 파일 이름을 바꾸거나 파일을 이동해도 파일에 대한 기존 참조가 손상되지 않습니다.
+   </details>
+
+
 
 - **삭제**: 이 옵션을 사용하여 선택한 파일을 삭제합니다. 파일을 삭제하기 전에 확인 메시지가 표시됩니다.
 
@@ -1202,32 +1251,86 @@ AEM Guides는 중첩 수준 제목 체계 맵을 지원하며 루트 제목 체�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **제목 정의 및 열거형의 계층 구조 정의 처리**
 
-**속성 드롭다운**
+   동일한 맵에 있는 열거형과 주제 정의를 처리하는 것 외에도 AEM Guides에서는 두 개의 별도 맵에서 열거형과 주제 정의를 정의하는 기능을 제공합니다. 맵에서 주제 정의를 정의하고 다른 맵에서 열거 정의를 정의한 다음 맵 참조를 추가할 수 있습니다. 예를 들어 다음 XML 코드는 두 개의 별도 맵에서 주제 정의와 열거형 정의를 만듭니다.
 
-작성자 보기의 콘텐츠 속성 패널에서 속성 드롭다운을 사용하여 주제 체계의 값을 변경할 수도 있습니다. 값을 변경하려면 속성 드롭다운에서 값을 선택합니다.
+   제목 정의는에 정의되어 있습니다. `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-드롭다운에서 여러 값을 선택하여 속성에 대한 값을 적용할 수도 있습니다.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**소스 보기**
+   열거형 정의는 subject_scheme_map_2.ditamap에 있습니다.
 
-소스 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다. 또한 소스 뷰에서는 잘못된 값을 추가할 수 없습니다.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   여기에서 주제 정의는 다음에 정의되어 있습니다. `subject_scheme_map_1.ditamap`  열거형 def가에 있는 동안 `subject_scheme_map_2.ditamap`. 에 대한 참조 `subject_scheme_map_1.ditamap` 도 추가됩니다. `subject_scheme_map_2.ditamap`.
 
-**조건 패널에서 주제 스키마를 보고 적용합니다.**
+   >[!NOTE]
+   >
+   > 다음으로: `subject_scheme_map_1.ditamap` 및 `subject_scheme_map_2.ditamap` 서로 참조되므로 주제 구성표가 해결됩니다.
 
-조건 패널에서 주제 스키마를 보고 적용할 수도 있습니다.
+   주제 열거형 참조는 다음 우선 순위 순서로 해결됩니다.
 
-조건 패널에서 주제 체계를 보려면 시스템 관리자가 옵션을 선택해야 합니다 **조건 패널에 주제 스키마 표시** 를 클릭합니다. 자세한 내용은 [조건 탭](#id21BMNE0602V).
+   1. 동일한 맵
+   1. 참조된 맵
 
-조건 패널에는 주제 구성표 내의 주제 정의에 대한 플랫 수직 구조가 표시됩니다.
+   동일한 맵과 참조된 맵에서 열거를 찾을 수 없는 경우 참조가 확인되지 않습니다.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-원하는 조건을 콘텐츠에 끌어다 놓아 콘텐츠에 조건을 추가할 수 있습니다. 조건부 콘텐츠는 조건에 대해 정의된 색상을 사용하여 강조 표시됩니다.
+   **속성 드롭다운**
+
+   작성자 보기의 콘텐츠 속성 패널에서 속성 드롭다운을 사용하여 주제 체계의 값을 변경할 수도 있습니다. 값을 변경하려면 속성 드롭다운에서 값을 선택합니다.
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   드롭다운에서 여러 값을 선택하여 속성에 대한 값을 적용할 수도 있습니다.
+
+   **소스 보기**
+
+   소스 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다. 또한 소스 뷰에서는 잘못된 값을 추가할 수 없습니다.
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **조건 패널에서 주제 스키마를 보고 적용합니다.**
+
+   조건 패널에서 주제 스키마를 보고 적용할 수도 있습니다.
+
+   조건 패널에서 주제 체계를 보려면 시스템 관리자가 옵션을 선택해야 합니다 **조건 패널에 주제 스키마 표시** 를 클릭합니다. 자세한 내용은 [조건 탭](#id21BMNE0602V).
+
+   조건 패널에는 주제 구성표 내의 주제 정의에 대한 플랫 수직 구조가 표시됩니다.
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   원하는 조건을 콘텐츠에 끌어다 놓아 콘텐츠에 조건을 추가할 수 있습니다. 조건부 콘텐츠는 조건에 대해 정의된 색상을 사용하여 강조 표시됩니다.
 
 **코드 조각** -  ![](images/insert-snippet-icon.svg)
 

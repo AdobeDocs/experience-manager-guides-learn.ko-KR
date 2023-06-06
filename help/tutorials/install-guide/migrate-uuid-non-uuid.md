@@ -1,13 +1,13 @@
 ---
 title: 비 UUID에서 UUID로의 콘텐츠 마이그레이션
-description: 비 UUID에서 UUID로 콘텐츠 마이그레이션을 수행하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: UUID가 아닌 콘텐츠를 UUID로 마이그레이션하는 방법 알아보기
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
-
 
 # 비 UUID에서 UUID로의 콘텐츠 마이그레이션 {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ UUID가 아닌 콘텐츠를 마이그레이션하려면 다음 단계를 수행�
     - &#39;doBaselines&#39;: true/false \(기준선을 업그레이드해야 하는 경우 또는 업그레이드하지 않는 경우). 기본값은 true입니다.\)
     - &#39;processLevel&#39;: -1\(복원 없이 실패\), 0\(복원 실패\), 1\(오류 발생\), 2\(성공적으로 업그레이드됨\) \(실패 후 스크립트를 재시도할 때 &quot;fmUpgradeStatus&quot; &lt;= processLevel인 파일만 다시 처리되고 그렇지 않으면 무시됩니다. 기본값은 1입니다.\)
     - &#39;ignoreImageVersions&#39;: true/false \(이미지 버전 처리를 무시합니다. 기본값은 false입니다.\)
+    
     >[!NOTE]
     >
     > 폴더 수준 또는 전체 콘텐츠/dam 또는 동일한 폴더에서 콘텐츠 마이그레이션을 실행할 수 있습니다 \(마이그레이션 다시 실행\).
@@ -69,4 +70,3 @@ UUID가 아닌 콘텐츠를 마이그레이션하려면 다음 단계를 수행�
 >[!NOTE]
 >
 > 일부 파일이 처리되지 않았거나 마이그레이션 전에 손상된 경우 마이그레이션 후에도 손상된 상태로 유지됩니다.
-

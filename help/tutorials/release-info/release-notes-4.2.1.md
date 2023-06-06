@@ -1,7 +1,8 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2.1 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides의 4.2.1 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 5%
@@ -10,7 +11,7 @@ ht-degree: 5%
 
 # Adobe Experience Manager Guides 4.2.1 릴리스(2023년 5월)
 
-이 릴리스 노트는 Adobe Experience Manager Guides의 업그레이드 지침, 호환성 매트릭스 및 문제 해결된 버전 4.2.1 릴리스(나중에 설명됨)를 다룹니다. *AEM 안내서*).
+이 릴리스 노트는 Adobe Experience Manager Guides 버전 4.2.1(이후 설명됨)에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다 *AEM 안내서*).
 
 새로운 기능 및 향상된 기능에 대한 자세한 내용은 [Adobe Experience Manager Guides 4.2.1 릴리스의 새로운 기능](whats-new-4.2.1-release.md).
 
@@ -110,5 +111,3 @@ ht-degree: 5%
 ### 리뷰
 
 * 완료된 검토가 읽기 전용 모드로 열리지 않습니다. (11387)
-
-
