@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
+source-git-commit: 3b8d37483295ff9ebfb0f09b66080fe99237fdb6
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -272,6 +272,7 @@ ht-degree: 6%
          + [FMPS 및 안내서](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [마이크로서비스 아키텍처 및 성능](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [마이크로서비스 기반 게시 구성](./knowledge-base/publishing/configure-microservices.md)
+         + [클라우드에서 성능 수치 게시](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [사용자 지정 DITA-OT 설정](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + 워크플로 {#workflows}
          + [사후 생성 워크플로](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
