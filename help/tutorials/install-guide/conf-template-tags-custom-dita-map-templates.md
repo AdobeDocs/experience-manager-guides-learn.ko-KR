@@ -1,13 +1,13 @@
 ---
 title: 사용자 지정 DITA 맵 템플릿 구성
 description: 사용자 지정 DITA 맵 템플릿을 구성하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
-
 
 # 사용자 지정 DITA 맵 템플릿 구성 {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ AEM Guides에는 두 가지 기본 맵 템플릿(DITA 맵 및 북맵)이 포함�
 
 >[!TIP]
 >
-> 다음을 참조하십시오 [appendix.md\#](appendix.md#)다음 *사용자 지정 템플릿* 사용자 지정 맵 템플릿 사용에 대한 우수 사례에 대한 우수 사례 안내서의 섹션.
+> 다음을 참조하십시오. *사용자 지정 템플릿* 사용자 지정 맵 템플릿 사용에 대한 우수 사례에 대한 우수 사례 안내서의 섹션.
 
-**상위 항목:**[&#x200B;주제 구성 및 템플릿 매핑](conf-template-tags.md)
-
+**상위 항목:** [주제 구성 및 템플릿 매핑](conf-template-tags.md)
