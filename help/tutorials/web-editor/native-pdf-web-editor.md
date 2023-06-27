@@ -2,9 +2,9 @@
 title: 기본 PDF | PDF 출력 생성
 description: Adobe Experience Manager Guides as a Cloud Service으로 PDF 출력 생성
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,6 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 을(를) 선택하는 경우 **임시 파일 다운로드** 고급 설정의 옵션에서는 기본 PDF 출력을 생성하는 동안 만든 중간 HTML 파일을 다운로드할 수도 있습니다. 출력을 생성했으면 다음을 사용하여 임시 파일을 다운로드할 수 있습니다. **임시 파일 다운로드** ![임시 파일 다운로드](assets/native-pdf-download-temporary-files-icon.svg)아이콘 을 클릭하여 제품에서 사용할 수 있습니다. 이 기능은 중간 HTML 스타일 및 레이아웃을 보고 요구 사항에 따라 CSS 스타일을 수정하거나 변경하는 데 도움이 됩니다.
 
 
->메모
+>[!NOTE]
 >
 > 다음 **임시 파일 다운로드**  ![임시 파일 다운로드](assets/native-pdf-download-temporary-files-icon.svg) 아이콘은 사전 설정을 사용하여 마지막 PDF 출력을 생성한 경우에만 나타나며 여기에서 옵션을 선택했습니다. **고급** 탭.

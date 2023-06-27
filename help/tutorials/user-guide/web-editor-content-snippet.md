@@ -1,7 +1,7 @@
 ---
 title: 데이터 소스에서 콘텐츠 조각 삽입
 description: 데이터 소스에서 콘텐츠 코드 조각을 삽입하는 방법 알아보기
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ AEM Guides에서는 데이터 소스와 연결하는 기능을 제공합니다. 
 
    1. 소스 뷰에는 DITA 소스 뷰의 데이터가 표시됩니다.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. 쿼리 결과를 저장하려면 생성자의 이름을 입력한 다음 을 클릭합니다 **추가**.   새 콘텐츠 조각 생성기가 목록에 추가됩니다.
+1. 쿼리 결과를 저장하려면 생성자의 이름을 입력한 다음 을 클릭합니다 **추가**.   새 콘텐츠 조각 생성기가 목록에 추가됩니다.
 
    >[!NOTE]
    >
