@@ -2,9 +2,9 @@
 title: 기본 PDF | PDF 출력 생성
 description: Adobe Experience Manager Guides as a Cloud Service으로 PDF 출력 생성
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ DITA-OT 메서드를 사용하여 PDF을 생성하는 방법에 대한 자세한
 
 * **FrameMaker Publishing Server(FMPS)**
 
-이 방법을 사용하면 DITA 콘텐츠뿐만 아니라 AEM 저장소에서 사용할 수 있는 FrameMaker 문서(.book 및 .fm)에서 PDF 출력을 생성할 수 있습니다. 출력 사전 설정을 구성하고 FMPS(FrameMaker Publishing Server)를 사용하여 게시하여 PDF을 만들 수 있습니다. PDF 및 기타 형식에 대한 출력의 디자인을 구성하고 이를 설정 파일(.sts)에 저장할 수 있습니다. 그런 다음 FMPS에서 이 설정 파일을 사용하여 DITA 맵 또는 .book 파일에 대한 출력을 생성합니다. 출력 사전 설정을 만들거나 편집하려면 다음을 참조하십시오  *출력 사전 설정 이해* 의 섹션 [AEM Guides as a Cloud Service 사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+이 방법을 사용하면 DITA 콘텐츠뿐만 아니라 AEM 저장소에서 사용할 수 있는 FrameMaker 문서(.book 및 .fm)에서 PDF 출력을 생성할 수 있습니다. 출력 사전 설정을 구성하여 PDF을 만들고 FrameMaker Publishing Server(FMPS)를 사용하여 게시할 수 있습니다. PDF 및 기타 형식에 대한 출력의 디자인을 구성하고 이를 설정 파일(.sts)에 저장할 수 있습니다. 그런 다음 FMPS에서 이 설정 파일을 사용하여 DITA 맵 또는 .book 파일에 대한 출력을 생성합니다. 출력 사전 설정을 만들거나 편집하려면 다음을 참조하십시오  *출력 사전 설정 이해* 의 섹션 [AEM Guides as a Cloud Service 사용 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
 FMPS 구성에 대한 자세한 내용은 [FrameMaker 문서에서 출력 생성](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
@@ -56,7 +56,6 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 
 1. 출력 탭에서 **사전 설정** 왼쪽 사이드바에서
 [사전 설정] 패널이 열립니다. <br>
-
 <img src="assets/preset-panel.png" alt="사전 설정 패널" width="600">
 
 1. 출력에서 **사전 설정** 패널, 다음 중 하나를 수행합니다.
@@ -95,17 +94,17 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 출력 사전 설정에서 **PDF 선택** > **메타데이터** 메타데이터 옵션을 추가하고 사용자 지정합니다.
 * **XMP 파일 제공**
 
-   메타데이터 필드는 가져오기로 직접 채울 수 있습니다. [XMP](https://www.adobe.com/products/xmp.html) (확장 가능한 메타데이터 플랫폼) 파일. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
+  메타데이터 필드는 가져오기로 직접 채울 수 있습니다. [XMP](https://www.adobe.com/products/xmp.html) (확장 가능한 메타데이터 플랫폼) 파일. 여기에서 샘플 XMP 파일을 다운로드할 수 있습니다.
 
 [다운로드](assets/SampleXMP.xmp)
 
-   또는 Adobe Acrobat을 사용하여 XMP 파일을 생성할 수 있습니다.
+  또는 Adobe Acrobat을 사용하여 XMP 파일을 생성할 수 있습니다.
    1. 클릭 **파일** > **속성** Acrobat.
    1. 아래 **설명**, 클릭 **추가 메타데이터**.
    1. 왼쪽 패널에서 을 선택합니다. **고급**.
    1. 클릭 **저장**.
 
-   XMP 파일이 장치에 저장됩니다.
+  XMP 파일이 장치에 저장됩니다.
 
 * **메타데이터 이름 및 값 제공**
 
@@ -152,6 +151,7 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 | **워터마크 표시** | 콘텐츠에 있는 MathML 방정식을 렌더링하려면 이 옵션을 선택합니다. 그렇지 않으면 해당 방정식은 무시됩니다. |
 | **MathML 방정식 활성화** | 콘텐츠에 있는 MathML 방정식을 렌더링하려면 이 옵션을 선택합니다. 그렇지 않으면 기본적으로 방정식이 무시됩니다. |
 | **PDF 적합성** | PDF이 준수되는지 확인하기 위해 콘텐츠를 저장할 때 사용하는 표준입니다. 드롭다운에서 을 선택하여 사용 가능한 PDF 표준 목록에서 을 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **임시 파일 다운로드** | 기본 PDF 출력을 생성하는 동안 생성된 중간 HTML 파일을 다운로드하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. |
 
 ## PDF 출력 생성 {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 <img src="assets/error-log.png" alt="오류 로그" width="250">
 
 오류 로그를 보려면 **닫기**, 선택한 사전 설정 탭을 마우스로 가리킨 다음 ![옵션](assets/options.svg) **옵션** > **로그 보기**.
+
+### 기본 PDF 출력을 생성한 후 임시 파일 다운로드
+
+을(를) 선택하는 경우 **임시 파일 다운로드** 고급 설정의 옵션에서는 기본 PDF 출력을 생성하는 동안 만든 중간 HTML 파일을 다운로드할 수도 있습니다. 출력을 생성했으면 다음을 사용하여 임시 파일을 다운로드할 수 있습니다. **임시 파일 다운로드** ![임시 파일 다운로드](assets/native-pdf-download-temporary-files-icon.svg)아이콘 을 클릭하여 제품에서 사용할 수 있습니다. 이 기능은 중간 HTML 스타일 및 레이아웃을 보고 요구 사항에 따라 CSS 스타일을 수정하거나 변경하는 데 도움이 됩니다.
+
+
+>메모
+>
+> 다음 **임시 파일 다운로드**  ![임시 파일 다운로드](assets/native-pdf-download-temporary-files-icon.svg) 아이콘은 사전 설정을 사용하여 마지막 PDF 출력을 생성한 경우에만 나타나며 여기에서 옵션을 선택했습니다. **고급** 탭.

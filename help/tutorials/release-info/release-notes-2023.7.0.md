@@ -1,29 +1,30 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 6월 릴리스의 업그레이드 지침 및 해결된 문제
-description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service으로 2023년 6월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 7월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
+source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
 # 2023년 6월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 
-이 릴리스 노트는 버전 2023년 6월 Adobe Experience Manager Guides(이후 설명됨)에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다. *AEM Guides as a Cloud Service*).
+이 릴리스 노트는 2023년 7월 Adobe Experience Manager 안내서 버전에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다(나중에 설명). *AEM Guides as a Cloud Service*).
 
-새로운 기능 및 향상된 기능에 대한 자세한 내용은 [AEM Guides as a Cloud Service의 2023년 6월 릴리스의 새로운 기능](whats-new-2023.6.0.md).
+새로운 기능 및 향상된 기능에 대한 자세한 내용은 [AEM Guides as a Cloud Service의 2023년 7월 릴리스의 새로운 기능](whats-new-2023.7.0.md).
 
-## 2023년 6월 릴리스로 업그레이드
+## 2023년 7월 릴리스로 업그레이드
 
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드하십시오.
 
 1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2023.6.297로.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 2023년 6월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
+2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2023.7.0.314.
+3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 2023년 7월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
+
+(AEM Guides as a Cloud Service의 2023년 6월 이전 버전을 사용하는 경우에만)
 
 설치를 완료한 후 트리거를 적중하여 번역 작업을 시작하도록 선택할 수 있습니다.
 
@@ -82,7 +83,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 보고서 탭 아래에 있는 새 찾기 및 바꾸기 및 주제 목록을 사용할 기존 콘텐츠를 색인화하는 단계입니다.
 
-(AEM Guides as a Cloud Service의 2022년 9월 릴리스 이전 버전을 사용하는 경우에만)
+(AEM Guides as a Cloud Service의 2023년 6월 이전 버전을 사용하는 경우에만)
 
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 보고서 탭 아래의 맵 수준 및 주제 목록에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
@@ -97,13 +98,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides as a Cloud Service 2023년 6월 릴리스에서 지원하는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 2023년 7월 AEM Guides as a Cloud Service 릴리스에서 지원하는 소프트웨어 애플리케이션에 대한 호환성 매트릭스를 살펴봅니다.
 
 ### FrameMaker 및 FrameMaker Publishing Server
 
 | AEM Guides as a Cloud 릴리스 | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.06.0 | 호환되지 않음 | 2022년 이상 |
+| 2023.07.0 | 호환되지 않음 | 2022년 이상 |
 | | | |
 
 
@@ -111,7 +112,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 | AEM Guides as a Cloud 릴리스 | 산소 커넥터 창 | 산소 커넥터 Mac | Oxygen 창에서 편집 | Oxygen Mac에서 편집 |
 | --- | --- | --- | --- | --- |
-| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -121,45 +122,16 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 작성
 
-- 레이아웃 보기에서 작성자 또는 소스 보기로 전환하면 Navtitle이 content33에서 제거됩니다. (12174)
-- DITA 맵을 클릭할 때 응용 프로그램 오류가 발생하는 경우가 있습니다. (11842)
-- 웹 편집기 | 항목을 편집하는 동안 XML 편집기에 줄바꿈하지 않는 공백이 추가됩니다. (11786)
-- 자산 UI | 목록 보기에서 오버레이된 사용 가능한 열을 병합할 수 없습니다. (11528)
-- Keyref가 맵 보기에서 확인되지 않습니다. (11490)
-- XML 편집기를 탐색할 때 상단 메뉴가 나타나지 않습니다. (10868)
-- `conref` ph 태그에서 | 표시되는 찾아보기 대화 상자가 올바르지 않습니다. (9481)
-- 다른 요소에 대한 로컬 링크는 웹 편집기에서 확인되지 않습니다. (8790)
-- Matches() 함수가 schematron 기능에서 작동하지 않습니다. (11224)
-
-
-### 관리
-
-- 웹 편집기 UI의 보고서 탭에는 4.2 업그레이드 전에 생성된 이전 DITA 맵의 주제 목록이 표시되지 않습니다. (11708)
-
-- 4.2 릴리스의 Assets UI Break에서 파일 업로드 버튼 기능. (11633)
+- 인라인/표시 속성이 웹 편집기의 레이아웃 보기에 표시되지 않습니다. (12498)
+- 이(가) 있는 경우 AEM Guides용 Oxygen Plugin의 업로드 파일이 클라우드 서비스에서 작동하지 않습니다. 파일 이름을 입력합니다. (12207)
+- DITA 맵 게시는 편집 가능한 템플릿으로 매우 느립니다. (12075)
+- 전역 프로필 UI 구성이 폴더 프로필과 일치하지 않습니다. (11970)
+- DITA 파일을 복사하여 붙여넣으면 컨텐트 참조가 끊어집니다. (11959)
+- AEM Guides가 설치된 열 보기에서 컨텐츠 조각을 편집할 수 없습니다. (7342)
+- 래핑되지 않은 xref가 하위 요소 태그 아래에 있으면 콘텐츠가 손실됩니다. (12532)
 
 ### 게시
 
-- 새로 고치거나 다시 시작한 Pod에서 임시 파일을 읽을 때 AEM 사이트에 게시하지 못합니다. (12113)
-- 기본 PDF | brackets()가 있는 출력 클래스가 있는 콘텐츠를 게시하면 게시가 중지됩니다. (11936)
-- JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑 `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11933)
-- 웹 편집기 | AEM 사전 설정에서 출력 경로 및 템플릿을 선택할 수 없습니다. (11530)
-- 기본 PDF | 사용자 지정 특성이 임시 HTML 또는 PDF 엔진에 전파되지 않습니다. (DXML-12005)
-- 기본 PDF | 큰 콘텐츠를 게시할 때 Java OutOfMemoryError가 발생합니다. (11789)
-- JSON 출력 | `fmUuid` json의 jcr:content 노드에 있는 속성이 JSON 내의 &quot;id&quot;와 다릅니다. (11564)
-- JSON 출력 | 동일한 파일 이름을 가진 맵과 주제가 있으면 맵에 대한 JSON이 제거됩니다. (11524)
-- 기본 PDF | Xref가 Xref 레이블 대신 href 주제 제목의 콘텐츠를 인쇄하고 있습니다. (11322)
-- 기본 PDF | PDF 템플릿 설정을 저장할 수 없습니다. (10751)
-- 기본 PDF | 텍스트가 여러 xref를 포함할 때 열 너비를 넘어갑니다. (10876)
-- 기본 PDF | `<note>``</note>` 요소가 해당 유형의 추가 스팬 제목을 생성하지 않습니다. (10549)
-- 기본 PDF | 생성된 PDF에서 WCAG 2.0을 준수하도록 언어 메타데이터를 설정할 수 없습니다. (12407)
+- 오른쪽 패널의 파일 속성에서 dostate가 &quot;종료 상태&quot;로 변경되면 승인 작업 과정이 작동하지 않습니다. (11026)
 
 
-
-### 번역
-
-- 2월 클라우드 릴리스(2302) 이후 모든 번역 콘텐츠가 동기화되지 않음 또는 누락된 사본을 표시합니다. (11834)
-
-### 리뷰
-
-- 새 리뷰 UI | 조건이 강조 표시되고, 숨기기 작업이 웹 편집기에서 작동하는 방식과 다릅니다. (11628)

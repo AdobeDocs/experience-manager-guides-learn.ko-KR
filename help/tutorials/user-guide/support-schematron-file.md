@@ -1,13 +1,13 @@
 ---
 title: Schematron 파일 지원
 description: 스키마를 사용하여 주제의 유효성을 검사하는 방법 알아보기
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Schematron 파일 지원
 
@@ -55,7 +55,7 @@ Schematron 파일을 가져온 후 웹 편집기에서 편집할 수 있습니�
 
 웹 편집기의 Schematron 지원을 통해 규칙 세트에 대한 파일의 유효성을 검사하고 전체 항목의 일관성과 정확성을 유지할 수 있습니다.
 
-## Assert 및 Report 문을 사용하여 규칙 확인{#schematron-assert-report}
+## 어설션 및 보고서 문을 사용하여 규칙 확인{#schematron-assert-report}
 
 AEM Guides는 Schematron에서 어설션 및 보고서 문도 지원합니다. 이러한 문은 DITA 주제의 유효성을 검사하는 데 도움이 됩니다.
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

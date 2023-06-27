@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 6%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
@@ -13,12 +13,16 @@ ht-degree: 6%
 # Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
 + [Tutorials [!DNL AEM Guides]](overview.md)
++ [면책조항](./user-guide/rebranding-disclaimer.md)
 + 릴리스 정보 {#release-info}
    + [[!DNL AEM Guides] 릴리스](./release-info/latest-release-info.md)
    + 릴리스 정보 {#release-notes}
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 릴리스 {#2023-releases}
+            + 7월 릴리스 {#2307-release}
+               + [새로운 기능](./release-info/whats-new-2023.7.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
             + 6월 릴리스 {#2306-release}
                + [새로운 기능](./release-info/whats-new-2023.6.0.md)
                + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
@@ -53,7 +57,6 @@ ht-degree: 6%
          + [4.0.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x 릴리스 노트](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 사용 안내서 {#user-guide}
-   + [면책조항](./user-guide/rebranding-disclaimer.md)
    + 소개 {#about-aem-guide}
       + [ [!DNL Adobe Experience Manager Guides] 정보](./user-guide/intro.md)
       + [!DNL AEM Guides] 작업 및 주요 기능 {#aemg-works-features}
@@ -82,6 +85,7 @@ ht-degree: 6%
                + [웹 편집기 보기](./user-guide/web-editor-views.md)
                + [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                + [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
+               + [데이터 소스에서 콘텐츠 조각 삽입](./user-guide/web-editor-content-snippet.md)
                + [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
                + 문서 기반 게시 {#article-based-pub}
                   + [웹 편집기에서 문서 기반 게시](./user-guide/web-editor-article-publishing.md)
@@ -172,7 +176,6 @@ ht-degree: 6%
       + [파일 버전 기록 보고서를 되돌렸습니다.](./user-guide/reports-reverted-file-version-history.md)
 + 설치 및 구성 안내서 {#install-guide}
    + 온프레미스 {#on-prem-ig}
-      + [면책조항](./install-guide/rebranding-disclaimer.md)
       + [이 안내서 정보](./install-guide/introduction.md)
       + 다운로드, 설치 및 업그레이드 {#download-install-upgrade-aemg}
          + [개요](./install-guide/download-install.md)
@@ -249,6 +252,69 @@ ht-degree: 6%
       + AEM Assets 검색 작업 {#aem-asset-search}
          + [AEM Assets UI에 대한 검색 구성](./install-guide/conf-dita-search.md)
       + [부록](./install-guide/appendix.md)
+   + 클라우드 서비스 {#cs-ig}
+      + [이 안내서 정보](./cs-install-guide/introduction.md)
+      + AEM Guides를 Cloud Service으로 배포 및 구성 {#deploy-conf-aemg-cs}
+         + [다운로드 및 설치](./cs-install-guide/download-install.md)
+         + [AEM Guides 모듈 배포](./cs-install-guide/download-install-dxml-first-time.md)
+         + [Dispatcher 구성](./cs-install-guide/download-install-configure-dispatcher.md)
+         + [AEM Guides 설치 확인](./cs-install-guide/download-install-verify-dxml-installation.md)
+         + [AEM Guides 업그레이드](./cs-install-guide/download-install-upgrade-dxml.md)
+         + [구성 재정의](./cs-install-guide/download-install-additional-config-override.md)
+         + [성능 최적화를 위한 Recommendations](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+      + 사용자 그룹 및 보안 작업 {#user-group-sec-cs}
+         + [사용자 관리 및 보안](./cs-install-guide/user-admin-sec.md)
+      + 컨텐츠 마이그레이션 {#migrate-con-cs}
+         + [기존 콘텐츠 마이그레이션](./cs-install-guide/migrate-content.md)
+         + [기존 DITA 콘텐츠 업로드](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
+         + [DITA가 아닌 콘텐츠 마이그레이션](./cs-install-guide/migrate-content-non-dita.md)
+      + 사용자 지정 DITA-OT 및 특수화 작업 {#custom-dita-ot-spec-cs}
+         + [사용자 지정 DITA-OT 및 DITA 특수화 사용](./cs-install-guide/dita-ot-specialization.md)
+      + UUID 및 비 UUID 기반 파일 이름 구성 {#conf-non-uuid-filename-cs}
+         + [파일 이름 구성](./cs-install-guide/conf-file-names.md)
+         + [UUID를 기반으로 자동 파일 이름 구성](./cs-install-guide/conf-auto-uuid-filenames.md)
+         + [올바른 파일 이름 문자에 대한 Regx 구성](./cs-install-guide/conf-file-names-valid-regx.md)
+         + [AEM 사이트 출력에 대한 유효한 파일 이름 구성](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      + 주제 및 맵 템플릿 작업 {#topic-map-template-cs}
+         + [주제 구성 및 템플릿 매핑](./cs-install-guide/conf-template-tags.md)
+         + [사용자 지정 DITA 주제 템플릿 구성](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
+         + [사용자 지정 DITA 맵 템플릿 구성](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + 문서 상태 작업 {#doc-state-cs}
+         + [문서 상태 구성](./cs-install-guide/customize-doc-state.md)
+      + 웹 편집기 구성 작업 {#web-editor-configs-cs}
+         + [웹 편집기 사용자 지정](./cs-install-guide/conf-web-editor.md)
+         + [도구 모음 사용자 지정](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         + [태그 보기에 대한 기본값 구성](./cs-install-guide/configure-default-value-tags-view.md)
+         + [UUID 기반 링크 표시 구성](./cs-install-guide/conf-uuid-based-links.md)
+         + [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./cs-install-guide/open-dita-files-same-tab.md)
+         + [왼쪽 패널에서 사용자 정의 패널 구성](./cs-install-guide/configure-custom-panel.md)
+         + [웹 편집기에서 파일 자동 저장 구성](./cs-install-guide/auto-save-in-editor.md)
+         + [닫을 때 새 버전으로 저장하라는 메시지 구성](./cs-install-guide/conf-save-as-new-version-close.md)
+         + [닫을 때 파일을 체크 인하도록 프롬프트 구성](./cs-install-guide/conf-checkin-file-close.md)
+         + [허용되는 특수 문자 구성](./cs-install-guide/conf-special-chars.md)
+         + [요소 ID 자동 생성](./cs-install-guide/auto-generate-ids.md)
+         + [AEM 기본 사전 사용자 지정](./cs-install-guide/customize-aem-custom-dictionary.md)
+         + [텍스트 필터 구성](./cs-install-guide/config-text-filters.md)
+         + [파일 찾아보기 대화 상자에 대한 필터 구성](./cs-install-guide/conf-custom-file-filters.md)
+         + [문서 기반 게시용 패키지 설치](./cs-install-guide/configure-article-based-publishing.md)
+         + [단일 주제 PDF 생성 구성](./cs-install-guide/conf-pdf-generation-dita-ot.md)
+         + [웹 편집기에서 번역 기능 구성](./cs-install-guide/conf-translation-web-editor.md)
+         + [데이터 소스 커넥터 구성](./cs-install-guide/conf-data-source-connector.md)
+         + [고급 맵 편집기 를 기본값으로 설정합니다.](./cs-install-guide/conf-map-editor.md)
+         + [기본적@navtitle 속성 포함](./cs-install-guide/auto-add-navtitle.md)
+      + 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles-cs}
+         + [전역 또는 폴더 수준 프로필 구성](./cs-install-guide/conf-folder-level.md)
+      + 버전 구성 {#version-mgt-cs}
+         + [버전 관리](./cs-install-guide/version-management.md)
+      + 출력 생성 설정을 사용한 작업 {#output-gen-config-cs}
+         + [출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
+      + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow-cs}
+         + [워크플로우 구성 및 사용자 정의](./cs-install-guide/customize-workflows.md)
+      + 번역 구성 작업 {#translate-config-cs}
+         + [콘텐츠 번역](./cs-install-guide/translation.md)
+      + AEM Assets 검색 작업 {#aem-asset-search-cs}
+         + [AEM Assets UI에 대한 검색 구성](./cs-install-guide/conf-dita-search.md)
+      + [부록](./cs-install-guide/appendix.md)
 + 기술 자료 {#knowledge-base}
    + 전문가 세션 {#expert-session}
       + [전문가 세션 개요](./knowledge-base/expert-sessions/expert-session.md)
@@ -263,10 +329,10 @@ ht-degree: 6%
       + 작성 {#authoring}
          + 보고서 {#reports}
             + [DITA 콘텐츠에 대한 메타데이터 관리](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         + 웨비디터 {#webeditor}
+         + 웹 편집기 {#webeditor}
             + 사용자 정의 {#customizing}
                + [도구 모음에 사용자 지정 단추 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               + [웨비터에게 사용자 정의 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               + [웹 편집기에 사용자 지정 스타일 추가](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 도식 문자 {#schematron}
                + [스키마 유효성 검사](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 게시 {#publishing}

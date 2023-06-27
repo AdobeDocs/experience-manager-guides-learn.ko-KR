@@ -1,16 +1,17 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager 안내서의 새로운 기능, 2023년 6월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 6월 릴리스의 새로운 기능과 향상된 기능을 알아보십시오
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guides as a Cloud Service의 2023년 6월 릴리스의 새로운 기능
 
-이 문서에서는 버전 2023년 6월 버전의 Adobe Experience Manager Guides(이후 설명됨)의 새로운 기능 및 향상된 기능을 다룹니다 *AEM Guides as a Cloud Service*).
+이 문서에서는 2023년 6월 Adobe Experience Manager Guides(이후 설명됨)의 새로운 기능 및 향상된 기능을 다룹니다 *AEM Guides as a Cloud Service*).
 
 업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](release-notes-2023.6.0.md) 기사.
 
@@ -41,7 +42,13 @@ AEM Guides를 사용하면 기술 문서의 전체 완성도를 확인하고 웹
 
 ### DITA 요소의 언어 변수 지원
 
-AEM Guides는 언어 변수를 지원합니다. 이러한 변수는 참고, 팁, 경고, 주의 등의 요소에 대해 지역화된 문자열을 생성하는 데 매우 유용합니다. 예를 들어 다음과 같은 방법으로 PDF 출력에 NOTE를 표시할 수 있습니다. 독일어: 스페인어 알림: Nota
+AEM Guides는 언어 변수를 지원합니다. 이러한 변수는 참고, 팁, 경고, 주의 등의 요소에 대해 지역화된 문자열을 생성하는 데 매우 유용합니다.
+예를 들어 다음과 같은 방법으로 PDF 출력에 NOTE를 표시할 수 있습니다.
+
+독일어: 노티즈
+
+스페인어: Nota
+
 
 ### 페이지 바닥글의 언어 변수 지원
 
@@ -51,10 +58,13 @@ AEM Guides는 언어 변수를 지원합니다. 이러한 변수는 참고, 팁,
 ### TOC의 현지화된 접두사
 
 머리글에 접두어를 표시하는 데 사용할 현지화된 용어를 표시하는 기능도 있습니다.
-예를 들어 다음과 같이 &#39;Chapter&#39; 접두사를 PDF 출력에 표시할 수 있습니다. 독일어: 카피텔 스페인어: 카피툴로
+예를 들어 다음과 같이 &#39;Chapter&#39; 접두사를 PDF 출력에 표시할 수 있습니다.
+
+독일어: Kapitel
+
+스페인어(카피툴로)
 
 ### PDF 레이아웃에서 AEM 메타데이터를 사용하는 기능
-
 
 메타데이터는 콘텐츠에 대한 설명 또는 정의입니다. 이 메타데이터는 소스 DITA 맵 콘텐츠에 저장됩니다.
 
@@ -72,11 +82,11 @@ AEM Guides는 언어 변수를 지원합니다. 이러한 변수는 참고, 팁,
 
 ## 향상된 스키마 기능
 
-### Report 문을 사용하여 Schematron에서 규칙 확인
+### Schematron에서 규칙을 확인하려면 보고서 문을 사용하십시오.
 
 AEM Guides는 이제 Schematron을 사용하여 보고서 문을 지원합니다. 보고서 문은 테스트 문이 true로 평가될 때 메시지를 생성합니다. 예를 들어 간단한 설명이 150자 이하이도록 하려면 보고서 문을 정의하여 간단한 설명이 150자를 초과하는 항목을 확인할 수 있습니다.
 
-자세한 내용은 [Assert 및 Report 문을 사용하여 규칙 확인](../user-guide/support-schematron-file.md#schematron-assert-report).
+자세한 내용은 [어설션 및 보고서 문을 사용하여 규칙 확인](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### 정규 표현식 사용
 
