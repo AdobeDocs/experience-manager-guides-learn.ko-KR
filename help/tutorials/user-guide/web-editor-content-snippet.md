@@ -1,7 +1,7 @@
 ---
 title: 데이터 소스에서 콘텐츠 조각 삽입
 description: 데이터 소스에서 콘텐츠 코드 조각을 삽입하는 방법 알아보기
-source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
+source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,6 +31,7 @@ AEM Guides에서는 데이터 소스와 연결하는 기능을 제공합니다. 
    >[!NOTE]
    >  
    > 관리자가 사용자 정의된 템플릿을 구성하면 관리자가 수행한 템플릿 경로 구성에 따라 드롭다운 목록에도 해당 템플릿이 표시됩니다.
+
 1. 클릭 **가져오기** 을 눌러 데이터 소스에서 데이터를 가져오고 SQL 쿼리의 결과로 생성되는 데이터에 템플릿을 적용합니다.
 1. 미리보기 또는 DITA 소스 뷰에서 데이터를 볼 수 있습니다.
 
