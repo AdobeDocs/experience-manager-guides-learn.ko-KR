@@ -1,14 +1,14 @@
 ---
-title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 6월 릴리스의 업그레이드 지침 및 해결된 문제
+title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 7월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 7월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
-source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
 
 ---
 
-# 2023년 6월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
+# 2023년 7월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 
 이 릴리스 노트는 2023년 7월 Adobe Experience Manager 안내서 버전에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다(나중에 설명). *AEM Guides as a Cloud Service*).
 
