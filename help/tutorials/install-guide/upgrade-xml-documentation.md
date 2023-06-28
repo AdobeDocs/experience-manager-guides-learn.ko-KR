@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager Guides 업그레이드
 description: Adobe Experience Manager Guides를 업그레이드하는 방법 알아보기
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Experience Manager Guides 업그레이드 {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ AEM Guides를 설치한 후 새로 설치한 버전에서 설정에 적용할 �
 
    - &#39;excludeList&#39;에는 `"event-user-data:changedByWorkflowProcess"`.
    - &quot; 런처&#x200B;*노드가 수정됨*&#x200B;다음에 대한 &quot; **DAM 자산 업데이트 워크플로우 -** 조건 용`jcr:content/jcr:mimeType!=video`&quot;,
-   - 
-      - &#39;Globbing&#39; 값은 다음과 같아야 합니다.
+   - &#39;Globbing&#39; 값은 다음과 같아야 합니다.
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;에는 `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ AEM Guides를 설치한 후 새로 설치한 버전에서 설정에 적용할 �
    - &quot; 런처&#x200B;*노드가 수정됨*&#x200B;다음에 대한 &quot; **DAM 자산 업데이트 워크플로우 -** 조건 용`jcr:content/jcr:mimeType!=video`&quot;, &#39;Globbing&#39; 값은 다음과 같아야 합니다.
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` 이(가) 있어야 함 `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. 업그레이드가 완료되면 사용자 지정/오버레이가 새 애플리케이션 코드와 일치하도록 확인 및 업데이트되었는지 확인합니다. 다음은 몇 가지 예입니다.
    - /libs/fmditaor/libsfrom에서 오버레이된 모든 구성 요소는 새 제품 코드와 비교해야 하며, 업데이트는 / 앱에서 오버레이된 파일에서 수행해야 합니다.
@@ -408,7 +406,7 @@ AEM Guides를 설치한 후 새로 설치한 버전에서 설정에 적용할 �
 기존 콘텐츠를 색인화하기 위해 다음 단계를 수행하고 맵 수준에서 새 찾기 및 바꾸기 텍스트를 사용합니다.
 
 - 다음을 확인합니다. `damAssetLucene` 색인화가 완료되었습니다. 서버에 있는 데이터의 양에 따라 최대 몇 시간이 소요될 수 있습니다. 리인덱싱 필드가 false로 설정되어 있는지 확인하여 리인덱싱이 완료되었는지 확인할 수 있습니다
-   `http://<server:port>/oak:index/damAssetLucene`.  또한에서 사용자 지정을 추가한 경우 `damAssetLucene`, 다시 적용해야 할 수 있습니다.
+  `http://<server:port>/oak:index/damAssetLucene`.  또한에서 사용자 지정을 추가한 경우 `damAssetLucene`, 다시 적용해야 할 수 있습니다.
 
 - 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 \|\| 예를 들면 다음과 같습니다. `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ AEM Guides를 설치한 후 새로 설치한 버전에서 설정에 적용할 �
 - 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-
