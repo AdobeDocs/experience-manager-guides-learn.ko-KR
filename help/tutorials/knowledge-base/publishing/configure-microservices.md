@@ -2,9 +2,9 @@
 title: AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성
 description: AEM Guides의 새로운 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
+source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 현재 AEM Guides의 마이크로서비스 기반 게시는 기본 PDF 게시를 사용하거나 DITA-OT를 통해서만 PDF 출력을 지원합니다. 향후 릴리스에서는 더 많은 출력 유형에 대한 마이크로서비스 기반 게시 지원을 추가할 예정입니다.
+> AEM Guides의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
 
 새로운 클라우드 게시 서비스는 Adobe IMS JWT 기반 인증을 통해 보호되므로 고객은 아래 단계에 따라 환경을 Adobe의 보안 토큰 기반 인증 워크플로와 통합하고 새로운 클라우드 기반의 확장 가능한 게시 솔루션을 사용해야 합니다.
 
@@ -90,6 +90,16 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
 
 이 작업이 완료되면 새로운 마이크로서비스 기반 클라우드 게시를 사용할 수 있습니다.
 
+## FAQ
+
+1. 하나의 키를 여러 클라우드 환경에서 사용할 수 있습니까?
+   * 예. 하나의 개인 키를 생성하여 모든 환경에 사용할 수 있지만 모든 환경에 대해 환경 변수를 구성하고 동일한 키를 사용해야 합니다.
+1. 마이크로서비스를 사용하기 위한 OSGi 구성이 활성화된 경우 게시 프로세스가 동일한 코드베이스를 사용하는 로컬 AEM 서버에서 작동합니까?
+   * 아니요, 플래그가 `dxml.use.publish.microservice` 이(가) (으)로 설정됨 `true` 그런 다음 항상 마이크로 서비스 구성을 찾습니다. 설정 `dxml.use.publish.microservice` 끝 `false` 로컬 게시에서 작업할 수 있도록 해줍니다.
+1. 마이크로서비스 기반 게시를 사용할 때 DITA 프로세스에 할당되는 메모리는 얼마입니까? DITA 프로파일 개체 매개변수를 통해 제어됩니까?
+   * 마이크로서비스 기반 게시를 사용하면 DITA 프로파일 개체 매개 변수를 통해 메모리 할당이 제어되지 않습니다. 서비스 컨테이너에서 사용할 수 있는 총 메모리는 8GB이며, 이 중 6GB는 DITA-OT 프로세스에 할당됩니다.
+
+
 ## 부록 {#appendix}
 
 **파일**:
@@ -107,7 +117,7 @@ Adobe Developer 콘솔에서 IMS 구성을 만들려면 다음 단계를 수행�
 **파일**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **콘텐츠**:
-* `dxml.use.publish.microservice`: DITA-OT를 사용하여 마이크로서비스 기반 PDF 게시를 활성화하도록 전환
+* `dxml.use.publish.microservice`: DITA-OT를 사용하여 마이크로서비스 기반 게시를 활성화하도록 전환
 * `dxml.use.publish.microservice.native.pdf`: 마이크로서비스 기반 기본 PDF 게시를 사용하도록 전환
 
 ```

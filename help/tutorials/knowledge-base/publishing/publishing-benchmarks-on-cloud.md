@@ -1,21 +1,22 @@
 ---
 title: AEMaaCS에서 안내서 게시 벤치마크
 description: AEM Cloud에 게시하는 것에 대한 시스템 제한을 이해합니다.
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # AEM Guides Publishing 벤치마크
 
 현재 AEM Guides 클라우드 서비스에는 Guides 팀이 문제를 해결하기 위해 노력하고 있는 게시 맵 크기에 대한 몇 가지 제한이 있습니다.
 
-Guides 팀에는 이미 확장 가능한 확장이 도입되었습니다 [마이크로서비스 게시](publish-microservice-architecture-and-performance.md) 큰 맵과 여러 동시 게시를 지원합니다. 현재 이 마이크로서비스는 출력 유형의 하위 집합을 지원하며 다른 유형에 대한 지원은 활발히 개발 중입니다.
+Guides 팀은 대형 맵과 여러 동시 게시를 지원하기 위해 확장 가능한 게시 마이크로서비스를 도입했습니다. 새 게시 마이크로서비스에 대한 자세한 내용은 을 참조하십시오. [마이크로서비스 아키텍처 게시](publish-microservice-architecture-and-performance.md)
 
 AEM 클라우드 환경에 대한 새 게시 서비스를 구성하려면 다음을 참조하십시오. [새 마이크로서비스 기반 게시 구성](configure-microservices.md)
+
 
 ## 실행 환경
 

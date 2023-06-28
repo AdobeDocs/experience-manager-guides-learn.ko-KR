@@ -1,13 +1,13 @@
 ---
 title: 클라우드 게시 마이크로서비스 아키텍처 및 성능
 description: 새로운 마이크로서비스가 AEMaaCS에서 확장 가능한 게시를 구현하는 방법을 이해합니다.
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # 클라우드 게시 마이크로서비스 아키텍처 및 성능 분석
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 현재 AEM Guides의 마이크로서비스 기반 게시는 기본 PDF 게시를 사용하거나 DITA-OT를 통해서만 PDF 출력을 지원합니다. AEM Guides에는 향후 릴리스에 더 많은 출력 유형에 대한 마이크로서비스 기반 게시 지원이 추가될 예정입니다.
+> AEM Guides의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5 및 사용자 지정 출력 사전 설정 유형을 지원합니다.
 
 ## 클라우드의 기존 게시 워크플로 문제
 
@@ -50,29 +50,29 @@ DITA 게시는 주로 사용 가능한 시스템 메모리 및 CPU에 따라 리
 
 * 클라우드
 
-   새 서비스를 사용하여 클라우드에서 단일 게시를 실행하는 경우 게시는 단일 온프레미스 게시와 비교하여 시간이 조금 더 걸릴 수 있습니다. 이 약간의 상승 시간은 새로운 클라우드 아키텍처의 분산 특성 때문입니다.
+  새 서비스를 사용하여 클라우드에서 단일 게시를 실행하는 경우 게시는 단일 온프레미스 게시와 비교하여 시간이 조금 더 걸릴 수 있습니다. 이 약간의 상승 시간은 새로운 클라우드 아키텍처의 분산 특성 때문입니다.
 
-   <img src="assets/cloud_single_publish.png" alt="프로젝트 탭" width="600">
+  <img src="assets/cloud_single_publish.png" alt="프로젝트 탭" width="600">
 
 * On-prem
 
-   전체 게시가 AEM이 실행 중인 동일한 pod/시스템에서 수행되므로 단일 게시의 결과가 이전 클라우드 아키텍처 또는 온프레미에서 더 좋습니다.
+  전체 게시가 AEM이 실행 중인 동일한 pod/시스템에서 수행되므로 단일 게시의 결과가 이전 클라우드 아키텍처 또는 온프레미에서 더 좋습니다.
 
-   <img src="assets/onprem_single_publish.png" alt="프로젝트 탭" width="600">
+  <img src="assets/onprem_single_publish.png" alt="프로젝트 탭" width="600">
 
 ### 클라우드와 온프레미에서 다중 게시 실행
 
 * 클라우드
 
-   새 게시 마이크로서비스가 이 시나리오에서 표시됩니다. 아래 이미지에서 볼 수 있듯이 여러 동시 게시 작업이 증가함에 따라 클라우드에서 게시 시간을 크게 늘리지 않고 게시할 수 있습니다.
+  새 게시 마이크로서비스가 이 시나리오에서 표시됩니다. 아래 이미지에서 볼 수 있듯이 여러 동시 게시 작업이 증가함에 따라 클라우드에서 게시 시간을 크게 늘리지 않고 게시할 수 있습니다.
 
-   <img src="assets/cloud_bulk_publish.png" alt="프로젝트 탭" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="프로젝트 탭" width="600">
 
 * On-prem
 
-   온프레미스 서버에서 동시 게시를 실행하면 성능이 크게 저하됩니다. 게시자가 더 많은 지도를 동시에 게시하는 경우 이러한 성능 감소는 더 심각합니다.
+  온프레미스 서버에서 동시 게시를 실행하면 성능이 크게 저하됩니다. 게시자가 더 많은 지도를 동시에 게시하는 경우 이러한 성능 감소는 더 심각합니다.
 
-   <img src="assets/onprem_bulk_publish.png" alt="프로젝트 탭" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="프로젝트 탭" width="600">
 
 ## 추가적인 이점
 
