@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 5%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 5%
             + [PDF 템플릿](./native-pdf/pdf-template.md)
             + [PDF 템플릿의 구성 요소](./native-pdf/components-pdf-template.md)
             + [페이지 레이아웃 디자인](./native-pdf/design-page-layout.md)
+            + [언어 변수 지원](./native-pdf/native-pdf-language-variables.md)
             + 공통 컨텐츠 스타일 {#content-styles}
                + [일반적인 콘텐츠 스타일 사용](./native-pdf/stylesheet.md)
                + [사용자 정의 변경 막대 스타일 작업](./native-pdf/change-bar-style.md)

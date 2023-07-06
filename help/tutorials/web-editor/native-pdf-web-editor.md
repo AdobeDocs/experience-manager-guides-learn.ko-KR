@@ -2,9 +2,9 @@
 title: 기본 PDF | PDF 출력 생성
 description: Adobe Experience Manager Guides as a Cloud Service으로 PDF 출력 생성
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -182,3 +182,10 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 >[!NOTE]
 >
 > 다음 **임시 파일 다운로드**  ![임시 파일 다운로드](assets/native-pdf-download-temporary-files-icon.svg) 아이콘은 사전 설정을 사용하여 마지막 PDF 출력을 생성한 경우에만 나타나며 여기에서 옵션을 선택했습니다. **고급** 탭.
+
+
+
+### 언어 변수 사용
+
+AEM Guides는 언어 변수에 대한 지원도 제공합니다. 선택 **언어 변수** <img src="./assets/language-variables.svg" width="25">  왼쪽 패널에서 PDF 출력의 Note, Caution 및 Warning과 같은 기본 제공 레이블이나 정적 텍스트의 지역화된 버전을 정의할 수 있습니다. 자세한 내용은 [언어 변수 지원](../native-pdf/native-pdf-language-variables.md).
+

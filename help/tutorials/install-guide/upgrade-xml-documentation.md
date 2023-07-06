@@ -2,9 +2,9 @@
 title: Adobe Experience Manager Guides 업그레이드
 description: Adobe Experience Manager Guides를 업그레이드하는 방법 알아보기
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 1%
 
 ---
@@ -236,9 +236,51 @@ AEM Guides를 설치한 후 새로 설치한 버전에서 설정에 적용할 �
 
 - 올바른 인증을 사용하여 서버에 대한 POST 요청 실행\ - `http://<server:port\>/bin/guides/map-find/indexing`. \(선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵은 인덱싱됩니다. \|\| 예: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(예: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다.
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(예: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
+
+업그레이드 작업이 실패하고 오류 로그에 다음 오류가 표시되는 경우:
+
+&quot;다음 *쿼리* 읽기 또는 트래버스 초과분 *100000 노드*. 다른 작업에 영향을 주지 않도록 처리가 중지되었습니다.&quot;
+
+이 문제는 업그레이드에 사용된 쿼리에 대해 색인이 제대로 설정되지 않았기 때문에 발생할 수 있습니다. 다음 해결 방법을 시도할 수 있습니다.
+
+1. damAssetLucene oak 인덱스에서 부울 속성을 추가합니다 `indexNodeName` 다음으로: `true` 을 참조하십시오.
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. 노드 아래에 발췌한 이름의 새 노드를 추가합니다.
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+를 누르고 노드에서 다음 속성을 설정합니다.
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   의 구조 `damAssetLucene` 다음과 같아야 합니다.
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   (다른 기존 노드 및 속성과 함께)
+
+1. 색인 재지정 `damAssetLucene` 색인(색인 재지정 플래그를 로 설정) `true` 아래에 두고 기다리십시오. `false` 다시 한 번(리인덱싱이 완료되었음을 나타냄). 색인의 크기에 따라 몇 시간 정도 소요될 수 있습니다.
+1. 이전 단계를 수행하여 인덱싱 스크립트를 다시 실행합니다.
+
 
 ## 버전 4.2.1로 업그레이드 {#upgrade-version-4-2-1}
 
