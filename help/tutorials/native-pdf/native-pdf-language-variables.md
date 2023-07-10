@@ -1,7 +1,7 @@
 ---
 title: 기본 PDF | 언어 변수 지원
 description: PDF 출력 및 출력 템플릿에서 언어 변수 사용
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리
 
 1. 편집에 필요한 페이지 레이아웃을 엽니다.
 
->[!NOTE]
->
-> 보기 [페이지 레이아웃 사용자 지정](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 사용자 지정 또는 편집을 위한 페이지 레이아웃을 열기 위한 섹션.:
+   >[!NOTE]
+   >
+   > 보기 [페이지 레이아웃 사용자 지정](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 사용자 지정 또는 편집을 위한 페이지 레이아웃을 열기 위한 섹션입니다.
 
 1. 변수를 삽입하도록 활성화하려면 헤더를 선택합니다.
 1. 선택 **변수 삽입**  <img src="./assets/insert-language-variable.svg" width="25"> 을 클릭합니다.
 1. 다음에서 **변수 삽입** 팝업에서 삽입할 언어 변수의 이름을 선택하고 **삽입** 을 눌러 헤더 영역에 삽입합니다.
 
->[!NOTE]
->
-> 텍스트 상자에 검색 문자열을 입력할 수도 있습니다. 주어진 문자열을 포함하는 변수 이름은 필터링되고 목록에 표시됩니다.
-> 선택한 언어 변수가 헤더 영역에 삽입됩니다.
+   >[!NOTE]
+   >
+   > 텍스트 상자에 검색 문자열을 입력할 수도 있습니다. 주어진 문자열을 포함하는 변수 이름은 필터링되고 목록에 표시됩니다.
+   > 선택한 언어 변수가 헤더 영역에 삽입됩니다.
 
 다음 스크린샷은 의 값을 보여 줍니다. `copyright-label` 이(가) 헤더 영역에 추가되었습니다.
 
