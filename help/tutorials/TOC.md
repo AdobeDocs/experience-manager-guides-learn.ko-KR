@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -350,5 +350,4 @@ ht-degree: 5%
       + 사용 사례 {#use-cases}
          + [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ 숨겨진 문서 {#hidden}
    + [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)
