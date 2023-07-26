@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.3.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 이 문서에서는 Adobe Experience Manager Guides 버전 4.3.0의 새로운 기능 및 향상된 기능(이후 설명됨)을 다룹니다. *AEM 안내서*).
 
-업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은  [릴리스 정보](./release-notes-4.3.md).
+업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](./release-notes-4.3.md).
 
 
 ## 데이터 소스에 연결하고 주제에 데이터 삽입

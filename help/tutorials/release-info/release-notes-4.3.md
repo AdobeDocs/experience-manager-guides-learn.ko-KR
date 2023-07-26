@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides의 4.3.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ ht-degree: 5%
 - 검색된 파일을 한 개 열면 찾기 및 바꾸기 패널에서 검색 결과가 비활성화됩니다. (12142)
 - 측면 키보드의 &quot;8&quot; 숫자 키가 AEM Guides 편집기에서 작동하지 않습니다. (12106)
 - 인라인/표시 속성이 웹 편집기의 레이아웃 보기에 표시되지 않습니다. (12498)
-- 이(가) 있는 경우 AEM Guides용 Oxygen Plugin의 업로드 파일이 클라우드 서비스에서 작동하지 않습니다. 파일 이름을 입력합니다. (12207)
 - 전역 프로필 UI 구성이 폴더 프로필과 일치하지 않습니다. (11970)
 - DITA 파일을 복사하여 붙여넣으면 컨텐트 참조가 끊어집니다. (11959)
 - AEM Guides가 설치된 열 보기에서 컨텐츠 조각을 편집할 수 없습니다. (7342)
@@ -93,7 +92,7 @@ ht-degree: 5%
 - `conref` ph 태그에서 | 표시되는 찾아보기 대화 상자가 올바르지 않습니다. (9481)
 - 다른 요소에 대한 로컬 링크는 웹 편집기에서 확인되지 않습니다. (8790)
 - Matches() 함수가 schematron 기능에서 작동하지 않습니다. (11224)
-- AEM Guides용 Oxygen Plugin에서 웹 DITA 맵 편집기에서 DITA 맵을 여는 옵션은 이전 UI로 이동합니다. (12633)
+
 
 
 ### 관리

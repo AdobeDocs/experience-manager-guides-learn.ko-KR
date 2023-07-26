@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides의 새로운 기능, 2023년 7월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 7월 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오
-source-git-commit: 06bff798d2e745fae1c666353045cb4c6b040207
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 이 문서에서는 Adobe Experience Manager 안내서 2023년 7월 버전(나중에 설명됨)의 새로운 기능 및 향상된 기능을 다룹니다 *AEM Guides as a Cloud Service*).
 
-업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](release-notes-2023.7.0.md) 기사.
+업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](release-notes-2023.7.0.md).
 
 ## 데이터 소스에 연결하고 주제에 데이터 삽입
 
