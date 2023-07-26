@@ -2,7 +2,7 @@
 title: 웹 편집기의 기타 기능
 description: 웹 편집기의 기타 기능 알아보기
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -113,19 +113,19 @@ ht-degree: 0%
 
 - **잠금 해제 및 닫기**: 파일의 잠금이 해제되고 파일이 닫힙니다.
 
-   ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **새 버전으로 저장**: 콘텐츠에 수행한 변경 사항이 저장되고 파일의 새 버전이 만들어집니다. 새로 저장된 버전에 대한 레이블과 주석을 추가할 수도 있습니다. 새 버전 저장에 대한 자세한 내용은 [새 버전으로 저장](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **파일 잠금 해제**: 파일의 잠금을 해제하도록 선택하면 파일에 대한 잠금이 해제되고 변경 사항이 파일의 현재 버전에 저장됩니다.
 
->[!NOTE]
->
-> 파일의 잠금을 해제하는 옵션의 선택을 취소하면 변경 내용을 저장하지 않고 파일을 닫을 수 있는 옵션도 제공됩니다.
+  >[!NOTE]
+  >
+  > 파일의 잠금을 해제하는 옵션의 선택을 취소하면 변경 내용을 저장하지 않고 파일을 닫을 수 있는 옵션도 제공됩니다.
 
-예를 들어 다음 스크린샷에는 프롬프트 중 하나가 표시됩니다.
+  예를 들어 다음 스크린샷에는 프롬프트 중 하나가 표시됩니다.
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **끊어진 참조에 대한 시각적 큐**
 

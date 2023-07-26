@@ -2,9 +2,9 @@
 title: 게시된 콘텐츠의 벌크 활성화
 description: 게시된 콘텐츠의 벌크 활성화 방법 알아보기
 exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: c4f383984501525527136773ce7ef556170e8ad3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,10 @@ ht-degree: 0%
 
 AEM Guides의 벌크 활성화 기능을 사용하면 작성에서 게시 인스턴스로 콘텐츠를 빠르고 쉽게 활성화할 수 있습니다. 벌크 활성화 기능을 사용하면 다음과 같은 유연성을 얻을 수 있습니다.
 
-- 하나의 활성화 작업에 여러 맵 \(맵 컬렉션에\)을 하나 더 추가합니다.
+- 하나 이상의 맵 \(맵 컬렉션에\) 을 단일 활성화 작업에 추가합니다.
 
-- 게시하려는 여러 출력 사전 설정 중 하나를 선택합니다
+- 게시하려는 하나 이상의 출력 사전 설정을 선택합니다. AEM Site, PDF, 기본 PDF, HTML5, 사용자 지정 및 JSON 출력 사전 설정을 추가할 수 있습니다.
+
 
 - 출력을 활성화해야 하는 로케일 정의
 

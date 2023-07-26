@@ -2,9 +2,9 @@
 title: 벌크 활성화 맵 컬렉션 편집
 description: 벌크 활성화 맵 컬렉션을 편집하는 방법에 대해 알아봅니다
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,12 @@ ht-degree: 1%
 1. 클릭 **편집**.
 
    사용 가능한 각 로케일에 대해 사전 구성된 사전 설정과 함께 맵이 표시되는 벌크 활성화 맵 컬렉션 페이지가 나타납니다.
+AEM Site, PDF, 기본 PDF, HTML5, 사용자 지정 및 JSON 출력 과 같은 다양한 유형의 출력 사전 설정을 해당 아이콘과 함께 볼 수 있습니다.
+
+   >[!NOTE]
+   >
+   > 더 스몰 ![](images/global-preset-icon.svg) 아이콘은 폴더 프로필 수준 사전 설정을 나타냅니다.
+
 
 1. 슬라이더를 사용하여 활성화 또는 비활성화하려는 출력 사전 설정을 끕니다.
 
@@ -33,11 +39,11 @@ ht-degree: 1%
 
 1. **삭제**&#x200B;를 클릭합니다.
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    선택한 맵이 벌크 활성화 맵 컬렉션에서 제거됩니다.
 
-1. 클릭 **완료**.
+1. **완료**&#x200B;를 클릭합니다.
 
 
 **상위 항목:**[&#x200B;게시된 콘텐츠의 벌크 활성화](conf-bulk-activation.md)

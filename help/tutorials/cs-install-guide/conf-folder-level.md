@@ -1,7 +1,7 @@
 ---
 title: 전역 또는 폴더 수준 프로필 구성
 description: 전역 또는 폴더 수준 프로필을 구성하는 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
 workflow-type: tm+mt
 source-wordcount: '3962'
 ht-degree: 0%
@@ -19,7 +19,7 @@ AEM Guides를 사용하면 엔터프라이즈 \(전역\) 수준 및 폴더 수�
 
 안내서 설정의 폴더 프로필 타일을 사용하여 다음 탭에서 설정을 구성할 수 있습니다.
 
-![](assets/folder-profile-tabs.png)
+![](assets/folder-profile-tabs.png){width="800" align="left"}
 
 - **일반**: 일반 탭은 폴더 수준 \(또는 프로젝트/제품\) 설정을 구성하는 경우에만 사용할 수 있습니다. 설정을 적용할 폴더 경로와 구성을 만들거나 업데이트할 관리 권한이 있는 사용자와 같은 설정을 구성할 수 있습니다.
 
@@ -93,7 +93,7 @@ AEM Guides를 사용하면 엔터프라이즈 \(전역\) 수준 및 폴더 수�
 
    처음으로 [전역 프로필] 타일만 있는 [폴더 프로필] 페이지가 표시됩니다.
 
-   ![](assets/folder-profile-global.png)
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. 을(를) 클릭합니다 **글로벌 프로필** 타일.
 
@@ -122,7 +122,7 @@ AEM Guides를 사용하면 엔터프라이즈 \(전역\) 수준 및 폴더 수�
 
 1. **만들기**&#x200B;를 클릭합니다.
 
-   ![](assets/create-folder-profile.png)
+   ![](assets/create-folder-profile.png){width="300" align="left"}
 
 1. 에 다음 세부 정보를 입력합니다. **폴더 프로필 만들기** 대화 상자:
    - 폴더 프로필의 이름입니다.

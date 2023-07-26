@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1429'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 5%
             + [2월 릴리스 정보](./release-info/release-notes-2022.2.0.md)
             + [1월 릴리스 정보](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
+         + 4.3.0 릴리스 {#43-release}
+            + 새로운 기능 {#43-whats-new}
+               + [4.3.0 새로운 기능](./release-info/whats-new-4.3-release.md)
+            + 릴리스 정보 {#43-release-notes}
+               + [4.3.0 릴리스 노트](./release-info/release-notes-4.3.md)
          + 4.2 릴리스 {#42-release}
             + 새로운 기능 {#42-whats-new}
                + [4.2.1 새로운 기능](./release-info/whats-new-4.2.1-release.md)
@@ -85,7 +90,8 @@ ht-degree: 5%
                + [웹 편집기 보기](./user-guide/web-editor-views.md)
                + [Schematron 파일 지원](./user-guide/support-schematron-file.md)
                + [웹 편집기에서 Markdown 문서 작성](./user-guide/web-editor-markdown-topic.md)
-               + [데이터 소스에서 콘텐츠 조각 삽입](./user-guide/web-editor-content-snippet.md)
+               + [콘텐츠에 인용 부호 추가](./user-guide/web-editor-apply-citations.md)
+               + [데이터 소스의 데이터 사용](./user-guide/web-editor-content-snippet.md)
                + [글로벌 및 폴더 프로필 출력 사전 설정 관리](./user-guide/web-editor-manage-output-presets.md)
                + 문서 기반 게시 {#article-based-pub}
                   + [웹 편집기에서 문서 기반 게시](./user-guide/web-editor-article-publishing.md)
@@ -107,7 +113,7 @@ ht-degree: 5%
                + [DITAVAL 편집기 작업](./user-guide/ditaval-editor.md)
          + 콘텐츠 작성을 위한 데스크톱 도구 {#author-using-desktop-tools}
             + [데스크탑 도구를 사용하여 콘텐츠 작성](./user-guide/author-desktop-tools.md)
-            + [FrameMaker를 사용하여 작업](./user-guide/author-desktop-framemaker.md)
+            + [FrameMaker 작업](./user-guide/author-desktop-framemaker.md)
             + [산소를 사용한 작업](./user-guide/author-desktop-oxygen.md)
    + 콘텐츠 검토 {#review-topic-maps}
       + [주제 또는 맵 검토](./user-guide/review.md)
@@ -211,6 +217,7 @@ ht-degree: 5%
          + [웹 편집기 사용자 지정](./install-guide/conf-web-editor.md)
          + [도구 모음 사용자 지정](./install-guide/conf-web-editor-customize-toolbar.md)
          + [태그 보기에 대한 기본값 구성](./install-guide/configure-default-value-tags-view.md)
+         + [체크인 및 체크아웃 아이콘의 제목 구성](./install-guide/conf-checkin-checkout-title.md)
          + [UUID 기반 링크 표시 구성](./install-guide/conf-uuid-based-links.md)
          + [동일한 탭에서 DITA 주제 또는 맵 파일 열기](./install-guide/open-dita-files-same-tab.md)
          + [왼쪽 패널에서 사용자 정의 패널 구성](./install-guide/configure-custom-panel.md)
@@ -224,6 +231,7 @@ ht-degree: 5%
          + [텍스트 필터 구성](./install-guide/config-text-filters.md)
          + [쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
          + [문서 기반 게시용 패키지 설치](./install-guide/configure-article-based-publishing.md)
+         + [데이터 소스 커넥터 구성](./install-guide/conf-data-source-connector.md)
          + [고급 맵 편집기 를 기본값으로 설정합니다.](./install-guide/conf-map-editor.md)
          + [기본적@navtitle 속성 포함](./install-guide/auto-add-navtitle.md)
       + 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles}
@@ -246,6 +254,7 @@ ht-degree: 5%
                + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
                + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
                + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
+            + [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
       + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
          + [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
       + 번역 구성 작업 {#translate-config}
@@ -309,6 +318,7 @@ ht-degree: 5%
          + [버전 관리](./cs-install-guide/version-management.md)
       + 출력 생성 설정을 사용한 작업 {#output-gen-config-cs}
          + [출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
+         + [기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
       + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow-cs}
          + [워크플로우 구성 및 사용자 정의](./cs-install-guide/customize-workflows.md)
       + 번역 구성 작업 {#translate-config-cs}
@@ -351,3 +361,4 @@ ht-degree: 5%
          + [조건부 콘텐츠 작업](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [키 작업](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [산소 커넥터 사용](./oxygen-connector/use-aem-connector.md)
+

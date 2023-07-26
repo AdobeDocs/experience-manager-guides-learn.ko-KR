@@ -1,13 +1,13 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 3월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 3월 릴리스
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+exl-id: c62a65fb-b52d-455d-b42c-f0b19b4d5f63
+source-git-commit: f419281cdecb570f9e5c7ce5cd4c831cae349e11
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
-
 
 # 2023년 3월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
 
@@ -30,8 +30,7 @@ ht-degree: 1%
 (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예 : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(예: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(예: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
@@ -44,7 +43,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 | AEM Guides as a Cloud 릴리스 | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.03.0 | 호환되지 않음 | 2022년 이상 |
-|  |  |  |
+| | | |
 
 
 ### 산소 연결기
@@ -54,4 +53,23 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 | 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
+## 해결된 문제
 
+다양한 영역에서 수정된 버그는 다음과 같습니다.
+
+* PDF 다운로드 프로세스가 웹 편집기에서 제대로 작동하지 않습니다. (11496)
+* JSON 출력 | 다음 속성 값을 갖는 메타데이터 매핑 `"value in spaces and double quotes"` 은 게시 오류로 이어집니다. (11438)
+* 아래 YouTube 형식에서 오디오 및 비디오 멀티미디어 파일 삽입이 실패합니다. **멀티미디어 삽입** 아이콘. (11320)
+* 특화된 제목 요소가 있는 템플릿을 사용하여 맵을 만들 때 유효성 검사 오류가 발생합니다. (11212)
+* 기본 PDF | 표 머리글에 있는 각주는 PDF 출력 내의 해당 페이지 바닥글에 굵게 정렬되고 가운데 정렬된 텍스트로 이어집니다. (10610)
+>[!NOTE]
+>
+>기본 PDF 변경 사항을 반영하려면 /content/dam/dita-templates에 있는 PDF 폴더를 삭제한 다음 최신 빌드로 업그레이드합니다. (10610)
+
+### 해결 방법에 대한 알려진 문제
+
+Adobe은 AEM Guides as a Cloud Service 2023년 3월 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
+
+* 사용자가 중복 에셋의 버전을 저장하거나 만들 수 없습니다.
+
+**해결 방법**: 중복 에셋을 변경하기 전에 에셋 UI에서 재처리합니다.
