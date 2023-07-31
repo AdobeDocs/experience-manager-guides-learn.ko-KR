@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠의 인용 항목 추가 및 관리
 description: 콘텐츠에 인용을 추가하고 적용하여 참조를 구현하는 방법을 알아봅니다.
-source-git-commit: f59ed1ffe8567bef48c6772a68361eacb1c7c15f
+source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -45,7 +45,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
 
 1. 의 필드를 채웁니다. **인용 추가** 대화 상자.
 
-   >
+   >[!NOTE]
    >
    >ISBN, DOI 또는 PubMed ID를 추가할 수도 있습니다. AEM Guides는 다른 필드를 자동으로 채웁니다.
 

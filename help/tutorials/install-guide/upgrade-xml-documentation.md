@@ -2,9 +2,9 @@
 title: Adobe Experience Manager Guides 업그레이드
 description: Adobe Experience Manager Guides를 업그레이드하는 방법 알아보기
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: bb7e9ae6f02021354285aa4ca6b435bbea2e4cc0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3270'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 1%
 > 사용 허가된 제품 버전에 맞는 업그레이드 지침을 따르십시오.
 
 현재 버전의 AEM Guides를 버전 4.3.0으로 업그레이드할 수 있습니다
+
 - 버전 4.2 또는 4.2.x를 사용하는 경우 버전 4.3.0으로 바로 업그레이드할 수 있습니다.
-- 버전 4.1, 4.1.x 또는 4.2를 사용하는 경우 버전 4.3.0으로 업그레이드하기 전에 버전 4.2.1로 업그레이드해야 합니다.
+- 버전 4.1 또는 4.1.x를 사용 중인 경우 버전 4.3.0으로 업그레이드하기 전에 버전 4.2 또는 4.2.x로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.0으로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
 - 3.8.5 이전 버전을 사용하는 경우 제품별 설치 안내서에서 업그레이드 AEM 안내서 섹션을 참조하십시오.
@@ -503,12 +504,19 @@ AEM Guides를 설치한 후 새로 설치한 버전에서 설정에 적용할 �
    |---|---|---|
    | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 값: 200000 <br> 기본값: 100000 |
 
-1. 올바른 인증을 사용하여 서버에 대한 POST 요청 실행 - `http://<server:port>//bin/guides/reports/upgrade`.
+1. 다음 API를 실행하여 모든 파일에서 후처리를 실행합니다.
 
-1. API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(예: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+   | 끝점 | /bin/guides/reports/upgrade |
+   |---|---|
+   | 요청 유형 | **POST**  이 스크립트는 POST 요청이므로 Postman과 같은 에이전트를 통해 실행해야 합니다. |
+   | 예상 응답 | API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다.<br> 샘플 URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
-1. 작업이 완료되면 이전 GET 요청이 성공으로 응답합니다. 어떤 이유로 작업이 실패하면 서버 로그에서 오류가 표시될 수 있습니다.
+   | 끝점 | /bin/guides/reports/upgrade |
+   |---|---|
+   | 요청 유형 | **GET** |
+   | 매개 변수 | jobId: 이전 post 요청에서 받은 jobId를 전달합니다. |
+   | 예상 응답 | - 작업이 완료되면 GET 요청이 성공으로 응답합니다. <br> - 오류가 있는 경우 고객 성공 팀과 API 출력과 함께 오류 로그를 공유합니다.  <br>샘플 URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. 의 기본값 또는 이전의 기존 값으로 되돌리기 `queryLimitReads` 1단계에서 변경한 경우.
 
