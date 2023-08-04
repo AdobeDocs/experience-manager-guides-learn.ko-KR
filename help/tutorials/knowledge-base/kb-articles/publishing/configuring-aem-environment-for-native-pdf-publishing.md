@@ -2,9 +2,9 @@
 title: 기본 PDF 게시를 위한 AEM 환경 구성
 description: 기본 PDF 게시를 위한 AEM 환경 구성
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,7 @@ AEM Guides에서 이 기본 PDF을 구성하는 단계는 운영 체제에 따�
    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. 내보내기 경로=$PATH: $JAVA\_HOME/bin
 
-
-5. AEM 서버 다시 시작
+5. Guides 버전 4.2 이상을 사용하는 경우 AEM Server를 다시 시작하고 12단계로 이동합니다.
 6. 를 복사합니다._node_modules.zip_&#x200B;이 문서 하단에 있는 &quot; crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166/ 디렉토리에 첨부되었습니다.
 7. crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166/ 위치의 터미널 열기
 8. 아래 명령을 사용하여 node_modules 디렉터리 삭제
@@ -112,7 +111,7 @@ AEM Guides에서 이 기본 PDF을 구성하는 단계는 운영 체제에 따�
 
 **참고** : node_modules.zip 패키지를 다운로드할 수 있습니다. [여기](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오는 것은 Guides 4.1 이하 버전을 사용하는 사용자를 위한 해결 방법입니다.
+Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오는 것은 Guides 4.1 이하 버전(6-12단계)을 사용하는 사용자를 위한 해결 방법입니다
 
 ## Mac 시스템에 대한 구성 단계(JAVA 11/8)
 
@@ -141,7 +140,7 @@ Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오�
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcabe8166
 
-   i) 찾기 . -type d -exec chmod 0755 {} \; ii) find . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —접두사 . install —unsafe-perm —scripts-prepend-node-path
+   i) 찾기 . -type d -exec chmod 0755 {} \; ii) 을(를) 찾습니다. -type f -exec chmod 0755 {} \; iii) 을 참조하십시오./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —접두사 . install —unsafe-perm —scripts-prepend-node-path
 
 8. 아래 명령을 사용하여 Java가 설치되었는지 확인합니다
 
@@ -164,8 +163,22 @@ Linux 운영 체제용 다운로드한 노드 모듈을 수동으로 가져오�
 
 ![null 포인터 예외](../assets/publishing/null-pointer-exception.png)
 
+Java 환경 설정을 수정한 후에도 문제가 지속되면 다음 사항을 다시 확인하십시오.
+
+1. 출력 사전 설정이 올바르게 정의되었는지 확인하거나 공백 없이 새 출력 사전 설정을 만듭니다.
+
+2. /libs/fmdta/node_resources에서 노드 리소스 디렉토리를 확인하여 설치 중에 필요한 모든 라이브러리가 설치되었는지 확인합니다.
+
 ### RHEL 7 Linux OS에 누락된 라이브러리
 
 ![라이브러리 누락](../assets/publishing/missing-libraries.png)
+
+### 게시 프로세스 시간 초과. 지정된 시간 0ms 내에 프로세스가 완료되지 않았습니다.
+
+![게시 프로세스 시간 초과](../assets/publishing/publish-process-timeout.png)
+
+CRX 저장소의 /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabe8166/nodejs에 있는 nodejs 노드에 대한 시간 초과 속성 값의 유효성을 검사합니다. 기본값은 300입니다.
+
+
 
 위의 단계를 수행하는 동안 문제가 발생하면 AEM Guides 커뮤니티에 질문을 게시하십시오 [포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 도움이 필요하신가요?
