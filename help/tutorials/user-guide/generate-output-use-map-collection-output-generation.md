@@ -2,10 +2,10 @@
 title: 출력 생성을 위해 맵 컬렉션 사용
 description: 출력 생성을 위해 맵 컬렉션을 사용하는 방법 알아보기
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 1%
 
 ---
 
@@ -79,13 +79,7 @@ AEM Guides에서는 맵 컬렉션이라는 대시보드를 사용하여 게시�
      >  
      > 기본적으로 새 사전 설정은 비활성화되어 있습니다.
 
-1. 다음과 같은 방법으로 DITA 맵에 대한 사전 설정을 활성화할 수 있습니다.
-
-   - 개별 사전 설정을 활성화합니다.
-   - 사용 **모든 사전 설정** DITA 맵의 경우 한 번에 모든 사전 설정을 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
-   - 사용 **폴더 프로필 사전 설정** DITA 맵에서 해당 폴더 프로파일 사전 설정을 모두 선택합니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
-     ![cloud services에서 맵 컬렉션 편집](images/edit-map-collection-cs.png){width="800" align="left"}
-
+   - 다음을 선택할 수 있습니다. **모든 폴더 프로필 사전 설정 활성화/비활성화** DITA 맵의 경우 한 번에 모든 폴더 프로파일을 선택합니다.
 
 
 1. 다음 중 하나를 수행하십시오.
