@@ -2,9 +2,9 @@
 title: 웹 편집기 기능 이해
 description: 웹 편집기 기능을 아는 방법 알아보기
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ DAM 내에서 필요한 파일로 이동하여 웹 편집기에서 열 수 있�
 
 옵션 메뉴의 다양한 옵션은 아래에 설명되어 있습니다.
 
-- **편집**: 편집할 파일을 엽니다. .ditamap/.bookmap 파일의 경우 [고급 맵 편집기](map-editor-advanced-map-editor.md#) 편집할 수 있습니다.
+- **편집**: 편집할 파일을 엽니다. .ditamap/.bookmap 파일의 경우에서 열립니다 [고급 맵 편집기](map-editor-advanced-map-editor.md#) 편집할 수 있습니다.
 
 - **복제**: 이 옵션을 사용하여 선택한 파일의 복제본이나 사본을 만들 수 있습니다. 또한 Duplicate Asset 프롬프트에서 중복 파일의 이름을 바꿀 수도 있습니다. 기본적으로 파일은 접미사 \(예: filename\_1.extension\)로 작성됩니다. 파일 제목은 소스 파일과 동일하게 유지되며 새 파일은 버전 1.0으로 시작됩니다. 모든 참조, 태그 및 메타데이터는 복사되며 기준선은 중복 파일에 복사되지 않습니다.
 - **체크아웃**: 편집하기 위해 선택한 파일을 잠급니다. 잠긴 파일의 경우 이 옵션은 다음으로 변경됩니다. **체크인**.
