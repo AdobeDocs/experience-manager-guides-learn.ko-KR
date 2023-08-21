@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 5%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 5%
          + [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
       + [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
       + [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
+      + [콘텐츠 조각에 게시](./user-guide/publish-content-fragment.md)
       + 콘텐츠의 벌크 활성화 {#bulk-activation}
          + [게시된 콘텐츠의 벌크 활성화](./user-guide/conf-bulk-activation.md)
          + [벌크 활성화 맵 컬렉션 만들기](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 5%
                + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
                + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
             + [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
+         + [주제와 컨텐츠 조각 간의 매핑 만들기](./install-guide/conf-content-fragment-mapping.md)
       + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
          + [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
       + 번역 구성 작업 {#translate-config}
