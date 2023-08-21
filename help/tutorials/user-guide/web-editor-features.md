@@ -2,9 +2,9 @@
 title: 웹 편집기 기능 이해
 description: 웹 편집기 기능을 아는 방법 알아보기
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 270b94f0c1e29237c4bdad891c41446de897fddb
+source-git-commit: 48845ffcc530baad6689c8bca8847c57bbe9bf5d
 workflow-type: tm+mt
-source-wordcount: '15461'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 저장 작업은 새 버전의 항목을 만들지 않습니다. 새 버전을 생성하려면 새 버전으로 저장을 선택합니다.
+> 저장 작업에서는 새 버전의 주제가 만들어지지 않습니다. 새 버전을 생성하려면 새 버전으로 저장을 선택합니다.
 
 **새 버전으로 저장** - ![](images/save-revision-icon.png)
 
@@ -411,7 +411,7 @@ DITA 맵에 정의된 키워드를 삽입합니다. 키워드 삽입 아이콘�
 
 현재 또는 다음 유효한 위치에 코드 조각을 삽입합니다. 이 기능을 사용하려면 시스템에 스니펫이 정의되어 있어야 합니다. 코드 조각 추가에 대한 자세한 내용은 **코드 조각** 의 기능 설명 [왼쪽 패널](web-editor-features.md#id2051EA0M0HS) 섹션.
 
-코드 조각 삽입 아이콘을 클릭하면 코드 조각 삽입 카탈로그가 표시됩니다. 카탈로그는 컨텍스트에 따라 다르며, 이는 현재 위치에서 허용된 경우에만 코드 조각을 표시함을 나타냅니다.
+코드 조각 삽입 아이콘을 클릭하면 코드 조각 삽입 카탈로그가 표시됩니다. 카탈로그는 컨텍스트에 따라 다르며, 이는 현재 위치에서 허용된 경우에만 코드 조각이 표시됨을 나타냅니다.
 
 다음 예제에서는 문서의 현재 위치에 삽입할 수 있는 두 개의 사전 구성된 코드 조각(경고 및 오류)을 보여 줍니다.
 
@@ -681,20 +681,25 @@ AEM Guides를 사용하면 자유 형식 텍스트 형식으로 레이블을 지
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- 편집기에서 파일의 탭을 마우스 오른쪽 단추로 클릭하여 컨텍스트 메뉴를 엽니다. 선택 **즐겨찾기에 추가** 즐겨찾기 목록에 파일을 추가합니다.
+- 편집기에서 파일의 탭을 마우스 오른쪽 단추로 클릭하여 컨텍스트 메뉴를 엽니다. 선택 **추가 대상** > **즐겨찾기** 즐겨찾기 목록에 파일을 추가합니다.
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
+>[!NOTE]
+>
+> - 즐겨찾기 목록에서 항목을 제거하려면 즐겨찾기 컬렉션의 항목 옆에 있는 옵션 아이콘을 선택하고 **즐겨찾기에서 제거**.
+> - 파일을 열지 않고 미리 보려면 파일을 선택한 다음 를 선택합니다 **미리 보기** 을 클릭합니다.
 
-** 컬렉션에 대한 옵션 메뉴**\
+
+
+**Favroties 컬렉션에 대한 옵션 메뉴**\
 즐겨찾기 컬렉션에 사용할 수 있는 옵션 메뉴를 사용하여 여러 가지 작업을 수행할 수도 있습니다.
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **이름 바꾸기**: 선택한 컬렉션의 이름을 변경합니다.
-- **삭제**: 선택한 파일을 삭제합니다.
+- **삭제**: 선택한 컬렉션을 삭제합니다.
 - **새로 고침**: 저장소에서 파일 및 폴더의 새 목록을 가져옵니다.
 - **에셋 UI에서 보기**: 에셋 UI에 파일 또는 폴더 콘텐츠를 표시합니다.
-
 
 >[!NOTE]
 >
@@ -810,7 +815,7 @@ DAM 내에서 필요한 파일로 이동하여 웹 편집기에서 열 수 있�
   > - 사용자가 파일을 잠갔거나 체크 아웃한 경우 잠금 아이콘 위로 마우스 포인터를 가져가면 파일을 잠근 사용자 \(name\)가 표시됩니다.
   > - 저장하지 않은 변경 내용이 있는 파일을 체크 인하면 변경 내용을 저장하라는 메시지가 표시됩니다. 변경 내용을 저장하지 않으면 파일만 체크 인됩니다.
 
-- **미리 보기**: \(.dita/.xml\) 파일을 열지 않고 빠르게 미리 봅니다.
+- **미리 보기**: 파일(.dita, .xml, 오디오, 비디오 또는 이미지)을 열지 않고 빠르게 미리 볼 수 있습니다. 미리 보기 창의 크기를 조정할 수 있습니다. 콘텐츠에 포함된 경우 `<xref>` 또는 `<conref>`를 선택한 다음 새 탭에서 열 수 있습니다. 파일 제목이 창에 나타납니다. 제목이 없으면 파일 이름이 나타납니다. 닫으려면 **미리 보기** 창에서 닫기 아이콘을 선택하거나 창 외부 아무 곳이나 클릭할 수 있습니다.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1011,7 +1016,7 @@ DAM 내에서 필요한 파일로 이동하여 웹 편집기에서 열 수 있�
   > - 사용자가 파일을 잠갔거나 체크 아웃한 경우 잠금 아이콘 위로 마우스 포인터를 가져가면 파일을 잠근 사용자 \(name\)가 표시됩니다.
   > - 파일을 체크 인하면 변경 내용을 저장하라는 메시지가 표시됩니다. 변경 내용을 저장하지 않으면 파일만 체크 인됩니다.
 
-- **미리 보기**: \(.dita/.xml\) 파일을 열지 않고 빠르게 미리 봅니다.
+- **미리 보기**: 파일(.dita, .xml, 오디오, 비디오 또는 이미지)을 열지 않고 빠르게 미리 볼 수 있습니다. 미리 보기 창의 크기를 조정할 수 있습니다. 콘텐츠에 포함된 경우 `<xref>` 또는 `<conref>`를 선택한 다음 새 탭에서 열 수 있습니다.  파일 제목이 창에 나타납니다. 제목이 없으면 파일 이름이 나타납니다. 닫으려면 **미리 보기** 창에서 닫기 아이콘을 선택하거나 창 외부 아무 곳이나 클릭할 수 있습니다.
 - **복사**: 다음 옵션 중에서 선택할 수 있습니다.
    - **UUID 복사**: 선택한 파일의 UUID를 클립보드에 복사합니다.
    - **경로 복사**: 선택한 파일의 전체 경로를 클립보드에 복사합니다.
@@ -1134,9 +1139,12 @@ DITA의 주요 기능 중 하나는 콘텐츠를 재사용하는 기능입니다
 
   >[!NOTE]
   >
-  > 참고: **미리 보기** 컨텍스트 메뉴에서도 옵션을 사용할 수 있으며, 이 옵션을 사용하면 요소를 삽입하기 전에 요소를 빠르게 미리 볼 수 있습니다.
+  > 파일을 선택한 다음 을 선택합니다. **미리 보기** 다음에서 **옵션** 메뉴를 사용하여 파일을 열지 않고 미리 볼 수 있습니다. 주제에 있는 참조를 미리 볼 수도 있습니다. 참조 ID가 창에 나타납니다.
+  >
+  > 다음 **미리 보기** 옵션은 **옵션** 요소의 메뉴 - 요소를 삽입하기 전에 요소를 빠르게 미리 볼 수 있습니다.
 
 - 패널에서 문서의 원하는 위치에 재사용 가능한 콘텐츠 항목을 드래그 앤 드롭합니다.
+
 
 
 **용어 설명** -  ![](images/glossary.svg)
@@ -1272,87 +1280,138 @@ AEM Guides는 중첩 수준 제목 체계 맵을 지원하며 루트 제목 체�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-   **제목 정의 및 열거형의 계층 구조 정의 처리**
+**제목 정의 및 열거형의 계층 구조 정의 처리**
 
-   동일한 맵에 있는 열거형과 주제 정의를 처리하는 것 외에도 AEM Guides에서는 두 개의 별도 맵에서 열거형과 주제 정의를 정의하는 기능을 제공합니다. 맵에서 주제 정의를 정의하고 다른 맵에서 열거 정의를 정의한 다음 맵 참조를 추가할 수 있습니다. 예를 들어 다음 XML 코드는 두 개의 별도 맵에서 주제 정의와 열거형 정의를 만듭니다.
+동일한 맵에 있는 열거형과 주제 정의를 처리하는 것 외에도 AEM Guides에서는 두 개의 별도 맵에서 열거형과 주제 정의를 정의하는 기능을 제공합니다. 맵에서 하나 이상의 주제 정의를 정의하고 다른 맵에서 열거 정의를 정의한 다음 맵 참조를 추가할 수 있습니다. 예를 들어 다음 XML 코드는 두 개의 별도 맵에서 주제 정의와 열거형 정의를 만듭니다.
 
-   제목 정의는에 정의되어 있습니다. `subject_scheme_map_1.ditamap`
-
-
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?> 
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-   <title>subject_scheme_map_1</title> 
-   <subjectdef keys="os" navtitle="Operating system"> 
-   <subjectdef keys="linux" navtitle="Linux"> 
-   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
-   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
-   </subjectdef> 
-   <subjectdef keys="windows" navtitle="Windows"/> 
-   <subjectdef keys="zos" navtitle="z/OS"/> 
-   </subjectdef> 
-   </subjectScheme>  
-   ```
-
-   열거형 정의는 subject_scheme_map_2.ditamap에 있습니다.
-
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?> 
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-   <title>subject_scheme_map_2</title> 
-   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-   </mapref> 
-   <enumerationdef> 
-   <attributedef name="platform"> 
-   </attributedef> 
-   <subjectdef keyref="os"> 
-   </subjectdef> 
-   </enumerationdef> 
-   </subjectScheme>  
-   ```
-
-   여기에서 주제 정의는 다음에 정의되어 있습니다. `subject_scheme_map_1.ditamap`  열거형 def가에 있는 동안 `subject_scheme_map_2.ditamap`. 에 대한 참조 `subject_scheme_map_1.ditamap` 도 추가됩니다. `subject_scheme_map_2.ditamap`.
-
-   >[!NOTE]
-   >
-   > 다음으로: `subject_scheme_map_1.ditamap` 및 `subject_scheme_map_2.ditamap` 서로 참조되므로 주제 구성표가 해결됩니다.
-
-   주제 열거형 참조는 다음 우선 순위 순서로 해결됩니다.
-
-   1. 동일한 맵
-   1. 참조된 맵
+제목 정의는에 정의되어 있습니다. `subject_scheme_map_1.ditamap`
 
 
-   동일한 맵과 참조된 맵에서 열거를 찾을 수 없는 경우 참조가 확인되지 않습니다.
+```XML
+  <?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+
+    <title>subject_scheme_map_1</title> 
+    
+    <subjectdef keys="os" navtitle="Operating system">
+        <subjectdef keys="linux" navtitle="Linux">
+        <subjectdef keys="redhat" navtitle="RedHat Linux">
+        </subjectdef>
+        <subjectdef keys="suse" navtitle="SuSE Linux">
+        </subjectdef>
+        </subjectdef>
+        <subjectdef keys="windows" navtitle="Windows">
+        </subjectdef>
+        <subjectdef keys="zos" navtitle="z/OS">
+        </subjectdef>
+        </subjectdef>
+        <subjectdef keys="deliveryTargetValues">
+        <subjectdef keys="print">
+        </subjectdef>
+        <subjectdef keys="online">
+        </subjectdef>
+    </subjectdef>
+    <subjectdef keys="mobile" navtitle="Mobile">
+        <subjectdef keys="android" navtitle="Android">
+        </subjectdef>
+        <subjectdef keys="ios" navtitle="iOS">
+    </subjectdef>
+    </subjectdef>
+    <subjectdef keys="cloud" navtitle="Cloud">
+        <subjectdef keys="aws" navtitle="Amazon Web Services">
+        </subjectdef>
+        <subjectdef keys="azure" navtitle="Microsoft Azure">
+        </subjectdef>
+        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
+        </subjectdef>
+    </subjectdef>
+    </subjectScheme>
+```
+
+열거형 정의는 subject_scheme_map_2.ditamap에 있습니다.
+
+```XML
+    ?xml version="1.0" encoding="UTF-8"?> 
+        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+        <title>subject_scheme_map_2</title> 
+        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+        </mapref> 
+        <enumerationdef>
+        <attributedef name="platform">
+        </attributedef>
+        <subjectdef keyref="mobile">
+        </subjectdef>
+        <subjectdef keyref="cloud">
+        </subjectdef>
+        </enumerationdef>
+        </subjectScheme>
+```
+
+여기에서 주제 정의는 다음에 정의되어 있습니다. `subject_scheme_map_1.ditamap`  열거형 def가에 있는 동안 `subject_scheme_map_2.ditamap`. 에 대한 참조 `subject_scheme_map_1.ditamap` 도 추가됩니다. `subject_scheme_map_2.ditamap`.
+
+>[!NOTE]
+>
+> 다음으로: `subject_scheme_map_1.ditamap` 및 `subject_scheme_map_2.ditamap` 서로 참조되므로 주제 구성표가 해결됩니다.
+
+주제 열거형 참조는 다음 우선 순위 순서로 해결됩니다.
+
+1. 동일한 맵
+1. 참조된 맵
 
 
-   **속성 드롭다운**
+동일한 맵과 참조된 맵에서 열거를 찾을 수 없는 경우 참조가 확인되지 않습니다.
 
-   작성자 보기의 콘텐츠 속성 패널에서 속성 드롭다운을 사용하여 주제 체계의 값을 변경할 수도 있습니다. 값을 변경하려면 속성 드롭다운에서 값을 선택합니다.
 
-   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-   드롭다운에서 여러 값을 선택하여 속성에 대한 값을 적용할 수도 있습니다.
 
-   **소스 보기**
+**값을 특정 요소로 제한**
 
-   소스 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다. 또한 소스 뷰에서는 잘못된 값을 추가할 수 없습니다.
+항목 내의 일부 요소로 조건을 제한할 수도 있습니다. 사용 `<elementdef>` 태그로 요소 및 `<attributedef>` 태그에 추가하여 요소에 적용할 수 있는 조건을 정의합니다.  추가하지 않으면 `<elementdef>` 태그를 지정하면 모든 요소에 조건을 적용할 수 있습니다.
+예를 들어 다음 열거형을 사용하여 `@platform` 속성 `<shortdesc>` 요소를 생성하지 않습니다.  다른 조건은 모든 요소에 대해 표시됩니다.
 
-   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+```XML
+<enumerationdef>
+    <elementdef name="shortdesc">
+    </elementdef>
+    <attributedef name="platform">
+    </attributedef>
+    <subjectdef keyref="deliveryTargetValues">
+    </subjectdef>
+    <subjectdef keyref="os">
+    </subjectdef>
+  </enumerationdef>
+```
 
-   **조건 패널에서 주제 스키마를 보고 적용합니다.**
+</details>
 
-   조건 패널에서 주제 스키마를 보고 적용할 수도 있습니다.
 
-   조건 패널에서 주제 체계를 보려면 시스템 관리자가 옵션을 선택해야 합니다 **조건 패널에 주제 스키마 표시** 를 클릭합니다. 자세한 내용은 [조건 탭](#id21BMNE0602V).
+**속성 드롭다운**
 
-   조건 패널에는 주제 구성표 내의 주제 정의에 대한 플랫 수직 구조가 표시됩니다.
+작성자 보기의 콘텐츠 속성 패널에서 속성 드롭다운을 사용하여 주제 체계의 값을 변경할 수도 있습니다. 값을 변경하려면 속성 드롭다운에서 값을 선택합니다.
 
-   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-   원하는 조건을 콘텐츠에 끌어다 놓아 콘텐츠에 조건을 추가할 수 있습니다. 조건부 콘텐츠는 조건에 대해 정의된 색상을 사용하여 강조 표시됩니다.
+드롭다운에서 여러 값을 선택하여 속성에 대한 값을 적용할 수도 있습니다.
+
+**소스 보기**
+
+소스 보기에서 속성 드롭다운의 값을 변경할 수도 있습니다. 또한 소스 뷰에서는 잘못된 값을 추가할 수 없습니다.
+
+![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+**조건 패널에서 주제 스키마를 보고 적용합니다.**
+
+조건 패널에서 주제 스키마를 보고 적용할 수도 있습니다.
+
+조건 패널에서 주제 체계를 보려면 시스템 관리자가 옵션을 선택해야 합니다 **조건 패널에 주제 스키마 표시** 를 클릭합니다. 자세한 내용은 [조건 탭](#id21BMNE0602V).
+
+조건 패널에는 주제 구성표 내의 주제 정의에 대한 플랫 수직 구조가 표시됩니다.
+
+![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+원하는 조건을 콘텐츠에 끌어다 놓아 콘텐츠에 조건을 추가할 수 있습니다. 조건부 콘텐츠는 조건에 대해 정의된 색상을 사용하여 강조 표시됩니다.
 
 **코드 조각** -  ![](images/insert-snippet-icon.svg)
 

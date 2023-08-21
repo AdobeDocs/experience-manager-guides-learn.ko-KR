@@ -2,10 +2,10 @@
 title: 사용자 지정된 템플릿을 기반으로 맵 만들기
 description: 사용자 지정된 템플릿을 기반으로 맵을 만드는 방법을 알아봅니다
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,14 @@ AEM Guides를 사용하면 dita-templates 폴더에서 사용자 정의된 맵�
 >[!NOTE]
 >
 > 에서 참조하고 유지 관리만 하는 모든 리소스는 템플릿 폴더 외부에 있어야 합니다.
+
+
+다음과 같은 방법으로 맵 및 주제 템플릿을 만들 수 있습니다.
+1. 의 템플릿 창 [왼쪽 패널](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. [자산 UI의 템플릿](#templates-assets-ui)
+1. [옵션 메뉴](#templates-in-assets-ui)
+
+### 자산 UI의 템플릿 {#templates-assets-ui}
 
 **주제 템플릿**
 
@@ -66,6 +74,35 @@ AEM Guides를 사용하면 dita-templates 폴더에서 사용자 정의된 맵�
    > 파일 이름에는 .ditamap 확장명이 있어야 합니다.
 
 1. (선택 사항\) 설명을 추가합니다.Click **만들기**. 맵 템플릿이 생성되었습니다 메시지가 나타납니다. 그런 다음 맵 템플릿을 열고 편집할 수 있습니다. 맵 템플릿에서 주제 템플릿, 맵 템플릿 및 기타 에셋에 대한 참조를 추가할 수 있습니다.
+
+### 옵션 메뉴 {#options-menu}
+
+맵 또는 주제 템플릿을 만들려면 다음 단계를 수행하십시오.
+
+1. 다음 항목 선택 **맵** 또는 **주제** 현재 템플릿 폴더의 폴더입니다. 예를 들면 `dita-templates` 폴더를 입력합니다.
+1. 다음에서 **옵션** 메뉴, 선택 **맵 템플릿 만들기** 또는 **주제 템플릿 만들기**.
+
+   다음 **새 맵 템플릿 만들기** 또는 **새 주제 템플릿 만들기** 대화 상자가 열립니다.
+1. 새 템플릿의 제목과 이름을 입력합니다.
+1. 에서 만들려는 템플릿 유형을 선택합니다. **템플릿** 드롭다운 목록입니다.
+
+맵 템플릿이 생성되었습니다 메시지가 나타납니다. 전역 또는 폴더 수준 프로필에 템플릿을 추가할 수 있습니다. 그런 다음 새 템플릿이 주제나 맵 만들기 프로세스에 나타나고, 이를 사용하여 맵이나 주제를 만들 수 있습니다.
+
+
+또한 관리자는 폴더를 만들고 사용자가 템플릿을 만들고 저장할 수 있는 폴더로 구성할 수 있습니다.
+
+설정에 따라 사용자 지정 DITA 템플릿 폴더 경로를 구성하는 방법을 알아봅니다.
+<details>
+    <summary> 클라우드 서비스 </summary>
+
+방법 알아보기 [사용자 지정 DITA 템플릿 폴더 경로 구성](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) Cloud Service 설치 및 구성 안내서에서 확인할 수 있습니다.
+</details>
+
+<details>
+    <summary> On-premise Software</summary>
+
+방법 알아보기 [사용자 지정 DITA 템플릿 폴더 경로 구성](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) ( 온프레미스 설치 및 구성 안내서)를 참조하십시오.
+</details>
 
 ## 템플릿에 정의된 제목 전달
 
@@ -111,6 +148,9 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 </title>
 ```
 
+
+
+
 ## 맵 템플릿을 사용하여 새 맵 만들기
 
 >[!NOTE]
@@ -135,15 +175,15 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 맵은 템플릿 폴더 내에서 참조되는 모든 에셋을 생성합니다. 맵에서 참조되는 일부 에셋 유형은 다음과 같습니다.
 
 - 맵에 주제 템플릿에 대한 참조가 포함되어 있으면 폴더 내에 의 주제 폴더에서와 동일한 계층 구조로 항목의 복사본이 만들어집니다 `dita-templates` 폴더를 삭제합니다.
-- 맵에 맵 템플릿에 대한 참조가 포함된 경우 폴더 내에 의 맵 폴더에서와 동일한 계층 구조로 맵 템플릿의 복사본이 만들어집니다 `dita-templates` 폴더를 삭제합니다.
+- 맵에 맵 템플릿에 대한 참조가 포함된 경우 폴더 내에 의 맵 폴더와 동일한 계층 구조로 맵 템플릿의 복사본이 만들어집니다 `dita-templates` 폴더를 삭제합니다.
 - 맵의 주제 또는 외부에 있는 맵에 대한 일반 참조가 포함된 경우 `dita-templates/topics` 또는 `dita-templates/maps` 동일한 폴더가 참조되고 복사본이 만들어지지 않습니다.
 
-   >[!NOTE]
-   >
-   > `dita-templates/topics` 및 `dita-templates/maps` 는 안내서의 기본 경로이며 구성할 수 있습니다.
+  >[!NOTE]
+  >
+  > `dita-templates/topics` 및 `dita-templates/maps` 는 안내서의 기본 경로이며 구성할 수 있습니다.
 
 
-   맵 템플릿 내에 주제 템플릿 키 정의가 있는 경우 새 키 \(따라서 새 주제\)가 작성되고 맵에서 참조됩니다.
+  맵 템플릿 내에 주제 템플릿 키 정의가 있는 경우 새 키 \(따라서 새 주제\)가 작성되고 맵에서 참조됩니다.
 
 - 폴더의 동일한 수준에서 다른 맵이나 주제가 만들어지면 새로 만든 에셋의 이름에 0,1,2 등이 추가됩니다. 편집할 맵을 열거나 맵 파일을 저장소에 저장하도록 선택할 수 있습니다.
 
