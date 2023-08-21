@@ -2,7 +2,7 @@
 title: 출력 생성을 위해 맵 컬렉션 사용
 description: 출력 생성을 위해 맵 컬렉션을 사용하는 방법 알아보기
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -27,7 +27,7 @@ AEM Guides에서는 맵 컬렉션이라는 대시보드를 사용하여 게시�
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. 맵 컬렉션의 제목 을 입력합니다.
+1. 맵 컬렉션의 제목을 입력합니다.
 1. **만들기**&#x200B;를 클릭합니다.
 
    맵 컬렉션을 만들면 성공 메시지가 표시됩니다.
