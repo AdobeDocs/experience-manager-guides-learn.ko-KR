@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guides용 산소 플러그인을 사용하
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ AEM 관리자는 다음 단계를 수행하여 패키지를 설치합니다.
 
 - **웹 인증 설정**: AEM Guides용 플러그인의 SSO 인증 설정입니다.
 - **일반 설정**: AEM 서버 URL, 로그인 세부 정보 등 플러그인에 대한 연결 설정.
-- **프로파일링 속성 사용자 지정에 대한 환경 설정**: 이 구성은 설명서 세트의 프로파일링 속성 체계에 필요합니다.
+- **상호 참조에서 속성 사용자 정의 및 파일 이름을 프로파일링하는 기본 설정**: 이 구성은 설명서 세트의 프로파일링 속성 체계에 필요합니다.
 
 ### 웹 인증 설정
 
@@ -236,11 +236,11 @@ Adobe Experience Manager Guides용 산소 플러그인의 연결 설정을 구�
    - **파일을 열 때 자동 체크 아웃**: 선택한 경우 파일을 두 번 클릭하면 자동으로 체크 아웃되고 편집을 위해 열립니다. 파일이 이미 체크 아웃된 경우 편집을 위해 열기만 하면 됩니다. 이 옵션을 선택하지 않으면 잠금이 없는 파일을 열면 읽기 전용 모드로 열립니다.
 1. **확인**&#x200B;을 클릭합니다.
 
-### 프로파일링 속성 사용자 지정에 대한 환경 설정 {#id1827K0D0OHT}
+### 상호 참조에서 속성 사용자 정의 및 파일 이름을 프로파일링하는 기본 설정 {#id1827K0D0OHT}
 
-AEM 저장소의 DITA 주제와 연관된 프로파일링 속성을 사용하려면 Oxygen XML Author에서 기본설정을 구성해야 합니다.
+AEM 저장소의 DITA 주제와 연관된 프로파일링 속성을 사용하려면 Oxygen XML Author에서 기본설정을 구성해야 합니다. 상호 참조에서 GUID 대신 파일 이름을 표시하도록 환경 설정을 구성해야 합니다.
 
-프로파일링 속성을 구성하려면 다음 단계를 수행하십시오.
+프로파일링 속성 및 상호 참조를 구성하려면 다음 단계를 수행하십시오.
 
 1. Oxygen XML Author에서 **옵션** \> **환경 설정**.
 1. 다음에서 **문서 유형 연결** 탭, 선택 **DITA**&#x200B;을 클릭한 다음 을 클릭합니다 **확장**.
@@ -257,6 +257,11 @@ AEM 저장소의 DITA 주제와 연관된 프로파일링 속성을 사용하려
 다음 스크린샷은 구성된 을 보여 줍니다 **확장** DITA 주제 탭:
 
      ![DITA 주제에 대해 구성된 확장](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - 클릭 **선택** 다음 옆에 **확장 번들** 및 선택 사항에서 LinkResolverExtensionBundle - com.adobe.o2.framework.extn **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
+
+     ![DITA 주제에 대해 구성된 확장](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. 클릭 **확인** 모든 대화 상자에서 변경 내용을 저장합니다.
 
@@ -496,6 +501,7 @@ AEM Guides에서 사용할 수 있는 편집기를 사용하려면 컨텍스트 
 
 - AEM 저장소에서 컨텐츠를 체크아웃하고 로컬 시스템에서 변경할 때 파일을 업로드할 때 파일 이름이 변경되지 않았는지 확인하십시오.
 
+- DITA 맵 관리자에 참조를 삽입하면 UUID가 아닌 파일 제목이 표시됩니다. 제목이 없으면 파일 이름이 표시됩니다.
 
 ### 즐겨찾기 추가 또는 제거 {#id195HC04405P}
 

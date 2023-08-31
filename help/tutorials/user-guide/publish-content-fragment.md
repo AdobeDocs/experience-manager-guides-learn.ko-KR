@@ -1,9 +1,9 @@
 ---
 title: 콘텐츠 조각에 주제 게시
 description: 항목을 컨텐츠 조각에 게시하는 방법을 알아봅니다.
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ AEM Guides를 사용하면 주제 또는 주제 내의 요소를 콘텐츠 조�
    * **모델**: 콘텐츠 조각을 만드는 데 사용할 콘텐츠 조각 모델을 선택합니다. 모델은 클라우드 서비스에서 구성한 폴더에서 선택됩니다.
    * **매핑**: 드롭다운에서 매핑을 선택합니다. 다음에서 매핑을 선택합니다. *contentFragmentMapping.json* 파일.
 
-     >[!NOTE]
-     >
-     >관리자는 *contentFragmentMapping.json* 파일.  방법 자세히 알아보기 [주제와 컨텐츠 조각 간의 매핑 만들기](../install-guide/conf-content-fragment-mapping.md) 위치: *On-Premise 설치 및 구성 안내서*.
 
 
+     설정에 따라 관리자는 *contentFragmentMapping.json* 파일.
+
+     <details>
+        <summary>클라우드 서비스</summary>
+
+     방법 자세히 알아보기 [주제와 컨텐츠 조각 간의 매핑 만들기](../cs-install-guide/conf-content-fragment-mapping-cs.md) Cloud Service 설치 및 구성 안내서에서 확인할 수 있습니다.
+     </details>
+
+     <details>
+        <summary> On-premise Software</summary>
+
+     방법 자세히 알아보기 [주제와 컨텐츠 조각 간의 매핑 만들기](../install-guide/conf-content-fragment-mapping.md) ( 온프레미스 설치 및 구성 안내서)를 참조하십시오.
+
+     </details>
    * 다음 항목 선택 **덮어쓰기** 확인란은 콘텐츠 조각이 이미 존재하고 덮어쓰려는 경우입니다. 확인란을 선택하지 않고 컨텐츠 조각이 이미 존재하는 경우 AEM Guides에 오류가 표시됩니다.
 1. 클릭 **만들기** 콘텐츠 조각을 게시합니다.
 1. 아래 항목의 콘텐츠 조각을 볼 수 있습니다. **조각** 의 섹션 **파일 속성**.

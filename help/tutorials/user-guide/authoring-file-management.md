@@ -2,9 +2,9 @@
 title: 파일 및 폴더 관리
 description: 파일 및 폴더 관리 방법 알아보기
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ AEM Guides에는 관리자가 여러 파일이 있는 폴더를 한 위치에서
 
    <details>
 
-   <summary> On-Premise UUID 기반 파일 시스템 </summary>
+   <summary> Cloud Service 및 On-Premise UUID 기반 파일 시스템 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 

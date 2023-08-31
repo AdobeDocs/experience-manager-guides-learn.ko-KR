@@ -1,9 +1,9 @@
 ---
 title: 데이터 소스 커넥터 구성
 description: 데이터 소스 커넥터 구성 방법 알아보기
-source-git-commit: 760d765a364a49aaff8787eea4f067b3f0e25103
+source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 1%
 
 # 데이터 소스 커넥터 구성
 
-AEM Guides는 JIRA 및 SQL(MySQL, PostgreSQL, SQL Server, SQLite) 데이터베이스를 위한 기본 제공 커넥터를 제공합니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다. 다음 구성은 다양한 데이터 소스를 쉽게 추가하는 데 도움이 됩니다. 추가되면 웹 편집기에서 데이터 소스를 볼 수 있습니다.
+AEM Guides는 JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 기본 제공 커넥터를 제공합니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다. 다음 구성은 다양한 데이터 소스를 쉽게 추가하는 데 도움이 됩니다. 추가되면 웹 편집기에서 데이터 소스를 볼 수 있습니다.
 
 데이터 소스 커넥터를 구성한 다음 웹 편집기에서 사용하려면 다음 단계를 수행하십시오.
 
 ## 커넥터 구성
 
-JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습니다. 다음 샘플 설치 파일을 사용하여 Jira 및 SQL(MySQL, PostgreSQL, SQL Server, SQLite) 데이터베이스에 대한 커넥터를 설정할 수 있습니다.
+JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습니다. 다음 샘플 설치 파일을 사용하여 JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 커넥터를 설정할 수 있습니다.
 
 사용자 이름 및 암호를 사용한 Jira의 기본 인증을 위한 샘플 설정 파일:
 
@@ -27,7 +27,7 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -119,7 +119,7 @@ PostgreSQL의 기본 인증을 위한 샘플 설치 파일:
 
 예를 들어 다른 이름으로 저장 `postgres.json`.
 
-MS SQL Server의 기본 인증을 위한 샘플 설치 파일:
+Microsoft SQL Server의 기본 인증을 위한 샘플 설치 파일:
 
 ```
 {
@@ -160,6 +160,104 @@ SQLite의 기본 인증을 위한 샘플 설치 파일:
 ```
 
 예를 들어 다른 이름으로 저장 `sqqlite.json`.
+
+
+
+H2DB용 샘플 설정 파일:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+	"configName": "H2DBConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.h2.Driver",
+			"connectionString": "jdbc:h2:file:D:/h2db/db"
+		}
+	}
+}
+```
+
+예를 들어 다른 이름으로 저장 `sqqlite.json`.
+
+
+
+MariaDb의 기본 인증을 위한 샘플 설정 파일:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+	"configName": "SampleMariaDbConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.mariadb.jdbc.Driver",
+			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+		}
+	}
+}
+```
+
+예를 들어 다른 이름으로 저장 `mariadb.json`.
+
+
+Elasticsearch의 기본 인증을 위한 샘플 설정 파일:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+	"configName": "SampleES",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",    	
+			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+	}
+}
+```
+
+예를 들어 다른 이름으로 저장 `ES.json`.
+
+Elastic Search에 대한 쿼리에는 인덱스와 쿼리가 포함되어야 합니다.
+
+```
+{
+"index": "kibana_sample_data_ecommerce",
+"queryString":{
+    "query": {
+        "match_all": {}
+    }
+}
+}
+```
+
+
+
+AdobeCommerce NoAuth에 대한 샘플 설정 파일:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+	"configName": "SampleCommerce",
+	"templateFolders": ["/content/dam/dita-templates/konnect"],
+	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+   "configData": {
+   			"url": "http://host/graphql"   
+		}
+	}
+}
+```
+
+예를 들어 다른 이름으로 저장 `commerce.json`.
 
 ### 커넥터 구성 사용자 정의
 

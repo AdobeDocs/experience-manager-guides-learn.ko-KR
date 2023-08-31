@@ -1,7 +1,7 @@
 ---
 title: 데이터 소스 커넥터 구성
 description: 데이터 소스 커넥터 구성 방법 알아보기
-source-git-commit: f13b052b1cba88d946bdc498bc40d7a211ed3830
+source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -27,7 +27,7 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ JSON 파일을 업로드하여 기본 제공 커넥터를 구성할 수 있습�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"

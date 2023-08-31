@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
+source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1479'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 5%
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 릴리스 {#2023-releases}
+            + 9월 릴리스 {#2309-release}
+               + [새로운 기능](./release-info/whats-new-2023.9.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
             + 7월 릴리스 {#2307-release}
                + [새로운 기능](./release-info/whats-new-2023.7.0.md)
                + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
@@ -155,7 +158,7 @@ ht-degree: 5%
       + [출력 생성을 위해 맵 컬렉션 사용](./user-guide/generate-output-use-map-collection-output-generation.md)
       + 기본 PDF 게시 기능 사용 {#web-editor}
          + [PDF 출력 게시](./web-editor/native-pdf-web-editor.md)
-         + [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
+      + [추가 특수 문자 구성](./web-editor/configure-additional-special-characters.md)
       + [게시 대시보드를 사용하여 게시 작업 관리](./user-guide/generate-output-publish-dashboard.md)
       + [기본 문제 해결](./user-guide/generate-output-basic-troubleshooting.md)
       + [콘텐츠 조각에 게시](./user-guide/publish-content-fragment.md)
@@ -258,7 +261,7 @@ ht-degree: 5%
                + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
                + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
                + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
-            + [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
+         + [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
          + [주제와 컨텐츠 조각 간의 매핑 만들기](./install-guide/conf-content-fragment-mapping.md)
       + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}
          + [워크플로우 구성 및 사용자 정의](./install-guide/customize-workflows.md)
@@ -324,6 +327,8 @@ ht-degree: 5%
       + 출력 생성 설정을 사용한 작업 {#output-gen-config-cs}
          + [출력 생성 설정 구성](./cs-install-guide/conf-output-generation.md)
          + [기본 PDF 게시](./cs-install-guide/native-pdf-publishing.md)
+         + [기본 PDF 게시를 위한 노드 프로세스 구성](./native-pdf/configure-node-options.md)
+         + [주제와 컨텐츠 조각 간의 매핑 만들기](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow-cs}
          + [워크플로우 구성 및 사용자 정의](./cs-install-guide/customize-workflows.md)
       + 번역 구성 작업 {#translate-config-cs}
