@@ -1,9 +1,9 @@
 ---
 title: 기본 PDF | 언어 변수 지원
 description: PDF 출력 및 출력 템플릿에서 언어 변수 사용
-source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
+source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ AEM Guides에서는 언어 변수를 사용하는 기능을 제공합니다. 언
 
 - 독일어: Hinweis
 
-<img src="./assets/language-variable-output.png" width="550">
+<img alt= "언어 변수가 포함된 문서에 대한 출력" src="./assets/language-variable-output.png" width="550">
+
+*영어, 프랑스어 및 독일어 샘플 노트입니다.*
 
 >[!NOTE]
 >
@@ -33,11 +35,11 @@ AEM Guides에서는 언어 변수를 사용하는 기능을 제공합니다. 언
 >
 > UI의 언어로 값을 정의하지 않은 경우 영어(`en_us`), 아니면 영어(`en`) 값을 지정하고 PDF 출력에 동일한 값을 표시합니다.
 
-### 언어 변수 유형
+## 언어 변수 유형
 
 AEM Guides에서는 응용 프로그램 변수와 사용자 변수의 두 가지 유형을 지원합니다.
 
-#### 애플리케이션 변수
+### 애플리케이션 변수
 
 AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리케이션 변수 집합을 제공합니다. 사전 정의된 이러한 변수를 사용하여 AEM Guides와 관련된 문서에 대한 정보를 추가할 수 있습니다. 예를 들어 `chapter-number` 변수에 가 포함되어 있으면 페이지가 속한 챕터 번호가 표시됩니다. 다음 `author-label` 변수는 문서 작성자의 이름을 표시합니다.
 
@@ -46,7 +48,7 @@ AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리
 > 응용 프로그램 변수의 값을 재정의할 수 있습니다.
 
 
-#### 사용자 변수
+### 사용자 변수
 
 새 언어 변수를 만들 수도 있습니다. 예를 들어 문서에 대한 게시자 레이블에 대해 사용자 변수 Publisher를 만들 수 있습니다.
 
@@ -54,9 +56,11 @@ AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리
 >
 >  사용자 변수를 만들고 응용 프로그램 변수를 편집하려면 관리 권한이 있어야 합니다.
 
-<img src="./assets/add-language-variables.png" width="550">
+<img alt="언어 변수 창" src="./assets/add-language-variables.png" width="550">
 
-### 새 언어 변수 추가
+*선택한 언어에 대한 언어 변수를 추가하고 봅니다.*
+
+## 새 언어 변수 추가
 
 1. 웹 편집기에서 출력 탭으로 이동합니다.
 1. 선택 **언어 변수** <img src="./assets/language-variables.svg" width="25"> 왼쪽 패널에서
@@ -79,11 +83,52 @@ AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리
 >
 > 을 선택하지 않는 경우 **언어 변수 추가**: 변수가 만들어지지 않고 목록에 추가됩니다
 
+## 언어 변수 내보내기 및 가져오기
+
+Experience Manager 안내서에서는 선택한 언어로 된 언어 변수를 내보내고 가져올 수 있도록 지원합니다. 정의된 값과 함께 모든 언어 변수를 쉽게 내보낼 수 있습니다. 여기에는 애플리케이션 변수와 사용자 변수가 모두 포함됩니다. 내보낸 파일을 사용하여 값을 원하는 대로 변경하거나 다른 언어로 현지화하십시오.
+
+언어 변수가 포함된 XML 파일을 가져올 수도 있습니다. Experience Manager 안내서는 응용 프로그램 변수와 사용자 변수를 모두 포함하여 이미 정의된 언어 변수만 가져옵니다. 아직 정의되지 않은 변수는 가져오지 않습니다.
+
+### 언어 변수 내보내기
+
+언어의 언어 변수를 내보내려면 드롭다운에서 언어를 선택하고 을 선택합니다 **내보내기** <img src="./assets/language-variable-export-icon.svg" alt="내보내기 아이콘" width="25">.
+이 형식은 XML 파일을 만듭니다 `language_variable_<ln>` 위치 `<ln>` 는 선택한 언어의 코드입니다. 예를 들어, `language_variable_en.xml` 영어 및 `language_variable_fr.xml` 프랑스어.
+
+>[!NOTE]
+> 
+>언어 변수에 저장되지 않은 변경 사항이 있으면 내보낼 수 없습니다. 변경 사항을 저장하여 활성화됨 보기 **내보내기** <img src="./assets/language-variable-export-icon.svg" alt="가져오기 아이콘" width="25"> 아이콘.
+
+### 언어 변수 가져오기
+
+언어 변수를 가져오려면 다음을 수행하십시오.
+
+1. 드롭다운에서 언어를 선택하고 **가져오기** <img src="./assets/language-variable-import-icon.svg" width="25">
+2. 언어 변수가 포함된 XML을 찾아 선택합니다. 예: language_variable_en.xml.
+다음 형식으로 XML 파일을 가져올 수 있습니다.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>    
+<variable id="note-important">Important: </variable>    
+<variable id="note-caution">Avertir: </variable>    
+<variable id="image-with-text">Text and image &lt;img src=&quot;/content/dam/assets/images/image_with_text.png&quot; /&gt; </variable> 
+</variables> 
+```
+
+파일을 가져오면 ID가 동일한 변수를 가져옵니다. 선택한 언어의 변수 값은 XML 파일의 변수 값으로 업데이트됩니다.  업데이트된 변수 수에 대한 메시지가 표시됩니다.
+
+>[!NOTE]
+> 
+><ul><li>파일이 XML 파일이 아니거나 파일에 언어 변수와 매핑되지 않는 잘못된 형식이 포함되어 있으면 XML 파일에 문제가 있다는 오류가 표시됩니다. 
+&gt;<li>파일에 동일한 ID를 가진 변수가 없으면 가져온 파일에 일치하는 언어 변수가 없다는 경고가 표시됩니다.
+
 ### 언어 변수 옵션
 
 변수를 마우스로 가리키면 **옵션** 메뉴 판
 
-<img width="550" src="./assets/language-variable-user-options.png">
+<img width="550" alt="언어 변수의 옵션 메뉴" src="./assets/language-variable-user-options.png">
+
+*사용&#x200B;**옵션**언어 변수를 삭제, 미리보기 또는 복제하는 메뉴입니다.*
 
 응용 프로그램 변수와 사용자 변수를 모두 미리 볼 수 있습니다. 변수의 값이 출력에 표시되는 방식을 보려면 을 선택합니다. **미리 보기** 다음에서 **옵션** 선택한 변수의 메뉴입니다.
 다음을 선택할 수도 있습니다. **삭제** 또는 **복제** 사용자 변수. 한 언어에서 변수를 삭제하면 모든 언어에서 자동으로 삭제됩니다.
@@ -96,10 +141,12 @@ AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리
 
 현지화된 문서에 언어 변수를 추가해야 합니다. 현지화된 문서의 여러 페이지에 표시되는 페이지 레이아웃 내에 이러한 언어 변수를 삽입할 수 있습니다. 예를 들어 의 언어 변수를 추가할 수 있습니다. `author-name` 페이지 레이아웃의 머리글 영역(또는 바닥글이나 본문 같은 다른 부분)에 나타납니다.
 
-<img src="./assets/language-variable-page-layout.png" width="550">
 
-다음 스크린샷은 프랑스어용으로 생성된 PDF 출력에서 현지화된 작성자 및 브랜드 이름을 보여줍니다.
 
+<img alt="pdf의 페이지 레이아웃" src="./assets/language-variable-page-layout.png" width="550">
+
+
+*프랑스어용으로 생성된 PDF 출력에 현지화된 작성자 및 브랜드 이름.*
 
 와 같은 언어 변수를 삽입하려면 `copyright-label` 헤더 영역에서 다음 단계를 수행합니다.
 
@@ -118,9 +165,11 @@ AEM Guides는 사전 정의된 애플리케이션 변수 또는 기본 애플리
    > 텍스트 상자에 검색 문자열을 입력할 수도 있습니다. 주어진 문자열을 포함하는 변수 이름은 필터링되고 목록에 표시됩니다.
    > 선택한 언어 변수가 헤더 영역에 삽입됩니다.
 
-다음 스크린샷은 의 값을 보여 줍니다. `copyright-label` 이(가) 헤더 영역에 추가되었습니다.
 
-<img src="./assets/language-variable-header.png" width="550">
+
+<img alt="헤더 영역에 변수 삽입" src="./assets/language-variable-header.png" width="550">
+
+*다음 `copyright-label` 이(가) 헤더 영역에 추가되었습니다.*
 
 ### 언어 변수에 콘텐츠 스타일 적용
 
@@ -166,9 +215,13 @@ h1:before {
 
 다음 스크린샷은 독일어 및 일본어 PDF 출력으로 현지화된 문자열을 표시합니다.
 
-<img src="./assets/localize-chapter-german.png" width="550">
+<img alt=" 언어 변수가 있는 일본어 출력" src="./assets/localize-chapter-german.png" width="550">
 
-<img src="./assets/localize-chapter-japanese.png" width="550">
+
+
+<img alt="언어 변수가 있는 독일어 출력" src="./assets/localize-chapter-japanese.png" width="550">
+
+
 
 ### 접두어 서식 지정
 

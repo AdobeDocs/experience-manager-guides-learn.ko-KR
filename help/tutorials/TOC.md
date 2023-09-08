@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
+source-git-commit: 0a1e03989ff75146c88eb10569e57954bdedbee5
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1569'
 ht-degree: 5%
 
 ---
@@ -336,6 +336,22 @@ ht-degree: 5%
       + AEM Assets 검색 작업 {#aem-asset-search-cs}
          + [AEM Assets UI에 대한 검색 구성](./cs-install-guide/conf-dita-search.md)
       + [부록](./cs-install-guide/appendix.md)
++ API 참조 {#api-reference}
+   + [소개](./api-reference/introduction.md)
+   + [출력 관리를 위한 REST API](./api-reference/output-management.md)
+   + [DITA 맵에서 사용할 REST API](./api-reference/dita-map-management.md)
+   + [데이터 소스 커넥터를 등록하는 REST API](./api-reference/data-source-connector.md)
+   + [조건부 특성으로 작업할 수 있는 REST API](./api-reference/conditional-attribute.md)
+   + [전환 워크플로우에 대한 REST API](./api-reference/convert-to-dita.md)
+   + [패키지 생성 및 활성화를 위한 REST API](./api-reference/create-activate-package.md)
+   + [출력 생성 관련 Java 기반 API](./api-reference/generate-output.md)
+   + [DITA 맵에서 작동하는 Java 기반 API](./api-reference/dita-map-management-java.md)
+   + [전환 워크플로우에 대한 Java 기반 API](./api-reference/convert-to-dita-java.md)
+   + [기준 및 레이블로 작동하는 Java 기반 API](./api-reference/create-baseline-label-java.md)
+   + [폴더 프로필 작업을 위한 Java 기반 API](./api-reference/folder-profile-java.md)
+   + [패키지 생성 및 활성화를 위한 Java 기반 API](./api-reference/create-activate-package-java.md)
+   + [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
+   + [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
 + 기술 자료 {#knowledge-base}
    + 전문가 세션 {#expert-session}
       + [전문가 세션 개요](./knowledge-base/expert-sessions/expert-session.md)

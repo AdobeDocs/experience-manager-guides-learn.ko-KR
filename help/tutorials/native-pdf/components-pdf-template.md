@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 기능 | PDF 템플릿의 구성 요소
 description: PDF 템플릿의 다양한 구성 요소와 구성 요소를 사용자 정의하고 구성하는 방법에 대해 알아봅니다.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -226,7 +226,14 @@ TOC 구조인 홀수 또는 짝수 페이지에서 챕터를 시작하기 위한
   >
   >CSS 개발자인 경우 CSS 파일에서 직접 지시선 형식을 정의할 수도 있습니다.
 
-* **테이블 연속 마커 사용**: 여러 페이지에 걸쳐 있는 긴 표에 대한 마커를 정의하려면 이 옵션을 선택합니다. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **테이블 연속 마커 사용**: 여러 페이지에 걸쳐 있는 긴 표에 대한 마커를 정의하려면 이 옵션을 선택합니다.
+브레이크 전후에 표시할 텍스트를 정의할 수 있습니다. 예를 들어 5페이지에서 테이블이 구분되고 `<Continued on page %page-num%>` 대상 **줄바꿈 전 텍스트**.  텍스트는 5페이지 하단에 &quot;6페이지에서 계속&quot;을 표시합니다.
+
+  언어 변수를 사용하여 중단 전후의 연속 마커 텍스트를 정의합니다. 선택한 언어에 따라 현지화된 값이 PDF 출력에서 자동으로 선택됩니다. 예를 들어 을 게시할 수 있습니다 `Continued on page %page-num%` 를 영어로 `Fortsetzung auf Seite %page-num%` 독일어.
+
+  마우스로 가리키기 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25"> 을 클릭하여 자세한 내용을 확인합니다.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 페이지 레이아웃 {#page-layouts}
 
@@ -357,11 +364,11 @@ PDF에서 다음 섹션을 표시하거나 숨길 수 있으며 최종 PDF 출�
 
 ### 상호 참조 {#cross-references}
 
-상호 참조 탭을 사용하여 상호 참조가 PDF에 게시되는 방법을 정의합니다. 주제 제목, 표, 그림 등에 대한 상호 참조의 서식을 지정할 수 있습니다.
+사용 **상호 참조** PDF에 상호 참조를 게시하는 방법을 정의하는 탭입니다. 주제 제목, 표, 그림 등에 대한 상호 참조의 서식을 지정할 수 있습니다.
 
 변수를 사용하여 상호 참조를 정의할 수도 있습니다.  변수를 사용하는 경우 속성에서 해당 값이 선택됩니다. 단일 또는 변수 조합을 사용하여 상호 참조를 정의할 수 있습니다. 문자열과 변수를 조합하여 사용할 수도 있습니다.
 
-예를 들어에 대한 세부 사항 보기 를 사용할 수 있습니다 {chapter}. 챕터 이름이 &quot;일반 설정&quot;이면 출력에서 상호 참조는 &quot;일반 설정에 대한 세부 사항 보기&quot;입니다.
+예를 들어 다음을 사용할 수 있습니다. `View details on {chapter}`. 챕터 이름이 &quot;일반 설정&quot;이면 출력에서 상호 참조는 &quot;일반 설정에 대한 세부 사항 보기&quot;입니다.
 
 AEM Guides는 다음과 같은 기본 변수를 제공합니다.
 
@@ -371,7 +378,7 @@ AEM Guides는 다음과 같은 기본 변수를 제공합니다.
 * {chapter}: 챕터 번호에 상호 참조를 추가합니다. 예를 들어 1장의 을 참조하십시오.
 * {bookmarkText}: 책갈피가 지정된 텍스트에 대한 상호 참조를 만듭니다. 예를 들어 5페이지의 stop_words 를 참조하십시오.
 * {captionText}: 주제 내의 그림 또는 표의 캡션에 대한 상호 참조를 만듭니다. 예를 들어 2페이지의 공기 흐름 을 참조하십시오.
-* {figure}: 그림 번호에 상호 참조를 추가합니다. 피규명에 대해 정의한 자동 번호 스타일에서 숫자 번호를 선택합니다.  예를 들어, &quot;See {figure} 페이지에서 {page}&quot;. 출력의 상호 참조에는 자동 생성된 그림 번호와 해당 페이지 번호가 포함됩니다. &quot;5페이지의 그림 1 참조&quot;
+* {figure}: 그림 번호에 상호 참조를 추가합니다. 피규명에 대해 정의한 자동 번호 스타일에서 숫자 번호를 선택합니다.  예를 들어, &quot;See {figure} 페이지에서 {page}&quot;. 출력의 상호 참조에는 자동 생성된 그림 번호와 해당 페이지 번호 &quot;5페이지의 그림 1 참조&quot;가 포함됩니다.
 * {table}: 테이블 번호에 상호 참조를 추가합니다. 캡션에 대해 정의한 자동 번호 스타일에서 테이블 번호를 선택합니다. 예를 들어, &quot;See {table} 페이지에서 {page}&quot;. 출력의 상호 참조에는 자동 생성된 테이블 번호와 해당 페이지 번호 &quot;5페이지의 테이블 1 참조&quot;가 포함됩니다.
 
 
@@ -381,8 +388,25 @@ AEM Guides는 다음과 같은 기본 변수를 제공합니다.
   >캡션 및 그림 태그의 자동 번호 스타일을 만들 수 있습니다.
 
 
+#### 상호 참조의 언어 변수
+
+언어 변수를 사용하여 현지화된 상호 참조를 정의할 수도 있습니다. 선택한 언어에 따라 현지화된 값이 PDF 출력에서 자동으로 선택됩니다.
+
+예를 들어 언어 변수 &quot;reference-label&quot;을 추가하고 영어 및 독일어로 값을 정의할 수 있습니다.
+
+* 영어 - &quot;View on page {page}&quot;
+* 독일어 - &quot;Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+추가할 때 `${lng:<variable name>}` 단락 섹션에는 출력의 단락에 있는 상호 참조에 현지화된 텍스트와 페이지 번호가 포함됩니다.\
+예를 들어 다음 스크린샷은 영어로 된 &quot;View on page 1&quot; 및 독일어로 된 &quot;Einzelheiten finden Sie auf der Seite 1&quot; 상호 참조를 보여줍니다.
 
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800">
+
+*영어로 게시할 때 단락 내의 상호 참조.*
+
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800">
+
+*독일어로 게시되는 경우 단락 내의 상호 참조입니다.*
 
 <!--For more information, see *Format cross-references*.-->
