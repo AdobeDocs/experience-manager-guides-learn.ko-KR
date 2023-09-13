@@ -1,7 +1,7 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.0 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides의 4.3.0 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 5%
@@ -40,10 +40,10 @@ ht-degree: 5%
 ### Adobe Experience Manager
 
 **4.3.0 비 UUID**
-버전 6.5 서비스 팩 17, 16, 15 또는 14
+버전 6.5 서비스 팩 18, 17, 16, 15 또는 14
 
 **4.3.0 UUID**
-버전 6.5 서비스 팩 17, 16, 15 또는 14
+버전 6.5 서비스 팩 18, 17, 16, 15 또는 14
 
 자세한 내용은 *기술 요구 사항* 섹션( Adobe Experience Manager 안내서 설치 및 구성 안내서)
 
@@ -126,7 +126,7 @@ Adobe은 AEM Guides 4.3.0 릴리스에 대해 다음과 같은 알려진 문제�
 
 - 기본 템플릿에 정의된 일반 페이지 레이아웃이 기본 템플릿으로 적용되지 않습니다.
 
-  해결 방법: 일반 페이지 레이아웃을 앞면 및 뒷면 표지로 추가하면 모든 페이지에 대해 제공됩니다.
+  해결 방법: 일반 페이지 레이아웃을 앞면 및 뒷면 표지로 추가하면 모든 페이지에 대해 적용됩니다.
 - AEM 서비스 팩 16 또는 17의 AEM 사이트 출력 페이지에서 검색하는 동안 사이트 검색에서 문제가 발생합니다.
 
   해결 방법:
