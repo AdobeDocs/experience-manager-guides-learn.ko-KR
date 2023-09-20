@@ -1,9 +1,10 @@
 ---
 title: 기본 PDF 게시 - 예제를 통한 학습(1부)
 description: 기본 PDF 게시 엔진을 사용하면 업데이트하기 쉬운 CSS, HTML 및 JavaScript를 사용하여 필요에 따라 원하는 섹션을 조작하면서 문서의 컨텐츠 레이아웃을 제어할 수 있습니다.
-source-git-commit: c004267eab4dfaea10565b535b875c716c162343
+exl-id: e6fcb2cb-4dfe-4aa7-8c84-f11759898c41
+source-git-commit: 63c2103c18b2a6da450247b1ee6b676a00d5a510
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 1%
 
 - **기본 PDF 게시의 기능 개요** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **문서화된 공통 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **문서화된 공통 사용 사례** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **커뮤니티 포럼** - Experience League에 대한 세션별 커뮤니티 상호 작용의 경우 다음을 참조하십시오.  [AEM Guides 포럼](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -51,13 +52,12 @@ ht-degree: 1%
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - On-prem 4.2 이상
-> - Cloud Services 2303 이상
-
+> - Cloud Service 2303 이상
 
 ## 다음 전문가 세션
 
-- **주제** - TBD
-- **예약된 날짜** - 2023년 7월 20일
+- **주제** - 기본 PDF 게시 &quot;Hands on lab - BYOS&quot; - 대화형 학습
+- **예약된 날짜** - 2023년 9월 7일
 
 ## 연락처
 
