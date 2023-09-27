@@ -1,7 +1,7 @@
 ---
 title: 데이터 소스 커넥터 구성
 description: 데이터 소스 커넥터 구성 방법 알아보기
-source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
+source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -176,7 +176,7 @@ AEM Guides를 사용하면 사용자의 요구 사항에 맞게 구성 파일의
 
 AEM Assets의 일부 위치에 파일을 업로드합니다.
 
-예,  `/var/dxml/konnect/jira.json`
+예,  `/content/dam/jira.json`
 
 ## REST API를 사용하여 구성 만들기
 

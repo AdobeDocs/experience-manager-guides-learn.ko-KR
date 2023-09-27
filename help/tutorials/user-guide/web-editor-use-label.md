@@ -1,10 +1,10 @@
 ---
 title: 레이블 사용
-description: 레이블 사용 방법 알아보기
+description: AEM Guides에서 파일의 다양한 버전에 대한 레이블을 사용하는 방법을 알아봅니다. 항목 버전에 레이블을 추가하거나 삭제하는 방법에 대해 알아봅니다.
 exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---

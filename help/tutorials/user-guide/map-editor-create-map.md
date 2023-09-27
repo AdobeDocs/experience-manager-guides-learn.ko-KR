@@ -1,10 +1,10 @@
 ---
 title: 맵 만들기
-description: 맵을 만드는 방법을 알아봅니다
+description: AEM Guides에서 맵 편집기로 맵을 만듭니다. 맵 템플릿을 기반으로 맵 파일을 만드는 단계를 확인하십시오.
 exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---

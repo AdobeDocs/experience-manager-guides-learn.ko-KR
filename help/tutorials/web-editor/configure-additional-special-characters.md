@@ -1,12 +1,12 @@
 ---
 title: 웹 편집기 도구 모음에서 추가 특수 문자 구성
-description: 웹 편집기 도구 모음에서 추가 특수 문자를 구성하는 방법
+description: AEM Guides의 웹 편집기에서 추가 특수 문자를 구성하는 방법에 대해 알아봅니다.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,3 @@ symbols.json 파일의 구조는 아래에 설명되어 있습니다.
 >[!MORELIKETHIS]
 >
 >+ [설치 및 구성 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
-

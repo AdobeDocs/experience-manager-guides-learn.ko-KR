@@ -1,9 +1,9 @@
 ---
 title: 콘텐츠 조각에 주제 게시
-description: 항목을 컨텐츠 조각에 게시하는 방법을 알아봅니다.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+description: 주제 또는 주제 내의 요소를 AEM Guides의 콘텐츠 조각에 게시합니다.  주제에 대해 존재하는 콘텐츠 조각을 보고 다시 게시하는 방법에 대해 알아봅니다.
+source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---

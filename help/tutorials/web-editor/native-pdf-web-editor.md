@@ -1,10 +1,10 @@
 ---
 title: 기본 PDF | PDF 출력 생성
-description: Adobe Experience Manager Guides as a Cloud Service으로 PDF 출력 생성
+description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만들고, 기본 PDF 출력을 생성한 후 임시 파일을 다운로드하고, AEM Guides에서 언어 변수를 사용하는 방법에 대해 알아봅니다.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3229'
 ht-degree: 0%
 
 ---

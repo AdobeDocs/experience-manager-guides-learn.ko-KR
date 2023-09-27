@@ -1,10 +1,10 @@
 ---
 title: 출력 활성화
-description: 출력 활성화 방법 알아보기
+description: AEM Guides에서 DITA 맵의 출력을 활성화합니다. 게시 인스턴스에서 콘텐츠를 활성화하는 방법을 알아봅니다.
 exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 2%
 
    - 선택한 맵의 출력을 활성화하려면 맵 파일을 선택하고 **빠른 게시**.
    - 구성된 사전 설정으로 모든 DITA 맵의 출력을 활성화하려면 맵 \(열\) 옆에 있는 확인란을 선택한 다음 을 클릭합니다 **빠른 게시.**
-
-      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 선택한 맵 파일에 대한 출력이 활성화되면 게시됨 열이 현재 날짜 및 시간으로 업데이트됩니다.

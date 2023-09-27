@@ -1,13 +1,13 @@
 ---
 title: DITAVAL 편집기 사용
-description: DITAVAL 편집기 사용 방법 알아보기
-source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
+description: AEM Guides의 DIVATAL 편집기를 사용하여 DITAVAL 파일을 만들고 편집하는 방법을 이해합니다. DITAVAL 편집기가 작성자 및 소스 보기에서 DITAVAL 파일을 지원하는 방법을 알아봅니다.
+exl-id: 53dc9a61-aa07-4fb0-a442-ac845433c8f5
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
-
 
 # DITAVAL 편집기 {#ditaval-editor}
 
@@ -88,4 +88,3 @@ AEM Guides의 DITAVAL 편집기는 두 가지 다른 모드 또는 보기에서 
 스마트 카탈로그를 호출하려면 속성 정의의 끝에 커서를 놓고 &quot;&lt;&quot;를 입력합니다. 해당 위치에 삽입할 수 있는 모든 유효한 XML 요소 목록이 편집기에 표시됩니다.
 
 ![](images/ditaval-source-view.png)
-

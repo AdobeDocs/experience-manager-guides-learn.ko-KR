@@ -1,10 +1,10 @@
 ---
 title: 웹 편집기 작업
-description: 웹 편집기로 작업하는 방법에 대해 알아봅니다
+description: 웹 편집기를 사용하여 구조화된 문서를 만들고 편집합니다. AEM Guides의 DITA 표준에 따라 웹 편집기로 작업하는 방법을 알아봅니다.
 exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---

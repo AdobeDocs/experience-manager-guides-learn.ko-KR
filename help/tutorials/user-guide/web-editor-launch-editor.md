@@ -1,10 +1,10 @@
 ---
 title: 웹 편집기 실행
-description: 웹 편집기를 시작하는 방법 알아보기
+description: AEM Guides의 AEM 탐색 페이지, AEM Assets UI 및 DITA 맵 콘솔에서 웹 편집기를 시작하는 방법에 대해 알아봅니다.
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -37,20 +37,20 @@ AEM에 로그인하면 탐색 페이지가 표시됩니다.
 
 
 
-   <details>
+  <details>
 
-   <summary> 클라우드 서비스 </summary>
+  <summary> 클라우드 서비스 </summary>
 
-   Cloud Services을 사용하는 경우 **닫기** 단추를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
-   </details>
+  Cloud Service을 사용하는 경우 **닫기** 단추를 클릭하여 AEM 탐색 페이지로 돌아갑니다.
+  </details>
 
-   <details>
+  <details>
 
-   <summary> On-premise Software</summary>
+  <summary> On-premise Software</summary>
 
-   AEM Guides On-premise Software(4.2.1 이상)를 사용 중인 경우 **닫기** 오른쪽의 버튼을 클릭하여 자산 UI에서 현재 파일 경로로 돌아갑니다.
+  AEM Guides On-premise Software(4.2.1 이상)를 사용 중인 경우 **닫기** 오른쪽의 버튼을 클릭하여 자산 UI에서 현재 파일 경로로 돌아갑니다.
 
-   </details>
+  </details>
 
 ## AEM ASSETS UI {#id2056BG0307U}
 

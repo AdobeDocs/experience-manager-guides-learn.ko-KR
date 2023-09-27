@@ -1,10 +1,10 @@
 ---
 title: 파일 및 폴더 관리
-description: 파일 및 폴더 관리 방법 알아보기
+description: AEM Guides에서 파일 및 폴더를 관리하는 방법에 대해 알아봅니다. 복사 및 붙여넣기, 드래그 앤 드롭, 삭제, 일괄 파일 및 폴더 이동 및 DITA 콘텐츠 검색.
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3102'
 ht-degree: 0%
 
 ---

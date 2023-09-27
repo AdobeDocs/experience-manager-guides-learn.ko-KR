@@ -1,9 +1,9 @@
 ---
 title: 콘텐츠의 인용 항목 추가 및 관리
-description: 콘텐츠에 인용을 추가하고 적용하여 참조를 구현하는 방법을 알아봅니다.
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: AEM Guides의 인용 부호를 추가하고 관리합니다. 인용을 사용하여 콘텐츠 출력을 적용, 가져오기, 필터링, 검색, 변경, 편집, 미리보기, 삽입, 삭제 및 생성하는 방법에 대해 알아봅니다.
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---

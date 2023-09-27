@@ -1,10 +1,10 @@
 ---
 title: 맵 편집기의 기타 기능
-description: 맵 편집기에서 기타 기능을 사용하는 방법에 대해 알아봅니다
+description: 기본 및 고급 맵 편집기의 몇 가지 공통 기능을 살펴보십시오. 맵 편집기에서 주요 참조를 확인하는 방법을 알아봅니다.
 exl-id: ed6f42f6-b95e-4c4d-a648-6f29641a3488
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---

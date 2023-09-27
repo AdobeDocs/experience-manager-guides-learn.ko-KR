@@ -1,17 +1,17 @@
 ---
 title: .book 또는 .fm 파일의 출력 생성
-description: .book 또는 .fm 파일의 출력을 생성하는 방법에 대해 알아봅니다
+description: AEM Guides에서 .book 또는 .fm 파일의 출력을 생성하는 방법에 대해 알아봅니다.
 exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # .book 또는 .fm 파일의 출력 생성 {#generating_output_fm_docs}
 
-FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행합니다.
+FrameMaker 문서에 대한 출력을 생성하려면 다음 단계를 수행하십시오.
 
 1. Assets UI에서 로 이동하여 `.book` 또는 `.fm` 게시할 파일입니다.
 

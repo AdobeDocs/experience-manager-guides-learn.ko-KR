@@ -1,10 +1,10 @@
 ---
 title: 수정된 주제 번역
-description: 수정된 주제를 번역하는 방법 알아보기
+description: AEM Guides에서 수정된 주제를 다시 번역하는 방법을 알아봅니다.
 exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 0%
    - 클릭 **번역 수락** 변경 사항이 올바르게 번역되었다고 판단되는 경우 확인 메시지가 표시됩니다.
 
    - 클릭 **번역 거부** 그 일을 다시 해야 한다고 생각한다면. 거부 메시지가 표시됩니다.
+
    >[!NOTE]
    >
    > 번역된 에셋을 수락 또는 거부하는 것이 중요합니다. 그렇지 않으면 파일이 임시 위치에 있고 DAM에 복사되지 않습니다.

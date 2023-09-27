@@ -1,10 +1,10 @@
 ---
 title: 메타데이터 관리
-description: 메타데이터 관리 방법 알아보기
+description: AEM Guides에서 메타데이터를 정의하고 관리하는 방법을 알아봅니다. 스마트 및 벌크 태깅을 사용하여 DITA 맵 내에서 관련 항목을 쉽게 찾을 수 있습니다.
 exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 전환 상태 보고서
-description: 전환 상태 보고서 방법 알아보기
+description: AEM Guides에서 서로 다른 형식의 문서를 DITA로 변환합니다. 필터를 추가하고 전환 상태 보고서를 보는 방법에 대해 알아봅니다.
 exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ AEM Guides는 다양한 형식의 문서를 DITA로 변환하는 강력한 변�
 
    - **필터:**
 
-      파일 유형 및 전환 상태를 기반으로 보고서 데이터를 필터링할 수 있습니다. 파일 형식에서 Word 문서, 구조화된 HTML, XML 및 DocBook 문서 유형에 대한 보고서 데이터를 표시하도록 선택할 수 있습니다. 상태에서 성공적으로 실행됨, 실패, 활성 또는 큐에 있는 작업에 대한 보고서 데이터를 보도록 선택할 수 있습니다.
+     파일 유형 및 전환 상태를 기반으로 보고서 데이터를 필터링할 수 있습니다. 파일 형식에서 Word 문서, 구조화된 HTML, XML 및 DocBook 문서 유형에 대한 보고서 데이터를 표시하도록 선택할 수 있습니다. 상태에서 성공적으로 실행됨, 실패, 활성 또는 큐에 있는 작업에 대한 보고서 데이터를 보도록 선택할 수 있습니다.
 
-      다음 스크린샷에는 실패, 활성 및 대기 중 상태인 전환 작업에 대한 보고서 데이터가 표시됩니다.
+     다음 스크린샷에는 실패, 활성 및 대기 중 상태인 전환 작업에 대한 보고서 데이터가 표시됩니다.
 
-      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **보고서 데이터:**
 
-      보고서 데이터에는 다음 열이 포함되어 있습니다.
+     보고서 데이터에는 다음 열이 포함되어 있습니다.
 
       - **파일 이름**: 변환 프로세스가 실행된 소스 파일의 이름입니다. 파일 이름 링크를 클릭하면 소스 문서 위치로 이동합니다.
 

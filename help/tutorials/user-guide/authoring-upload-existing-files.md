@@ -1,10 +1,10 @@
 ---
 title: 파일 업로드
-description: 파일 업로드 방법 알아보기
+description: AEM 저장소에 파일을 업로드하고 오류를 처리하는 방법에 대해 알아봅니다. 에셋 콘솔 사용자 인터페이스, AEM 데스크탑 앱, 에셋 일괄 수집기를 알고 일괄 업로드에 FrameMaker을 사용합니다.
 exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ AEM Guides에 사용할 기존 DITA 콘텐츠 저장소가 있을 가능성이 �
 
 Adobe FrameMaker에는 기존 DITA 및 기타 FrameMaker 문서를 쉽게 업로드할 수 있는 강력한 AEM 커넥터가 포함되어 있습니다.`.book` 및 `.fm`\) 을 AEM에 추가합니다. 단일 파일 업로드, 종속성 유무에 관계없이 전체 폴더 업로드 \(예: 콘텐츠 참조, 상호 참조 및 그래픽\)와 같은 다양한 파일 업로드 기능을 사용할 수 있습니다.
 
-FrameMaker에서 일괄 업로드 기능을 사용하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 *CRX 폴더를 만들고 파일 업로드* ( FrameMaker 사용 안내서)를 참조하십시오.
+FrameMaker에서 일괄 업로드 기능을 사용하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 *CRX 폴더를 만들고 파일 업로드* FrameMaker 사용 안내서에서 확인할 수 있습니다.
 
 ## 콘텐츠 업로드 중 오류 처리 {#id201MI0I04Y4}
 

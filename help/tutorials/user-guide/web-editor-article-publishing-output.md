@@ -1,10 +1,10 @@
 ---
 title: 저장소 패널에서 출력 생성
-description: 저장소 패널에서 출력을 생성하는 방법 알아보기
+description: AEM Guides의 저장소 패널 또는 맵 보기 패널에서 출력을 생성합니다. 하나 이상의 DITA 맵에서 사용되는 주제를 게시하거나 여러 주제에 대한 출력을 생성하는 방법에 대해 알아봅니다.
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
 
 - 사용 **빠른 생성** 저장소 패널 또는 맵 보기 패널 내의 기능을 사용하여 선택한 단일 주제 또는 전체 DITA 맵에 대한 출력을 생성할 수 있습니다.
 
-   >[!NOTE]
-   >
-   > 에 액세스할 수도 있습니다 **빠른 생성** [즐겨찾기] 패널 또는 [검색] 패널의 기능입니다.
+  >[!NOTE]
+  >
+  > 에 액세스할 수도 있습니다 **빠른 생성** [즐겨찾기] 패널 또는 [검색] 패널의 기능입니다.
 
 - 사용 **출력 생성** [맵 보기] 패널 내의 기능을 사용하여 선택한 여러 주제에 대한 출력을 생성할 수 있습니다.
 
@@ -46,7 +46,7 @@ DITA 맵에 대해 만든 출력 사전 설정을 사용하여 저장소 패널 
    - **맵**: 선택한 주제가 포함된 DITA 맵을 나열합니다.
    - **상태**: 각 주제의 게시 상태를 표시합니다.
 출력을 보려면 마우스 포인터를 주제 위로 가져간 다음 출력 보기 를 클릭합니다.
-      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## 웹 편집기에서 DITA 맵에 대한 출력 생성

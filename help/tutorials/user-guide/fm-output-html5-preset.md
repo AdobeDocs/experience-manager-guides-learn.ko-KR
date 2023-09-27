@@ -1,10 +1,10 @@
 ---
 title: HTML5
-description: HTML 방법 알아보기5
+description: AEM Guides에서 FrameMaker 문서에 대한 HTML5 출력을 생성하고 구성합니다.
 exl-id: 9ac39237-c6b3-47d9-8d54-67150002c050
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ HTML5 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 
 >[!NOTE]
 >
-> HTML 5의 출력 사전 설정을 열려면 FrameMaker \(`.fm` 또는 `.book`\) 파일을 클릭한 다음 [출력 사전 설정]을 클릭하고 [HTML5] 옵션을 클릭합니다.
+> HTML 5에 대한 출력 사전 설정을 열려면 FrameMaker \(`.fm` 또는 `.book`\) 파일을 클릭한 다음 [출력 사전 설정]을 클릭하고 [HTML5] 옵션을 클릭합니다.
 
 | HTML5 옵션 | 설명 |
 |------------|-----------|

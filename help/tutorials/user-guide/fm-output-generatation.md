@@ -1,17 +1,17 @@
 ---
 title: FrameMaker 문서의 출력 생성
-description: FrameMaker 문서의 출력을 생성하는 방법에 대해 알아봅니다.
+description: AEM Guides에서 FrameMaker 문서의 출력을 생성하여 PDF, HTML 5 및 EPUB 형식으로 게시하는 방법에 대해 알아봅니다.
 exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 # FrameMaker 문서의 출력 생성 {#id1645H8040HD}
 
-AEM Guides 1.1부터 FrameMaker 문서를 게시할 수도 있습니다.`.book` 및 `.fm`\) AEM 저장소에서 사용할 수 있습니다. 책 파일에 DITA와 FrameMaker 문서의 조합이 포함된 경우 AEM Guides를 사용하여 이러한 문서를 게시할 수도 있습니다. FrameMaker 문서는 다음 형식으로 게시할 수 있습니다.
+AEM Guides 1.1부터 FrameMaker 문서 \(`.book` 및 `.fm`\) AEM 저장소에서 사용할 수 있습니다. 책 파일에 DITA와 FrameMaker 문서의 조합이 포함되어 있는 경우 AEM Guides를 사용하여 이러한 문서도 게시할 수 있습니다. FrameMaker 문서는 다음 형식으로 게시할 수 있습니다.
 
 - PDF
 
@@ -20,7 +20,7 @@ AEM Guides 1.1부터 FrameMaker 문서를 게시할 수도 있습니다.`.book` 
 - EPUB
 
 
-작성자는 몇 개의 링크를 클릭하면 출력이 생성됩니다. 전체 책 파일에 대한 출력을 생성하거나 개별 FrameMaker 파일을 선택적으로 게시할 수 있습니다. 출력을 생성하기 전에 FrameMaker 파일을 변경할 수도 있습니다. AEM 저장소에서 .fm 또는 .book 파일을 선택하면 **FrameMaker에서 열기** 단추를 클릭합니다. 이 버튼을 클릭하면 FrameMaker에서 선택한 파일이 열립니다.
+작성자는 몇 개의 링크를 클릭하면 출력이 생성됩니다. 전체 책 파일에 대한 출력을 생성하거나 개별 FrameMaker 파일을 선택적으로 게시할 수 있습니다. 출력을 생성하기 전에 FrameMaker 파일을 변경할 수도 있습니다. AEM 저장소에서 .fm 또는 .book 파일을 선택하면 **FrameMaker에서 열기** 단추를 클릭합니다. 이 버튼을 클릭하면 선택한 파일이 FrameMaker에서 열립니다.
 
 다음 섹션의 정보는 출력 생성 워크플로우를 사용하여 FrameMaker 문서를 게시하는 게시자를 위한 것입니다.
 

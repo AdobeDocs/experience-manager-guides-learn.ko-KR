@@ -2,9 +2,9 @@
 title: 클라우드 게시 마이크로서비스 아키텍처 및 성능
 description: 새로운 마이크로서비스가 AEMaaCS에서 확장 가능한 게시를 구현하는 방법을 이해합니다.
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM Guides의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
+> AEM Guides의 마이크로서비스 기반 게시는 PDF(기본 및 DITA-OT 기반 모두), HTML 5, JSON 및 사용자 지정 유형의 출력 사전 설정을 지원합니다.
 
 ## 클라우드의 기존 게시 워크플로 문제
 

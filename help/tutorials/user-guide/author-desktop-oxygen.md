@@ -1,10 +1,10 @@
 ---
 title: 산소를 사용한 작업
-description: Oxygen 작업 방법 알아보기
+description: AEM Guides의 컨텐츠 작성 및 게시를 위한 Oxygen XML Editor 지원에 대해 알아봅니다.
 exl-id: 9fc690a6-fee3-4315-ad86-256cedb7b7d6
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---

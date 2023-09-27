@@ -1,10 +1,10 @@
 ---
 title: 콘텐츠 번역 방법 알아보기
-description: 콘텐츠 번역 방법 알아보기
+description: AEM Guides에서 콘텐츠를 여러 언어로 번역합니다. 사람 번역 및 기계 번역 워크플로에 대해 알아봅니다.
 exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ AEM 안내서에는 콘텐츠를 여러 언어로 번역할 수 있는 강력한
 
 - **기계 번역** - AEM의 기본 서비스로서, 기계 번역을 사용하여 콘텐츠를 실시간으로 즉시 번역합니다. 기본 AEM에서는 Microsoft Translator에 연결할 수 있는 기능을 제공합니다.
 
-   >[!NOTE]
-   >
-   > Microsoft Translator는 체험판 라이선스로만 사용할 수 있습니다.
+  >[!NOTE]
+  >
+  > Microsoft Translator는 체험판 라이선스로만 사용할 수 있습니다.
 
 
 - **[콘텐츠 번역 모범 사례](translation-first-time.md)**

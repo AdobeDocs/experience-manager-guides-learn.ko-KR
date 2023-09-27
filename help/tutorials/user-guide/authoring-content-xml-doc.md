@@ -1,10 +1,10 @@
 ---
 title: AEM Guides를 사용하여 콘텐츠 작성
-description: AEM Guides를 사용하여 콘텐츠를 작성하는 방법에 대해 알아봅니다
+description: AEM Guides를 사용하여 콘텐츠를 효율적으로 작성합니다. AEM Guides에서 문서를 만들고, 편집하고, 게시하는 방법에 대해 알아봅니다.
 exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
-source-git-commit: 3c3aef9f6beefad69c1bf13f55643a79992ac6f7
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---

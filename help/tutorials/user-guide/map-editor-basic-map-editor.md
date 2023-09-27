@@ -1,10 +1,10 @@
 ---
 title: 기본 맵 편집기 작업
-description: 기본 맵 편집기 작업 방법 알아보기
+description: AEM Guides에서 기본 맵 편집기 를 사용하여 작업하는 방법을 알아봅니다. 맵 수준 및 주제 수준에서 기본 맵 편집기의 기능을 이해할 수 있습니다. DITA 맵에서 관계 테이블을 만들고 편집합니다.
 exl-id: 85194806-db3f-442b-a551-540d148d26ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---

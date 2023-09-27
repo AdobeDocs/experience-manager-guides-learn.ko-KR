@@ -1,10 +1,10 @@
 ---
 title: 주요 AEM Guides 기능
-description: 주요 AEM Guides 기능 알아보기
+description: AEM Guides, DITA 작성, 콘텐츠 관리, 웹 기반 검토, 번역, 로컬라이제이션, 멀티채널 게시 및 FrameMaker 통합의 주요 기능을 살펴봅니다.
 exl-id: f456741a-b504-4686-8230-64fac0ad8939
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,9 @@ Experience Manager에 기본 DITA 지원이 추가되면 DITA-OT를 통해 Exper
 **Adobe FrameMaker과의 기본 통합**
 Experience Manager 및 FrameMaker(2015 릴리스) 업데이트 4 이상으로 작업하는 동안 빠르고 원활한 경험을 제공합니다.
 
-기본 제공 커넥터를 통해 Experience Manager과 FrameMaker를 긴밀하게 통합하면 Experience Manager 콘텐츠 저장소와 원활하게 작업할 수 있습니다. 커넥터를 사용하면 DITA 콘텐츠 작성, 검토 및 검색을 신속하게 시작할 수 있습니다.
+기본 제공 커넥터를 통해 Experience Manager과 FrameMaker을 긴밀하게 통합하면 Experience Manager 컨텐츠 저장소를 원활하게 사용할 수 있습니다. 커넥터를 사용하면 DITA 콘텐츠 작성, 검토 및 검색을 신속하게 시작할 수 있습니다.
 
-FrameMaker에서 AEM 커넥터를 사용하여 FrameMaker 파일을 관리할 수 있습니다. AEM 커넥터를 사용하면 AEM에서 DITA 및 기타 FrameMaker 문서(.book 및 .fm)를 쉽게 업로드할 수 있습니다. AEM Guides를 사용하면 AEM에서 직접 FrameMaker 문서를 게시할 수도 있습니다. FrameMaker 책 파일에 DITA와 .fm 파일이 조합되어 있는 경우 AEM Guides에서 이러한 문서를 게시할 수도 있습니다. 현재 FrameMaker의 .book 및 .fm 파일을 PDF, HTML 5 및 EPUB 형식으로 게시할 수 있습니다.
+FrameMaker에서 AEM 커넥터를 사용하여 FrameMaker 파일을 관리할 수 있습니다. AEM 커넥터를 사용하면 AEM에서 DITA 및 기타 FrameMaker 문서(.book 및 .fm)를 쉽게 업로드할 수 있습니다. AEM Guides를 사용하면 AEM에서 직접 FrameMaker 문서를 게시할 수도 있습니다. FrameMaker 장부 파일에 DITA와 .fm 파일이 조합되어 있는 경우 AEM Guides에서 이러한 문서를 게시할 수도 있습니다. 현재 FrameMaker의 .book 및 .fm 파일을 PDF, HTML5 및 EPUB 형식으로 게시할 수 있습니다.
 
 ## 추가 리소스
 

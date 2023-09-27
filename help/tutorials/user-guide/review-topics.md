@@ -1,10 +1,10 @@
 ---
 title: 주제 검토
-description: 항목 검토 방법 알아보기
+description: AEM Guides에서 항목을 검토하고 검토자, 문서 보기, 항목 보기, 상황별 도구 모음, 미리 보기 모드, 댓글에 첨부 추가 및 조건 패널로서의 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2348'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ ht-degree: 0%
 
    [주석] 패널에서 파일 이름과 크기를 볼 수 있습니다. 삭제 아이콘을 클릭하여 파일을 제거하는 옵션도 있습니다 ![](images/Delete_icon.svg) 를 파일 이름과 연결했습니다.
 
-1. 클릭 **제출**.
+1. **제출**&#x200B;을 클릭합니다.
 
    첨부 파일이 업로드되고 댓글에 추가됩니다.
 

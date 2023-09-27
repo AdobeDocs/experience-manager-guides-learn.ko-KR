@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 8ee493dbcdf68b83a55a65945febfa52c56ef09e
+source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1597'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 5%
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 릴리스 {#2023-releases}
+            + 10월 릴리스 {#2310-release}
+               + [새로운 기능](./release-info/whats-new-2023.10.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.10.0.md)
             + 9월 릴리스 {#2309-release}
                + [새로운 기능](./release-info/whats-new-2023.9.0.md)
                + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
@@ -241,6 +244,7 @@ ht-degree: 5%
          + [데이터 소스 커넥터 구성](./install-guide/conf-data-source-connector.md)
          + [고급 맵 편집기 를 기본값으로 설정합니다.](./install-guide/conf-map-editor.md)
          + [기본적@navtitle 속성 포함](./install-guide/auto-add-navtitle.md)
+         + [Oxygen에서 편집할 옵션 구성](./cs-install-guide/conf-edit-in-oxygen.md)
       + 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles}
          + [전역 또는 폴더 수준 프로필 구성](./install-guide/conf-folder-level.md)
       + 버전 구성 {#version-mgt}
@@ -318,6 +322,7 @@ ht-degree: 5%
          + [단일 주제 PDF 생성 구성](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [웹 편집기에서 번역 기능 구성](./cs-install-guide/conf-translation-web-editor.md)
          + [데이터 소스 커넥터 구성](./cs-install-guide/conf-data-source-connector.md)
+         + [도구를 사용하여 데이터 소스 커넥터 구성](./cs-install-guide/conf-data-source-connector-tools.md)
          + [고급 맵 편집기 를 기본값으로 설정합니다.](./cs-install-guide/conf-map-editor.md)
          + [기본적@navtitle 속성 포함](./cs-install-guide/auto-add-navtitle.md)
       + 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles-cs}

@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Manager 안내서 정보
-description: Adobe Experience Manager Guides에 대해 as a Cloud Service으로 알아보는 방법
+description: 엔터프라이즈급 DITA 기반 구성 요소 콘텐츠 관리 솔루션인 Adobe Experience Manager Guides에 대해 알아봅니다. AEM Guides의 이점을 이해합니다.
 exl-id: c55429d9-ce2a-4dbf-b780-377b1372b828
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 0a50a6bd2ae2d2efea50f8ff4d70f614870f5899
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 게시 대시보드를 사용하여 게시 작업 관리
-description: 게시 대시보드를 사용하여 게시 작업을 관리하는 방법 알아보기
+description: AEM Guides의 게시 대시보드를 사용하여 게시 작업을 관리합니다. 게시 대시보드에 액세스하고 게시 작업을 취소하는 방법을 이해할 수 있습니다.
 exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 - **출력 사전 설정** - 현재 활성 게시 작업을 보려는 출력 사전 설정을 하나 이상 선택합니다. 다음 스크린샷에서는 게시 작업이 필터링되어 AEM Site 출력 사전 설정을 사용하는 작업만 표시됩니다.
 
-   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **초기화 실행자** - 선택한 사용자가 시작한 게시 작업을 표시하려면 목록에서 사용자 이름을 선택합니다.
 

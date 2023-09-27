@@ -1,10 +1,10 @@
 ---
 title: 웹 편집기의 키보드 단축키
-description: 웹 편집기에서 키보드 단축키를 사용하는 방법에 대해 알아봅니다
+description: AEM Guides의 웹 편집기에서 시간을 절약할 수 있는 키보드 단축키에 대해 알아봅니다.
 exl-id: e8be4c83-a236-43c1-b778-c3da92537174
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---

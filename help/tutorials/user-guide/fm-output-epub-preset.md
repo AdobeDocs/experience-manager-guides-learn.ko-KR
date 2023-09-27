@@ -1,10 +1,10 @@
 ---
 title: EPUB
-description: ePub 방법 알아보기
+description: AEM Guides에서 FrameMaker 문서에 대한 EPUB 출력을 생성하고 구성합니다.
 exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ePub 출력에 사용할 수 있는 옵션은 다음과 같습니다.
 
 >[!NOTE]
 >
-> ePub의 출력 사전 설정을 열려면 FrameMaker \(`.fm` 또는 `.book`\) 파일을 클릭한 다음 [출력 사전 설정]을 클릭하고 [EPUB] 옵션을 클릭합니다.
+> ePub에 대한 출력 사전 설정을 열려면 FrameMaker \(`.fm` 또는 `.book`\) 파일을 클릭한 다음 [출력 사전 설정]을 클릭하고 [EPUB] 옵션을 클릭합니다.
 
 | EPUB 옵션 | 설명 |
 |-----------|-----------|

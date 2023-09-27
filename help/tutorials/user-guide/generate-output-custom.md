@@ -1,17 +1,17 @@
 ---
 title: 사용자 정의
-description: 사용자 지정 출력 사전 설정을 사용하는 방법 알아보기
+description: 웹 편집기 및 맵 대시보드에서 사용자 지정 사전 설정을 만드는 방법에 대해 알아봅니다. AEM Guides에서 사용자 지정 출력 사전 설정을 구성합니다.
 exl-id: 72e59379-b092-49a2-8cd6-a929fe880750
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '949'
 ht-degree: 2%
 
 ---
 
 # 사용자 정의 {#id205BEF00PX0}
 
-사용자 지정 출력 사전 설정은 사용자 지정 DITA-OT 플러그인에 사용할 수 있습니다. 사용자 지정 DITA-OT 플러그인을 사용하여 출력을 게시하도록 사용자 지정 DITA-OT 출력 사전 설정을 만들 수 있습니다.
+사용자 지정 출력 사전 설정은 사용자 지정 DITA-OT 플러그인에 사용할 수 있습니다. 사용자 지정 DITA-OT 플러그인을 사용하여 출력을 게시하기 위해 사용자 지정 DITA-OT 출력 사전 설정을 만들 수 있습니다.
 
 다음 두 가지 방법으로 사용자 지정 사전 설정을 만들 수 있습니다.
 

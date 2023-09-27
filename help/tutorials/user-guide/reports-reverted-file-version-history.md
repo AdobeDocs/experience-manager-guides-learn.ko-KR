@@ -1,10 +1,10 @@
 ---
 title: 파일 버전 기록 보고서를 되돌렸습니다.
-description: 되돌려진 파일 버전 기록 보고서 만드는 방법 알아보기
+description: AEM Guides에서 되돌려진 파일 버전 내역 보고서를 봅니다. Assets UI, 주제 미리 보기 및 AEM 도구 선택 항목에서 버전 로그 되돌리기에 액세스하는 방법에 대해 알아봅니다.
 exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ AEM Guides를 사용하면 개별 파일 또는 폴더에 있는 모든 파일�
 
 - **에셋 UI**: 파일을 선택하고 **버전 기록** 왼쪽 레일에서. 다음 **버전 기록** 보기에 다음 항목이 포함되어 있음: **버전 로그 되돌리기** 패널 하단에서 링크를 클릭합니다. 이 링크를 클릭하면 선택한 파일의 되돌린 버전 기록이 표시됩니다.
 
-   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **주제 미리 보기**: 항목을 미리 볼 때 다음과 같은 항목도 표시할 수 있습니다. **버전 기록** 왼쪽 레일의 패널 을 클릭할 수 있는 Assets UI와 유사한 패널이 제공됩니다. **버전 로그 되돌리기** 활성 문서의 되돌려진 버전 기록에 액세스하는 링크.
 
