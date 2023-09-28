@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides의 새로운 기능, 2023년 10월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 10월 릴리스의 새로운 기능과 향상된 기능을 알아보십시오.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](release-notes-2023.10.0.md).
 
 
-## 도구를 사용하여 데이터 소스 커넥터 구성
+## 사용자 인터페이스에서 데이터 소스 커넥터 구성
 
 Experience Manager 가이드는 이제 **데이터 소스** 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 도구입니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 커넥터를 쉽게 만들 수 있습니다.
 
-또한 데이터 소스 커넥터를 쉽게 편집, 재연결, 복제 또는 삭제할 수 있습니다. 방법 알아보기 [도구를 사용하여 데이터 소스 커넥터 구성](../cs-install-guide/conf-data-source-connector-tools.md).
+또한 데이터 소스 커넥터를 쉽게 편집, 재연결, 복제 또는 삭제할 수 있습니다. 방법 알아보기 [사용자 인터페이스에서 데이터 소스 커넥터를 쉽게 구성할 수 있습니다](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![데이터 소스 패널에 나열된 데이터 소스 커넥터](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Experience Manager 안내서에는 목차(TOC)의 장 이름과 함께 장 번�
 이제 Experience Manager 안내서를 사용하여 웹 편집기에서 파일을 선택한 다음 Oxygen 커넥터 플러그인에서 파일을 편집하도록 선택할 수 있습니다. 이 옵션은 기본 지원의 일부로 활성화되지 않습니다.
 
 자세한 내용은 **파일 옵션** 내의 기능 설명 [왼쪽 패널](../user-guide/web-editor-features.md#id2051EA0M0HS) 섹션.
-

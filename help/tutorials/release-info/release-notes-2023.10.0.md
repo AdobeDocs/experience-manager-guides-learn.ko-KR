@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | 2023년 10월 Adobe Experience Manager Guides 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항 및 Adobe Experience Manager Guides as a Cloud Service으로 2023년 10월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
-source-git-commit: 4ce9024579aeaa97e6e35ac777ee3c14f0061aa6
+exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1017'
 ht-degree: 2%
 
 ---
@@ -159,8 +160,9 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 선택한 기존 번역 프로젝트에 새 작업을 추가하는 대신 새 번역 프로젝트가 만들어집니다.  (10214)
 
+## 알려진 문제
 
+Adobe은 2023년 10월 릴리스에 대해 다음과 같은 알려진 문제를 확인했습니다.
 
-
-
+- 콘텐츠 조각 다시 게시가 실패했습니다.
 
