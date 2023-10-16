@@ -1,10 +1,10 @@
 ---
 title: 웹 편집기 기능 이해
 description: AEM Guides에서 웹 편집기의 기능을 살펴보십시오. 기본 도구 모음, 보조 도구 모음, 왼쪽 패널, 콘텐츠 편집 영역 및 오른쪽 패널을 비롯한 웹 편집기의 인터페이스를 알 수 있습니다.
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ ht-degree: 0%
 
 - **속성 목록**: 요소 목록과 유사하게 속성 목록 및 해당 표시 이름이 요소의 속성 목록에 표시되도록 제어할 수 있습니다. 다음 스크린샷에서는 3개의 속성만 요소의 속성 목록에 표시되도록 구성되었습니다.
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-이 설정을 사용하면 요소에 특성을 추가하려고 할 때 목록에 구성된 특성 목록만 표시됩니다.
+  이 설정을 사용하면 요소에 특성을 추가하려고 할 때 목록에 구성된 특성 목록만 표시됩니다.
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **프로필 게시**: 기술 자료 출력을 게시하는 데 사용할 수 있는 게시 프로필이 포함되어 있습니다. 선택한 소비자 유형에 대해 새 프로필을 만들 수 있습니다. 예: Salesforce.
+
+   - **Salesforce 게시 프로필을 만들기 위한 요구 사항**
+
+      - Salesforce용 연결된 앱을 만듭니다. 자세한 내용은 다음을 참조하십시오. [API 통합에 대한 OAuth 설정 활성화](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - 연결된 앱을 구성하는 동안 다음을 확인하십시오.
+
+         - 콜백을 지정합니다.
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - 다음 OAuth 범위를 선택하십시오.
+            - 전체 액세스(전체)
+            - API(Manage user data via API)를 선택합니다
+
+  앱이 구성되면 Salesforce는 **소비자 키** 및 **소비자 암호**.
+
+  Salesforce 게시 프로필을 만드는 데 사용할 수 있습니다.
+  ![편집기 설정의 프로필](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- 게시 프로필을 만들기 위해 Salesforce와 같은 기술 자료를 **서버 유형** 드롭다운입니다. 프로필 이름을 입력합니다. 다음에서 **사이트 URL** 출력을 게시하는 데 사용할 소비자 사이트를 입력한 다음 **소비자 키** 및 **소비자 암호** salesforce와 같은 소비자 사이트에서 제공합니다. 그런 다음 새로 만든 프로필에 로그인합니다.
+
+  >[!NOTE]
+  >
+  >Experience Manager 안내서에서 Salesforce용 프록시를 구성하려면 AEM에서 Apache HTTP 구성 요소 프록시 구성을 사용하십시오. 방법 알아보기 [AEM 링크 검사기에 대한 프록시 구성](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  로그인 후 DITA 맵의 출력 사전 설정에서 게시 프로필을 선택하고 을 사용하여 선택한 문서에 대한 출력을 생성할 수 있습니다. 자세한 내용은 [웹 편집기에서 문서 기반 게시](../install-guide/configure-article-based-publishing.md) ( 설치 및 구성 안내서)를 참조하십시오.
+
+- **유효성 검사**: 이 탭에는 웹 편집기에서 Schematron 유효성 검사를 구성하는 옵션이 포함되어 있습니다. 다음 기능을 활성화할 수 있습니다.
+
+   - **파일을 저장하기 전에 유효성 검사 실행**: 저장 작업 전에 선택한 Schematron 파일을 사용하여 Schematron 유효성 검사를 실행하려면 이 옵션을 선택합니다. + 아이콘을 클릭하여 Schematron 파일을 추가할 수 있습니다. 선택한 Schematron 파일이 나열됩니다.
+
+     >[!NOTE]
+     >선택한 Schematron 파일이 선택한 폴더 프로필에 대해 유지됩니다.
+
+     ![편집기 설정에서 유효성 검사](./images/editor-setting-validation.png){width="300" align="left"}
+이렇게 하면 사용자가 선택한 Schematron 파일에 정의된 규칙을 벗어나는 파일을 저장할 수 없습니다. 이 옵션을 선택하지 않으면 변경 내용을 저장하기 전에 파일의 유효성을 검사하지 않습니다.
+
+   - **모든 사용자가 유효성 검사 패널에서 schematron 파일을 추가하도록 허용**: 사용자가 웹 편집기의 유효성 검사 패널에서 Schematron 파일을 추가할 수 있도록 하려면 이 옵션을 선택합니다. 이를 통해 사용자는 Schematron 파일을 추가한 다음 Schematron 파일에 대해 항목을 확인할 수 있습니다. 이 옵션을 선택하지 않으면 **Schematron 파일 추가** 의 사용자는 버튼을 사용할 수 없습니다. **유효성 검사 패널** 웹 편집기의
+
 
 - **속성 표시**: 속성 목록과 마찬가지로 요소의 속성 목록에 표시할 속성 목록을 제어할 수 있습니다. 기본적으로 4개 **속성 표시** — 대상자, 플랫폼, 제품 및 prop이 요소의 속성 목록에 표시되도록 구성되었습니다. 를 사용하여 표시 속성을 추가할 수도 있습니다. **추가** 맨 위에 있는 아이콘. 를 사용하여 표시 속성을 삭제할 수도 있습니다. **삭제** 아이콘.
 
-요소에 대해 정의된 속성이 레이아웃 및 아웃라인 뷰에 표시됩니다.
+  요소에 대해 정의된 속성이 레이아웃 및 아웃라인 뷰에 표시됩니다.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **번역**: 이 탭에는 소스 레이블을 대상 버전에 전파하는 옵션이 포함되어 있습니다.
 

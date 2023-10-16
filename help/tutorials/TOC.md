@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 5%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 5%
       + On-prem/Managed Services {#on-prem-release-notes}
          + 4.3.0 릴리스 {#43-release}
             + 새로운 기능 {#43-whats-new}
+               + [4.3.1 새로운 기능](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0 새로운 기능](./release-info/whats-new-4.3-release.md)
             + 릴리스 정보 {#43-release-notes}
+               + [4.3.1 릴리스 노트](./release-info/release-notes-4.3.1.md)
                + [4.3.0 릴리스 노트](./release-info/release-notes-4.3.md)
          + 4.2 릴리스 {#42-release}
             + 새로운 기능 {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 5%
          + [쿼리에 대한 LimitReads 수를 구성합니다.](./install-guide/conf-query-limitreads.md)
          + [문서 기반 게시용 패키지 설치](./install-guide/configure-article-based-publishing.md)
          + [데이터 소스 커넥터 구성](./install-guide/conf-data-source-connector.md)
+         + [사용자 인터페이스에서 데이터 소스 커넥터 구성](./install-guide/conf-data-source-connector-tools.md)
          + [고급 맵 편집기 를 기본값으로 설정합니다.](./install-guide/conf-map-editor.md)
          + [기본적@navtitle 속성 포함](./install-guide/auto-add-navtitle.md)
          + [Oxygen에서 편집할 옵션 구성](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 5%
          + [단일 주제 PDF 생성 구성](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [웹 편집기에서 번역 기능 구성](./cs-install-guide/conf-translation-web-editor.md)
          + [데이터 소스 커넥터 구성](./cs-install-guide/conf-data-source-connector.md)
-         + [도구를 사용하여 데이터 소스 커넥터 구성](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [사용자 인터페이스에서 데이터 소스 커넥터 구성](./cs-install-guide/conf-data-source-connector-tools.md)
          + [고급 맵 편집기 를 기본값으로 설정합니다.](./cs-install-guide/conf-map-editor.md)
          + [기본적@navtitle 속성 포함](./cs-install-guide/auto-add-navtitle.md)
       + 글로벌 및 폴더 수준 프로필 작업 {#global-folder-profiles-cs}

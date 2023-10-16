@@ -1,10 +1,10 @@
 ---
 title: 데이터 소스에서 콘텐츠 조각 삽입
 description: AEM Guides에서 데이터 소스의 데이터를 사용합니다. 데이터 소스에서 콘텐츠 코드 조각을 삽입하는 방법을 알아봅니다. 주제 생성기를 사용하여 주제를 생성합니다.
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ A **데이터 소스** 는 조직의 데이터를 저장하고 관리하는 시�
 <details>    
 <summary>  On-premise Software </summary>
 
-방법 알아보기 [데이터 소스 커넥터 구성](../install-guide/conf-data-source-connector.md)  ( 온프레미스 설치 및 구성 안내서)를 참조하십시오.
+- 4.3.1 릴리스 이상을 사용 중인 경우 방법 알아보기 [사용자 인터페이스에서 데이터 소스 커넥터 구성](../cs-install-guide/conf-data-source-connector-tools.md) ( 온프레미스 설치 및 구성 안내서)를 참조하십시오.
+
+- 4.3 릴리스를 사용 중인 경우 방법 알아보기 [데이터 소스 커넥터 구성](../cs-install-guide/conf-data-source-connector.md) ( 온프레미스 설치 및 구성 안내서)를 참조하십시오.
 </details>
 
 
