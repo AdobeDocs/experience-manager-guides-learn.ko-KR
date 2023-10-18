@@ -1,13 +1,13 @@
 ---
 title: 소개
 description: AEM Guides에 대한 API 참조 안내서 소개
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
+source-git-commit: 112085153aaf246289bd8f91657c95e986df482e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # 소개 {#id1761C0007W7}
 
@@ -175,7 +175,7 @@ AEM Guides에 의해 노출된 JAR 파일을 사용하려면 로컬 Apache Maven
    <repository>
       <id>fmdita-public</id>
       <name>fmdita-public</name>
-      <url>https://repo.xmldocumentation.com/repository/fmdita-public</url>
+      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
    </repository>
    ```
 
@@ -228,4 +228,3 @@ API JAR을 사용하려면 아래와 같이 프로젝트의 pom.xml에 종속성
 - 설치 및 구성 안내서
 - 빠른 시작 안내서
 - [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
-
