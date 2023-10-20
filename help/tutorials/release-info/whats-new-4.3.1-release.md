@@ -1,22 +1,22 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.1 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.3.1 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guides 4.3.1 릴리스의 새로운 기능 (2023년 10월)
 
-이 문서에서는 Adobe Experience Manager Guides 버전 4.3.1(이후 설명됨)의 새로운 기능 및 향상된 기능을 다룹니다. *AEM 안내서*).
+이 문서에서는 Adobe Experience Manager Guides 버전 4.3.1(이후 설명됨)의 새로운 기능 및 향상된 기능을 다룹니다. *Experience Manager 가이드*).
 
 업그레이드 지침, 호환성 매트릭스 및 이 릴리스에서 해결된 문제에 대한 자세한 내용은 [릴리스 정보](./release-notes-4.3.1.md).
 
 ## 데이터 소스에 연결하고 항목을 삽입합니다.
 
-Experience Manager 가이드는 데이터 소스와 연결하는 데 도움이 되는 기본 커넥터를 제공하므로 AEM 가이드는 진정한 콘텐츠 허브입니다. 따라서 수동으로 데이터를 추가하거나 복제하는 데 소요되는 시간과 노력을 절약할 수 있습니다.
+Experience Manager 안내서는 데이터 소스와 연결하는 데 도움이 되는 기본 커넥터를 제공하므로 Experience Manager 안내서를 진정한 콘텐츠 허브로 만들 수 있습니다. 따라서 수동으로 데이터를 추가하거나 복제하는 데 소요되는 시간과 노력을 절약할 수 있습니다.
 
 JIRA 및 SQL(MySQL, PostgreSQL, SQL Server, SQLite)과 같은 기존 기본 제공 커넥터와 함께 관리자는 MariaDB, H2DB, AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 커넥터를 구성할 수도 있습니다. 기본 인터페이스를 확장하여 다른 커넥터를 추가할 수도 있습니다.
 

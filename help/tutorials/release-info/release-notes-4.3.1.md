@@ -1,41 +1,41 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.1 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항 및 Adobe Experience Manager Guides의 4.3.1 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-source-git-commit: a8f36d020422d9d83ca47e2246dc42278f2c7963
+source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 5%
 
 ---
 
 # Adobe Experience Manager Guides의 4.3.1 릴리스(2023년 10월)
 
-이 릴리스 노트는 Adobe Experience Manager Guides 버전 4.3.1(이후 설명됨)에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다. *AEM 안내서*).
+이 릴리스 노트는 Adobe Experience Manager Guides 버전 4.3.1(이후 설명됨)에서 해결된 업그레이드 지침, 호환성 매트릭스 및 문제를 다룹니다. *Experience Manager 가이드*).
 
 새로운 기능 및 향상된 기능에 대한 자세한 내용은 [Adobe Experience Manager Guides 4.3.1 릴리스의 새로운 기능](./whats-new-4.3.1-release.md).
 
-## AEM Guides의 4.3.1 릴리스로 업그레이드
+## Experience Manager 안내서의 4.3.1 릴리스로 업그레이드
 
 
-현재 버전의 AEM Guides를 버전 4.3.1로 쉽게 업그레이드할 수 있습니다. AEM Guides 버전 4.3.1로 업그레이드하기 전에 다음 사항을 고려해야 합니다. 현재 버전의 AEM Guides를 버전 4.3.1로 업그레이드할 수 있습니다
+현재 버전의 Guides를 버전 4.3.1로 쉽게 업그레이드할 수 있습니다. Experience Manager 안내서 버전 4.3.1로 업그레이드하기 전에 다음 사항을 고려해야 합니다. 현재 버전의 Experience Manager 안내서를 버전 4.3.1로 업그레이드할 수 있습니다
 
-- 버전 4.2 또는 4.2.x를 사용 중인 경우 버전 4.3.1로 바로 업그레이드할 수 있습니다.
-- 버전 4.1 또는 4.1.x를 사용 중인 경우 버전 4.3.1로 업그레이드하기 전에 버전 4.2 또는 4.2.x로 업그레이드해야 합니다.
+
+- 버전 4.3.0, 4.2 또는 4.2.1을 사용 중인 경우 버전 4.3.1로 바로 업그레이드할 수 있습니다.
+- 버전 4.1 또는 4.1.x를 사용 중인 경우 버전 4.3.1로 업그레이드하기 전에 버전 4.3.0, 4.2 또는 4.2.x로 업그레이드해야 합니다.
 - 버전 4.0을 사용 중인 경우 버전 4.3.1로 업그레이드하기 전에 버전 4.2로 업그레이드해야 합니다.
 - 버전 3.8.5를 사용하는 경우 버전 4.2로 업그레이드하기 전에 버전 4.0으로 업그레이드해야 합니다.
-- 3.8.5 이전 버전을 사용하는 경우 제품별 설치 안내서에서 업그레이드 AEM 안내서 섹션을 참조하십시오.
-
+- 3.8.5 이전 버전을 사용하는 경우 제품별 설치 안내서에서 업그레이드 Experience Manager 안내서 섹션을 참조하십시오.
 
 
 >[!NOTE]
 >
->AEM Guides 버전을 업그레이드하기 전에 AEM 서비스 팩을 설치해야 합니다.
+>Experience Manager 가이드 버전을 업그레이드하기 전에 AEM 서비스 팩을 설치해야 합니다.
 
 자세한 내용은 [업그레이드 지침](../install-guide/upgrade-xml-documentation.md).
 
 ## 호환성 매트릭스
 
-이 섹션에서는 AEM Guides 4.3.1 릴리스에서 지원하는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
+이 섹션에서는 Experience Manager 안내서 4.3.1 릴리스에서 지원하는 소프트웨어 응용 프로그램에 대한 호환성 매트릭스를 나열합니다.
 
 ### Adobe Experience Manager
 
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 | 구성 요소 패키지 이름 | 구성 요소 버전 | 템플릿 버전 |
 |---|---|---|
-| AEM Guides 구성 요소 Cloud Service 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager 가이드 구성 요소 Cloud Service 컨텐츠 패키지 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## 해결된 문제
 
