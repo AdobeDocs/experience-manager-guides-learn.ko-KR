@@ -1,7 +1,7 @@
 ---
 title: 기본 PDF 게시 기능 | 바코드 추가
 description: 바코드를 추가하는 방법을 알아봅니다.
-source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 작성 모드에서 리소스 ID를 편집할 수도 있습니다.
 
-<img src="./assets/barcode-map.png" alt="바코드가 있는 샘플 출력" width="700">
+<img src="./assets/barcode-map.png" alt="바코드가 있는 샘플 출력" width="700" border="2px solid blue">
 
 
 ### 템플릿 헤더에 바코드 자리 표시자 추가
@@ -82,30 +82,30 @@ ht-degree: 2%
 
 | 유형 | CSS 속성 | 추가 속성 |
 | ------------------------------- | ----------------------- | -------------------------- |
-| QR 코드 | qrcode |  |
-| PDF417 | pdf417 |  |
-| 데이터 매트릭스 | 자료 행렬 |  |
-| Aztec 코드 | aztec-code |  |
-| 격자 행렬 | 격자 행렬 |  |
-| Maxicode | maxicode mode-4 |  |
-| 마이크로 QR | microqr |  |
-| 코드 1 | code-one |  |
-| 코다블락 | 코다블락 |  |
-| GS1 데이터베이스 제한 | 데이터 베이스 제한 |  |
-| GS1 데이터베이스 전방향 | 데이터 베이스 전방위 |  |
-| EAN-13 | ean- |  |
+| QR 코드 | qrcode |                            |
+| PDF417 | pdf417 |                            |
+| 데이터 매트릭스 | 자료 행렬 |                            |
+| Aztec 코드 | aztec-code |                            |
+| 격자 행렬 | 격자 행렬 |                            |
+| Maxicode | maxicode mode-4 |                            |
+| 마이크로 QR | microqr |                            |
+| 코드 1 | code-one |                            |
+| 코다블락 | 코다블락 |                            |
+| GS1 데이터베이스 제한 | 데이터 베이스 제한 |                            |
+| GS1 데이터베이스 전방향 | 데이터 베이스 전방위 |                            |
+| EAN-13 | ean- |                            |
 | GS1-128 (EAN-128) | code128 | -ro-barcode-encoding: gs1; |
-| ITF- | itf14 |  |
-| UPC-A | upc-a |  |
-| 코드 128 | code128 |  |
-| 인터리브된 2/5 | code2of5 인터리브됨 |  |
-| POSTNET | postnet |  |
-| 네덜란드 우편 Kixcode | kixcode |  |
-| 우정사업본부 | 우정사업본부 |  |
-| 도이치 포스트 레이트코드 | dp-leitcode |  |
-| 오스트레일리아 포스트 | 어스포스트 |  |
-| 로그마르스 | 로그마르스 |  |
-| 약전 | 약전 |  |
-| USPS OneCode(Intelligent Mail) | usps-onecode |  |
+| ITF- | itf14 |                            |
+| UPC-A | upc-a |                            |
+| 코드 128 | code128 |                            |
+| 인터리브된 2/5 | code2of5 인터리브됨 |                            |
+| POSTNET | postnet |                            |
+| 네덜란드 우편 Kixcode | kixcode |                            |
+| 우정사업본부 | 우정사업본부 |                            |
+| 도이치 포스트 레이트코드 | dp-leitcode |                            |
+| 오스트레일리아 포스트 | 어스포스트 |                            |
+| 로그마르스 | 로그마르스 |                            |
+| 약전 | 약전 |                            |
+| USPS OneCode(Intelligent Mail) | usps-onecode |                            |
 
 
