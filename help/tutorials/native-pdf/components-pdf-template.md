@@ -2,7 +2,7 @@
 title: 기본 PDF 게시 기능 | PDF 템플릿의 구성 요소
 description: PDF 템플릿의 다양한 구성 요소와 구성 요소를 사용자 정의하고 구성하는 방법에 대해 알아봅니다.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 0%
@@ -414,11 +414,11 @@ AEM Guides는 다음과 같은 기본 변수를 제공합니다.
 추가할 때 `${lng:<variable name>}` 단락 섹션에는 출력의 단락에 있는 상호 참조에 현지화된 텍스트와 페이지 번호가 포함됩니다.\
 예를 들어 다음 스크린샷은 영어로 된 &quot;View on page 1&quot; 및 독일어로 된 &quot;Einzelheiten finden Sie auf der Seite 1&quot; 상호 참조를 보여줍니다.
 
-<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px solid blue">
 
 *영어로 게시할 때 단락 내의 상호 참조.*
 
-<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px solid blue">
 
 *독일어로 게시되는 경우 단락 내의 상호 참조입니다.*
 
