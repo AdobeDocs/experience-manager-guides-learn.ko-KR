@@ -1,19 +1,17 @@
 ---
 title: 도구를 사용하여 데이터 소스 커넥터 구성
 description: 도구를 사용하여 데이터 소스 커넥터를 구성하는 방법을 알아봅니다.
-exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-
-
 # 사용자 인터페이스에서 데이터 소스 커넥터 구성
 
-Experience Manager 안내서에는 **데이터 소스** 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 도구입니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce 및 Elasticsearch 데이터베이스에 대한 커넥터를 설정할 수 있습니다.
+Experience Manager 안내서에는 **데이터 소스** 데이터 소스에 대한 기본 제공 커넥터를 구성하는 데 도움이 되는 도구입니다. JIRA, SQL(MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch 및 일반 REST 클라이언트 커넥터를 설정할 수 있습니다.
 
 커넥터를 구성하려면 다음 단계를 수행하십시오.
 

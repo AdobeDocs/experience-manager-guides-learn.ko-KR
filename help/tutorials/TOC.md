@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
+source-git-commit: a9772cdde6161923d28be806407931859d9918d1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1617'
 ht-degree: 5%
 
 ---
@@ -20,27 +20,30 @@ ht-degree: 5%
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 릴리스 {#2023-releases}
-            + 10월 릴리스 {#2310-release}
-               + [새로운 기능](./release-info/whats-new-2023.10.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.10.0.md)
-            + 9월 릴리스 {#2309-release}
-               + [새로운 기능](./release-info/whats-new-2023.9.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
-            + 7월 릴리스 {#2307-release}
-               + [새로운 기능](./release-info/whats-new-2023.7.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
-            + 6월 릴리스 {#2306-release}
-               + [새로운 기능](./release-info/whats-new-2023.6.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
-            + 4월 릴리스 {#2304-release}
-               + [새로운 기능](./release-info/whats-new-2023.4.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.4.0.md)
-            + 3월 릴리스 {#2303-release}
-               + [새로운 기능](./release-info/whats-new-2023.3.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.3.0.md)
-            + 2월 릴리스 {#2302-release}
-               + [새로운 기능](./release-info/whats-new-2023.2.0.md)
-               + [릴리스 정보](./release-info/release-notes-2023.2.0.md)
+         + 11월 릴리스 {#2311-release}
+            + [새로운 기능](./release-info/whats-new-2023.11.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.11.0.md)
+         + 10월 릴리스 {#2310-release}
+            + [새로운 기능](./release-info/whats-new-2023.10.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.10.0.md)
+         + 9월 릴리스 {#2309-release}
+            + [새로운 기능](./release-info/whats-new-2023.9.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
+         + 7월 릴리스 {#2307-release}
+            + [새로운 기능](./release-info/whats-new-2023.7.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
+         + 6월 릴리스 {#2306-release}
+            + [새로운 기능](./release-info/whats-new-2023.6.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
+         + 4월 릴리스 {#2304-release}
+            + [새로운 기능](./release-info/whats-new-2023.4.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.4.0.md)
+         + 3월 릴리스 {#2303-release}
+            + [새로운 기능](./release-info/whats-new-2023.3.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.3.0.md)
+         + 2월 릴리스 {#2302-release}
+            + [새로운 기능](./release-info/whats-new-2023.2.0.md)
+            + [릴리스 정보](./release-info/release-notes-2023.2.0.md)
          + 2022 릴리스 {#2022-releases}
             + [11월 릴리스 노트](./release-info/release-notes-2022.11.0.md)
             + [10월 릴리스 정보](./release-info/release-notes-2022.10.0.md)
@@ -267,7 +270,7 @@ ht-degree: 5%
                + [목차 항목 및 주제 콘텐츠에 사용자 지정 스타일 적용](./native-pdf/custom-style-toc.md)
                + [PDF 출력에 사용자 지정 책갈피 추가](./native-pdf/add-custom-bookmark.md)
                + [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](./native-pdf/use-javascript-content-style.md)
-               + [각주에서 사용자 정의 스타일 사용](./native-pdf/footnote-number-style.md)
+               + [각주에 스타일 적용](./native-pdf/footnote-number-style.md)
          + [기본 PDF 게시를 위한 JVM 플래그 구성](./native-pdf/configure-jvm-flags.md)
          + [주제와 컨텐츠 조각 간의 매핑 만들기](./install-guide/conf-content-fragment-mapping.md)
       + 사용자 정의 워크플로우를 사용하여 작업 {#custom-workflow}

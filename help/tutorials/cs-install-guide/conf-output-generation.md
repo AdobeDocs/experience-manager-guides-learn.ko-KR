@@ -1,13 +1,13 @@
 ---
 title: 출력 생성 설정 구성
 description: 출력 생성 설정을 구성하는 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 1%
 
 ---
-
 
 # 출력 생성 설정 구성 {#id181AI0B0E30}
 
@@ -22,7 +22,7 @@ DITA 맵 대시보드에서 기준선 탭을 숨기려면 다음 단계를 수�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | 부울\(`true/false`\).**기본값**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | 부울\(`true/false`\).**기본 값**: `true` |
 
 >[!NOTE]
 >
@@ -66,9 +66,7 @@ DITA 콘텐츠가 포함된 AEM Site가 있는 경우 DITA 콘텐츠를 사이�
 AEM Guides에서는 다음 형식의 출력 만들기를 지원합니다.
 
 - AEM 사이트
-
 - PDF
-
 - HTML5
 - EPUB
 - DITA-OT를 통한 사용자 지정 출력
@@ -80,6 +78,7 @@ AEM Guides에서 사용자 지정된 DITA Open Toolkit \(DITA-OT\) 플러그인�
 >[!TIP]
 >
 > 다음을 참조하십시오. *AEM 사이트 게시* 섹션 AEM 사이트 출력 생성에 대한 우수 사례 가이드.
+
 
 ### 출력 생성을 위한 디자인 템플릿 맞춤화 {#customize_xml-add-on}
 
@@ -209,7 +208,7 @@ AEM 사이트 노드 구조를 제거하려면 다음 단계를 수행하십시�
 
    | PID | 속성 키 | 속성 값 |
    |---|------------|--------------|
-   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 부울 \(true/false\).<br> **기본값**: `false` |
+   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 부울 \(true/false\).<br> **기본 값**: `false` |
 
 
 이제 AEM Site 출력을 생성할 때 `p` 요소가 병합되고 내부에 저장됩니다. `p` 요소 자체. 다음에 대한 새 병합 속성을 찾을 수 있습니다. `p` crxde의 요소입니다.
@@ -255,11 +254,17 @@ AEM Site 출력에서 평면화할 노드를 지정하는 것과 유사하게 �
 
    | PID | 속성 키 | 속성 값 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 부울 \(true/false\).<br> **기본값**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 부울 \(true/false\).<br> **기본 값**: `true` |
 
    >[!NOTE]
    >
    > 이 옵션을 선택하면 사용자는 자신의 버전을 작성하지 않고도 원하는 페이지를 직접 삭제할 수 있습니다. 옵션을 선택하지 않으면 페이지가 삭제되기 전에 버전이 작성됩니다.
+
+### Experience Manager 안내서를 사용하여 사용자 지정 재작성기 설정 {#custom-rewriter}
+
+Experience Manager 안내서에는 사용자 정의 슬링이 있습니다 [**재작성자**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) 크로스 맵(두 맵의 주제 간 링크)의 경우 생성되는 링크를 처리하는 모듈입니다. 이 재작성기 구성은 다음 경로에 설치됩니다. <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`
+
+코드베이스에 다른 사용자 지정 sling 재작성기가 있는 경우 `'order'` 값: 50보다 큼, Experience Manager Guides sling 재작성기 사용 `'order'` 50.  재정의하려면 50 이상의 값이 필요합니다. 자세한 내용은 [출력 재작성 파이프라인](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
 ## DITA-OT를 통해 출력을 게시할 때 메타데이터 사용 {#id191LF0U0TY4}
@@ -589,7 +594,7 @@ AEM Guides는 `apps.fmdita.dashboard-extn` 맵 콘솔 사용자 지정 범주 �
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 업로드하는 모든 이미지에 대해 AEM은 이진 형식으로 동일한 렌디션을 여러 개 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM이 자산을 처리하는 방법에 대한 자세한 내용은 [Processing Assets Using Media Handlers and Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) AEM 설명서에서 참조할 수 있습니다.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 업로드하는 모든 이미지에 대해 AEM은 이진 형식으로 동일한 렌디션을 여러 개 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM이 자산을 처리하는 방법에 대한 자세한 내용은 [미디어 핸들러 및 워크플로우를 사용하여 자산 처리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) AEM 설명서에서 참조할 수 있습니다.
 
 AEM Guides를 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은에 저장됩니다. `/libs/fmdita/config/ **renditionmap.xml**` 파일. 의 코드 조각 `renditionmap.xml` 파일은 다음과 같습니다.
 
@@ -657,4 +662,3 @@ DITA 맵의 출력 탭에 표시되는 생성된 최대 출력 수를 변경할 
 >[!TIP]
 >
 > 다음을 참조하십시오. *출력 기록* 출력 기록 작업에 대한 우수 사례를 보려면 우수 사례 안내서의 섹션을 참조하십시오.
-
