@@ -1,9 +1,10 @@
 ---
 title: 기본 PDF 게시 "Hands on lab - BYOS" - 대화형 학습
 description: 이 'Hands-on Lab - BYOS' 세션에서는 기본 PDF 게시를 심층적으로 살펴볼 수 있습니다. 다양한 사용 사례를 살펴보고, 주요 기능을 활용하고, Adobe 전문가와 직접 소통하여 특정 문제 진술 및 요구 사항을 해결하십시오.
-source-git-commit: 03da00daf0118b66ef5653dfb80918c33bc8f76b
+exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
+source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -61,8 +62,8 @@ ht-degree: 0%
 
 ## 다음 전문가 세션
 
-- **주제** - TBD
-- **예약된 날짜** - TBD
+- **주제** - Guides 확장 프레임워크
+- **예약된 날짜** - 2023년 11월 2일
 
 ## 연락처
 
