@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: a9772cdde6161923d28be806407931859d9918d1
+source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1622'
 ht-degree: 5%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 5%
       + [컨텐츠 및 템플릿 설정](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
       + [학습 기본 PDF 게시 - 1부](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       + [기본 PDF 게시 학습 - 실습 - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
+      + [AEM 안내서의 확장 프레임워크](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
    + 기사 {#kb-articles}
       + 작성 {#authoring}
          + 보고서 {#reports}
