@@ -1,8 +1,8 @@
 ---
 title: Schematron 파일 지원
 description: DITA 주제를 가져오고 유효성을 검사하는 방법, 어설션 보고서 문을 사용하여 규칙을 확인하는 방법, 정규 표현식을 사용하는 방법 및 AEM Guides의 Schematron 파일에서 추상 패턴을 정의하는 방법에 대해 알아봅니다.
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## 추상 패턴 정의{#schematron-abstract-patterns}
 
-AEM Gudies는 Schematron의 추상적인 패턴도 지원합니다. 일반 추상 패턴을 정의할 수 있으며 이러한 추상 패턴을 재사용할 수 있습니다.  실제 패턴을 지정하는 자리 표시자 매개변수를 생성할 수 있습니다.
+AEM Guides는 Schematron의 추상적인 패턴도 지원합니다. 일반 추상 패턴을 정의할 수 있으며 이러한 추상 패턴을 재사용할 수 있습니다.  실제 패턴을 지정하는 자리 표시자 매개변수를 생성할 수 있습니다.
 
 
 추상 패턴을 사용하면 규칙의 중복을 줄이고 유효성 검사 논리를 보다 쉽게 관리 및 업데이트할 수 있으므로 스키마 스키마를 단순화할 수 있습니다. 또한 복잡한 유효성 검사 논리를 스키마 전체에서 재사용할 수 있는 단일 추상 패턴으로 정의할 수 있으므로 스키마를 더 쉽게 이해할 수 있습니다.
