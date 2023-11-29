@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides용 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 튜토리얼 컬렉션을 살펴보십시오.
 breadcrumb-title: AEM Guides 튜토리얼
-source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 5%
 
 ---
@@ -20,30 +20,33 @@ ht-degree: 5%
       + 클라우드 서비스 {#cloud-release-notes}
          + [배포 지침](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 릴리스 {#2023-releases}
-         + 11월 릴리스 {#2311-release}
-            + [새로운 기능](./release-info/whats-new-2023.11.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.11.0.md)
-         + 10월 릴리스 {#2310-release}
-            + [새로운 기능](./release-info/whats-new-2023.10.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.10.0.md)
-         + 9월 릴리스 {#2309-release}
-            + [새로운 기능](./release-info/whats-new-2023.9.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
-         + 7월 릴리스 {#2307-release}
-            + [새로운 기능](./release-info/whats-new-2023.7.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
-         + 6월 릴리스 {#2306-release}
-            + [새로운 기능](./release-info/whats-new-2023.6.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
-         + 4월 릴리스 {#2304-release}
-            + [새로운 기능](./release-info/whats-new-2023.4.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.4.0.md)
-         + 3월 릴리스 {#2303-release}
-            + [새로운 기능](./release-info/whats-new-2023.3.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.3.0.md)
-         + 2월 릴리스 {#2302-release}
-            + [새로운 기능](./release-info/whats-new-2023.2.0.md)
-            + [릴리스 정보](./release-info/release-notes-2023.2.0.md)
+            + 12월 릴리스 {#2312-release}
+               + [새로운 기능](./release-info/whats-new-2023.12.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.12.0.md)
+            + 11월 릴리스 {#2311-release}
+               + [새로운 기능](./release-info/whats-new-2023.11.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.11.0.md)
+            + 10월 릴리스 {#2310-release}
+               + [새로운 기능](./release-info/whats-new-2023.10.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.10.0.md)
+            + 9월 릴리스 {#2309-release}
+               + [새로운 기능](./release-info/whats-new-2023.9.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.9.0.md)
+            + 7월 릴리스 {#2307-release}
+               + [새로운 기능](./release-info/whats-new-2023.7.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.7.0.md)
+            + 6월 릴리스 {#2306-release}
+               + [새로운 기능](./release-info/whats-new-2023.6.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.6.0.md)
+            + 4월 릴리스 {#2304-release}
+               + [새로운 기능](./release-info/whats-new-2023.4.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.4.0.md)
+            + 3월 릴리스 {#2303-release}
+               + [새로운 기능](./release-info/whats-new-2023.3.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.3.0.md)
+            + 2월 릴리스 {#2302-release}
+               + [새로운 기능](./release-info/whats-new-2023.2.0.md)
+               + [릴리스 정보](./release-info/release-notes-2023.2.0.md)
          + 2022 릴리스 {#2022-releases}
             + [11월 릴리스 노트](./release-info/release-notes-2022.11.0.md)
             + [10월 릴리스 정보](./release-info/release-notes-2022.10.0.md)
@@ -362,7 +365,9 @@ ht-degree: 5%
    + [폴더 프로필 작업을 위한 Java 기반 API](./api-reference/folder-profile-java.md)
    + [패키지 생성 및 활성화를 위한 Java 기반 API](./api-reference/create-activate-package-java.md)
    + [사후 처리 이벤트 핸들러](./api-reference/post-process-event.md)
+   + [일괄 활성화 완료 이벤트 핸들러](./api-reference/bulk-activation-complete-event.md)
    + [전환 프로세스 이벤트 핸들러](./api-reference/conversion-complete-event.md)
+
 + 기술 자료 {#knowledge-base}
    + 전문가 세션 {#expert-session}
       + [전문가 세션 개요](./knowledge-base/expert-sessions/expert-session.md)

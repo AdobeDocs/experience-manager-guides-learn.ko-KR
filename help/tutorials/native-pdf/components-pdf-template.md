@@ -2,9 +2,9 @@
 title: 기본 PDF 게시 기능 | PDF 템플릿의 구성 요소
 description: PDF 템플릿의 다양한 구성 요소와 구성 요소를 사용자 정의하고 구성하는 방법에 대해 알아봅니다.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -420,6 +420,10 @@ PDF 문서의 페이지 순서를 결정하는 페이지 순서를 선택합니�
 
 사용 **상호 참조** PDF에 상호 참조를 게시하는 방법을 정의하는 탭입니다. 주제 제목, 표, 그림 등에 대한 상호 참조의 서식을 지정할 수 있습니다.
 
+>[!NOTE]
+>
+> 상호 참조를 삽입하는 동안 링크 텍스트를 정의한 경우 기본 PDF 템플릿에 정의된 상호 참조 형식보다 우선합니다.
+
 변수를 사용하여 상호 참조를 정의할 수도 있습니다.  변수를 사용하는 경우 속성에서 해당 값이 선택됩니다. 단일 또는 변수 조합을 사용하여 상호 참조를 정의할 수 있습니다. 문자열과 변수를 조합하여 사용할 수도 있습니다.
 
 예를 들어 다음을 사용할 수 있습니다. `View details on {chapter}`. 챕터 이름이 &quot;일반 설정&quot;이면 출력에서 상호 참조는 &quot;일반 설정에 대한 세부 사항 보기&quot;입니다.
@@ -441,6 +445,22 @@ AEM Guides는 다음과 같은 기본 변수를 제공합니다.
   >
   >캡션 및 그림 태그의 자동 번호 스타일을 만들 수 있습니다.
 
+#### 기본 상호 참조 형식
+
+텍스트 필드를 비워 두고 상호 참조를 삽입하는 동안 링크 텍스트를 정의하지 않은 경우 Experience Manager 안내서에서는 각 상호 참조에 대해 다음 변수를 추가합니다.
+
+* **제목**: `{title}`
+* **설명**: `{description}`
+* **단락**: `{bookmarkText}`
+* **책갈피**: `{bookmarkText}`
+* **그림**: `{captionText}`
+* **표**: `{captionText}`
+
+상호 참조의 우선 순위는 다음과 같습니다.
+* 상호 참조에 추가된 링크 텍스트
+* 네이티브 PDF 템플릿에 정의된 상호 참조 형식
+* 기본 상호 참조 형식
+
 
 #### 상호 참조의 언어 변수
 
@@ -455,11 +475,12 @@ AEM Guides는 다음과 같은 기본 변수를 제공합니다.
 추가할 때 `${lng:<variable name>}` 단락 섹션에는 출력의 단락에 있는 상호 참조에 현지화된 텍스트와 페이지 번호가 포함됩니다.\
 예를 들어 다음 스크린샷은 영어로 된 &quot;View on page 1&quot; 및 독일어로 된 &quot;Einzelheiten finden Sie auf der Seite 1&quot; 상호 참조를 보여줍니다.
 
-<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="프라그라에 있는 상호 참조의 영어 출력" width ="800" border="2px">
 
 *영어로 게시할 때 단락 내의 상호 참조.*
 
-<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="프라그라에서 상호 참조에 대한 독일어 출력" width ="800" border="2px">
+
 
 *독일어로 게시되는 경우 단락 내의 상호 참조입니다.*
 

@@ -1,11 +1,11 @@
 ---
 title: 출력 사전 설정 이해
 description: AEM Guides의 출력 사전 설정을 이해합니다. AEM 사이트, PDF, HTML5, EPUB, 사용자 지정 및 JSON 형식에 대한 웹 편집기 및 맵 대시보드에서 출력 사전 설정을 만듭니다.
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -34,5 +34,6 @@ AEM Guides에서는 AEM Site, PDF, HTML5, EPUB, JSON 및 DITA-OT, 기본 PDF 및
 
 - **[JSON](generate-output-json.md)**
 
+관리자는 Experience Manager 안내서를 사용하여 전역 및 폴더 프로필에 대한 출력 사전 설정을 만들고 관리할 수 있습니다. 자세한 내용은 [글로벌 및 폴더 프로필 출력 사전 설정 관리](./web-editor-manage-output-presets.md).
 
 **상위 항목:**[&#x200B;출력 생성](generate-output.md)

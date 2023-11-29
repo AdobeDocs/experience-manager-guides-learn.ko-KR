@@ -2,9 +2,9 @@
 title: 기본 PDF | PDF 출력 생성
 description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만들고, 기본 PDF 출력을 생성한 후 임시 파일을 다운로드하고, AEM Guides에서 언어 변수를 사용하는 방법에 대해 알아봅니다.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
+source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -165,8 +165,9 @@ PDF 출력 사전 설정을 만들거나 구성하려면 다음 작업을 수행
 | **사용자 지정 해상도 사용(인치당 픽셀 수)** | 인치당 픽셀 단위의 페이지 표시 해상도입니다. 이 옵션을 선택할 때 나타나는 필드에 원하는 값을 입력합니다. 기본값은 인치당 96픽셀입니다. 더 많은 컨텐츠를 1인치에 맞추려면 더 높은 값을 설정하고, 더 낮은 값을 설정하면 그 반대의 경우도 마찬가지입니다. |
 | **워터마크 표시** | 출력에 워터마크를 중첩하려면 이 옵션을 선택합니다. 텍스트 상자에 원하는 방식으로 문자를 사용하여 새 텍스트 문자열을 입력할 수 있습니다. <br><br>정적 텍스트 또는 언어 변수를 사용하여 워터마크의 지역화된 버전을 게시합니다.  선택한 언어에 따라 현지화된 값이 PDF 출력에서 자동으로 선택됩니다. 예를 들어 &#39;Publisher&#39;는 영어로, &#39;Auteure&#39;는 프랑스어로 워터마크로 인쇄할 수 있습니다.  <br> 형식: `${lng:<variable name>}`. 예를 들어, `$ {lng:publisher-label}` 위치 `publisher-label` 는 언어 변수입니다. <br> 마우스로 가리키기 <img src="./assets/info-details.svg" alt= "정보 아이콘" width="25"> 을 클릭하여 자세한 내용을 확인합니다. |
 | **MathML 방정식 활성화** | 콘텐츠에 있는 MathML 방정식을 렌더링하려면 이 옵션을 선택합니다. 그렇지 않으면 기본적으로 방정식이 무시됩니다. |
-| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 콘텐츠를 저장할 때 사용하는 표준입니다. 드롭다운에서 을 선택하여 사용 가능한 PDF 표준 목록에서 을 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **임시 파일 다운로드** | 기본 PDF 출력을 생성하는 동안 생성된 중간 HTML 파일을 다운로드하려면 이 옵션을 선택합니다. 출력을 생성한 후 나중에 임시 파일을 다운로드할 수 있습니다. |
+| **PDF 적합성** | PDF이 준수되는지 확인하기 위해 콘텐츠를 저장할 때 사용하는 표준입니다. 드롭다운에서 을 선택하여 사용 가능한 PDF 표준 목록에서 을 선택합니다. 지원되는 표준에 대한 자세한 내용은 [PDF 표준 정보](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **파일 속성** | 메타데이터로 처리할 속성을 선택합니다. 드롭다운에 사용자 지정 및 기본 속성이 모두 나열됩니다. 이러한 등록 정보는 DITA 맵 또는 북맵 파일의 등록 정보 페이지에서 설정됩니다. 설정되면 이러한 속성이 맵 내의 항목에도 복사됩니다. 선택한 메타데이터 속성이 네이티브 PDF을 사용하여 생성된 출력으로 전달됩니다. |
 
 ## PDF 출력 생성 {#generate-pdf-output}
 

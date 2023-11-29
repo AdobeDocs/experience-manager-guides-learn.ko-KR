@@ -1,10 +1,10 @@
 ---
 title: 글로벌 및 폴더 프로필 출력 사전 설정 관리
 description: AEM Guides에서 관리자 자격으로 글로벌 및 폴더 프로필 출력 사전 설정을 만들고, 편집하고, 이름을 바꾸고, 복제하고, 삭제하는 방법에 대해 알아봅니다.
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
    - 이름
    - Target \(Knowledgebase 사전 설정\)
 1. 다음 항목 선택 **폴더 프로필에 추가** 관련 폴더 프로필에 대한 출력 사전 설정을 만드는 확인란을 선택한 다음 **추가**. 사전 설정이 만들어지고 아래에 나타납니다. **출력** 모든 관련 맵의 탭 \( ![](images/global-preset-icon.svg)\) 아이콘은 폴더 프로필 수준 사전 설정을 나타냅니다.
-1. 구성 세부 정보를 입력합니다.
+1. 구성 세부 정보를 입력합니다. 출력 사전 설정에 대한 자세한 내용은 [출력 사전 설정 이해](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

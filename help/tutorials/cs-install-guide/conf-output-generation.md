@@ -2,9 +2,9 @@
 title: 출력 생성 설정 구성
 description: 출력 생성 설정을 구성하는 방법 알아보기
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ AEM Site 출력을 생성할 때 URL을 생성하는 방식은 콘텐츠의 검�
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 부울 \(true/false\). 페이지 제목을 사용하여 출력을 생성하려는 경우 이 속성을 true로 설정합니다. 기본적으로 파일 이름을 사용하도록 설정되어 있습니다.<br> **기본값**: false |
+
+### 문서 제목을 사용하도록 AEM 사이트 출력의 URL을 구성합니다.
+
+AEM Site 출력의 URL에서 문서 제목을 사용할 수 있습니다. 파일 이름이 존재하지 않거나 모든 특수 문자가 포함되어 있는 경우 AEM Site 출력의 URL에서 특수 문자를 구분 기호로 대체하도록 시스템을 구성할 수 있습니다. 첫 번째 하위 항목의 이름으로 바꾸도록 구성할 수도 있습니다.
+
+
+페이지 이름을 구성하려면 다음 단계를 수행하십시오.
+
+1. 에 제공된 지침 사용 [구성 재정의](download-install-additional-config-override.md#) 구성 파일을 만듭니다.
+1. 구성 파일에서 다음(등록 정보) 세부 정보를 제공하여 주제에 대한 페이지 이름을 구성합니다.
+
+| PID | 속성 키 | 속성 값 |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 부울 (`true/false`). **기본 값**: `false` |
+
+예를 들어 *@navtitle* 위치: `<topichead>` 에는 모든 특수 문자가 있으며 `aemsite.pagetitle` 속성을 true로 설정한 다음 기본적으로 구분 기호를 사용합니다. 다음을 설정하는 경우 `nodename.systemDefinedPageName` 속성을 true로 설정하면 첫 번째 하위 주제의 이름이 표시됩니다.
+
 
 ### 항목을 만들고 AEM 사이트 출력을 게시하기 위한 파일 이름 정리 규칙 구성 {#id2164D0KD0XA}
 

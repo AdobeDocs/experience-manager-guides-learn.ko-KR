@@ -1,10 +1,10 @@
 ---
 title: 고급 맵 편집기 작업
 description: AEM Guides에서 고급 맵 편집기로 작업하는 방법을 알아봅니다. 고급 맵 편집기의 기능을 이해할 수 있습니다. DITA 맵을 통해 주제를 편집하고 레이아웃 보기, 작성자 보기 및 미리보기 모드를 사용합니다.
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    항목이 맵에 추가됩니다.
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![맵 편집기 주제 추가](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. 후속 주제 또는 하위 맵을 추가하려면 주제 또는 하위 맵을 맵의 필요한 위치로 드래그 앤 드롭합니다.
 
@@ -231,7 +231,7 @@ Keydef 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하�
 
 - **기타 속성** 관리자가 속성에 대한 프로필을 만든 경우 해당 속성과 구성된 값을 가져옵니다. 콘텐츠 속성 패널을 사용하여 이러한 속성을 선택하고 주제의 관련 콘텐츠에 할당할 수 있습니다. 또한 관리자 가 구성한 속성을 **속성 표시** 편집기 설정의 탭입니다. 요소에 대해 정의된 속성이 레이아웃 및 아웃라인 뷰에 표시됩니다. 이렇게 하면 특정 속성이 정의된 맵의 모든 항목을 빠르게 볼 수 있습니다. 예를 들어 플랫폼 속성이 &#39;Android&#39;로 정의된 모든 항목입니다.
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![레이아웃 보기](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   자세한 내용은 *속성 표시* 다음 범위 내 *편집기 설정* 의 기능 설명 [왼쪽 패널](web-editor-features.md#id2051EA0M0HS) 섹션.

@@ -2,9 +2,9 @@
 title: 기본 PDF 템플릿 만들기 및 사용자 지정
 description: 기본 PDF 템플릿을 만들고 사용자 지정하는 방법을 알아봅니다.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
+source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,10 @@ PDF 템플릿을 사용자 정의하려면 다음 단계를 수행하십시오.
      모양새 외에도 페이지의 머리글, 바닥글 및 컨텐츠 영역과 같은 페이지 요소의 배열을 정의할 수도 있습니다. 페이지 레이아웃 사용자 지정에 대한 자세한 내용은 [페이지 레이아웃 만들기 및 사용자 지정](components-pdf-template.md#create-customize-page-layout).
 
    * 스타일시트: 스타일시트 섹션의 설정을 사용하여 목차, 색인, 용어집, 인용 등과 같은 페이지 레이아웃 구성 요소의 모양과 느낌을 사용자 지정할 수 있습니다. 제목, 단락, 목록 등과 같은 DITA 컨텐트의 스타일을 사용자 지정할 수도 있습니다. 스타일시트 사용에 대한 자세한 내용은 [스타일시트를 사용하여 PDF 사용자 정의](components-pdf-template.md#stylesheet-customization).
-   * 리소스: PDF 템플릿을 사용자 정의하거나 디자인하는 데 필요한 에셋 파일을 저장합니다. 로고, 사용자 지정 글꼴, 배경 이미지 등과 같은 에셋은 리소스에 저장됩니다. 리소스 활용에 대한 자세한 내용은 [리소스 사용](components-pdf-template.md#work-with-resources).
+   * 리소스: PDF 템플릿을 사용자 정의하거나 디자인하는 데 필요한 에셋 파일을 저장합니다. 로고, 사용자 지정 글꼴, 배경 이미지 등과 같은 에셋은 리소스에 저장됩니다.
+저장소의 다른 위치에 있는 리소스를 사용할 수도 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
+
+     리소스 활용에 대한 자세한 내용은 [리소스 사용](components-pdf-template.md#work-with-resources).
    * 설정: 템플릿을 사용하여 PDF을 생성하기 위한 출력 설정을 구성합니다. 이 섹션에서는 PDF의 다양한 페이지에 대한 템플릿 매핑, 챕터 시작 페이지, 인쇄 마커, 인용 등을 정의할 수 있습니다.
 또한 최종 PDF 출력에 표시되어야 하는 순서를 정렬할 수 있습니다.
 설정 적용에 대한 자세한 내용은 [고급 PDF 설정](components-pdf-template.md#advanced-pdf-settings).
