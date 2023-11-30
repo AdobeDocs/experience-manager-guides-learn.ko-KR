@@ -1,9 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides의 새로운 기능, 2023년 11월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 11월 릴리스의 새로운 기능과 향상된 기능을 알아보십시오.
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Experience Manager 가이드는 기본 제공 또는 팩토리 PDF 템플릿을 
 ### 기본 PDF 템플릿에 대한 리소스 관리 개선
 
 Experience Manager 가이드는 이제 기본 PDF 템플릿에 대한 리소스 관리를 개선했습니다. 이제 여러 기본 PDF 템플릿에서 이미지, CSS 파일 및 글꼴 파일과 같은 리소스를 공유하고 재사용할 수 있습니다. 이러한 향상된 기능을 통해 대규모 템플릿 세트에 대한 리소스를 훨씬 간편하게 관리할 수 있습니다. 각 템플릿에 대해 중복 리소스를 만들 필요가 없으며, 이러한 리소스를 공유 폴더에 보관하고 모든 기본 PDF 템플릿에서 사용할 수 있습니다.
+자세한 내용은 [PDF 템플릿](../native-pdf/pdf-template.md).
 
 ## 웹 편집기 개선 사항
 
@@ -64,6 +66,8 @@ DITA 주제에서 조건 속성을 정의할 수 있습니다. 그런 다음 조
 
 ![웹 편집기의 관리 탭에 있는 조건 사전 설정 ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+자세한 내용은 [조건 사전 설정 사용](../user-guide/generate-output-use-condition-presets.md).
+
 ### 브라우저를 새로 고칠 때 파일 탭 복원
 
 Experience Manager 안내서는 브라우저를 새로 고칠 때 웹 편집기에서 열린 파일 탭의 상태를 복원합니다. 자세한 내용은 **파일을 편집하는 동안 브라우저 새로 고침** 아래 섹션 [웹 편집기에서 주제 편집](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Experience Manager 안내서는 브라우저를 새로 고칠 때 웹 편집기�
 이제 Experience Manager 안내서를 사용하여 키보드 단축키를 사용하여 웹 편집기에서 커서를 이동할 수도 있습니다. 키보드 단축키를 사용하여 한 단어를 왼쪽 또는 오른쪽으로 빠르게 이동할 수 있습니다. 키보드 단축키를 사용하여 줄의 시작 또는 끝으로 이동할 수도 있습니다.
 이제 키보드 단축키를 사용하여 커서를 다음 요소의 시작 또는 이전 요소의 끝으로 이동할 수도 있습니다.
 에 대해 자세히 알아보기 [웹 편집기의 키보드 단축키](../user-guide/web-editor-keyboard-shortcuts.md).
-

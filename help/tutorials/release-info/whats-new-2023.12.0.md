@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides의 새로운 기능, 2023년 12월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 12월 릴리스의 새로운 기능과 향상된 기능을 알아보십시오.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Experience Manager 안내서에서는 향상된 맵 컬렉션 대시보드를 �
 ![맵 컬렉션 대시보드](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *맵 컬렉션 대시보드에서 출력을 보고, 편집하고, 생성합니다.*
+
+방법 알아보기 [출력 생성을 위해 맵 컬렉션 사용](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## 맵 보기에서 주요 속성 보기
 
