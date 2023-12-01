@@ -2,9 +2,9 @@
 title: 사후 생성 워크플로
 description: 예제가 포함된 사후 생성 워크플로 개요
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
+source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ AEM Guides에서는 사후 출력 생성 워크플로우를 지정할 수 있는
 
 생성된 출력에 대해 작업을 수행하는 Java 또는 ECMA 기반 워크플로우 프로세스를 만듭니다. 예를 들어, 소스에서 생성된 콘텐츠로 일부 메타데이터를 복사하거나 생성된 출력의 메타데이터를 조작합니다.
 - ECMA 스크립트를 사용하여 이러한 프로세스를 만드는 예를 살펴보겠습니다(첨부된 패키지를 참조할 수 있음).
-- Java 기반 워크플로우 프로세스는 섹션 을 참조하십시오.*사후 출력 생성 워크플로 사용자 지정*&#x200B;중 &quot; [설치 및 구성 안내서](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Java 기반 워크플로우 프로세스는 섹션 을 참조하십시오.*사후 출력 생성 워크플로 사용자 지정*&#x200B;중 &quot; [설치 및 구성 안내서](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### 워크플로우 모델 만들기
