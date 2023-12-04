@@ -2,18 +2,18 @@
 title: Adobe Experience Manager Guides Editor 교육 과정 3
 description: AEM Guides 웹 편집기에 대한 고급 사용 안내서
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 4%
+source-wordcount: '68'
+ht-degree: 2%
 
 ---
 
-# 강의 개요
+# 작성 개요
 
 >[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
-이 교육 과정에서는 다음 작업에 대해 알아봅니다.
+이 튜토리얼 세트에서는 다음 작업 방법을 배웁니다.
 
 - [사용자 환경 설정, 편집기 설정 및 편집기 도구 모음](user-settings-preferences-toolbars.md)
 - [폴더 프로필](folder-profiles.md)

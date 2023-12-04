@@ -1,20 +1,20 @@
 ---
-user-guide-title: Adobe Experience Manager Guides 비디오
+user-guide-title: Adobe Experience Manager Guides 자습서
 user-guide-description: Adobe Experience Manager Guides에 대한 비디오 컬렉션입니다.
 breadcrumb-title: AEM Guides 비디오
-source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 18%
+source-wordcount: '125'
+ht-degree: 12%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides] 튜토리얼 {#videos}
 
 + [[!DNL AEM Guides] 비디오](overview.md)
 + 시작하기 [!DNL AEM Guides] {#getting-started}
-   + [강의 개요](./course-1/overview.md)
+   + [시작하기 개요](./course-1/overview.md)
    + [AEM 사용자 인터페이스 이해](./course-1/understanding-the-aem-user-interface.md)
    + [콘텐츠 만들기 및 구조](./course-1/creating-and-structuring-content.md)
    + [이미지를 사용한 작업](./course-1/working-with-images.md)
@@ -25,7 +25,7 @@ ht-degree: 18%
    + [기본 출력 게시](./course-1/publishing-default-output.md)
    + [요약](./course-1/recap.md)
 + 을 사용한 출력 생성 [!DNL AEM Guides] {#output-generation}
-   + [개요](./course-2/overview.md)
+   + [출력 생성 개요](./course-2/overview.md)
    + [맵 대시보드 이해](./course-2/introduction-to-the-map-dashboard.md)
    + [보고서 작업](./course-2/working-with-reports.md)
    + [기준선을 사용하여 만들기 및 게시](./course-2/creating-and-publishing-with-baselines.md)
@@ -35,7 +35,7 @@ ht-degree: 18%
    + [일괄 게시](./course-2/bulk-publishing.md)
    + [요약](./course-2/recap.md)
 + 을 사용하여 작성 [!DNL AEM Guides] 편집자 {#advanced-user-guide}
-   + [소개/개요](./course-3/overview.md)
+   + [작성 개요](./course-3/overview.md)
    + [사용자 환경 설정, 편집기 설정 및 편집기 도구 모음](./course-3/user-settings-preferences-toolbars.md)
    + [폴더 프로필](./course-3/folder-profiles.md)
    + [편집기 구성](./course-3/editor-configuration.md)

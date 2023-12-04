@@ -2,16 +2,16 @@
 title: 을 사용한 출력 생성 [!DNL AEM Guides]
 description: 을 사용한 출력 생성 [!DNL Adobe Experience Manager Guides]
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
-# 개요
+# 출력 생성 개요
 
-이 교육 과정에서는 다음 작업을 배웁니다.
+이 튜토리얼 세트에서는 다음 작업을 배웁니다.
 
 - [맵 대시보드 이해](./introduction-to-the-map-dashboard.md)
 - [보고서 작업](./working-with-reports.md)
