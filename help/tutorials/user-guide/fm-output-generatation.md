@@ -1,10 +1,9 @@
 ---
 title: FrameMaker 문서의 출력 생성
 description: AEM Guides에서 FrameMaker 문서의 출력을 생성하여 PDF, HTML 5 및 EPUB 형식으로 게시하는 방법에 대해 알아봅니다.
-exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -31,4 +30,3 @@ AEM Guides 1.1부터 FrameMaker 문서 \(`.book` 및 `.fm`\) AEM 저장소에서
 >[!IMPORTANT]
 >
 > 이 항목에서 설명하는 기능은 게시자 또는 관리자 권한이 있는 사용자만 사용할 수 있습니다.
-

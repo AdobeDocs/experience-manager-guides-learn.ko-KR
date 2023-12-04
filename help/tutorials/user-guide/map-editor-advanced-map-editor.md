@@ -1,10 +1,9 @@
 ---
 title: 고급 맵 편집기 작업
 description: AEM Guides에서 고급 맵 편집기로 작업하는 방법을 알아봅니다. 고급 맵 편집기의 기능을 이해할 수 있습니다. DITA 맵을 통해 주제를 편집하고 레이아웃 보기, 작성자 보기 및 미리보기 모드를 사용합니다.
-exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -164,7 +163,7 @@ Keydef 삽입 대화 상자를 표시합니다. 이 대화 상자를 사용하�
 
 동일한 파일 또는 다른 파일의 다른 버전에서 콘텐츠를 병합하는 방법에 대한 자세한 내용은 [병합](web-editor-features.md#id205DF04E0HS) 웹 편집기에서 사용할 수 있습니다.
 
-**버전 내역** - ![](images/version-history-web-editor-ico.svg)
+**버전 기록** - ![](images/version-history-web-editor-ico.svg)
 
 활성 토픽에서 사용 가능한 버전 및 레이블을 확인하고 편집기 자체의 버전으로 되돌립니다.
 

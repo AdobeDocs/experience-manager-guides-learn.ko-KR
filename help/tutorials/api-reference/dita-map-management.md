@@ -1,13 +1,12 @@
 ---
 title: DITA 맵에서 사용할 REST API
 description: DITA 맵에서 작동하는 REST API에 대해 알아보기
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # DITA 맵에서 사용할 REST API {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ ht-degree: 0%
 |이름|유형|필수|설명| -------- ------------------- |`jobId`|문자열|예|내보내기 작업이 시작되면 작업 ID가 검색됩니다.|
 
 **응답 값**: |요소|설명| ------------------ |`status`|내보내기 작업의 상태입니다. 가능한 옵션은 시작, 실패, 진행 중, 성공, 누락, 삭제입니다.| |`jobId`|작업의 고유 ID입니다. 나중에 상태를 쿼리하는 데 사용할 수 있습니다.| |`errorMessage`|실패 시 작업에 대한 오류 메시지 \(상태가 실패, 누락 또는 삭제됨인 경우\).| |`filePath`|ZIP의 파일 경로입니다. 작업이 완료되고 상태가 성공인 경우에만 표시됩니다. ZIP 파일을 다운로드하는 데 사용할 수 있습니다.|
-

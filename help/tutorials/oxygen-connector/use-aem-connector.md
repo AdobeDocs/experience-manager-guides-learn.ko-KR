@@ -3,14 +3,12 @@ title: Adobe Experience Manager Guides용 산소 플러그인
 description: Adobe Experience Manager Guides용 산소 플러그인을 사용하여 콘텐츠를 만들고 관리하는 방법에 대해 알아봅니다.
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Manager Guides용 산소 플러그인 {#id1645H6010Q5}
 
@@ -43,7 +41,7 @@ AEM Guides용 산소 플러그인은 Adobe 소프트웨어 배포 포털을 통�
 
 >[!IMPORTANT]
 >
->시스템에 이전 버전의 플러그인이 설치되어 있는 경우 설치 프로세스를 시작하기 전에 해당 플러그인을 제거해야 합니다. 다음을 참조하십시오. **패키지 제거** 의 섹션 [패키지를 사용하여 작업하는 방법](https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/package-manager.html) 제거 지침에 대한 문서
+>시스템에 이전 버전의 플러그인이 설치되어 있는 경우 설치 프로세스를 시작하기 전에 해당 플러그인을 제거해야 합니다. 다음을 참조하십시오. **패키지 제거** 의 섹션 [패키지를 사용하여 작업하는 방법](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 제거 지침에 대한 문서
 
 Oxygen XML 작성자가 설치된 시스템에서 다음 단계를 수행합니다.
 
@@ -77,7 +75,7 @@ Oxygen XML 작성자가 설치된 시스템에서 다음 단계를 수행합니�
 
 >[!IMPORTANT]
 >
->시스템에 이전 버전의 플러그인이 설치되어 있는 경우 설치 프로세스를 시작하기 전에 해당 플러그인을 제거해야 합니다. 다음을 참조하십시오. **패키지 제거** 의 섹션 [패키지를 사용하여 작업하는 방법](https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/package-manager.html) 문서 제거 지침
+>시스템에 이전 버전의 플러그인이 설치되어 있는 경우 설치 프로세스를 시작하기 전에 해당 플러그인을 제거해야 합니다. 다음을 참조하십시오. **패키지 제거** 의 섹션 [패키지를 사용하여 작업하는 방법](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 문서 제거 지침
 
 Oxygen XML 작성자가 설치된 시스템에서 다음 단계를 수행합니다.
 
@@ -253,7 +251,7 @@ AEM 저장소의 DITA 주제와 연관된 프로파일링 속성을 사용하려
 
 1. 다음에서 **확장** 탭에서 다음 사항을 변경합니다.
    - 클릭 **선택** 다음 옆에 **작성자 확장 상태 수신기** 아래에 **개별 확장** 에서 CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. **확인**&#x200B;을 클릭합니다.
-   - 클릭 **선택** 다음 옆에 **작성자 사용자 지정 속성 값 편집기** 아래에 **개별 확장** 에서 CustomValueEditor - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. **확인**을 클릭합니다.
+   - 클릭 **선택** 다음 옆에 **작성자 사용자 지정 속성 값 편집기** 아래에 **개별 확장** 에서 CustomValueEditor - com.adobe.o2.framework.extn 을 선택합니다. **클래스** 목록을 표시합니다. 클릭 **확인**.
 다음 스크린샷은 구성된 을 보여 줍니다 **확장** DITA 주제 탭:
 
      ![DITA 주제에 대해 구성된 확장](images/dita-topic-extension-tab.png){width="650" align="left"}
@@ -749,5 +747,3 @@ Oxygen XML 작성자의 콘텐츠에 조건부 특성을 추가하려면 다음 
 
 
 이전 단계에서 로그를 사용할 수 있으며 로그를 사용하여 문제를 디버깅할 수 있습니다.
-
-

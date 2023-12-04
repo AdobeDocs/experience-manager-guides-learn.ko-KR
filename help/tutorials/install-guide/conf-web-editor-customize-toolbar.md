@@ -1,13 +1,12 @@
 ---
 title: 도구 모음 사용자 지정
 description: 도구 모음을 사용자 지정하는 방법 알아보기
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # 도구 모음 사용자 지정 {#id172FB00L0V6}
 
@@ -48,20 +47,20 @@ ht-degree: 0%
 
    - **항목:** 도구 모음에서 모든 그룹의 정의를 지정합니다. 각 그룹에는 하나 이상의 도구 모음 아이콘이 포함될 수 있습니다. 도구 모음 그룹 내에서 아이콘을 정의하려면 다음을 다시 정의해야 합니다 `type` 속성 포함 `items`, 값을 로 설정합니다. `buttonGroup`. 에서 하나 이상의 클래스 이름을 지정합니다. `extraclass` 속성. 에서 피쳐 이름을 지정합니다. `label` 속성. 의 다음 코드 조각 `ui_config.json` 파일에는 기본 도구 모음 블록에 대한 정의가 표시되며, 그 뒤에는 `buttonGroup` 정의:
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      다음 범위 내 `items` 컬렉션에서는 하나 이상의 도구 모음 아이콘에 대한 정의를 지정해야 합니다.
+     다음 범위 내 `items` 컬렉션에서는 하나 이상의 도구 모음 아이콘에 대한 정의를 지정해야 합니다.
 도구 모음 아이콘을 추가하려면 다음 속성을 정의해야 합니다.
 
    - **유형:** 지정 `button` (으)로 `type` 값. 이 값은 도구 모음 단추를 추가하고 있음을 나타냅니다.
@@ -74,9 +73,9 @@ ht-degree: 0%
 
    - **클릭 시:** JavaScript 파일의 기능에 대해 정의된 명령 이름을 지정합니다. 명령에 입력 매개 변수가 필요한 경우 다음과 같이 명령 이름을 지정합니다.
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
    - **표시 또는 숨기기:** 다음을 정의하는 경우 `show` 속성을 지정한 다음 아이콘이 표시되는 모드를 지정합니다. 가능한 값은 - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(모든 모드에 표시\), 또는 `false` \(모든 모드에서 숨김\).
 
@@ -234,4 +233,3 @@ ui\_config.json 파일에 다음과 같은 기능을 추가합니다.
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

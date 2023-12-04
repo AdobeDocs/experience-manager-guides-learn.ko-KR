@@ -1,13 +1,12 @@
 ---
 title: 데이터 소스 커넥터 구성
 description: 데이터 소스 커넥터 구성 방법 알아보기
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '454'
+ht-degree: 0%
 
 ---
-
 
 # 데이터 소스 커넥터 구성
 
@@ -274,11 +273,10 @@ AEM Guides를 사용하면 사용자의 요구 사항에 맞게 구성 파일의
 
 AEM Assets의 일부 위치에 파일을 업로드합니다.
 
-예,  `/content/dam/jira.json`
+예를 들어,  `/content/dam/jira.json`
 
 ## REST API를 사용하여 구성 만들기
 
 REST API를 사용하여 구성을 등록할 수 있습니다. 자세한 내용은 *데이터 소스 커넥터를 등록하는 REST API* Adobe Experience Manager 섹션에 자세히 설명되어 있습니다.
 
 데이터 소스를 구성하면 커넥터가 웹 편집기의 데이터 소스 패널 아래에 나열됩니다. 그런 다음 데이터 소스에 연결하고 주제에 콘텐츠 스니펫을 삽입할 수 있습니다. 자세한 내용은 [데이터 소스에서 콘텐츠 조각 삽입](../user-guide/web-editor-content-snippet.md).
-

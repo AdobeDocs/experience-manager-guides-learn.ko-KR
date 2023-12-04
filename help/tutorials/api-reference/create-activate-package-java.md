@@ -1,13 +1,12 @@
 ---
 title: 패키지 생성 및 활성화를 위한 Java 기반 API
 description: 패키지 생성 및 활성화를 위한 Java 기반 API에 대해 알아봅니다
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # 패키지 생성 및 활성화를 위한 Java 기반 API {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ JSON 쿼리 예는 다음 규칙으로 구성됩니다.
 - /content/dam/nested path 아래의 .png, .jpg 및 .gif 이미지만 패키지에 포함됩니다.
 - /content/output/sites/hierarchy\_ditamap 아래의 모든 노드는 패키지에 포함됩니다.
 - 에 있는 경로 `fileReference` /content/output/sites/hierarchy\_ditamap 아래의 노드 속성은 패키지에 포함됩니다.
-

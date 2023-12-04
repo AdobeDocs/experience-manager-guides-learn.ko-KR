@@ -1,11 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2.1 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides의 4.2.1 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
-source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 5%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 5%
 | --- | --- | --- | --- | --- |
 | 4.2.1 (비 UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
 | 4.2.1 (UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.4 이상 |
-|  |  |  |  |
+| | | | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -60,7 +59,7 @@ ht-degree: 5%
 | --- | --- | --- |--- |--- |
 | 4.2.1 (비 UUID) | 2.2-regular-3 | 2.2-regular-3 | 1.6 | 1.6 |
 | 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
-|  |  |  |
+|  |  |   |
 
 ## 해결된 문제
 

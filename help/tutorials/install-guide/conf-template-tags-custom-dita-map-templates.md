@@ -1,8 +1,7 @@
 ---
 title: 사용자 지정 DITA 맵 템플릿 구성
 description: 사용자 지정 DITA 맵 템플릿을 구성하는 방법 알아보기
-exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
-source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%

@@ -1,13 +1,12 @@
 ---
 title: 이 안내서 정보
 description: 이 안내서에 대해 알아보기
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 8%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
-
 
 # 이 안내서 정보 {#id175MC0P0S5Z}
 
@@ -63,8 +62,8 @@ Adobe Experience Manager Guides \(나중에 설명됨) *AEM 안내서*\) 는 강
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) 는 웹 사이트, 모바일 앱 및 양식 구축을 위한 포괄적인 콘텐츠 관리 솔루션입니다. AEM은 마케팅 콘텐츠 및 에셋을 관리하는 데 도움이 됩니다. AEM은 as a Cloud Service으로 이용 가능합니다. AEM as a Cloud Service은 AEM 콘텐츠 관리 시스템의 강력한 기능을 AEM Digital Asset Management와 결합하여 고객에게 개인화된 콘텐츠 주도 경험을 제공할 수 있도록 해줍니다.AEMas a Cloud Service 을 시작하고 배포하는 데 도움이 되는 몇 가지 주요 리소스는 다음과 같습니다.
 
-- [Experience Manager as a Cloud Service 개요](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=kr)
-- [AEM as a Cloud Service로의 마이그레이션 여정 시작하기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [Experience Manager as a Cloud Service 개요](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [as a Cloud Service으로 마이그레이션 여정 AEM 시작](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
 - [온보딩을 시작하여 as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [AEM as a Cloud Service용 애플리케이션 구현](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
 - [AEM as a Cloud Service에 배포](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
@@ -76,4 +75,3 @@ Adobe Experience Manager Guides \(나중에 설명됨) *AEM 안내서*\) 는 강
 
 - 사용 안내서
 - API 참조 안내서
-

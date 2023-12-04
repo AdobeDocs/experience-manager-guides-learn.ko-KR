@@ -1,8 +1,7 @@
 ---
 title: AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성
 description: AEM Guides의 새로운 마이크로서비스 기반 게시를 구성하는 방법에 대해 알아봅니다.
-exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%

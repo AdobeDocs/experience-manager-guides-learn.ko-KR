@@ -1,13 +1,12 @@
 ---
 title: AEM Guides의 DITA 파일에 대한 태그 관리
 description: AEM Guides의 cq:tags 관리에 대한 간단한 문서
-source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
-
 
 # DITA 콘텐츠의 태그를 추가 , 제거 및 관리하는 방법
 
@@ -60,4 +59,3 @@ ht-degree: 1%
 
 
 **기타 문의 사항은 해당 CSM에 문의하십시오**
-

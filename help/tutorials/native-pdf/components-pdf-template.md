@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF 게시 기능 | PDF 템플릿의 구성 요소
 description: PDF 템플릿의 다양한 구성 요소와 구성 요소를 사용자 정의하고 구성하는 방법에 대해 알아봅니다.
-exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4947'
+source-wordcount: '4975'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ PDF 템플릿에는 페이지 레이아웃, 스타일시트, 리소스 및 설�
 
 1. 다음에서 _중복 레이아웃_ 대화 상자에서 페이지 레이아웃의 이름을 입력합니다.
 
-1. **완료**를 클릭합니다.
+1. 클릭 **완료**.
 선택한 페이지 레이아웃의 복사본이 생성되어 페이지 레이아웃 아래에 추가됩니다.
 
 ### 페이지 레이아웃 사용자 지정 {#customize-page-layout}

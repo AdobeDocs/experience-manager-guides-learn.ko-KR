@@ -2,10 +2,9 @@
 title: 키 작업
 description: 조직 콘텐츠 간에 사용할 키를 만드는 방법
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -56,8 +55,8 @@ ht-degree: 0%
 
 + 항목을 편집하고 다음을 사용하여 키 값 추가 [!UICONTROL keyref].
 + 스크린샷에 표시된 대로 키워드를 선택할 수 있는 작은 창이 나타납니다. &quot;keyword&quot; 요소를 추가하면 표시됩니다.
-   ![요소 삽입](assets/insert_element.png)
-   ![키 참조](assets/key_ref.png)
+  ![요소 삽입](assets/insert_element.png)
+  ![키 참조](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

@@ -1,13 +1,12 @@
 ---
 title: AEM 기본 사전 사용자 지정
 description: AEM 기본 사전을 사용자 지정하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
-
 
 # AEM 기본 사전 사용자 지정 {#id209SD8000WU}
 
@@ -35,4 +34,3 @@ ht-degree: 0%
 작성자는 웹 편집기 세션을 다시 시작하여 AEM 사전에 업데이트된 사용자 정의 단어 목록을 가져와야 합니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

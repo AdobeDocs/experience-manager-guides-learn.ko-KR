@@ -1,13 +1,12 @@
 ---
 title: 출력 관리를 위한 REST API
 description: 출력 관리를 위한 REST API에 대해 알아보기
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # 출력 관리를 위한 REST API {#id175UB30E05Z}
 
@@ -19,7 +18,7 @@ DITA 맵에 대해 구성된 모든 출력 사전 설정을 검색하는 POST �
 
 **요청 URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/publishlistener
 
-**매개변수**:\
+**매개 변수**:\
 |이름|유형|필수|설명| -------- ------------------- |`:operation`|문자열|예|호출되는 작업의 이름. 이 매개 변수의 값은 다음과 같습니다. `getalloutputs`.<br> **참고:** 값은 대/소문자를 구분하지 않습니다.| |`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.|
 
 **응답 값**: JSON 출력 사전 설정 객체의 배열을 반환합니다. 각 객체에는 다음 요소가 포함됩니다.
@@ -134,4 +133,3 @@ DITA 맵에 대한 새 출력 사전 설정을 만드는 POST 방법입니다.
 **매개 변수**: |이름|유형|필수|설명| -------- ------------------- |`:operation`|문자열|예|호출되는 작업의 이름. 이 매개 변수의 값은 다음과 같습니다. `deleteoutput`.<br> **참고:** 값은 대/소문자를 구분하지 않습니다.| |`sourcePath`|문자열|예|DITA 맵 파일의 절대 경로.| |`outputName`|문자열|예|삭제할 출력 사전 설정의 이름.|
 
 **응답 값**: HTTP 200 \(Success\) 응답을 반환합니다.
-

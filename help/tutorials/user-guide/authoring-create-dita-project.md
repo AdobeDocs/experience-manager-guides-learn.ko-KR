@@ -1,10 +1,9 @@
 ---
 title: DITA 프로젝트 만들기
 description: AEM Guides의 템플릿을 사용하여 DITA 프로젝트를 만듭니다. DITA 프로젝트를 사용하여 검토를 시작하는 방법에 대해 알아봅니다.
-exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---

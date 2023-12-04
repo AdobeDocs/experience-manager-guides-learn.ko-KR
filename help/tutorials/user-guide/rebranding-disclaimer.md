@@ -1,8 +1,7 @@
 ---
 title: 면책조항
 description: Adobe Experience Manager용 XML Documentation에서 AEM Guides로 제품 이름이 변경된 문제를 해결하기 위한 면책조항입니다
-exl-id: 80ac238d-cc11-417e-9848-0d6840c14379
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

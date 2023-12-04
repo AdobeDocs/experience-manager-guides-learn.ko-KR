@@ -1,13 +1,12 @@
 ---
 title: 기본 PDF | 언어 변수 지원
 description: PDF 출력 및 출력 템플릿에서 언어 변수 사용
-source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
-
 
 # 언어 변수 지원
 
@@ -233,6 +232,3 @@ CSS 스타일을 사용하여 접두사의 서식을 지정할 수도 있습니�
 color: red;
 } 
 ```
-
-
-

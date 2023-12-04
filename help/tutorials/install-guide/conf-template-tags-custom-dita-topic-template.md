@@ -1,8 +1,7 @@
 ---
 title: 사용자 지정 DITA 주제 템플릿 구성
 description: 사용자 지정 DITA 주제 템플릿을 구성하는 방법 알아보기
-exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%

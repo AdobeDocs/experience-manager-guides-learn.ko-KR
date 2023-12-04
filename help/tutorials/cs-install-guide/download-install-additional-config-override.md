@@ -1,13 +1,12 @@
 ---
 title: 구성 재정의
 description: 구성 재정의 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
-
 
 # 구성 재정의 {#id216IFC003XA}
 
@@ -39,4 +38,3 @@ ht-degree: 0%
 
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

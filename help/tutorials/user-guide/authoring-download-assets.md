@@ -1,10 +1,9 @@
 ---
 title: 파일 다운로드
 description: AEM Guides의 DITA 맵 콘솔에서 파일을 다운로드하고 AEM 저장소에서 DITA 맵 파일을 내보내는 방법에 대해 알아봅니다.
-exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ AEM 저장소에 DITA 맵 파일이 있으면 해당 종속 항목과 함께 맵
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. **다운로드**&#x200B;를 클릭합니다. 맵 다운로드 대화 상자에서 다음 옵션을 선택할 수 있습니다.
+1. 클릭 **다운로드**. 맵 다운로드 대화 상자에서 다음 옵션을 선택할 수 있습니다.
 
    - **기준선 사용**: DITA 맵에 대해 생성된 기준선 목록을 가져오려면 이 옵션을 선택하십시오. 특정 기준선을 기준으로 맵 파일과 해당 내용을 다운로드하려면 드롭다운 목록에서 기준선을 선택합니다. 기준선 작업에 대한 자세한 내용은 [기준선으로 작업](generate-output-use-baseline-for-publishing.md#).
    - **파일 계층 구조 평면화**: 참조된 모든 주제 및 미디어 파일을 단일 폴더에 저장하려면 이 옵션을 선택합니다.

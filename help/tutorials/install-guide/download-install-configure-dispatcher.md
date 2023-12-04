@@ -1,13 +1,12 @@
 ---
 title: Dispatcher 구성
 description: Dispatcher 구성 방법 알아보기
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '302'
+ht-degree: 5%
 
 ---
-
 
 # Dispatcher 구성 {#id213BCM0M05U}
 
@@ -15,7 +14,7 @@ AEM Guides와 함께 AEM 작성자 인스턴스에서 Dispatcher를 사용하려
 
 >[!NOTE]
 >
-> Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. Dispatcher 사용에 대한 자세한 내용은 을 참조하십시오. [Dispatcher 개요](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ko).
+> Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도구입니다. Dispatcher 사용에 대한 자세한 내용은 을 참조하십시오. [Dispatcher 개요](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## URL에서 AllowEncodedSlashes 활성화
 
@@ -79,4 +78,3 @@ AEM Guides와 함께 Dispatcher를 사용할 때 작성자 인스턴스에 앞�
 ```
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

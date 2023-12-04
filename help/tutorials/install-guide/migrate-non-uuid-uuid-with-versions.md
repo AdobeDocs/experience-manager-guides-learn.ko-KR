@@ -1,15 +1,12 @@
 ---
 title: 버전이 있는 비 UUID 콘텐츠를 UUID 콘텐츠로 변환
 description: 버전을 사용하여 UUID가 아닌 콘텐츠를 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 2%
+source-wordcount: '1287'
+ht-degree: 1%
 
 ---
-
-
-
 
 # 버전을 사용하여 UUID가 아닌 콘텐츠 마이그레이션
 

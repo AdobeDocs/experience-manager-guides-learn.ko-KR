@@ -1,8 +1,7 @@
 ---
 title: 기본 PDF 게시 기능 | PDF 출력에 사용자 지정 책갈피 추가
 description: 사용 스타일시트를 만들고 콘텐츠의 스타일을 만드는 방법에 대해 알아봅니다.
-exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%

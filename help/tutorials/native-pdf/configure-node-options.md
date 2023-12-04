@@ -1,13 +1,12 @@
 ---
 title: 기본 PDF | 기본 PDF 게시를 위한 노드 프로세스 구성
 description: 기본 PDF 게시를 위해 노드 프로세스를 구성하는 방법 알아보기
-source-git-commit: 45974b88a5b1bbbd2d83ea5cc18e0def2f15c51f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
-
 
 # 기본 PDF 게시를 위한 노드 프로세스 구성
 
@@ -17,5 +16,4 @@ ht-degree: 3%
 
 | PID | 속성 키 | 속성 값 |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | 표준을 설정할 문자열 값 `NODE_OPTIONS`.<BR> 기본 값: &quot;&quot; |
-
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | 표준을 설정할 문자열 값 `NODE_OPTIONS`.<BR> 기본값: &quot;&quot; |

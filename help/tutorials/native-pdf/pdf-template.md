@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF 템플릿 만들기 및 사용자 지정
 description: 기본 PDF 템플릿을 만들고 사용자 지정하는 방법을 알아봅니다.
-exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---

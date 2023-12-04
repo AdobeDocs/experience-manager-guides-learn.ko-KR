@@ -1,8 +1,7 @@
 ---
 title: 출력 생성
 description: AEM Guides의 DITA-OT 플러그인, 기본 PDF 게시 및 FTPS를 통해 AEM 사이트, PDF, HTML5, EPUB, 사용자 지정 및 JSON에서 출력을 생성합니다.
-exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -43,4 +42,3 @@ AEM Guides에는 다양한 업계 표준 형식의 출력을 생성하는 내장
 >[!IMPORTANT]
 >
 > 이 항목에서 설명하는 기능은 게시자 또는 관리자 권한이 있는 사용자만 사용할 수 있습니다.
-

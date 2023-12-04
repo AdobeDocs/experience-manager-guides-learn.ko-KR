@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF 게시를 위한 AEM 환경 구성
 description: 기본 PDF 게시를 위한 AEM 환경 구성
-exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---

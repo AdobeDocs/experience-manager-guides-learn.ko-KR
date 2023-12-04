@@ -1,8 +1,7 @@
 ---
 title: Markdown 문서 작성
 description: 웹 편집기에서 Markdown 문서를 작성합니다. AEM Guides에서 Markdown 주제를 만들고, 작성하고, 미리 보는 방법에 대해 알아봅니다.
-exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

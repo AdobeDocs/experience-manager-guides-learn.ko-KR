@@ -1,10 +1,9 @@
 ---
 title: 콘텐츠 관리
 description: AEM Guides에서 콘텐츠를 관리하고 역할과 권한을 식별합니다. 콘텐츠 관리의 주요 개념과 전역 또는 폴더 수준 프로필 작업에 대해 알아봅니다.
-exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '717'
 ht-degree: 10%
 
 ---

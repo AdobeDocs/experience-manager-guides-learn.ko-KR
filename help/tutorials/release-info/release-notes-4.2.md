@@ -1,11 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2 릴리스
 description: 버그 수정 사항 및 Adobe Experience Manager Guides의 4.2 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 6%
+source-wordcount: '1391'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +47,7 @@ ht-degree: 6%
 | --- | --- | --- | --- | --- |
 | 4.2 (비UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.3 이상 |
 | 4.2 (UUID) | 2022년 이상 | 2020.2 이상* | 2022년 이상 | 2020.4 이상 |
-|  |  |  |  |
+| | | | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -58,7 +57,7 @@ ht-degree: 6%
 | --- | --- | --- |--- |--- |
 | 4.2 (비UUID) | 2.1-regular-4 | 2.1-regular-4 | 1.6 | 1.6 |
 | 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
-|  |  |  |
+|  |  |   |
 
 ## 해결된 문제
 

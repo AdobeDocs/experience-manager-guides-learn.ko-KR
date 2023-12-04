@@ -1,11 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 4월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 4월 릴리스
-exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 3%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 ## 4월 릴리스로 업그레이드
 
 현재 업그레이드 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 참조) *[!DNL AEM Guides]as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
-1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2022.4.133에 대한 Cloud Services Git 코드 파일입니다.
-1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 의 4월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
+1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
+1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` 2022.4.133에 대한 Cloud Service Git 코드 파일입니다.
+1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 의 4월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
 
 ## 호환성 매트릭스
 
@@ -27,7 +26,7 @@ ht-degree: 3%
 | FMPS | FrameMaker |
 | --- | --- |
 | 호환되지 않음 | 2020 업데이트 4 이상 |
-|  |  |
+| | |
 
 
 ### 산소 연결기

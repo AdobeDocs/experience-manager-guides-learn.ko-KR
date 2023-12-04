@@ -1,13 +1,12 @@
 ---
 title: 파일 찾아보기 대화 상자에 대한 필터 구성
 description: 파일 찾아보기 대화 상자에 대한 필터를 구성하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
 
 ---
-
 
 # 파일 찾아보기 대화 상자에 대한 필터 구성 {#id20CIL7009GN}
 
@@ -65,5 +64,3 @@ ht-degree: 0%
    파일 찾아보기 대화 상자를 시작하면 ui\_config.json 파일에 구성된 필터 옵션이 표시됩니다.
 
    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
-
-

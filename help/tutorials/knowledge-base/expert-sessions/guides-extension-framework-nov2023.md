@@ -1,9 +1,9 @@
 ---
 title: AEM Guides의 확장 프레임워크 - 웹 편집기 사용자 지정 및 검토 UI
 description: Guides 확장 프레임워크를 사용하면 업데이트하기 쉬운 JSON, CSS 및 JavaScript를 사용하여 검토 Ui 또는 Webeditor의 원하는 섹션을 사용자 지정할 수 있습니다.
-source-git-commit: 5ad664296478ed16f6f2d80e79a4812f5ff96f9c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---

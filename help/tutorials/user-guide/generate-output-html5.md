@@ -1,10 +1,9 @@
 ---
 title: HTML 5 사용
 description: 웹 편집기 및 맵 대시보드에서 HTML5 사전 설정을 만드는 방법에 대해 알아봅니다. AEM Guides에서 HTML5 출력 사전 설정을 구성합니다.
-exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---

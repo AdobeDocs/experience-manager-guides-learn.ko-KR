@@ -1,11 +1,10 @@
 ---
 title: 릴리스 정보 | 2023년 11월 Adobe Experience Manager Guides 릴리스의 업그레이드 지침 및 해결 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 11월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
-exl-id: 80839890-075f-4187-a167-444c73215496
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 3%
+source-wordcount: '1673'
+ht-degree: 0%
 
 ---
 

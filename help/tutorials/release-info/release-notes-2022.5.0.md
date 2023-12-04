@@ -1,11 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 5월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 5월 릴리스
-exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 4%
+source-wordcount: '1887'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 4%
 ## 5월 릴리스로 업그레이드
 
 최신 Adobe Experience Manager Guides as a Cloud Service 업그레이드(나중에 참조) *AEM Guides as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
-1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2022.5.144.
-1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides의 5월 릴리스로 as a Cloud Service으로 업그레이드합니다.
+1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
+1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Service 파일 Git 코드 2022.5.144.
+1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guides의 5월 릴리스로 as a Cloud Service으로 업그레이드합니다.
 
 ## 호환성 매트릭스
 
@@ -27,7 +26,7 @@ ht-degree: 4%
 | FMPS | FrameMaker |
 | --- | --- |
 | 호환되지 않음 | 2020 업데이트 4 이상 |
-|  |  |
+| | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 
@@ -72,8 +71,7 @@ AEM Guides as a Cloud Service은 5월 릴리스에서 많은 개선 사항 및 �
 ### 향상된 번역 프로세스
 
 * **범위 번역 프로젝트를 만드는 기능**
-번역할 프로젝트에 대한 범위만 만들어야 하는 경우 다음을 선택할 수 있습니다. 
-**새 범위 번역 프로젝트 만들기**. 이렇게 하면 번역용으로 복사본이 전송되지 않고 파일의 원래 번역 상태가 유지됩니다.
+번역할 프로젝트에 대한 범위만 만들어야 하는 경우 다음을 선택할 수 있습니다. **새 범위 번역 프로젝트 만들기**. 이렇게 하면 번역용으로 복사본이 전송되지 않고 파일의 원래 번역 상태가 유지됩니다.
 
 ![번역 프로젝트 범위 지정](assets/scoping-translation-project.png)
 
@@ -81,7 +79,7 @@ AEM Guides as a Cloud Service은 5월 릴리스에서 많은 개선 사항 및 �
 
 * 다음 **언어** 목록에는 언어 코드와 함께 언어 폴더가 표시됩니다. 예를 들어 프랑스어(fr) 및 독일어(de)가 있습니다.
 
-* 번역 기능은 이제 국가 및 언어를 모두 포함하는 언어 코드도 지원합니다. 예, `fr-fr`, `en-us`.
+* 번역 기능은 이제 국가 및 언어를 모두 포함하는 언어 코드도 지원합니다. 예를 들어, `fr-fr`, `en-us`.
 
 ![언어화 번역](assets/translation-languages.png)
 

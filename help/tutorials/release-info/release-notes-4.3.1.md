@@ -1,10 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.1 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항 및 Adobe Experience Manager Guides의 4.3.1 릴리스로 업그레이드하는 방법에 대해 알아봅니다
-source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 5%
+source-wordcount: '1306'
+ht-degree: 1%
 
 ---
 

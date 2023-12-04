@@ -1,13 +1,12 @@
 ---
 title: UUID를 기반으로 자동 파일 이름 구성
 description: UUID를 기반으로 자동 파일 이름을 구성하는 방법 알아보기
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # UUID를 기반으로 자동 파일 이름 구성 {#id205QG070D5Z}
 
@@ -35,4 +34,3 @@ ht-degree: 0%
 > 기본적으로 이 옵션은 꺼져 있습니다. 이 옵션을 켜면 작성자가 새 주제 또는 맵 파일을 만드는 동안 파일 이름을 지정하는 옵션이 표시되지 않습니다. 자산 UI 및 웹 편집기에서 새 주제 또는 맵 파일을 만들 수 있습니다.
 
 **상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)
-

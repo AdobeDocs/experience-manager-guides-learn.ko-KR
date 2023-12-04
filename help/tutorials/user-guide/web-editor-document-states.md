@@ -1,8 +1,7 @@
 ---
 title: 문서 상태
 description: AEM Guides에서 문서 상태 유형에 대해 알아봅니다. 문서 상태를 변경하거나 보는 방법을 알고 DLC에서 문서 상태를 사용할 수 있습니다.
-exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

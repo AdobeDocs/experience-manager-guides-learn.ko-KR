@@ -1,13 +1,12 @@
 ---
 title: AEM Assets UI에 대한 검색 구성
 description: AEM Assets UI에 대한 검색을 구성하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 1%
 
 ---
-
 
 # AEM Assets UI에 대한 검색 구성 {#id192SC800MY4}
 
@@ -251,7 +250,7 @@ AEM Guides에서 임시 번역 폴더 위치를 검색하지 못하게 하려면
 
    | 속성 이름 | 유형 | 값 |
    |-------------|----|-----|
-   | excludedPath | 문자열\[\] | 이 속성에 다음 값을 추가합니다. <br>/content/dam/projects/translation\_output |
+   | excludedPath | String\[\] | 이 속성에 다음 값을 추가합니다. <br>/content/dam/projects/translation\_output |
 
 1. 다음 위치에서 사용할 수 있는 lucene 노드로 이동합니다.
 
@@ -261,6 +260,4 @@ AEM Guides에서 임시 번역 폴더 위치를 검색하지 못하게 하려면
 
    | 속성 이름 | 유형 | 값 |
    |-------------|----|-----|
-   | excludedPath | 문자열\[\] | 이 속성에 다음 값을 추가합니다. <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
-
-
+   | excludedPath | String\[\] | 이 속성에 다음 값을 추가합니다. <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |

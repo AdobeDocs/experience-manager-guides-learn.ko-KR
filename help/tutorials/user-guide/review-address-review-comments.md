@@ -1,8 +1,7 @@
 ---
 title: 리뷰 댓글 처리
 description: AEM Guides에서 작성자로서 검토 의견을 처리하는 방법에 대해 알아봅니다. 작성자가 문서의 주석을 편집, 필터링, 수락 또는 거부하는 방법에 대해 알아봅니다.
-exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

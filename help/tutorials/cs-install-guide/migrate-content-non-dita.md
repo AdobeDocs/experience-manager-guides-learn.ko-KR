@@ -1,13 +1,12 @@
 ---
 title: DITA가 아닌 콘텐츠 마이그레이션
 description: 비DITA 콘텐츠를 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
-
 
 # DITA가 아닌 콘텐츠 마이그레이션 {#id181AH0R02HT}
 
@@ -157,7 +156,7 @@ AEM Guides를 사용하면 InDesign 문서를 변환할 수 있습니다. FrameM
      >
      > 의 구조에 대한 자세한 내용은 `stmap.adobeidml.xml` 파일 및 파일 사용자 지정 방법은 섹션을 참조하십시오 [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) 부록에서.
 
-1. 저장 `idml2dita_io.xml` 파일.
+1. `idml2dita_io.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `idml2dita_io.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -280,7 +279,7 @@ AEM Guides를 사용하면 기존의 비정형 FrameMaker \(`.fm` 및 `.book`\) 
 
 을 지정하는 것 외에
 
-기존의 비정형 FrameMaker 문서를 DITA 형식으로 변환하려면 다음 단계를 수행합니다.
+기존의 구조화되지 않은 FrameMaker 문서를 DITA 형식으로 변환하려면 다음 단계를 수행하십시오.
 
 1. FrameMaker에서 스타일 매핑을 만들고 .sts 파일에 저장합니다.
 
@@ -320,7 +319,7 @@ AEM Guides를 사용하면 기존의 비정형 FrameMaker \(`.fm` 및 `.book`\) 
 
    - 다음에서 `ditaVal` 요소를 지정하고 매핑된 속성의 값을 지정합니다. 값이 없으면 이 항목을 비워 둘 수 있습니다.
 
-1. 저장 `style2attrMap.xml` 파일.
+1. `style2attrMap.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `style2attrMap.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -365,7 +364,7 @@ AEM Guides를 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 
    - 의 경우 `createRev` 요소를 사용하여 변환된 DITA 주제의 새 버전을 만들지 여부를 지정합니다. \(`true`\) 아님 \(`false`\).
 
-1. 저장 `XSLConfig.xml` 파일.
+1. `XSLConfig.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `XSLConfig.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -377,4 +376,3 @@ AEM Guides를 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 사용 `<config> </config>` 블록에서는 변환을 위해 하나 이상의 구성 블록을 정의할 수 있습니다. 변환 워크플로우가 실행되고 DITA 주제 형식의 최종 출력이 `outputDir` 요소를 생성하지 않습니다.
 
 **상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
-

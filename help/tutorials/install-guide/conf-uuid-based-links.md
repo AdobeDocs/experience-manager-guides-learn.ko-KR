@@ -1,13 +1,12 @@
 ---
 title: UUID 기반 링크 표시 구성
 description: UUID 기반 링크 표시를 구성하는 방법 알아보기
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # UUID 기반 링크 표시 구성 {#id2035G20M0QN}
 
@@ -33,4 +32,3 @@ ht-degree: 0%
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

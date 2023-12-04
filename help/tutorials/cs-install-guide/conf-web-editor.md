@@ -1,13 +1,12 @@
 ---
 title: 웹 편집기 사용자 지정
 description: 웹 편집기를 사용자 지정하는 방법 알아보기
-source-git-commit: 419cb49fb122d8cf05f82ed4588fc28eac1b81bd
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # 웹 편집기 사용자 지정 {#id181AI0003PN}
 
@@ -56,5 +55,3 @@ AEM Guides는 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 - **[고급 맵 편집기 를 기본값으로 설정합니다.](conf-map-editor.md)**
 
 - **[기본적@navtitle 속성 포함](auto-add-navtitle.md)**
-
-

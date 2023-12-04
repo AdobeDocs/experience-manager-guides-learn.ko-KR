@@ -1,13 +1,12 @@
 ---
 title: 닫을 때 새 버전으로 저장하라는 메시지 구성
 description: 닫을 때 새 버전으로 저장하도록 프롬프트를 구성하는 방법 알아보기
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # 닫을 때 새 버전으로 저장하라는 메시지 구성 {#id222HBI00XXA}
 
@@ -35,4 +34,3 @@ ht-degree: 0%
 자세한 내용은 *파일 닫기 및 저장 시나리오* 섹션(Adobe Experience Manager Guides as a Cloud Service 사용 안내서)을 참조하십시오.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: 전환 워크플로우에 대한 Java 기반 API
 description: 전환 워크플로우를 위한 Java 기반 API에 대해 알아봅니다
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
-
 
 # 전환 워크플로우에 대한 Java 기반 API {#id175UB30E05Z}
 
@@ -68,4 +67,3 @@ public static void convertWordToDita(Session session,
 **매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다.| |`inputFile`|문자열|AEM 저장소에 있는 원본 Word 파일의 절대 경로입니다.| |`destPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.| |`style2tagMap`|문자열|변환에 사용할 스타일 매핑 파일의 절대 경로입니다.| |`createRev`|부울|파일의 수정 버전을 만들지 여부를 지정합니다. \( `true`\) 지정한 대상에 있거나 없습니다. \( `false`\). 이는 대상 위치에 변환된 파일의 기존 버전이 포함된 경우에만 고려됩니다.|
 
 **예외**: throw `RepositoryException`.
-

@@ -1,22 +1,21 @@
 ---
 title: AEM Guides에서 FrameMaker Publishing Server(FMPS)를 사용하여 게시
 description: AEM Guides를 사용하여 FMPS로 게시
-exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # AEM Guides에서 FrameMaker Publishing Server(FMPS)를 사용하여 게시
 
-고품질의 자동 게시를 원하는 경우 FrameMaker Publishing Server와 AEM Guides를 통합하면 해결책이 될 수 있습니다.\
+고품질의 자동화된 게시를 원하는 경우 FrameMaker Publishing Server과 AEM Guides를 통합하는 것이 해결책이 될 수 있습니다.\
 이 문서는 AEM Guides를 사용하여 FMPS를 설정하고 실행하는 데 도움이 됩니다.
 
 ## AEM Guides와 FMPS의 호환성
 
-- 4.1 AEM Guides와의 호환성: [4.1 호환성 매트릭스 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 4.1 AEM Guides와의 호환성: [4.1 호환성 매트릭스](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - 4.0 AEM Guides와의 호환성: [4.0 호환성 매트릭스](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
 - 최신 릴리스: [최신 릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
@@ -26,25 +25,25 @@ AEM Guides 및 FMPS 설치 및 구성에 대해서는 다음을 참조하십시�
 
 ### AEM 안내서
 
-설치 및 구성은 다음을 참조하십시오. [ 4.1 설치 및 구성 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+설치 및 구성은 다음을 참조하십시오. [4.1 설치 및 구성](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ### FMPS
 
-FMPS 설치의 경우 다음을 참조할 수 있습니다 [YouTube 링크 ](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) 또는 [FMPS 설치 및 구성 ](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+FMPS 설치의 경우 다음을 참조할 수 있습니다 [YouTube 링크](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) 또는 [FMPS 설치 및 구성](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## 필수 구성
 
-FMPS(FrameMaker Publishing Server)를 사용하여 DITA 콘텐츠를 생성할 수 있습니다. FMPS는 다양한 출력 형식을 지원합니다. 웹 콘솔에서 &quot;com.adobe.fmdita.config.ConfigManager 번들&quot;의 다음 속성을 수정하여 FMPS를 사용하도록 AEM Guides를 구성합니다.
+FrameMaker Publishing Server(FTPS)를 사용하여 DITA 콘텐츠를 생성할 수 있습니다. FMPS는 다양한 출력 형식을 지원합니다. 웹 콘솔에서 &quot;com.adobe.fmdita.config.ConfigManager 번들&quot;의 다음 속성을 수정하여 FMPS를 사용하도록 AEM Guides를 구성합니다.
 
 웹 콘솔을 열려면 URL 액세스 http:// 로 이동합니다.&lt;server name=&quot;&quot;>:\&lt;port>/system/console/configMgr.
 
-**구성 속성 및 설명** [4.1 설치 및 구성 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**구성 속성 및 설명** [4.1 설치 및 구성](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## 테스트 실행:
 
 FMPS를 사용하면 자동으로 게시할 수 있습니다 **PDF, 반응형 HTML5**, 및 **Epub** DITA 및 FM 에셋용
 
-&quot;다음을 사용하여 PDF 생성&quot; 메뉴에서 FrameMaker Publishing Server를 선택합니다.
+&quot;다음을 사용하여 PDF 생성&quot; 메뉴에서 FrameMaker Publishing Server을 선택합니다.
 
 사용자는 &quot;settings File(.sts)&quot; 및 &quot;ditaval&quot;을 제공할 수 있습니다. 필터링은 제공한 조건에 따라 간격을 사용하여 수행됩니다.
 
@@ -59,7 +58,7 @@ FMPS 사전 설정을 선택하고 사용자 지정 설정이나 AEM의 간격 �
 
 FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있습니다.
 
-**시작할 샘플 FMPS 설정 파일(.sts 파일):** [샘플 FMPS 설정 파일 ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (이 파일의 압축 풀기)
+**시작할 샘플 FMPS 설정 파일(.sts 파일):** [샘플 FMPS 설정 파일](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (이 파일의 압축 풀기)
 
 ## FAQ 및 문제 해결:
 
@@ -77,7 +76,7 @@ FMPS2020.0.2 이상 버전으로 이미 생성된 기준선을 게시할 수 있
 
 - ### 내 설정/distaval이 최종 게시된 출력에 적용되지 않음
 
->FMPS 사전 설정과 설정/diaval 파일을 동시에 선택하지 않는지 확인합니다. FrameMaker를 사용하여 출력을 수동으로 확인합니다.
+>FMPS 사전 설정과 설정/diaval 파일을 동시에 선택하지 않는지 확인합니다. FrameMaker을 사용하여 출력을 수동으로 확인합니다.
 
 - ### 기준선이 FMPS에서 게시되지 않음
 

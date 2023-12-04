@@ -1,10 +1,9 @@
 ---
 title: AEM 사이트
 description: AEM Guides에서 AEM 사이트 사전 설정을 만들고 구성합니다. AEM 사이트 지원을 사용하여 문서 기반 출력을 생성하고, 연결 주제를 출력하며, conref를 게시하고, 콘텐츠 내에서 문자열을 검색합니다.
-exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---

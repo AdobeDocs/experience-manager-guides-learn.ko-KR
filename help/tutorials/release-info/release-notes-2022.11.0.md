@@ -1,11 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2022년 11월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 11월 릴리스
-exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 2%
+source-wordcount: '1384'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 2%
 ## 11월 릴리스로 업그레이드
 
 최신 Adobe Experience Manager Guides as a Cloud Service 업그레이드(나중에 참조) *AEM Guides as a Cloud Service*) 다음 단계를 수행하여 설정합니다.
-1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2022.11.198.
-1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 AEM Guides as a Cloud Service의 11월 릴리스로 업그레이드합니다.
+1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
+1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Service 파일 Git 코드 2022.11.198.
+1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 AEM Guides as a Cloud Service의 11월 릴리스로 업그레이드합니다.
 
 ## 기존 콘텐츠를 색인화하는 절차(AEM Guides의 9월 릴리스 이전 버전을 as a Cloud Service으로 사용하는 경우에만)
 
@@ -26,8 +25,7 @@ ht-degree: 2%
 (선택 사항: 맵의 특정 경로를 전달하여 인덱싱할 수 있습니다. 기본적으로 모든 맵이 인덱싱됩니다 || 예 : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API는 jobId를 반환합니다. 작업 상태를 확인하려면 작업 ID가 있는 GET 요청을 동일한 끝점으로 보낼 수 있습니다. `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(예: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(예: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * 작업이 완료되면 위의 GET 요청은 성공으로 응답하고 맵이 실패한 경우 언급됩니다. 인덱싱된 맵은 서버 로그에서 확인할 수 있습니다.
 
@@ -40,7 +38,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 | FMPS | FrameMaker |
 | --- | --- |
 | 호환되지 않음 | 2020 업데이트 4 이상 |
-|  |  |
+| | |
 
 *AEM에서 생성된 기준 및 조건은 2020.2년부터 FMPS 릴리스에서 지원됩니다.
 

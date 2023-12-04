@@ -1,8 +1,7 @@
 ---
 title: 기본 PDF 게시 기능 | 사용자 정의 변경 막대 스타일 작업
 description: 변경 막대에 스타일을 적용하는 방법에 대해 알아봅니다.
-exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

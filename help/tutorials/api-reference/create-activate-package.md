@@ -1,13 +1,12 @@
 ---
 title: 패키지 생성 및 활성화를 위한 REST API
 description: 패키지 생성 및 활성화를 위한 REST API에 대해 알아봅니다
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # 패키지 생성 및 활성화를 위한 REST API {#id198CF0260Y4}
 

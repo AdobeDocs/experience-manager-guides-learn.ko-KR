@@ -1,11 +1,10 @@
 ---
 title: 출력 생성 설정 구성
 description: 출력 생성 설정을 구성하는 방법 알아보기
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
-ht-degree: 1%
+source-wordcount: '5470'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ DITA 맵 대시보드에서 기준선 탭을 숨기려면 다음 단계를 수�
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | 부울\(`true/false`\).**기본 값**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**기본값**: `true` |
 
 >[!NOTE]
 >
@@ -153,7 +152,7 @@ AEM Site 출력의 URL에서 문서 제목을 사용할 수 있습니다. 파일
 
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
-| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 부울 (`true/false`). **기본 값**: `false` |
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 부울(`true/false`). **기본값**: `false` |
 
 예를 들어 *@navtitle* 위치: `<topichead>` 에는 모든 특수 문자가 있으며 `aemsite.pagetitle` 속성을 true로 설정한 다음 기본적으로 구분 기호를 사용합니다. 다음을 설정하는 경우 `nodename.systemDefinedPageName` 속성을 true로 설정하면 첫 번째 하위 주제의 이름이 표시됩니다.
 
@@ -225,7 +224,7 @@ AEM 사이트 노드 구조를 제거하려면 다음 단계를 수행하십시�
 
    | PID | 속성 키 | 속성 값 |
    |---|------------|--------------|
-   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 부울 \(true/false\).<br> **기본 값**: `false` |
+   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 부울 \(true/false\).<br> **기본값**: `false` |
 
 
 이제 AEM Site 출력을 생성할 때 `p` 요소가 병합되고 내부에 저장됩니다. `p` 요소 자체. 다음에 대한 새 병합 속성을 찾을 수 있습니다. `p` crxde의 요소입니다.
@@ -271,7 +270,7 @@ AEM Site 출력에서 평면화할 노드를 지정하는 것과 유사하게 �
 
    | PID | 속성 키 | 속성 값 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 부울 \(true/false\).<br> **기본 값**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 부울 \(true/false\).<br> **기본값**: `true` |
 
    >[!NOTE]
    >
@@ -305,7 +304,7 @@ AEM Guides에서는 DITA-OT를 사용하여 출력을 게시하는 동안 사용
 
 1. 을(를) 클릭합니다 **메타데이터 스키마** 타일.
 
-   The Metadata Schema Forms page is displayed.
+   [메타데이터 스키마 Forms] 페이지가 표시됩니다.
 
 1. 다음 항목 선택 **기본값** 목록에서 양식을 가져옵니다.
 

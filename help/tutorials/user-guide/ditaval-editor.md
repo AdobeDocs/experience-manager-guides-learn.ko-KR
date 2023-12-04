@@ -1,10 +1,9 @@
 ---
 title: DITAVAL 편집기 사용
 description: AEM Guides의 DIVATAL 편집기를 사용하여 DITAVAL 파일을 만들고 편집하는 방법을 이해합니다. DITAVAL 편집기가 작성자 및 소스 보기에서 DITAVAL 파일을 지원하는 방법을 알아봅니다.
-exl-id: 53dc9a61-aa07-4fb0-a442-ac845433c8f5
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---

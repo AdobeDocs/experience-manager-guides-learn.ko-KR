@@ -1,13 +1,12 @@
 ---
 title: 사용자 지정 DITA-OT 및 DITA 특수화 사용
 description: 사용자 지정 DITA-OT 및 DITA 특수화를 사용하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 DITA-OT 및 DITA 특수화 사용 {#id181GAJ0005Z}
 
@@ -62,7 +61,6 @@ AEM Guides에서 사용할 수 있는 기본 DITA-OT 패키지에는 MathML 방�
    - Mac/Linux OS에서 통합자 \(사용자 정의 플러그인\ 설치)를 실행하여 파일 구분 기호 관련 문제를 방지합니다. Windows 및 Linux OS의 파일 구분 기호가 다르므로 Mac/Linux OS에 통합된 플러그인은 Windows 및 Linux 설치와 모두 호환됩니다.
    - 다음을 확인합니다. `DITA-OT.ZIP` 파일에는 모든 관련 플러그인 및 파일이 있는 &quot;DITA-OT&quot;라는 폴더가 있습니다.
    - 다음을 확인: `DITA-OT.ZIP` 만든 파일은 mimeType: &quot;nt:file&quot; \(AEM에 업로드할 때 기본 ZIP 파일 유형에 해당됨). WebDAV 도구 또는 코드 배포를 사용하여 이 ZIP 파일을 AEM의 원하는 경로로 업로드합니다. \(이 ZIP은 AEM 컨텐츠 패키지가 아니라 아카이브 파일이므로 AEM 패키지 관리자를 사용하여 이 ZIP 파일을 배포하지 마십시오.\)
-
    >[!NOTE]
    >
    > 기본 DITA-OT 패키지를 덮어쓰지 않는 것이 좋습니다. 아래의 다른 위치에서 플러그인이 포함된 사용자 지정 DITA-OT 패키지를 업로드해야 합니다. `apps` 폴더를 삭제합니다.
@@ -191,4 +189,3 @@ DITA 특수화는 새 요소를 추가하거나 기존 요소를 제거하여 �
 >[!NOTE]
 >
 > 사용자 지정 DITA 프로파일을 패키지로 내보내고 다른 AEM Guides 인스턴스에 업로드하여 시간을 절약할 수 있습니다. 자세한 내용은 [Appendix.md](appendix.md).
-

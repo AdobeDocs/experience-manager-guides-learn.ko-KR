@@ -1,10 +1,9 @@
 ---
 title: PDF 생성
 description: 웹 편집기 및 맵 대시보드에서 PDF 사전 설정을 만드는 방법을 알아봅니다. AEM Guides에서 PDF 출력 사전 설정을 구성합니다.
-exl-id: 799b7875-0de2-40c6-9e7f-7edc79b98a4b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1017'
 ht-degree: 1%
 
 ---

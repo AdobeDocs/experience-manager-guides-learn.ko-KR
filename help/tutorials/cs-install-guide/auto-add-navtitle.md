@@ -1,13 +1,12 @@
 ---
 title: 기본적@navtitle 속성 포함
 description: 기본적으로 @navtitle 속성을 포함하는 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
-
 
 # 기본적@navtitle 속성 포함 {#id2115BC0J0XA}
 
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**.
 1. 선택 **안내서** 도구 목록에서 **폴더 프로필**.
-1. 을(를) 클릭합니다 **글로벌 프로필** 타일.
+1. 을(를) 클릭합니다 **전역 프로필** 타일.
 1. 다음 항목 선택 **XML 편집기 구성** tab 키를 누른 다음 클릭 **편집** 맨 위에 있는 아이콘
 1. 다음을 클릭합니다. **다운로드** 로컬 시스템에서 ui\_config.json 파일을 다운로드하는 아이콘입니다.
 1. 글로벌 수준 또는 폴더 수준 프로필에서 이 변경 작업을 수행할 수 있습니다. 이를 변경할 위치에 따라 해당 ui\_config.json 파일을 다운로드해야 합니다. ui\_config.json 파일 다운로드에 대한 자세한 내용은 [XML Web Editor 구성 및 사용자 지정](conf-folder-level.md#id2065G300O5Z).
@@ -52,4 +51,3 @@ ht-degree: 1%
 이 구성을 사용하면 맵에 추가하는 모든 참조 파일에 `@navtitle` 기본적으로 속성입니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: 기존 DITA 콘텐츠 업로드
 description: 기존 DITA 콘텐츠를 업로드하는 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
-
 
 # 기존 DITA 콘텐츠 업로드 {#id176FF000JUI}
 
@@ -27,7 +26,7 @@ AEM Guides에 사용할 기존 DITA 콘텐츠 저장소가 있을 가능성이 �
 
 curl 명령을 사용하여 DAM에 폴더를 만들고, 파일을 업로드하고, 업로드된 콘텐츠에 메타데이터를 추가할 수도 있습니다.
 
-**폴더를 만듭니다**
+**폴더 만들기**
 
 다음 명령을 실행하여 AEM 저장소에 폴더를 생성합니다.
 
@@ -79,4 +78,3 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 
 **상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
-

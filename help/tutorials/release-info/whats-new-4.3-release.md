@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.3.0 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.3.0 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---

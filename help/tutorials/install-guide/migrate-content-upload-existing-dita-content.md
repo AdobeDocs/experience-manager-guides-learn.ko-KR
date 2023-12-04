@@ -1,13 +1,12 @@
 ---
 title: 기존 DITA 콘텐츠 업로드
 description: 기존 DITA 콘텐츠를 업로드하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # 기존 DITA 콘텐츠 업로드 {#id176FF000JUI}
 
@@ -44,7 +43,7 @@ Adobe FrameMaker에는 기존 DITA 및 기타 FrameMaker 문서 \(.book 및 .fm\
 
 FrameMaker의 AEM Connector를 사용하여 콘텐츠를 업로드하려면 다음 단계를 수행하십시오.
 
-1. FrameMaker를 실행합니다.
+1. FrameMaker 시작.
 
 1. 를 엽니다. **연결 관리자** 대화 상자.
 
@@ -123,7 +122,7 @@ AEM 저장소 내에서 콘텐츠를 이동하거나 복사하는 동안 다음 
 
 curl 명령을 사용하여 DAM에 폴더를 만들고, 파일을 업로드하고, 업로드된 콘텐츠에 메타데이터를 추가할 수도 있습니다.
 
-**폴더를 만듭니다**
+**폴더 만들기**
 
 다음 명령을 실행하여 AEM 저장소에 폴더를 생성합니다.
 
@@ -175,4 +174,3 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 
 **상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
-

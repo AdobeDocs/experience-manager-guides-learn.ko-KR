@@ -1,10 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 9월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 9월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -132,7 +132,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 체크 인하기 전에 변경 내용을 취소하기 위해 [아니요] 옵션을 선택했지만 웹 편집기에서 파일을 체크 아웃할 수 없습니다. (12557)
 - 웹 편집기 내의 기본 도구 모음에 있는 파일 잠금 및 잠금 해제 아이콘의 도구 설명이 저장소 보기에 표시된 아이콘과 일치하지 않습니다.(12555)
 - 맵 보기에서 아직 체크 아웃되지 않은 웹 편집기의 파일에 대해 체크 아웃 취소 및 잠금 해제 옵션이 표시됩니다. (12556)
-- 기존 &quot;topicref&quot; 링크에서 PDF 자산을 선택할 수 없습니다. (12477).
+- 기존 &quot;topicref&quot; 링크에서 PDF 자산을 선택할 수 없습니다. (12477)
 - 저장소 보기에서 검색/필터 기능을 사용한 후에는 주제나 이미지를 드래그할 수 없습니다. (12396)
 - 검색된 파일을 한 개 열면 찾기 및 바꾸기 패널에서 검색 결과가 비활성화됩니다. (12142)
 - 측면 키보드의 &quot;8&quot; 숫자 키가 AEM Guides 편집기에서 작동하지 않습니다. (12106)
@@ -176,7 +176,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 번역에 대해 이름이 변경된 베이스라인을 내보내는 프로세스가 실패합니다. (12993)
 - 소스 파일의 제목 대신 번역된 파일의 제목이 표시됩니다. (11630)
-
-
-
-

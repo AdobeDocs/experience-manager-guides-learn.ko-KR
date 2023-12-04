@@ -1,13 +1,12 @@
 ---
 title: 콘텐츠의 인용 항목 추가 및 관리
 description: AEM Guides의 인용 부호를 추가하고 관리합니다. 인용을 사용하여 콘텐츠 출력을 적용, 가져오기, 필터링, 검색, 변경, 편집, 미리보기, 삽입, 삭제 및 생성하는 방법에 대해 알아봅니다.
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1887'
 ht-degree: 0%
 
 ---
-
 
 # 콘텐츠의 인용 항목 추가 및 관리
 
@@ -69,7 +68,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
 
 
 
-1. 선택 **완료**.
+1. **완료**&#x200B;를 선택합니다.
 
    새 인용이 인용 패널에 추가됩니다.
 
@@ -142,7 +141,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
 
 1. 목록에서 인용구의 이름 위로 마우스를 가져갑니다. 선택  ![](images/options.svg) 다음 **옵션** 아이콘.
 
-1. **편집**&#x200B;을 선택합니다.
+1. 선택  **편집**.
 
 다음 **인용 편집** 대화 상자가 열립니다.
 
@@ -159,7 +158,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
 
 목록에서 인용구의 이름 위로 마우스를 가져갑니다. 선택     ![](images/options.svg) **옵션** 아이콘.
 
-1. **미리보기**를 선택합니다.
+1. 선택 **미리 보기**.
 미리보기 창에서 인용의 내용과 형식을 미리 볼 수 있습니다.
 
    >[!NOTE]
@@ -191,7 +190,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
    ![인용 대화 상자](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. 의 검색 패널에 처음 몇 개의 알파벳을 입력하여 인용 부호를 필터링할 수 있습니다. **인용** 대화 상자.
 
-1. **완료**를 클릭합니다.
+1. 클릭 **완료**.
 선택한 인용이 주제의 커서 위치에 추가됩니다.
 
 
@@ -248,7 +247,7 @@ AEM Guides는 MLA(Modern Language Association), APA(American Psychological Assoc
    >이 항목에서 이미 사용된 인용은 대화 상자에서 선택한 인용으로 대체됩니다.
 
 
-1. 선택 **완료**.
+1. **완료**&#x200B;를 선택합니다.
 
 ## 인용을 사용하여 컨텐츠 출력 생성
 

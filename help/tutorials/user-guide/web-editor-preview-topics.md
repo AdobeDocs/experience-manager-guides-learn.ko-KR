@@ -1,10 +1,9 @@
 ---
 title: 주제 미리 보기
 description: AEM Guides에서 항목을 미리 보는 방법에 대해 알아봅니다. 미리보기 모드에서 사용할 수 있는 기능에 대해 알아봅니다. AEM Guides의 분기, 되돌리기 및 이후 버전 관리.
-exl-id: fb8eb87b-2a98-4540-9329-08a759145497
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1859'
 ht-degree: 0%
 
 ---

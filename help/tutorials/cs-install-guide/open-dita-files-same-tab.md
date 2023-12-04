@@ -1,13 +1,12 @@
 ---
 title: 동일한 탭에서 DITA 주제 또는 맵 파일 열기
 description: 동일한 탭에서 DITA 주제 또는 맵 파일을 여는 방법에 대해 알아봅니다
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # 동일한 탭에서 DITA 주제 또는 맵 파일 열기 {#id223HH0301J3}
 
@@ -33,4 +32,3 @@ ht-degree: 0%
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

@@ -1,10 +1,9 @@
 ---
 title: 주제 만들기
 description: AEM Guides의 웹 편집기에서 사용자 지정 템플릿을 사용하여 DITA 주제 유형을 만드는 방법에 대해 알아봅니다.
-exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---

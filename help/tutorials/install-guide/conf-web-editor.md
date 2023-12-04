@@ -1,13 +1,12 @@
 ---
 title: 웹 편집기 사용자 지정
 description: 웹 편집기를 사용자 지정하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
-
 
 # 웹 편집기 사용자 지정 {#id181AI0003PN}
 
@@ -40,5 +39,3 @@ AEM Guides는 작성자가 DITA 문서를 만들고 편집할 수 있는 강력�
 - [쿼리에 대한 LimitReads 수를 구성합니다.](conf-query-limitreads.md)
 
 - [문서 기반 게시용 패키지 설치](configure-article-based-publishing.md)
-
-

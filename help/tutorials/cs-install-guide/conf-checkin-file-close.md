@@ -1,13 +1,12 @@
 ---
 title: 닫을 때 파일을 체크 인하도록 프롬프트 구성
 description: 닫을 때 파일을 체크 인하도록 프롬프트를 구성하는 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
 
 ---
-
 
 # 닫을 때 파일을 체크 인하도록 프롬프트 구성 {#id222HC040PE8}
 
@@ -24,4 +23,3 @@ ht-degree: 1%
 자세한 내용은 *파일 닫기 및 저장 시나리오* 섹션(Adobe Experience Manager Guides as a Cloud Service 사용 안내서)을 참조하십시오.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: 폴더 프로필 작업을 위한 Java 기반 API
 description: 폴더 프로필로 작동하는 Java 기반 API에 대해 알아봅니다
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # 폴더 프로필 작업을 위한 Java 기반 API {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - 지정된 폴더 프로필의 관리자가 아닌 사용자와 같이 권한이 없는 사용자 세션을 통해 API가 호출되는 경우.
 
 [1](#fnsrc_1) 다음 `attributeNames`, `values`, 및 `labels` 배열 목록의 동일한 인덱스는 동일한 항목에 해당해야 합니다.
-

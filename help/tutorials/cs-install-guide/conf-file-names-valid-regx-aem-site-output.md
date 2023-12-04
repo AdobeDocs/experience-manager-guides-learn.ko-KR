@@ -1,13 +1,12 @@
 ---
 title: AEM 사이트 출력에 대한 유효한 파일 이름 구성
 description: AEM Site 출력에 대한 유효한 파일 이름을 구성하는 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 1%
 
 ---
-
 
 # AEM 사이트 출력에 대한 유효한 파일 이름 구성 {#id214GK0X0KXA}
 
@@ -20,4 +19,3 @@ DITA 주제에 허용되는 유효한 파일 이름 문자 목록과 유사하�
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | AEM Site 출력 파일 이름에 밑줄로 바꿀 문자를 추가합니다. <br> **기본값**: ``'<\>\`@$`` |
 
 **상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)
-

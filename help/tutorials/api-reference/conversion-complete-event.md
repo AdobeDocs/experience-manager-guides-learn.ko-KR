@@ -1,13 +1,12 @@
 ---
 title: 전환 프로세스 이벤트 핸들러
 description: 전환 프로세스 이벤트 처리기에 대해 알아보기
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # 전환 프로세스 이벤트 핸들러 {#id175UB30E05Z}
 
@@ -23,6 +22,5 @@ AEM Guides는 문서 변환 프로세스가 완료된 후 사후 처리 작업�
 com/adobe/fmdita/conversion/complete 
 ```
 
-**매개변수**:\
+**매개 변수**:\
 이름|유형|설명| ---- --------------- |`status`|문자열|수행된 작업의 반환 상태입니다. 가능한 옵션은 다음과 같습니다. - 성공: 변환 프로세스가 완료되었습니다. <br> - 완료되었으나 오류 발생: 변환 프로세스가 완료되었으나 일부 오류가 발생했습니다. <br>- 실패: 치명적인 오류로 인해 변환 프로세스가 실패했습니다.| |`filePath`|문자열|AEM 저장소에 있는 원본 파일 \(변환할\)의 절대 경로입니다.| |`outputPath`|문자열|변환된 DITA 파일을 저장할 대상 위치의 절대 경로입니다.| |`logPath`|문자열|전환 로그가 저장될 노드의 절대 경로입니다.|
-

@@ -1,13 +1,12 @@
 ---
 title: 파일 이름 구성
 description: 파일 이름 구성 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # 파일 이름 구성 {#id214BD010GXA}
 
@@ -18,5 +17,3 @@ ht-degree: 0%
 - **[올바른 파일 이름 문자에 대한 Regx 구성](conf-file-names-valid-regx.md)**
 
 - **[AEM 사이트 출력에 대한 유효한 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md)**
-
-

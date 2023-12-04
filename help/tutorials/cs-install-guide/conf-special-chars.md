@@ -1,13 +1,12 @@
 ---
 title: 허용되는 특수 문자 구성
 description: 허용되는 특수 문자를 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
 
 ---
-
 
 # 허용되는 특수 문자 구성 {#id20CIL600035}
 
@@ -44,4 +43,3 @@ ht-degree: 0%
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

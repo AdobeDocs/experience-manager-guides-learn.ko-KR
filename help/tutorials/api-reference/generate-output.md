@@ -1,13 +1,12 @@
 ---
 title: 출력 생성 관련 Java 기반 API
 description: 출력 생성과 함께 작동하는 Java 기반 API에 대해 알아봅니다
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # 출력 생성 관련 Java 기반 API {#id175UB30E05Z}
 
@@ -48,4 +47,3 @@ throws GuidesApiException
 **매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다.| |``sourcePath``출력을 생성해야 하는 DITA 맵 파일의 |String|Path\(AEM 저장소 내).| |``outputName``|문자열|출력을 생성하는 데 사용할 출력 사전 설정의 이름입니다. 예를 들어 파이프 \(&quot;\|&quot;\) 구분 기호를 사용하여 여러 출력 사전 설정을 지정할 수 있습니다 `aemsite\|pdfoutput`.|
 
 **예외**: throw ``javax.jcr.RepositoryException``, `java.io.IOException`, 및 `java.lang.Exception`.
-

@@ -1,8 +1,7 @@
 ---
 title: 수정된 주제 번역
 description: AEM Guides에서 수정된 주제를 다시 번역하는 방법을 알아봅니다.
-exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%

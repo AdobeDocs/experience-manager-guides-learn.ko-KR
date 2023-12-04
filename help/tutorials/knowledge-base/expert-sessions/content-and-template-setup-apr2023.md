@@ -1,9 +1,9 @@
 ---
 title: 컨텐츠 및 템플릿 설정
 description: AEM Guides에서 콘텐츠 및 템플릿을 설정하기 위해 고려해야 할 사항에 대해 알아봅니다.
-source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -58,8 +58,7 @@ ht-degree: 1%
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - 온-프레미스: 4.2 이상
-> - Cloud Services: 2303 이상
-
+> - Cloud Service: 2303 이상
 
 
 ## 다음 전문가 세션

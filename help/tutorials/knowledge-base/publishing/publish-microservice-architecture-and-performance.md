@@ -1,8 +1,7 @@
 ---
 title: 클라우드 게시 마이크로서비스 아키텍처 및 성능
 description: 새로운 마이크로서비스가 AEMaaCS에서 확장 가능한 게시를 구현하는 방법을 이해합니다.
-exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%

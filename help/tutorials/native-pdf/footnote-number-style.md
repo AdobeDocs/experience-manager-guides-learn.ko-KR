@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF 게시 기능 | 각주에서 사용자 지정 스타일 사용
 description: 각주의 숫자에 스타일을 적용하는 방법에 대해 알아봅니다.
-exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
-source-git-commit: cb2aa028330c1e1b8b71e9e928d724cc0d87bf44
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -50,7 +49,7 @@ content: "(" counter(footnote, decimal) ")";
 
 *각주 호출과 각주 마커 주위에 대괄호를 추가합니다.*
 
-**예 2**:
+**예제 2**:
 
 각주 호출과 표식에 숫자 대신 별표나 그리스어 하단의 문자로 플래그를 지정할 수도 있습니다.
 

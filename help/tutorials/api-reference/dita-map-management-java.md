@@ -1,13 +1,12 @@
 ---
 title: DITA 맵에서 작동하는 Java 기반 API
 description: DITA 맵에서 작동하는 Java 기반 API에 대해 알아보기
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
-
 
 # DITA 맵에서 작동하는 Java 기반 API {#id175UB30E05Z}
 
@@ -154,4 +153,3 @@ public static List
 **매개 변수**: 이름|유형|설명| ---- --------------- |`rootNode`|javax.jcr.Node|모든 종속성을 검색할 루트 노드입니다.|
 
 **반환**: 루트 노드의 모든 종속성이 포함된 노드 목록입니다.
-

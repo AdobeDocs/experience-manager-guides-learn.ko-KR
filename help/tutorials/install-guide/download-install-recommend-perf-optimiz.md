@@ -1,13 +1,12 @@
 ---
 title: 성능 최적화를 위한 Recommendations
 description: 성능 최적화를 위한 Recommendations 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # 성능 최적화를 위한 Recommendations {#id213BD0JG0XA}
 
@@ -116,7 +115,7 @@ AEM Sites 출력을 생성하는 경우 이 변경이 필요합니다.
 **거스름돈이 어떻게 되죠?**
 DITA 콘텐츠를 대량으로 업로드하는 경우 이 변경이 필요합니다.
 
-설정 **사후 프로세스 스레드** 아래 속성 `com.adobe.fmdita.config.ConfigManager` 끝 `1`.
+설정 **사후 프로세스 Threads** 아래 속성 `com.adobe.fmdita.config.ConfigManager` 끝 `1`.
 
 **언제 구성해야 합니까?**
 이 작업은 런타임에 수행할 수 있습니다.
@@ -125,4 +124,3 @@ DITA 콘텐츠를 대량으로 업로드하는 경우 이 변경이 필요합니
 이 변경 사항으로 DITA 파일의 일괄 업로드 후 처리 시간이 줄어듭니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

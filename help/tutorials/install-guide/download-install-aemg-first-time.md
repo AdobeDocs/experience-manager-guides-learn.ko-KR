@@ -1,13 +1,12 @@
 ---
 title: 처음으로 AEM Guides 다운로드 및 설치
 description: AEM Guides를 처음 다운로드하고 설치하는 방법을 알아봅니다
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
-
 
 # 처음으로 AEM Guides 다운로드 및 설치 {#id213BCL00KEV}
 
@@ -25,7 +24,7 @@ ht-degree: 2%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 [패키지를 사용하여 작업하는 방법](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/package-manager.html) AEM 설명서에서 참조할 수 있습니다.
+   패키지 관리자는 로컬 AEM 설치에서 패키지를 관리합니다. 패키지 관리자 작업에 대한 자세한 내용은 [패키지를 사용하여 작업하는 방법](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) AEM 설명서에서 참조할 수 있습니다.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -49,4 +48,3 @@ ht-degree: 2%
 > 설치 시 AEM 서버의 모든 인스턴스에 설치 절차를 수행합니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

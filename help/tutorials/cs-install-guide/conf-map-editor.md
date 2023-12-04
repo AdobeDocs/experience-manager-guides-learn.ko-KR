@@ -1,13 +1,12 @@
 ---
 title: 고급 맵 편집기 를 기본값으로 설정합니다.
 description: 고급 맵 편집기를 기본값으로 설정하는 방법에 대해 알아봅니다
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # 고급 맵 편집기 를 기본값으로 설정합니다. {#id181AI0003PN}
 
@@ -26,4 +25,3 @@ AEM Guides에는 기본 맵 편집기 및 고급 맵 편집기가 포함되어 �
 > 기본적으로 작성자가 맵 파일을 만들고 편집할 수 있도록 열도록 선택하면 기본 맵 편집기가 실행됩니다. Assets UI에서 맵 파일에 대해 편집 옵션을 선택하면 기본 맵 편집기에서도 열립니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

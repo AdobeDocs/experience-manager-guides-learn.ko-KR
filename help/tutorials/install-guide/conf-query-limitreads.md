@@ -1,13 +1,12 @@
 ---
 title: 쿼리에 대한 LimitReads 수를 구성합니다.
 description: 쿼리에 대한 LimitReads 수를 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
 
 ---
-
 
 # 쿼리에 대한 LimitReads 수를 구성합니다. {#id231RC0HL0ID}
 
@@ -31,4 +30,3 @@ ht-degree: 2%
 이 속성 값을 늘리면 더 큰 DITA 맵에 대한 보고서를 생성하는 데 도움이 됩니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

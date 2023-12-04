@@ -1,10 +1,9 @@
 ---
 title: AEMaaCS에서 안내서 게시 벤치마크
 description: AEM Cloud에 게시하는 것에 대한 시스템 제한을 이해합니다.
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
-source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 8%
 
 ---
@@ -35,7 +34,7 @@ AEM 클라우드 환경에 대한 새 게시 서비스를 구성하려면 다음
 | 기본 PDF | 3500 | 780 | 예 |
 | PDF(DITA-OT) | 11000 | 960 | 예 |
 | HTML5 | 3500 | 240 | 아니요 |
-| 사용자 정의 | 300 | 300 | 아니요 |
+| 사용자 지정 | 300 | 300 | 아니요 |
 
 ## 기억해야 할 주요 사항
 

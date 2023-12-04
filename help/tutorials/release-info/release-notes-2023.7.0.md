@@ -1,10 +1,10 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides, 2023년 7월 릴리스의 업그레이드 지침 및 해결된 문제
 description: 버그 수정 사항과 Adobe Experience Manager Guides as a Cloud Service으로 2023년 7월 릴리스로 업그레이드하는 방법에 대해 알아보십시오
-source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 다음 단계를 수행하여 현재 AEM Guides as a Cloud Service 설정을 업그레이드하십시오.
 
-1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2023.7.0.314.
-3. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 2023년 7월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
+1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
+2. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Service 파일 Git 코드 2023.7.0.314.
+3. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 2023년 7월 AEM Guides as a Cloud Service 릴리스로 업그레이드합니다.
 
 ## 서블릿을 통해 스크립트 트리거를 활성화하는 단계
 
@@ -133,5 +133,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ### 게시
 
 - 오른쪽 패널의 파일 속성에서 dostate가 &quot;종료 상태&quot;로 변경되면 승인 작업 과정이 작동하지 않습니다. (11026)
-
-

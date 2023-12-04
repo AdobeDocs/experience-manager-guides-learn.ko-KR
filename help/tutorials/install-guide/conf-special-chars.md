@@ -1,13 +1,12 @@
 ---
 title: 허용되는 특수 문자 구성
 description: 허용되는 특수 문자를 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # 허용되는 특수 문자 구성 {#id20CIL600035}
 
@@ -42,8 +41,7 @@ ht-degree: 0%
 - `"items"`: 카테고리에 있는 특수 문자의 컬렉션을 정의합니다.
 - `"name": "←", "title": "Left Arrow"`: 특수 문자의 정의입니다. 다음으로 시작: `"name"` 레이블. 변경하지 마십시오. 이름 뒤에는 특수 문자가 옵니다. 다음 `"title"` 는 해당 특수 문자의 도구 설명으로 나타나는 특수 문자의 이름 또는 제목입니다.
 
-   범주 내에서 특수 문자에 대한 여러 정의를 정의할 수 있습니다.
+  범주 내에서 특수 문자에 대한 여러 정의를 정의할 수 있습니다.
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

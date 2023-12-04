@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF 게시 기본 사항
 description: AEM Guides에서 기본 pdf 엔진을 사용하여 PDF을 게시하는 방법에 대해 알아봅니다.
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
@@ -49,8 +48,7 @@ AEM Guides에는 사용자에게 PDF 형식으로 컨텐츠를 만들고, 개발
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - On-prem 4.2 이상
-> - Cloud Services 2211 이상
-
+> - Cloud Service 2211 이상
 
 ## 연락처
 

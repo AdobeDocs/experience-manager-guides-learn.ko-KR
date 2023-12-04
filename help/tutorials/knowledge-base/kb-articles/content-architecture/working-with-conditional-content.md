@@ -2,10 +2,9 @@
 title: 조건부 콘텐츠 작업
 description: 에서 조건을 만든 다음 조건부 콘텐츠 생성을 설정하는 방법을 알아봅니다 [!DNL AEM Guides]
 role: User
-exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---

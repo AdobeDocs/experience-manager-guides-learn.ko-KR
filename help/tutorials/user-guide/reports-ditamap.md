@@ -1,10 +1,9 @@
 ---
 title: 맵 대시보드의 DITA 맵 보고서
 description: AEM Guides의 맵 대시보드에서 DITA 맵 보고서를 생성합니다. DITA 맵 보고서의 CSV를 생성하는 방법을 알아봅니다.
-exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---

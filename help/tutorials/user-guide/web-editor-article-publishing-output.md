@@ -1,8 +1,7 @@
 ---
 title: 저장소 패널에서 출력 생성
 description: AEM Guides의 저장소 패널 또는 맵 보기 패널에서 출력을 생성합니다. 하나 이상의 DITA 맵에서 사용되는 주제를 게시하거나 여러 주제에 대한 출력을 생성하는 방법에 대해 알아봅니다.
-exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

@@ -1,13 +1,12 @@
 ---
 title: 기본적@navtitle 속성 포함
 description: 기본적으로 @navtitle 속성을 포함하는 방법 알아보기
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
 
 ---
-
 
 # 기본적@navtitle 속성 포함 {#id2115BC0J0XA}
 
@@ -45,4 +44,3 @@ ht-degree: 1%
 
 
 이 구성을 사용하면 맵에 추가하는 모든 참조 파일에 `@navtitle` 기본적으로 속성입니다.
-

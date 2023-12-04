@@ -1,13 +1,12 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 2월 릴리스
 description: Adobe Experience Manager Guides as a Cloud Service 2월 릴리스
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Manager Guides as a Cloud Service의 2023년 2월 릴리스의 새로운 기능
 
@@ -55,7 +54,7 @@ CSV를 생성하여 DITA 맵에 사용된 멀티미디어의 현재 스냅샷을
 * 필터를 사용할 때 오른쪽 패널의 주석이 선택에 따라 필터링되고 왼쪽 패널의 주석 수가 그에 따라 업데이트됩니다.
 
 
-   <img alt="리뷰 작업" src="assets/comment-pop-up-panel.png" width="600">
+  <img alt="리뷰 작업" src="assets/comment-pop-up-panel.png" width="600">
 
 
 
@@ -141,4 +140,3 @@ AEM Guides에서는 목차 항목 또는 PDF 출력의 특정 항목에 사용�
 이제 AEM Guides를 사용하여 PDF 출력의 목차에서 변경된 주제를 빠르게 식별할 수 있습니다.  목차에서 변경된 주제 왼쪽에 변경 막대가 표시됩니다. 목차에서 항목을 클릭하고 자세한 변경 내용을 볼 수 있습니다.
 
 <img src="assets/change-marker-toc.png" alt="목차의 마커 변경 " width="500">
-

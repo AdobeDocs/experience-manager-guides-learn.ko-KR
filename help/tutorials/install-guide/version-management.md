@@ -1,13 +1,12 @@
 ---
 title: 버전 관리
 description: 버전 관리 작동 방식 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
-
 
 # 버전 관리 {#id181GB000XY4}
 
@@ -176,11 +175,11 @@ AEM Guides의 웹 편집기를 사용하여 DITA 주제를 만들고 업데이�
 
    - allow\_unsafe\_delete\_for\_all: 모든 사용자에게 파일을 삭제할 권한을 부여합니다. 이 경우 파일에 참조가 있거나 다른 파일에서 참조한 경우 해당 파일을 강제로 삭제할 수도 있습니다. 파일을 삭제하기 전에 참조가 포함된 메시지가 표시되며 삭제 작업을 취소하고 참조를 제거한 다음 마지막으로 파일을 삭제할 수 있습니다. 또는 참조를 제거하지 않고 파일을 강제로 삭제할 수 있습니다.
 
-      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: 관리자 또는 *자산 삭제* 그룹은 파일을 삭제할 수 있습니다. 다른 사용자가 참조가 있는 파일을 삭제하려고 하면 모든 참조가 제거될 때까지 해당 파일을 삭제할 수 없습니다. 권한이 없는 사용자가 파일을 삭제하려고 할 때 다음 스크린샷이 표시됩니다.
 
-      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
    - block\_unsafe\_delete\_for\_all: 파일에 대한 및 파일에 대한 참조가 제거될 때까지 모든 사용자\(Administrators\ 포함)가 파일을 삭제할 수 없도록 합니다.
 
@@ -214,9 +213,9 @@ AEM Guides의 웹 편집기를 사용하여 DITA 주제를 만들고 업데이�
 - **Timespan \(일 단위\) 내에 만든 버전 유지**: 버전의 최대 기간(일)을 입력합니다. 지정된 일수보다 오래된 버전은 기타 삭제 조건이 충족되는 경우 삭제할 수 있습니다. 예를 들어 100을 입력하면 다른 삭제 조건이 충족될 경우 100일 전에 생성된 모든 버전을 삭제할 수 있습니다.
 - **경로**: 제거할 파일이 있는 파일 또는 폴더의 경로를 선택합니다.
 
-   >[!NOTE]
-   >
-   > DITA 파일만 제거할 수 있습니다.
+  >[!NOTE]
+  >
+  > DITA 파일만 제거할 수 있습니다.
 
 1. 클릭 **제거 보고서 미리 보기**.
 
@@ -239,4 +238,3 @@ AEM Guides의 웹 편집기를 사용하여 DITA 주제를 만들고 업데이�
 >[!NOTE]
 >
 > 보고서는 /var/dxml/versionpurge 위치에 다운로드됩니다.
-

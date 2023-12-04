@@ -1,13 +1,12 @@
 ---
 title: AEM Guides 제거
 description: AEM Guides를 제거하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # AEM Guides 제거 {#id21BHG0C0SXA}
 
@@ -47,4 +46,3 @@ AEM Guides를 제거하려면 다음 단계를 수행하십시오.
 1. 브라우저의 캐시를 지웁니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

@@ -1,10 +1,9 @@
 ---
 title: 웨비터에서의 스키마 지원
 description: 웨비저에서 Schematron 작업
-exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
-source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -54,47 +53,47 @@ Webeditor 설정을 사용하면 사용자가 콘텐츠를 업데이트할 때�
 
 #### 샘플 사용 사례
 
-- 링크가 외부인지, 그리고 범위 &quot;외부&quot;가 있는지 확인
+- 링크가 외부인지, 범위에 &quot;외부&quot;가 있는지 확인
 
-   ```
-   <sch:pattern>
-       <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
-           <sch:assert test="@scope = 'external' and @format = 'html'">
-               All external xref links must be with scope='external' and format='html'
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
+          <sch:assert test="@scope = 'external' and @format = 'html'">
+              All external xref links must be with scope='external' and format='html'
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - 맵에 &quot;topicref&quot;가 하나 이상 있는지, &quot;ul&quot; 아래에 &quot;li&quot;가 하나 이상 있는지 확인하십시오.
 
-   ```
-   <sch:pattern>
-       <sch:rule context="map">
-           <sch:assert test="count(topicref) > 0">
-               There should be atleast one topicref in map
-           </sch:assert>
-       </sch:rule>
-   
-       <sch:rule context="ul">
-           <sch:assert test="count(li) > 1" >
-               A list must have more than one item.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="map">
+          <sch:assert test="count(topicref) > 0">
+              There should be atleast one topicref in map
+          </sch:assert>
+      </sch:rule>
+  
+      <sch:rule context="ul">
+          <sch:assert test="count(li) > 1" >
+              A list must have more than one item.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - &quot;indexterm&quot; 요소는 항상 &quot;prolog&quot;에 있어야 합니다.
 
-   ```
-   <sch:pattern>
-       <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
-           <sch:assert test="ancestor::node()/local-name() = 'prolog'">
-               The indexterm element should be in a prolog.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
+          <sch:assert test="ancestor::node()/local-name() = 'prolog'">
+              The indexterm element should be in a prolog.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 #### 리소스
 

@@ -1,13 +1,12 @@
 ---
 title: 주제 구성 및 템플릿 매핑
 description: 주제 구성 및 템플릿 매핑 방법 알아보기
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
 
 ---
-
 
 # 주제 구성 및 템플릿 매핑 {#id181AH2003PF}
 
@@ -16,5 +15,3 @@ AEM Guides에는 주제 및 DITA 맵 템플릿이 함께 제공됩니다. 자신
 - **[사용자 지정 DITA 주제 템플릿 구성](conf-template-tags-custom-dita-topic-template.md)**
 
 - **[사용자 지정 DITA 맵 템플릿 구성](conf-template-tags-custom-dita-map-templates.md)**
-
-

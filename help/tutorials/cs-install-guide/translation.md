@@ -1,21 +1,20 @@
 ---
 title: 콘텐츠 번역
 description: 콘텐츠 번역 방법 알아보기
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 15%
+source-wordcount: '651'
+ht-degree: 11%
 
 ---
-
 
 # 콘텐츠 번역 {#id181GB0400UI}
 
 페이지 콘텐츠, 에셋 및 사용자 생성 콘텐츠의 번역을 자동화하여 다국어 웹 사이트를 만들고 관리할 수 있습니다. 번역 워크플로를 자동화하려면 번역 서비스 공급업체를 AEM과 통합하고 콘텐츠를 다국어로 번역하는 프로젝트를 제작해야 합니다. AEM은 인간 번역 및 기계 번역 워크플로를 지원합니다.
 
-- 인간 번역: 콘텐츠를 전문 번역사가 번역할 수 있도록 번역 공급업체로 보냅니다. 번역이 완료되면 번역된 콘텐츠는 반환되어 AEM으로 가져와집니다. 번역 공급업체를 AEM과 통합하면 콘텐츠가 AEM과 번역 공급업체 간에 자동으로 교환됩니다
+- 사람 번역: 콘텐츠를 전문 번역사가 번역할 수 있도록 번역 공급업체로 보냅니다. 번역이 완료되면 번역된 콘텐츠는 반환되어 AEM으로 가져와집니다. 번역 공급업체를 AEM과 통합하면 콘텐츠가 AEM과 번역 공급업체 간에 자동으로 교환됩니다
 
-- 기계 번역: 콘텐츠가 기계 번역 서비스를 통해 즉시 번역됩니다
+- 기계 번역: 콘텐츠를 즉시 번역합니다
 
 
 콘텐츠 번역의 단계는 다음과 같습니다.
@@ -48,7 +47,7 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 
    | PID | 속성 키 | 속성 값 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 부울 \( true/ false\).<br> **기본 값**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 부울 \( true/ false\).<br> **기본값**: `true` |
 
    >[!NOTE]
    >
@@ -82,4 +81,3 @@ DITA 맵 대시보드에서 변환 탭을 숨기려면 다음 단계를 수행�
 | PID | 속성 키 | 속성 값 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 부울: <br> - 임시 파일에서 후처리 작업을 실행하지 않으려면 다음을 수행합니다. *사용 안 함* \( false\) **사후 처리 언어 사본** 옵션을 선택합니다.<br> - 임시 파일에서 후처리 작업을 실행하려면 *사용* \( true\) **사후 처리 언어 사본** 옵션을 선택합니다.<br> **기본값**: false |
-

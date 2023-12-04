@@ -1,13 +1,12 @@
 ---
 title: Dispatcher 구성
 description: Dispatcher 구성 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 22%
+source-wordcount: '81'
+ht-degree: 14%
 
 ---
-
 
 # Dispatcher 구성 {#id213BCM0M05U}
 
@@ -21,4 +20,3 @@ Dispatcher는 Adobe Experience Manager의 캐싱 및/또는 로드 밸런싱 도
 > AEM as a cloud service는 작성자 인스턴스에 대한 dispatcher를 지원하지 않습니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

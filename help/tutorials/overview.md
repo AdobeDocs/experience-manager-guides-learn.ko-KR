@@ -1,11 +1,10 @@
 ---
 title: Experience Manager 가이드 Tutorials
 description: Experience Manager 가이드(이전의 Adobe Experience Manager용 XML Documentation)에 대한 자습서 비디오를 찾으십시오. Experience Manager의 기본 DITA 지원 및 구조화된 작성에 대해 알아봅니다.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -25,16 +24,16 @@ ht-degree: 2%
 
 * **[[!DNL AEM Guides] 시작 과정](../courses/course-1/overview.md)**
 
-   _를 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다 [!DNL Adobe Experience Manager Guides]._
+  _를 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다 [!DNL Adobe Experience Manager Guides]._
 
 
 * **[[!DNL AEM Guides] 기본 제공 웹 편집기에서 작성](../courses/course-3/overview.md)**
 
-   _에서 기본 웹 편집기를 사용하여 콘텐츠를 작성하는 방법 알아보기  [!DNL Adobe Experience Manager Guides]. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
+  _에서 기본 웹 편집기를 사용하여 콘텐츠를 작성하는 방법 알아보기  [!DNL Adobe Experience Manager Guides]. 사용자 환경 설정, 편집기 설정, 구성, 도구 모음 등을 완벽하게 이해합니다._
 
 * **[을 사용한 출력 생성 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   _을 사용하여 출력을 생성하는 방법에 대해 알아봅니다. [!DNL Adobe Experience Manager Guides]. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
+  _을 사용하여 출력을 생성하는 방법에 대해 알아봅니다. [!DNL Adobe Experience Manager Guides]. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다._
 
 
 <!--

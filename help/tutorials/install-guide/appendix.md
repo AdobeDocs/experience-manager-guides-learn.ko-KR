@@ -1,9 +1,9 @@
 ---
 title: 부록
 description: 변환을 위해 InDesign 파일을 준비하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2851'
 ht-degree: 0%
 
 ---
@@ -199,7 +199,7 @@ InDesign 표 스타일을 사용하면 열과 셀 규칙이 교대 패턴을 따
 
 요소 줄바꿈 규칙은 일련의 속성 값에 따라 들어오는 문서의 요소를 사전 정의된 요소로 줄바꿈하거나 이동하는 방법을 정의합니다.
 
-***`wrap`element***
+***`wrap`요소***
 
 선택적 요소입니다. 다음 `wrap` element는 래핑 또는 이동할 요소를 나열합니다. 래핑은 일반적으로 일련의 요소에 공통 상위 요소를 지정해야 하는 경우에 사용됩니다. 예를 들어, 여러 `li` 요소를 래핑하는 중 `ol` 요소를 생성하지 않습니다. 또한, `wrap` 는 그림 및 표의 제목과 같은 요소를 이동하는 데 사용할 수 있습니다.
 
@@ -209,43 +209,43 @@ InDesign 표 스타일을 사용하면 열과 셀 규칙이 교대 패턴을 따
 - `@wrapper`: 줄바꿈 요소의 이름입니다.
 - `@context`: 주어진 요소를 래핑하는 방법을 세분화하는 방법을 제공합니다. 다음 예제는 일련의 를 매핑하는 방법을 보여 줍니다 `li` 순서가 지정된 목록의 요소 `ol` 또는 비순차 목록 `ul` 에 따라 `@context` 값 \(컨텍스트는 `paraRule` element\):
 
-   ```XML
-   <wrap elements="li+" context="number" wrapper="ol">
-      <attributeRules createID="true"/>
-   </wrap>
-   <wrap elements="li+" context="bullet" wrapper="ul">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="li+" context="number" wrapper="ol">
+     <attributeRules createID="true"/>
+  </wrap>
+  <wrap elements="li+" context="bullet" wrapper="ul">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
 
 다음 예에서는 를 만드는 방법을 보여 줍니다. `fig` 의 요소 `title` 및 `image` 요소:
 
 - `@elements`: 쉼표로 구분된 나열되는 요소는 `@wrapper` 특성. 이미지 아래에 그림 제목을 포함하는 일반적인 방법으로 인해 제목은 다음과 같습니다. `title` 요소 바로 뒤 `image`.
 
-   다음 줄바꿈 규칙:
+  다음 줄바꿈 규칙:
 
-   ```XML
-   <wrap elements="title, image" context="FigTitle" wrapper="fig">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title, image" context="FigTitle" wrapper="fig">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   다음 중간 XML을 변환합니다.
+  다음 중간 XML을 변환합니다.
 
-   ```XML
-   <image href="Links/myImage.png" scale="59">
-      <title>IDML2DITA workflow</title>
-   ```
+  ```XML
+  <image href="Links/myImage.png" scale="59">
+     <title>IDML2DITA workflow</title>
+  ```
 
-   다음과 같은 유효한 DITA 그림 구조로 바꿉니다.
+  다음과 같은 유효한 DITA 그림 구조로 바꿉니다.
 
-   ```XML
-   <fig id="id397504">
-      <title>IDML2DITA workflow</title>
-      <image href="Links/myImage.png" scale="59">
-   </fig>
-   ```
+  ```XML
+  <fig id="id397504">
+     <title>IDML2DITA workflow</title>
+     <image href="Links/myImage.png" scale="59">
+  </fig>
+  ```
 
 - `@wrapper`: 줄바꿈 요소의 이름입니다.
 - `@context`: 해당 요소를 래핑하는 방법을 세분화하는 방법을 제공합니다. \(컨텍스트는 `paraRule` element\)를 참조하십시오.
@@ -254,33 +254,33 @@ InDesign 표 스타일을 사용하면 열과 셀 규칙이 교대 패턴을 따
 
 - `@elements`: `title` 의 바로 앞 또는 바로 뒤에 있는 요소입니다. `table` 이(가) 다음에서 이름이 인 요소에 래핑됩니다. `@wrapper` 특성. XPath 스타일 조건자는 제목 요소의 위치를 다음과 같이 식별할 수 있습니다. `[before]` 또는 `[after]`.
 
-   예: 다음 줄바꿈 규칙:
+  예: 다음 줄바꿈 규칙:
 
-   ```XML
-   <wrap elements="title[before]" context="TableTitle" wrapper="table">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title[before]" context="TableTitle" wrapper="table">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   다음 중간 XML을 변환합니다.
+  다음 중간 XML을 변환합니다.
 
-   ```XML
-   <title>IDML2DITA workflow</title>
-   <table id="id289742" outputclass="BasicTable">
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <title>IDML2DITA workflow</title>
+  <table id="id289742" outputclass="BasicTable">
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
-   이 유효한 DITA 그림 구조로 바꿉니다.
+  이 유효한 DITA 그림 구조로 바꿉니다.
 
-   ```XML
-   <table id="id289742" outputclass="BasicTable">
-      <title>IDML2DITA workflow</title>
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <table id="id289742" outputclass="BasicTable">
+     <title>IDML2DITA workflow</title>
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
 - `@wrapper`: 줄바꿈 요소의 이름입니다.
 
@@ -291,7 +291,7 @@ InDesign 표 스타일을 사용하면 열과 셀 규칙이 교대 패턴을 따
 
 다음 `<paragraphStyleRule>` 요소는 아래에 설명되어 있습니다.
 
-***`paraRule`element***
+***`paraRule`요소***
 
 다음 `paraRule` 요소는 필수입니다. 모든 단락 스타일에 대한 매핑 규칙을 지정합니다. InDesign 문서에서 모든 텍스트는 단락 스타일의 하위 구조 내에 포함되어 있으며 스타일이 없는 단락에도 이름이 지정됩니다 `[No paragraph style]`. 대괄호는 빌트인 InDesign 스타일 이름을 나타냅니다.
 
@@ -326,7 +326,7 @@ InDesign 표 스타일을 사용하면 열과 셀 규칙이 교대 패턴을 따
 >
 > 기본 제공 문자 스타일에 대한 매핑이 없습니다. `[No character style]` 조건 `local="0"`: 사전 처리 중에 제거되기 때문입니다.
 
-***`charRule`element***
+***`charRule`요소***
 
 선택적 요소입니다.
 
@@ -437,7 +437,7 @@ AEM Guides를 설치 및 구성했으면 문제를 해결할 수 있습니다.
 
 ## 참조 유효성 검사
 
-제공된 스크립트를 실행하여 참조를 확인할 수 있습니다. 이러한 스크립트를 통해 손상된 참조를 식별한 다음 패치하거나 수정할 수 있습니다.
+제공된 스크립트를 실행하여 참조를 확인할 수 있습니다. 이러한 스크립트는 손상된 참조를 식별한 다음 패치하거나 수정하는 데 도움이 될 수 있습니다.
 
 - `/bin/fmdita/validatebtree?operation=validate` - 손상된 콘텐츠 참조를 보고하지만 수정하지 않습니다.
 - `/bin/fmdita/validatebtree?operation=patch`- 끊어진 콘텐츠 참조 및 패치를 나열하거나 수정합니다.
@@ -475,4 +475,3 @@ AEM Guides를 설치 및 구성했으면 문제를 해결할 수 있습니다.
 - 다음으로 설정 `DEBUG`
 
 작성된 로그 파일은 스크립트 실행과 관련된 모든 정보를 기록하며 브라우저에서 스크립트를 트리거하는 동안 브라우저 세션 시간 초과에 유용합니다.
-

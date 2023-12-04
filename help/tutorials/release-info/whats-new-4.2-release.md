@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides 4.2 릴리스의 새로운 기능
 description: Adobe Experience Manager Guides 4.2 릴리스의 새로운 기능과 향상된 기능에 대해 알아봅니다
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---

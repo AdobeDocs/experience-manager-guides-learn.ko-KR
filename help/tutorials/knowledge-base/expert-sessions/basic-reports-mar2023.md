@@ -1,10 +1,9 @@
 ---
 title: AEM 안내서의 보고서
 description: 사용자가 컨텐츠 품질을 개선하는 데 도움이 되는 AEM의 모든 보고서를 사용할 수 있는지 알아봅니다.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -59,8 +58,7 @@ ht-degree: 1%
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - 온-프레미스: 4.2 이상
-> - Cloud Services: 2302 이상
-
+> - Cloud Service: 2302 이상
 
 
 ## 다음 전문가 세션

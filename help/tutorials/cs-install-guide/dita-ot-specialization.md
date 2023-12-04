@@ -1,13 +1,12 @@
 ---
 title: 사용자 지정 DITA-OT 및 DITA 특수화 사용
 description: 사용자 지정 DITA-OT 및 DITA 특수화를 사용하는 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 DITA-OT 및 DITA 특수화 사용 {#id181GAJ0005Z}
 
@@ -141,5 +140,3 @@ DITA 특수화는 새 요소를 추가하거나 기존 요소를 제거하여 �
    프로파일 페이지의 다른 속성에 대한 자세한 내용은 [6단계](#id17A9F0D075Z) / [사용자 지정 DITA-OT 플러그인 사용](#id181NH1020L7) 섹션.
 
 1. 클릭 **완료** 을 클릭하여 프로필을 저장합니다.
-
-

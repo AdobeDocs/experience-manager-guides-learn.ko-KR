@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides as a Cloud Service, 2023년 4월 릴리스
 description: 2023년 4월 Adobe Experience Manager 가이드 as a Cloud Service 릴리스
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,3 @@ AEM Guides as a Cloud Service에서는 마이크로서비스 기반 게시와 �
 
 이제 4월 릴리스에서는 마이크로서비스 기반 기본 PDF 게시를 사용하여 여러 게시 요청을 동시에 실행하고 벌크 PDF 출력을 매우 효율적으로 생성할 수 있습니다.
 자세한 내용은 [AEM Guides as a Cloud Service에 대한 새로운 마이크로서비스 기반 게시 구성](../knowledge-base/publishing/configure-microservices.md).
-

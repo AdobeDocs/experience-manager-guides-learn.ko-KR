@@ -1,13 +1,12 @@
 ---
 title: Oxygen에서 편집할 옵션 구성
 description: Oxygen 커넥터 플러그인에서 편집할 옵션을 구성하는 방법을 알아봅니다.
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # Oxygen에서 편집할 옵션 구성
 
@@ -26,4 +25,3 @@ AEM Guides를 사용하면 Oxygen 커넥터 플러그인에서 DITA 주제 및 D
 > 이 구성은 기본적으로 비활성화되며 옵션은 웹 편집기에서 사용할 수 없습니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

@@ -1,10 +1,9 @@
 ---
 title: 웹 편집기 실행
 description: AEM Guides의 AEM 탐색 페이지, AEM Assets UI 및 DITA 맵 콘솔에서 웹 편집기를 시작하는 방법에 대해 알아봅니다.
-exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---

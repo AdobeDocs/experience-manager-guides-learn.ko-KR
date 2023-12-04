@@ -1,13 +1,12 @@
 ---
 title: 버전 관리
 description: 버전 관리 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
-
 
 # 버전 관리 {#id181GB000XY4}
 
@@ -169,4 +168,3 @@ AEM Guides 웹 편집기를 사용하면 DITA 주제를 만들고 업데이트�
 >[!NOTE]
 >
 > 보고서는 다음 위치에 다운로드됩니다. `/var/dxml/versionpurge`
-

@@ -1,13 +1,12 @@
 ---
 title: UUID 기반 링크 표시 구성
 description: UUID 기반 링크 표시를 구성하는 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
 
 ---
-
 
 # UUID 기반 링크 표시 구성 {#id2035G20M0QN}
 
@@ -20,4 +19,3 @@ ht-degree: 1%
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | 부울 \(true/false\). 연결된 콘텐츠의 상대 경로를 표시하려면 이 속성을 false로 설정하십시오. <br> **기본값**: true |
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

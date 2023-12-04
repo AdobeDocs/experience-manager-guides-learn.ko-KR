@@ -1,13 +1,12 @@
 ---
 title: 텍스트 필터 구성
 description: 텍스트 필터를 구성하는 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # 텍스트 필터 구성 {#id21BPD0FK0XA}
 
@@ -24,7 +23,7 @@ AEM Guides에서는 AEM 저장소의 선택한 경로에 있는 파일에서 텍
 1. 관리자로 Adobe Experience Manager에 로그인합니다.
 1. 맨 위에 있는 Adobe Experience Manager 링크를 클릭하고 **도구**.
 1. 선택 **안내서** 도구 목록에서 **폴더 프로필**.
-1. 을(를) 클릭합니다 **글로벌 프로필** 타일.
+1. 을(를) 클릭합니다 **전역 프로필** 타일.
 1. 클릭 **XML 편집기 구성**.
 1. 클릭 **편집** 맨 위에 있는 아이콘.
 1. 다음을 클릭합니다. **다운로드** 로컬 시스템에서 ui\_config.json 파일을 다운로드하는 아이콘입니다. 그런 다음 파일을 변경한 다음 동일한 파일을 업로드할 수 있습니다.
@@ -78,4 +77,3 @@ AEM Guides에서는 AEM 저장소의 선택한 경로에 있는 파일에서 텍
 구성된 필터는 필터 패널에서 사용할 수 있습니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

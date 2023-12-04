@@ -1,11 +1,10 @@
 ---
 title: 의 릴리스 정보 [!DNL AEM Guides], 2022년 2월 릴리스
 description: 의 2월 릴리스 [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 ## 2월 릴리스로 업그레이드
 
 현재 업그레이드 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 참조) [!DNL AEM Guides] as a Cloud Service) 다음 단계를 수행하여 설정합니다.
-1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2022.2.114.
-1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 의 2월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
+1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
+1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Service 파일 Git 코드 2022.2.114.
+1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 의 2월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
 
 ## 호환성 매트릭스
 
@@ -27,7 +26,7 @@ ht-degree: 3%
 | FMPS | FrameMaker |
 | --- | --- |
 | 호환되지 않음 | 2020 업데이트 4 이상 |
-|  |  |
+| | |
 
 
 ### 산소 연결기
@@ -60,7 +59,7 @@ ht-degree: 3%
 
 [!DNL AEM Guides] as a Cloud Service 웹 편집기에서 연 파일을 닫으려고 할 때 변경 사항을 저장하고 잠긴 파일의 잠금을 해제하라는 메시지가 표시됩니다. 프롬프트는 다음을 기반으로 표시됩니다. **닫을 때 체크인 요청** 및 **닫을 때 새 버전 요청** 관리자가 구성한 설정입니다.
 
-구성을 기반으로 변경 사항을 저장하고 새 문서 버전을 만들 수 있는 옵션이 제공됩니다. 또는 파일을 체크 인하고 변경 내용을 현재 버전에 저장할 수도 있습니다.
+구성을 기반으로 변경 사항을 저장하고 새 버전의 문서를 만들 수 있는 옵션이 제공됩니다. 또는 파일을 체크 인하고 변경 내용을 현재 버전에 저장할 수도 있습니다.
 
 ![파일 닫기](assets/file-close-save-changes-unlock.png)
 

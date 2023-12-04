@@ -1,10 +1,10 @@
 ---
 title: 출력 생성 설정 구성
 description: 출력 생성 설정을 구성하는 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5761'
-ht-degree: 1%
+source-wordcount: '5762'
+ht-degree: 0%
 
 ---
 
@@ -37,13 +37,13 @@ AEM Guides에는 출력 생성 프로세스를 사용자 정의할 수 있는 �
    > 이 구성은 기본적으로 비활성화되어 있으며 맵 대시보드에서 기준선 탭을 사용할 수 있습니다.
 
 
-## FrameMaker Publishing Server 구성 {#id1678G0Z0TN6}
+## 구성 FrameMaker Publishing Server {#id1678G0Z0TN6}
 
 FrameMaker Publishing Server \(FMPS\)를 사용하여 DITA 콘텐츠에 대한 출력을 생성할 수 있습니다. FMPS를 구성하면 FMPS에서 지원하는 다양한 형식으로 출력을 생성할 수 있습니다.
 
 >[!NOTE]
 >
-> FMPS를 사용하여 출력을 생성하려면 FMPS 서버를 설정해야 합니다. 설치 및 구성에 대한 자세한 내용은 FrameMaker Publishing Server 사용 안내서를 참조하십시오.
+> FMPS를 사용하여 출력을 생성하려면 FMPS 서버를 설정해야 합니다. 설치 및 구성에 대한 자세한 내용은 FrameMaker Publishing Server 사용 안내서 를 참조하십시오.
 
 FMPS를 사용하도록 AEM Guides를 구성하려면 다음 속성을 업데이트합니다. `com.adobe.fmdita.config.ConfigManager` 번들로 웹 콘솔을 만듭니다.
 
@@ -53,13 +53,13 @@ FMPS를 사용하도록 AEM Guides를 구성하려면 다음 속성을 업데이
 
 | 속성 | 설명 |
 |--------|-----------|
-| FrameMaker Publishing Server 로그인 도메인 | FrameMaker Publishing Server가 호스팅되는 도메인 이름 또는 작업 그룹 이름을 지정합니다. FMPS 버전에 따라 도메인 이름을 다음과 같이 입력합니다.   **FMPS 2020**: IP 주소 192.168.1.101 <br>- **FMPS 2019 및 이전**: IP 주소 또는 도메인 이름 |
-| FrameMaker Publishing Server URL | FrameMaker Publishing Server의 URL을 지정합니다. FMPS 버전에 따라 FMPS URL을 다음과 같이 제공합니다.<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 및 이전**: `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FrameMaker Publishing Server 로그인 도메인 | 도메인이 호스팅되는 FrameMaker Publishing Server 이름 또는 작업 그룹 이름을 지정합니다. FMPS 버전에 따라 도메인 이름을 다음과 같이 입력합니다.   **FMPS 2020**: IP 주소 192.168.1.101 <br>- **FMPS 2019 및 이전**: IP 주소 또는 도메인 이름 |
+| FRAMEMAKER PUBLISHING SERVER URL | FrameMaker Publishing Server URL을 지정합니다. FMPS 버전에 따라 FMPS URL을 다음과 같이 제공합니다.<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 및 이전**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS 버전 | FrameMaker Publishing Server의 버전 번호를 지정합니다. FMPS 버전에 따라 버전 정보를 다음과 같이 제공합니다. <br>- **FMPS 2020**: 2020년 <br> - **FMPS 2019 및 이전**: 2019 또는 2017 |
-| FrameMaker Publishing Server 사용자 이름과 암호 | FrameMaker Publishing Server에 액세스하려면 사용자 이름과 암호를 지정합니다. |
+| FrameMaker Publishing Server 사용자 이름 및 암호 | FrameMaker Publishing Server에 액세스하기 위한 사용자 이름과 암호를 지정합니다. |
 | FMPS 시간 초과 | \(*선택 사항*\) AEM Guides가 FrameMaker Publishing Server의 응답을 기다리는 시간 \(초)을 지정합니다. 지정된 시간에 응답이 없으면 AEM Guides가 게시 작업을 종료하고 작업에 실패로 플래그가 지정됩니다. <br> 기본값: 300초 \(5분\) |
-| 외부 AEM URL | *\(선택 사항\)* FrameMaker Publishing Server가 생성된 출력 파일을 배치할 AEM URL입니다. (예: `http://<server-name>:<port>/`) |
-| AEM 관리자 사용자 이름 및 암호 | *\(선택 사항\)* AEM 설정 관리자의 사용자 이름 및 암호입니다. FrameMaker Publishing Server에서 AEM과 통신하는 데 사용됩니다. |
+| 외부 AEM URL | *\(선택 사항\)* FrameMaker Publishing Server이 생성된 출력 파일을 배치할 AEM URL입니다. 예: `http://<server-name>:<port>/` |
+| AEM 관리자 사용자 이름 및 암호 | *\(선택 사항\)* AEM 설정 관리자의 사용자 이름 및 암호입니다. 이는 AEM과 통신하기 위해 FrameMaker Publishing Server에서 사용됩니다. |
 | FMPS 작업 실행 대기 시간 제한 | 이 설정은 FMPS 2020에만 적용됩니다. 이 프로세스가 실행될 때까지 FMPS가 대기하지 않는 시간 \(초\)을 지정합니다. |
 
 ## 기존 AEM 사이트 내에서 혼합 게시 구성 {#id1691I0V0MGR}
@@ -371,7 +371,7 @@ AEM Guides에서는 DITA-OT를 사용하여 출력을 게시하는 동안 사용
 
 1. 을(를) 클릭합니다 **메타데이터 스키마** 타일.
 
-   The Metadata Schema Forms page is displayed.
+   [메타데이터 스키마 Forms] 페이지가 표시됩니다.
 
 1. 다음 항목 선택 **기본값** 목록에서 양식을 가져옵니다.
 
@@ -414,7 +414,7 @@ AEM Guides에서는 DITA-OT를 사용하여 출력을 게시하는 동안 사용
 
 1. 메타데이터 스키마 Forms 페이지에서 추가한 사용자 지정 메타데이터를 추가합니다. 이 예제에서는 기본 목록의 끝에 대상 매개 변수를 추가합니다.
 
-1. 클릭 **모두 저장**.
+1. **모두 저장**&#x200B;을 클릭합니다.
 
 
 이제 사용자 지정 메타데이터가 DITA 맵 콘솔의 **속성** 드롭다운 목록입니다.
@@ -638,11 +638,11 @@ AEM Guides는 `apps.fmdita.dashboard-extn` 맵 콘솔 사용자 지정 범주 �
 
 >[!NOTE]
 >
-> AEM 클라이언트 라이브러리 만들기에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/kr/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> AEM 클라이언트 라이브러리 만들기에 대한 자세한 내용은 [클라이언트측 라이브러리 사용](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## 출력 생성 중 이미지 렌디션 처리 {#id177BF0G0VY4}
 
-AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 업로드하는 모든 이미지에 대해 AEM은 이진 형식으로 동일한 렌디션을 여러 개 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM이 자산을 처리하는 방법에 대한 자세한 내용은 [Processing Assets Using Media Handlers and Workflows](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) AEM 설명서에서 참조할 수 있습니다.
+AEM에는 자산을 처리하는 기본 워크플로우 및 미디어 핸들 세트가 포함되어 있습니다. AEM에는 가장 일반적인 MIME 유형에 대한 에셋 처리를 처리하는 미리 정의된 워크플로가 있습니다. 일반적으로 업로드하는 모든 이미지에 대해 AEM은 이진 형식으로 동일한 렌디션을 여러 개 만듭니다. 이러한 렌디션은 크기가 다르고 해상도가 다르며 워터마크가 추가되거나 다른 특성이 변경될 수 있습니다. AEM이 자산을 처리하는 방법에 대한 자세한 내용은 [미디어 핸들러 및 워크플로우를 사용하여 자산 처리](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) AEM 설명서에서 참조할 수 있습니다.
 
 AEM Guides를 사용하면 문서에 대한 출력을 생성할 때 사용할 이미지 렌디션을 구성할 수 있습니다. 예를 들어 기본 이미지 표현물 중 하나를 선택하거나 표현물을 만들어 이를 사용하여 문서를 게시할 수 있습니다. 문서를 게시하기 위한 이미지 렌디션 매핑은에 저장됩니다. `/libs/fmdita/config/ **renditionmap.xml**` 파일. 의 코드 조각 `renditionmap.xml` 파일은 다음과 같습니다.
 
@@ -726,4 +726,3 @@ DITA 맵의 출력 탭에 표시되는 생성된 최대 출력 수를 변경할 
 AEM Guides를 사용하면 동시에 실행되는 출력 생성 프로세스의 수를 제어하는 출력 생성 프로세스 풀 크기를 구성할 수 있습니다. 기본적으로 프로세스 풀 크기는 시스템에서 사용할 수 있는 처리 코어 수와 1로 설정됩니다. 순차적 게시를 원하는 경우 이 값을 1로 변경할 수 있습니다. 이 경우 첫 번째 게시 작업이 실행되고 다음 게시 작업이 게시 큐에 저장됩니다.
 
 출력 생성 처리 풀 크기를 변경하려면 **생성 풀 크기** 에서 설정 `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` 번들.
-

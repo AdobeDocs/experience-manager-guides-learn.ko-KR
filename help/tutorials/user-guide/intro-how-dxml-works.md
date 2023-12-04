@@ -1,8 +1,7 @@
 ---
 title: AEM Guides 작동 방식
 description: AEM Guides를 AEM 및 기타 DITA 편집기와 함께 사용하여 엔터프라이즈 시나리오에서 컨텐츠 관리, 재사용, 번역 및 검토 권한을 부여하는 방법을 알아봅니다.
-exl-id: d7383997-451e-4f01-a0a3-3061f151a57c
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%

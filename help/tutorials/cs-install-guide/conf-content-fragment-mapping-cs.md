@@ -1,13 +1,12 @@
 ---
 title: 주제와 콘텐츠 조각 모델 간의 JSON 기반 매핑을 구성합니다.
 description: 주제와 콘텐츠 조각 모델 간의 JSON 기반 매핑을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # 주제와 컨텐츠 조각 간의 매핑 만들기
 

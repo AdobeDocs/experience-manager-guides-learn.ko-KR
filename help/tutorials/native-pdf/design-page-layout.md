@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF 게시 기능 | 페이지 레이아웃 디자인
 description: PDF 출력의 여러 섹션에 정보를 표시하기 위해 페이지 레이아웃을 디자인하는 방법을 알아봅니다.
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---

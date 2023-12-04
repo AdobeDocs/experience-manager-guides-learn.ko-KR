@@ -1,11 +1,10 @@
 ---
 title: 의 릴리스 정보 [!DNL AEM Guides], 2022년 1월 릴리스
 description: 의 1월 릴리스 [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2429'
-ht-degree: 3%
+source-wordcount: '2441'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 ## 1월 릴리스로 업그레이드
 
 현재 업그레이드 [!DNL Adobe Experience Manager Guides] as a Cloud Service(나중에 참조) [!DNL AEM Guides] as a Cloud Service) 다음 단계를 수행하여 설정합니다.
-1. Cloud Services의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Services 파이프라인에 구성된 분기로 전환합니다.
-1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Services 파일 Git 코드 2022.1.78.
-1. 변경 사항을 커밋하고 Cloud Services 파이프라인을 실행하여 의 1월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
+1. Cloud Service의 Git 코드를 체크아웃하고 업그레이드하려는 환경에 해당하는 Cloud Service 파이프라인에 구성된 분기로 전환합니다.
+1. 업데이트 `<dox.version>` 의 속성 `/dox/dox.installer/pom.xml` Cloud Service 파일 Git 코드 2022.1.78.
+1. 변경 사항을 커밋하고 Cloud Service 파이프라인을 실행하여 의 1월 릴리스로 업그레이드합니다. [!DNL AEM Guides] as a Cloud Service.
 
 ## 호환성 매트릭스
 
@@ -27,7 +26,7 @@ ht-degree: 3%
 | FMPS | FrameMaker |
 | --- | --- |
 | 호환되지 않음 | 2020 업데이트 4 이상 |
-|  |  |
+| | |
 
 
 ### 산소 연결기
@@ -78,12 +77,12 @@ AEM 외에도 이 고유한 기능을 사용하여 Salesforce와 같은 기술 �
 
 * 이제 웹 편집기에서 .docx 파일을 업로드할 수 있습니다.
 
-### FrameMaker로 작성자
+### FrameMaker이 있는 작성자
 
-이제 FrameMaker에서 문서를 작성하고 게시할 수 있습니다. FrameMaker는 Adobe Experience Manager에 기본 제공 커넥터와 함께 제공됩니다. FrameMaker에서는 배포 및 공동 작업 환경에서 문서 버전을 유지 관리할 수 있는 사용하기 쉬운 인터페이스를 제공합니다.
+이제 FrameMaker에서 문서를 작성하고 게시할 수 있습니다. FrameMaker은 Adobe Experience Manager에 기본 제공 커넥터와 함께 제공됩니다. FrameMaker에서 배포 및 공동 작업 환경에서 문서 버전을 유지 관리할 수 있는 사용하기 쉬운 인터페이스를 제공합니다.
 
-내용을 만들면 FrameMaker를 사용하여 PDF, HTML 5, EPUB 및 DITA와 같은 다양한 형식으로 문서를 게시할 수 있습니다. 또한 체크아웃, 종속 항목이 있는 체크아웃, 체크인, 새로 고침 등과 같은 다양한 파일 관리 작업을 수행할 수 있습니다.
-에서 FrameMaker로 작성하려면 [!DNL AEM Guides] FrameMaker 버전 2020.4 이상을 as a Cloud Service으로 사용하십시오.
+콘텐츠를 만든 후에는 FrameMaker에서 PDF, HTML 5, EPUB 및 DITA와 같은 다양한 형식으로 문서를 게시할 수 있습니다. 또한 체크아웃, 종속 항목이 있는 체크아웃, 체크인, 새로 고침 등과 같은 다양한 파일 관리 작업을 수행할 수 있습니다.
+에서 FrameMaker을 사용하여 작성하려면 [!DNL AEM Guides] FrameMaker 버전 2020.4 이상을 as a Cloud Service으로 사용하십시오.
 
 ### 새 번역 대시보드
 
@@ -163,7 +162,7 @@ Oxygen의 AEM Server에서 파일을 새로 고치면 현재 Oxygen 세션에 �
 * 작성자가 맵에 ditavalref를 추가할 때 DITAVAL 파일이 표시되지 않습니다. (7594)
 * 각 빈칸에 예기치 않은 공백이 있습니다. `<entry>` outputclass 속성이에 추가될 때 요소 `<tgroup>` 요소를 생성하지 않습니다. (7532)
 * 맵 대시보드를 통해 연 주제에 대해 소스 버튼이 작동하지 않습니다. (7465)
-* 예쁜 인쇄는 FrameMaker 또는 Oxygen에서 파일을 열 때 볼 수 있는 빈 줄과 공백을 삽입합니다. (7408)
+* 예쁜 인쇄는 FrameMaker 또는 산소에서 파일을 열 때 볼 수 있는 빈 줄과 공백을 삽입합니다. (7408)
 * 주제에 href=&quot;/&quot;인 맵은 AEM 사이트에 게시되지 않습니다. (7405)
 * 루트 맵에 키 정의 수가 많은 경우 편집기에서 성능 문제가 발견되었습니다. (7400)
 * 사용자 지정 템플릿이 있는 맵의 문서 상태가 해당 상태 프로필에서 상속되지 않습니다. (7359)
@@ -203,7 +202,7 @@ Oxygen의 AEM Server에서 파일을 새로 고치면 현재 Oxygen 세션에 �
 
 ### 게시
 
-* [버전 관리 활성화]를 선택하면 처음으로 PDF 작성에 실패합니다. (8053, 8294)
+* [버전 관리 활성화]를 선택하면 처음으로 PDF 작성에 실패합니다. (8053,8294)
 * AEM Site 출력의 &#39;tm; 태그 뒤에 공백 문자가 자동으로 추가됩니다. (7964)
 * AEM 사이트 출력에서 YouTube 비디오를 볼 수 없습니다. (7401)
 * 사용자가 맵 대시보드의 기준선 탭에서 모든 항목 찾아보기 를 클릭한 후 참조된 콘텐츠에 대해 레이블로 필터링할 수 없습니다. (7388)
@@ -212,7 +211,7 @@ Oxygen의 AEM Server에서 파일을 새로 고치면 현재 Oxygen 세션에 �
 * 관련 있는 참조 주제가 기준선 탭에 표시됩니다. (5424)
 * 제목에 conkeyref가 있는 주제에 대한 증분 게시가 예상대로 작동하지 않습니다. (4474)
 * 해당 설정이 선택되어 있더라도 페이지 제목은 출력 URL 생성에 사용되지 않습니다. (8257)
-* 기준선 게시 고정된 노드 대신 이미지의 현재 버전을 선택합니다. 이는 파일 이름에 공백이나 특수 문자가 있는 경우에도 표시됩니다. (8274, 8322)
+* 기준선 게시 고정된 노드 대신 이미지의 현재 버전을 선택합니다. 이는 파일 이름에 공백이나 특수 문자가 있는 경우에도 표시됩니다. (8274,8322)
 * mapref가 있는 유형 제목 체계가 있는 DITA 맵에 대해 증분 게시가 실패합니다. (8218)
 * 맵이 벌크 게시 대시보드에 추가될 때마다 Null이 추가됩니다. (8695)
 * 주제의 기준 게시를 이미지와 함께 conref로 사용할 때 이미지가 출력에 게시되지 않습니다. (8564)
@@ -249,16 +248,16 @@ Adobe은 다음에 대해 알려진 문제를 확인했습니다. [!DNL AEM Guid
 다음과 같은 알려진 문제에 대해 주어진 해결 방법을 사용하십시오.
 
 * Mac의 산소 커넥터에 대해 웹 인증이 작동하지 않습니다.
-   **해결 방법**: 지금은 Windows에서 산소 커넥터를 사용하십시오.
+  **해결 방법**: 지금은 Windows에서 산소 커넥터를 사용하십시오.
 
 * Firefox 브라우저에서는 나란히 보기를 열지 않으면 검토 주석을 가져올 수 없습니다.
-   **해결 방법**: 지금은 Chrome 브라우저를 사용합니다.
+  **해결 방법**: 지금은 Chrome 브라우저를 사용합니다.
 
 * 파일 이름에 공간이 있는 이미지 또는 멀티미디어 파일을 이동할 때 참조가 중단됩니다.
-   **해결 방법**: 이동하기 전에 파일 이름을 바꾸고 파일 이름에서 공백을 제거합니다.
+  **해결 방법**: 이동하기 전에 파일 이름을 바꾸고 파일 이름에서 공백을 제거합니다.
 
 * 맵 대시보드가 최신 버전의 Chrome 브라우저에서 간헐적으로 로드되지 않습니다.
-   **해결 방법**: 맵 대시보드 페이지를 새로 고칩니다.
+  **해결 방법**: 맵 대시보드 페이지를 새로 고칩니다.
 
 ### 기타 알려진 문제
 

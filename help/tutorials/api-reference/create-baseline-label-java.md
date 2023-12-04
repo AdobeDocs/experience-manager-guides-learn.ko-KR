@@ -1,13 +1,12 @@
 ---
 title: 기준 및 레이블로 작동하는 Java 기반 API
 description: 기준 및 레이블로 작동하는 Java 기반 API에 대해 알아보기
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # 기준 및 레이블로 작동하는 Java 기반 API {#id175UB30E05Z}
 
@@ -50,7 +49,7 @@ LinkedHashMap indirectContext)
 throws GuidesApiException
 ```
 
-**매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다. 사용자 세션에는 DITA 맵에 대한 읽기 및 쓰기 권한과 베이스라인에 포함된 모든 참조 파일에 대한 읽기 권한이 모두 있어야 합니다.| |`sourcePath`|문자열|AEM 저장소에 있는 DITA 맵 파일의 절대 경로입니다.| |`baselineTitle`|문자열|기준선에 대한 고유한 제목입니다.| |`label`|문자열|지정된 레이블이 적용된 주제의 버전을 선택합니다.| |`directContext`|LinkedHashmap&lt;string object=&quot;&quot;>|직접 참조된 항목 \(content\)을 기반으로 구성을 선택하면 맵에서 언급한 순서가 따라 버전을 확인합니다. <br> 맵의 모든 키에서 반복 후 버전을 찾을 수 없는 경우 기준 작성 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 empty 맵과 null 맵을 보내지 않음\) 기본적으로 다음과 같이 채워집니다. <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> 기준 요소 생성에서 지정된 레이블의 버전만 선택하고 해당 버전이 없으면 실패합니다. `label` 키와 기준선을 만들 레이블입니다.| |`indirectContext`|LinkedHashmap&lt;string object=&quot;&quot;>|간접적으로 참조된 항목 \(참조된 콘텐츠\)을 기반으로 구성을 선택하면 맵에서 언급된 순서를 따라 버전을 확인합니다. <br> 맵의 모든 키에서 반복 후 버전을 찾을 수 없는 경우 기준 작성 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 empty 맵과 null 맵을 보내지 않음\) 기본적으로 다음과 같이 채워집니다. <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 버전을 자동으로 선택하는 대신 최신 버전이 되도록 하려면 다음을 바꿉니다. <br>`indirectContext.put("pickAutomatically", null);` <br> _with:_ <br>`indirectContext.put("latest", true)`|
+**매개 변수**: 이름|유형|설명| ---- --------------- |`session`|javax.jcr.Session|유효한 JCR 세션입니다. 사용자 세션에는 DITA 맵에 대한 읽기 및 쓰기 권한과 베이스라인에 포함된 모든 참조 파일에 대한 읽기 권한이 모두 있어야 합니다.| |`sourcePath`|문자열|AEM 저장소에 있는 DITA 맵 파일의 절대 경로입니다.| |`baselineTitle`|문자열|기준선에 대한 고유한 제목입니다.| |`label`|문자열|지정된 레이블이 적용된 주제의 버전을 선택합니다.| |`directContext`|LinkedHashmap&lt;string object=&quot;&quot;>|직접 참조된 항목 \(content\)을 기반으로 구성을 선택하면 맵에서 언급한 순서가 따라 버전을 확인합니다. <br> 맵의 모든 키에서 반복 후 버전을 찾을 수 없는 경우 기준 작성 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 empty 맵과 null 맵을 보내지 않음\) 기본적으로 다음과 같이 채워집니다. <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> 기준 요소 생성에서 지정된 레이블의 버전만 선택하고 해당 버전이 없으면 실패합니다. `label` 키와 기준선을 만들 레이블입니다.| |`indirectContext`|LinkedHashmap&lt;string object=&quot;&quot;>|간접적으로 참조된 항목 \(참조된 콘텐츠\)을 기반으로 구성을 선택하면 맵에서 언급된 순서를 따라 버전을 확인합니다. <br> 맵의 모든 키에서 반복 후 버전을 찾을 수 없는 경우 기준 작성 프로세스가 실패합니다. <br> HashMap이 비어 있으면 \(기본적으로 empty 맵과 null 맵을 보내지 않음\) 기본적으로 다음과 같이 채워집니다. <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 버전을 자동으로 선택하는 대신 최신 버전이 되도록 하려면 다음을 바꿉니다. <br>`indirectContext.put("pickAutomatically", null);` <br> _포함:_ <br>`indirectContext.put("latest", true)`|
 
 **반환**: 기준 요소의 이름으로, JCR 저장소에 있는 기준 요소의 노드 이름입니다. 새로 만든 베이스라인의 제목이 DITA 맵의 베이스라인 페이지에 표시됩니다.
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **반환**: 다음을 포함한 맵 *key:value* 쌍 `path:deletedlabels` 기준선의 모든 파일에 대해.
 
 **예외**: throw ``RepositoryException`, `VersionException`, `Exception``.
-

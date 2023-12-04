@@ -1,13 +1,12 @@
 ---
 title: 문서 기반 게시용 패키지 설치
 description: 문서 기반 게시용 패키지를 설치하는 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
-
 
 # 문서 기반 게시용 패키지 설치 {#id21BNL02052Z}
 
@@ -40,4 +39,3 @@ AEM Guides는 웹 편집기와 통합된 강력한 문서 기반 게시 기능�
 AEM 사이트를 사용하여 웹 편집기의 출력 사전 설정을 사용하여 문서를 게시할 수 있습니다.
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

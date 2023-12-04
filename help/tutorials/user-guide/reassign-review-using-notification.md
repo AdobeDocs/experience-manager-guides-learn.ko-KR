@@ -1,8 +1,7 @@
 ---
 title: 알림을 사용하여 검토 작업 재할당
 description: AEM Guides의 알림을 사용하여 검토 작업을 재할당합니다. 받은 편지함 알림에서 검토자 작업을 재할당하는 방법을 알아봅니다.
-exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%

@@ -1,10 +1,9 @@
 ---
 title: 도구를 사용하여 데이터 소스 커넥터 구성
 description: 도구를 사용하여 데이터 소스 커넥터를 구성하는 방법을 알아봅니다.
-exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---

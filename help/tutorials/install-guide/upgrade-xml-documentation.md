@@ -1,11 +1,10 @@
 ---
 title: Adobe Experience Manager Guides 업그레이드
 description: Adobe Experience Manager Guides를 업그레이드하는 방법 알아보기
-exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4349'
-ht-degree: 1%
+source-wordcount: '4470'
+ht-degree: 0%
 
 ---
 

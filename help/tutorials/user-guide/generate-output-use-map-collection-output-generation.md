@@ -1,8 +1,7 @@
 ---
 title: 출력 생성을 위해 맵 컬렉션 사용
 description: 맵 컬렉션을 만들고 삭제하고 DITA 맵을 추가하거나 삭제하는 방법에 대해 알아봅니다. AEM Guides의 맵 컬렉션에서 출력 생성 작업을 구성, 생성 및 취소합니다.
-exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%

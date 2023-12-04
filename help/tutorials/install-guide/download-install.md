@@ -1,13 +1,12 @@
 ---
 title: 다운로드 및 설치
 description: 다운로드 및 설치 방법 알아보기
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # 다운로드 및 설치 {#id1645E0O04MK}
 
@@ -21,7 +20,7 @@ AEM 가이드는 Adobe 소프트웨어 배포 포털을 통해 제공됩니다. 
 
 - **[처음으로 AEM Guides 다운로드 및 설치](download-install-aemg-first-time.md)**
 
-- Dispatcher **[구성](download-install-configure-dispatcher.md)**
+- **[Dispatcher 구성](download-install-configure-dispatcher.md)**
 
 - **[AEM Guides 설치 확인](download-install-verify-aemg-installation.md)**
 
@@ -30,5 +29,3 @@ AEM 가이드는 Adobe 소프트웨어 배포 포털을 통해 제공됩니다. 
 - **[AEM Guides 제거](download-install-unistall-aemg.md)**
 
 - **[성능 최적화를 위한 Recommendations](download-install-recommend-perf-optimiz.md)**
-
-

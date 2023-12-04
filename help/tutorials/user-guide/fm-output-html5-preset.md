@@ -1,8 +1,7 @@
 ---
 title: HTML5
 description: AEM Guides에서 FrameMaker 문서에 대한 HTML5 출력을 생성하고 구성합니다.
-exl-id: 9ac39237-c6b3-47d9-8d54-67150002c050
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 5%

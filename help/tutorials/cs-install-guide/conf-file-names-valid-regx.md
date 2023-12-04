@@ -1,13 +1,12 @@
 ---
 title: 올바른 파일 이름 문자에 대한 Regx 구성
 description: 올바른 파일 이름 문자에 대해 Regx를 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
-
 
 # 올바른 파일 이름 문자에 대한 Regx 구성 {#id214BD0550E8}
 
@@ -30,4 +29,3 @@ AEM Guides 3.8 릴리스부터 관리자는 파일 이름에 사용할 수 있�
 > 유효한 파일 이름 문자 목록과 유사하게 AEM Site 출력에 유효한 파일 이름 문자 목록을 지정할 수도 있습니다. 자세한 내용은 [AEM 사이트 출력에 대한 유효한 파일 이름 구성](conf-file-names-valid-regx-aem-site-output.md#).
 
 **상위 항목:**[&#x200B;파일 이름 구성](conf-file-names.md)
-

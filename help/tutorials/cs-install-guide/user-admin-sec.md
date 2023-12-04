@@ -1,13 +1,12 @@
 ---
 title: 사용자 관리 및 보안
 description: 사용자 관리 및 보안의 작동 방식 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 12%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
-
 
 # 사용자 관리 및 보안 {#id181AED00G5Z}
 
@@ -82,11 +81,11 @@ AEM Guides에서는 DITA 프로젝트의 다양한 작업을 관리할 수 있�
 
 - 기본적으로, *게시자* 에는 DAM의 다음 폴더에 대한 액세스 및 권한이 부여됩니다.
 
-   - `/content/fmdita` –\> 읽기/쓰기
+   - `/content/fmdita` -\> 읽기 및 쓰기
 
-   - `/content/dam/fmdita-outputs` –\> 읽기/쓰기
+   - `/content/dam/fmdita-outputs` -\> 읽기 및 쓰기
 
-   - `/content/output/sites` –\> 읽기/쓰기
+   - `/content/output/sites` -\> 읽기 및 쓰기
 
   위에서 언급한 기본 게시 위치 이외의 다른 위치를 사용하는 경우 게시자에게 명시적 읽기 및 쓰기 권한을 부여해야 합니다.
 
@@ -101,4 +100,3 @@ AEM Guides에서는 DITA 프로젝트의 다양한 작업을 관리할 수 있�
 - 사용자에게 문서 상태를 변경할 수 있는 권한을 부여하려면 문서 상태 프로필의 상태 전환 섹션에서 사용자를 추가해야 합니다.
 
 [1](#fnsrc_1) If *작성자* 및 *게시자* 리뷰를 위해 초대되었습니다.[2](#fnsrc_2) 문서 상태 프로필에서 사용자에게 부여된 권한에 따라 다릅니다.
-

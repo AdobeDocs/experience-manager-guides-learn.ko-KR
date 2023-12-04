@@ -1,13 +1,12 @@
 ---
 title: 이 안내서 정보
 description: 이 안내서 정보 알아보기
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
-
 
 # 이 안내서 정보 {#id175MC0P0S5Z}
 
@@ -71,4 +70,3 @@ Adobe Experience Manager Guides \(나중에 설명됨) *AEM 안내서*\) 는 강
 - API 참조 안내서
 - 빠른 시작 안내서
 - [도움말 보관 페이지](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(이전 릴리스 설명서에 액세스\)
-

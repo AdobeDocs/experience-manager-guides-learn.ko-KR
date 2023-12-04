@@ -1,10 +1,9 @@
 ---
 title: 웨비저 도구 모음에 실행 가능한 새 사용자 지정 단추 추가
 description: 웨비저 도구 모음에 새 사용자 지정 단추를 추가하고 Javascript를 호출하여 사용자 지정 작동하는 방법에 대해 알아봅니다.
-exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ JIRA ID가 포함된 &quot;change-request-id&quot; 요소는 API에서 검색해
 
 
 - 폴더 프로필을 저장한 후 프로젝트 디렉터리(아래에 있을 수 있음) 아래에 &quot;cq:ClientLibraryFolder&quot;를 만듭니다. */apps*) 아래 스크린샷에 표시된 대로 속성을 추가합니다.
-   ![웨비터용 클라이언트 라이브러리 설정](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![웨비터용 클라이언트 라이브러리 설정](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.

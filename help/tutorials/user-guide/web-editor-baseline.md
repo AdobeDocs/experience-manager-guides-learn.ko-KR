@@ -1,10 +1,9 @@
 ---
 title: 웹 편집기에서 기준선 만들기 및 관리
 description: AEM Guides의 웹 편집기에서 기준선을 만들고 관리합니다. 레이블을 기반으로 기준선을 만들고 기준선에 필터를 적용하는 방법을 알아봅니다.
-exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---

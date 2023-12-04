@@ -1,13 +1,12 @@
 ---
 title: AEM Guides 설치 확인
 description: AEM Guides 설치를 확인하는 방법에 대해 알아봅니다
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 5%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
-
 
 # AEM Guides 설치 확인 {#id213BD030FBE}
 
@@ -27,4 +26,3 @@ AEM Guides를 설치한 후에는 설치 성공 여부를 확인해야 합니다
 
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

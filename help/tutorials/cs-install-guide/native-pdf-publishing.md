@@ -1,15 +1,12 @@
 ---
 title: 기본 PDF 게시 기능 사용자 지정 및 구성
 description: 기본 PDF 기능의 다양한 구성 요소를 사용자 지정하고 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
-
-
 
 # 기본 PDF 게시
 
@@ -30,4 +27,3 @@ AEM Guides를 사용하면 기본 PDF 출력 생성 기능을 사용하여 개�
    * [PDF 출력에 사용자 지정 책갈피 추가](../native-pdf/add-custom-bookmark.md)
    * [JavaScript를 사용하여 콘텐츠 또는 스타일 작업](../native-pdf/use-javascript-content-style.md)
    * [각주에서 사용자 정의 스타일 사용](../native-pdf/footnote-number-style.md)
-

@@ -1,13 +1,12 @@
 ---
 title: DITA가 아닌 콘텐츠 마이그레이션
 description: 비DITA 콘텐츠를 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2792'
+source-wordcount: '2761'
 ht-degree: 0%
 
 ---
-
 
 # DITA가 아닌 콘텐츠 마이그레이션 {#id181AH0R02HT}
 
@@ -79,17 +78,17 @@ Word 문서를 성공적으로 변환하려면 문서를 잘 구조화해야 합
 
    - 다음에서 `s2tMap` 요소를 사용하려면 Word 문서 스타일과 DITA 요소의 매핑이 포함된 맵 파일의 위치를 지정하십시오. 기본 매핑은 다음 위치에 있는 파일에 저장됩니다.
 
-      ```XML
-      /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
-      ```
+     ```XML
+     /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
+     ```
 
-      >[!NOTE]
-      >
-      > 의 구조에 대한 자세한 내용은 `word-builtin-styles-style2tagmap.xml` 파일 및 파일 사용자 지정 방법은 다음을 참조하십시오. [스타일-태그 매핑](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) 위치: *게시자용 DITA 사용 안내서*.
+     >[!NOTE]
+     >
+     > 의 구조에 대한 자세한 내용은 `word-builtin-styles-style2tagmap.xml` 파일 및 파일 사용자 지정 방법은 다음을 참조하십시오. [스타일-태그 매핑](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) 위치: *게시자용 DITA 사용 안내서*.
 
    - props2Propagate 요소에서 DITA 맵에 전달할 속성을 지정합니다. 이 속성은 문서 메타데이터에서 변환된 DITA 에셋으로 dc:title,dc:subject,dam:keywords,dam:category와 같은 기본 메타데이터를 전달하는 데 필요합니다.
 
-1. 저장 `w2d_io.xml` 파일.
+1. `w2d_io.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `w2d_io.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -102,7 +101,7 @@ Word 문서를 성공적으로 변환하려면 문서를 잘 구조화해야 합
 
 ## Adobe InDesign 문서 마이그레이션 {#id195AD0B0K5Z}
 
-AEM Guides를 사용하면 InDesign 문서를 변환할 수 있습니다. FrameMaker와 마찬가지로 InDesign을 사용하면 구조화되지 않은 문서와 정형 문서를 만들 수 있습니다. 구조화되지 않은 문서는 단락 및 문자 스타일을 사용하여 컨텐츠의 서식을 지정합니다. 구조화된 문서는 요소와 해당 속성을 사용합니다.
+AEM Guides를 사용하면 InDesign 문서를 변환할 수 있습니다. FrameMaker 과 마찬가지로 InDesign 을 사용하면 구조화되지 않은 문서와 정형 문서를 만들 수도 있습니다. 구조화되지 않은 문서는 단락 및 문자 스타일을 사용하여 컨텐츠의 서식을 지정합니다. 구조화된 문서는 요소와 해당 속성을 사용합니다.
 
 변환 프로세스에서는 단락 및 문자 스타일 형식을 관련 DITA 요소에 매핑해야 합니다. 마찬가지로 구조화된 문서의 경우 매핑 파일에는 DITA 요소 및 속성이 있는 InDesign 요소 및 속성의 일대일 매핑이 포함됩니다.
 
@@ -141,15 +140,15 @@ AEM Guides를 사용하면 InDesign 문서를 변환할 수 있습니다. FrameM
 
    - 다음에서 `mapStyle` 요소를 사용하려면 InDesign 문서 스타일과 DITA 요소의 매핑이 포함된 맵 파일의 위치를 지정하십시오. 기본 매핑은 다음 위치에 있는 파일에 저장됩니다.
 
-      ```XML
-      /stmap.adobeidml.xml
-      ```
+     ```XML
+     /stmap.adobeidml.xml
+     ```
 
-      >[!NOTE]
-      >
-      > 의 구조에 대한 자세한 내용은 `stmap.adobeidml.xml` 파일 및 파일 사용자 지정 방법은 [InDesign-DITA 마이그레이션을 위한 매핑 파일 준비](appendix.md#id194AF0003HT) 의 섹션 *부록*.
+     >[!NOTE]
+     >
+     > 의 구조에 대한 자세한 내용은 `stmap.adobeidml.xml` 파일 및 파일 사용자 지정 방법은 [InDesign-DITA 마이그레이션을 위한 매핑 파일 준비](appendix.md#id194AF0003HT) 의 섹션 *부록*.
 
-1. 저장 `idml2dita_io.xml` 파일.
+1. `idml2dita_io.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `idml2dita_io.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -175,42 +174,42 @@ ZIP 파일에 문서를 업로드하려면 다음 사항을 고려해야 합니�
 
 - index.html 파일을 만들고 목차에 추가할 항목에 대한 링크를 추가합니다. 이 index.html 파일은 DITA 맵 파일을 만드는 데 사용됩니다. index.html 파일에서는 다음 코드 샘플과 같이 나열된 중첩된 주제를 만들 수도 있습니다.
 
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?>
-   <html
-   xmlns="http://www.w3.org/1999/xhtml">
-       <head>
-           <title>Sample Index File</title>
-       </head>
-       <body>
-           <h1>Sample Index</h1>
-           <div class="content">
-               <ul class="book">
-                   <li class="topicref">
-                       <a href="Topic1.html">Topic 1</a>
-                       <ul class="book">
-                           <li class="topicref">
-                               <a href="Topic1-1.html">Topic 1.1</a>
-                           </li>
-                           <li class="topicref">
-                               <a href="Topic1-2.html">Topic 1.2</a>
-                           </li>
-                       </ul>
-                   </li>
-                   <li class="topicref">
-                       <a href="Topic2.html">Topic 2</a>
-                   </li>
-               </ul>
-           </div>
-       </body>
-   </html>
-   ```
+  ```XML
+  <?xml version="1.0" encoding="UTF-8"?>
+  <html
+  xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+          <title>Sample Index File</title>
+      </head>
+      <body>
+          <h1>Sample Index</h1>
+          <div class="content">
+              <ul class="book">
+                  <li class="topicref">
+                      <a href="Topic1.html">Topic 1</a>
+                      <ul class="book">
+                          <li class="topicref">
+                              <a href="Topic1-1.html">Topic 1.1</a>
+                          </li>
+                          <li class="topicref">
+                              <a href="Topic1-2.html">Topic 1.2</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="topicref">
+                      <a href="Topic2.html">Topic 2</a>
+                  </li>
+              </ul>
+          </div>
+      </body>
+  </html>
+  ```
 
-   모든 항목 `ul` 태그에 가 있어야 함 `class` 속성이 로 설정됨 `book`. 마찬가지로 다음 간격마다 `li` 태그 `class` 은(는) 로 설정되어야 합니다. `topicref`.
+  모든 항목 `ul` 태그에 가 있어야 함 `class` 속성이 로 설정됨 `book`. 마찬가지로 다음 간격마다 `li` 태그 `class` 은(는) 로 설정되어야 합니다. `topicref`.
 
 - 인라인 스타일을 사용하는 경우 인라인 스타일을 XHTML 파일에서 CSS 기반 스타일 클래스로 변환합니다. 그런 다음 스타일 속성 매핑을 사용하여 이러한 클래스 기반 스타일을 DITA로 변환합니다 `outputclass` 변환된 DITA 파일의 특성.
 
-   이러한 DITA 파일에서 HTML 또는 AEM 사이트 출력을 생성하는 동안 `outputclass` 속성을 사용하여 소스 HTML 컨텐츠와 일치하도록 생성된 HTML 또는 AEM 사이트에 스타일-클래스를 적용할 수 있습니다.
+  이러한 DITA 파일에서 HTML 또는 AEM 사이트 출력을 생성하는 동안 `outputclass` 속성을 사용하여 소스 HTML 컨텐츠와 일치하도록 생성된 HTML 또는 AEM 사이트에 스타일-클래스를 적용할 수 있습니다.
 
 
 ZIP 파일을 만들기 위한 고려 사항 외에도 XHTML 문서 또한 잘 구조화되어야 합니다. 예를 들어 문서에는 *제목*, 그 다음 *제목 1*, *제목 2*&#x200B;등. 각 제목에는 일부 콘텐츠가 포함되어 있어야 합니다. 문서가 제대로 구성되지 않은 경우 마이그레이션 프로세스가 예상대로 작동하지 않을 수 있습니다.
@@ -237,7 +236,7 @@ ZIP 파일을 만들기 위한 고려 사항 외에도 XHTML 문서 또한 잘 �
 
    - 의 경우 `createRev` 요소를 사용하여 변환된 DITA 주제의 새 버전을 만들지 여부를 지정합니다. \(`true`\) 아님 \(`false`\).
 
-1. 저장 `h2d_io.xml` 파일.
+1. `h2d_io.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `h2d_io.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -266,13 +265,13 @@ ZIP 파일을 만들기 위한 고려 사항 외에도 XHTML 문서 또한 잘 �
 
 ## 구조화되지 않은 FrameMaker 문서 마이그레이션 {#id1949B050VUI}
 
-AEM Guides를 사용하면 기존의 비정형 FrameMaker \(`.fm` 및 `.book`\) 문서를 DITA 문서로 변환합니다. 첫 번째 단계는 FrameMaker를 사용하여 스타일 매핑을 만들고 이러한 설정을 .sts 파일에 저장하는 것입니다. 그런 다음 사용자 지정 DITA를 사용하는 경우 `ditaElems.xml` 파일. 예를 들어 이라는 사용자 지정 요소를 만든 경우 `impnote` 모든 중요한 메모를 처리하려면에서 이 사용자 지정 요소를 `ditaElems.xml` 파일. 이 사용자 지정 요소가 정의되면 AEM Guides는 다음을 포함하는 FrameMaker 문서를 변환하는 동안 오류를 발생시키지 않습니다 `impnote` 요소를 생성하지 않습니다.
+AEM Guides를 사용하면 기존의 비정형 FrameMaker \(`.fm` 및 `.book`\) 문서를 DITA 문서로 변환합니다. 첫 번째 단계는 FrameMaker을 사용하여 스타일 매핑을 만들고 이러한 설정을 .sts 파일에 저장하는 것입니다. FrameMaker 그런 다음 사용자 지정 DITA를 사용하는 경우 `ditaElems.xml` 파일. 예를 들어 이라는 사용자 지정 요소를 만든 경우 `impnote` 모든 중요한 메모를 처리하려면에서 이 사용자 지정 요소를 `ditaElems.xml` 파일. 이 사용자 지정 요소가 정의되면 AEM Guides는 이 포함된 FrameMaker 문서를 변환하는 동안 오류를 발생시키지 않습니다 `impnote` 요소를 생성하지 않습니다.
 
 또한 사용자 지정 또는 유효한 DITA 요소와 함께 몇 가지 추가 특성을 지정하려면 style2attrMap.xml 파일에서 이러한 특성을 정의할 수 있습니다. 예를 들어 `type` 값이 인 속성 `important` 을(를) 사용하여 전달합니다. `impnote` 요소를 생성하지 않습니다. 이 추가 정보는 style2attrMap.xml 파일에서 지정할 수 있습니다.
 
 을 지정하는 것 외에
 
-기존의 비정형 FrameMaker 문서를 DITA 형식으로 변환하려면 다음 단계를 수행합니다.
+기존의 구조화되지 않은 FrameMaker 문서를 DITA 형식으로 변환하려면 다음 단계를 수행하십시오.
 
 1. FrameMaker에서 스타일 매핑을 만들고 .sts 파일에 저장합니다.
 
@@ -310,7 +309,7 @@ AEM Guides를 사용하면 기존의 비정형 FrameMaker \(`.fm` 및 `.book`\) 
 
    - 다음에서 `ditaVal` 요소를 지정하고 매핑된 속성의 값을 지정합니다. 값이 없으면 이 항목을 비워 둘 수 있습니다.
 
-1. 저장 `style2attrMap.xml` 파일.
+1. `style2attrMap.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `style2attrMap.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -361,7 +360,7 @@ AEM Guides를 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 
    - 의 경우 `createRev` 요소를 사용하여 변환된 DITA 주제의 새 버전을 만들지 여부를 지정합니다. \(`true`\) 아님 \(`false`\).
 
-1. 저장 `XSLConfig.xml` 파일.
+1. `XSLConfig.xml` 파일을 저장합니다.
 
 1. 에서 필요한 매개 변수를 구성한 후 `XSLConfig.xml` 파일을 열고 AEM에 로그인한 다음 Assets UI를 엽니다.
 
@@ -373,4 +372,3 @@ AEM Guides를 사용하면 기존의 구조화된 문서를 유효한 DITA 문�
 사용 `<config> </config>` 블록에서는 변환을 위해 하나 이상의 구성 블록을 정의할 수 있습니다. 변환 워크플로우가 실행되고 DITA 주제 형식의 최종 출력이 `outputDir` 요소를 생성하지 않습니다.
 
 **상위 항목:**[&#x200B;기존 콘텐츠 마이그레이션](migrate-content.md)
-

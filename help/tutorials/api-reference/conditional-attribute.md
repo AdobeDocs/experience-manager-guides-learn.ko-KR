@@ -1,13 +1,12 @@
 ---
 title: 조건부 특성으로 작업할 수 있는 REST API
 description: 조건부 특성으로 작동하는 REST API에 대해 알아봅니다
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
-
 
 # 조건부 특성으로 작업할 수 있는 REST API {#id175UB30E05Z}
 
@@ -20,7 +19,7 @@ ht-degree: 2%
 **요청 URL**:\
 http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
-**매개변수**:\
+**매개 변수**:\
 |이름|유형|필수|설명| -------- ------------------- |`:operation`|문자열|예|호출되는 작업의 이름. 이 매개 변수의 값은 다음과 같습니다. ``ADDATTRIBUTEPROFILES``. <br> **참고:** 값은 대/소문자를 구분하지 않습니다.| |`profilename`|문자열|예|조건부 특성을 추가해야 하는 폴더 수준 프로필의 이름을 표시합니다.| |`conditionalprofiles`|JSON 배열|예|조건부 속성 이름과 값으로 구성된 JSON 배열입니다. 다음 예제 코드 조각은 두 가지 속성이 있는 JSON 배열을 보여 줍니다. `platform` 및 `product` 여러 값이 할당되어 있습니다.|
 
 ```JSON
@@ -40,4 +39,3 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **응답 값**:\
 HTTP 200 \(Successful\) 응답을 반환합니다.
-

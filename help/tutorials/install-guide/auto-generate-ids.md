@@ -1,13 +1,12 @@
 ---
 title: 요소 ID 자동 생성
 description: 요소 ID를 자동으로 생성하는 방법에 대해 알아봅니다.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
-
 
 # 요소 ID 자동 생성 {#id20CIL40016I}
 
@@ -43,4 +42,3 @@ AEM Guides에서는 ID가 자동 생성되는 요소와 ID에 대한 패턴을 �
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

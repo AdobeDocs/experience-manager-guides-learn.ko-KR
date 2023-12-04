@@ -1,8 +1,7 @@
 ---
 title: 기본 PDF 게시 기능 | JavaScript를 사용하여 콘텐츠 또는 스타일 작업
 description: 사용 스타일시트를 만들고 콘텐츠의 스타일을 만드는 방법에 대해 알아봅니다.
-exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%

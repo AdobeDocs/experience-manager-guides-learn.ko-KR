@@ -1,13 +1,12 @@
 ---
 title: 워크플로우 구성 및 사용자 정의
 description: 워크플로우 구성 및 사용자 지정 방법 알아보기
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 4%
+source-wordcount: '1744'
+ht-degree: 1%
 
 ---
-
 
 # 워크플로우 구성 및 사용자 정의 {#id181AI0OJ0RO}
 
@@ -15,11 +14,11 @@ ht-degree: 4%
 
 AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시오.
 
-- [워크플로 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html)
+- [워크플로우 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- 워크플로우 적용 및 참여: [워크플로우 작업](https://helpx.adobe.com/kr/experience-manager/6-5/sites/authoring/using/workflows.html).
+- 워크플로우 적용 및 참여: [워크플로우 작업](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- 워크플로우 모델 만들기 및 워크플로우 기능 확장: [워크플로우 개발 및 확장](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/workflows.html).
+- 워크플로우 모델 만들기 및 워크플로우 기능 확장: [워크플로우 개발 및 확장](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
 - 중요한 서버 리소스를 사용하는 워크플로우의 성능 향상: [동시 워크플로우 처리](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
@@ -28,7 +27,7 @@ AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시�
 
 ## 리뷰 워크플로 사용자 지정 {#id176NE0C00HS}
 
-모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로우에 대한 자세한 내용은 [워크플로우 관리](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/workflows.html) AEM 설명서에서 참조할 수 있습니다.
+모든 조직의 콘텐츠 작성 팀은 비즈니스 요구 사항을 충족하기 위해 특정 방식으로 작업합니다. 일부 조직에서는 전용 편집기가 있는 반면, 다른 조직에서는 편집 검토 시스템을 자동화할 수 있습니다. 예를 들어 조직에서 일반적인 작성 및 게시 작업 과정에는 작성자가 컨텐츠 작성을 완료할 때마다 검토자에게 자동으로 전달되고 검토가 완료되면 최종 출력을 생성하기 위해 게시자에게 전달되는 등의 작업이 포함될 수 있습니다. AEM에서 컨텐츠 및 에셋에서 수행하는 활동은 프로세스 형태로 결합되어 AEM 워크플로우에 매핑될 수 있습니다. AEM의 워크플로우에 대한 자세한 내용은 [워크플로우 관리](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) AEM 설명서에서 참조할 수 있습니다.
 
 AEM Guides를 사용하면 기본 검토 워크플로를 사용자 지정할 수 있습니다. 다른 작성 또는 게시 작업 과정에서 다음 네 가지 사용자 정의 검토 관련 프로세스를 사용할 수 있습니다.
 
@@ -184,7 +183,7 @@ generatedPath;
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. **저장 및 닫기**&#x200B;를 클릭합니다
+1. 클릭 **저장 및 닫기**
 
 
 ## 사후 처리 XML 워크플로우 구성 {#id18CJB03J0Y4}
@@ -204,5 +203,4 @@ AEM Guides는 AEM의 DITA 콘텐츠로 작업할 수 있도록 해주는 다양�
 | 속성 | 번들 이름 | 설명 |
 |--------|-----------|-----------|
 | 다이내믹 아웃바운드 | `com.adobe.fmdita.postprocess.PostProcessObservation` | 사후 처리가 수행되지 않은 모든 파일의 경우 주제 파일을 구문 분석하여 나가는 참조를 검색합니다. 처리할 파일 수가 많은 경우 시스템을 오버로드할 수 있으므로 이 옵션을 비활성화하는 것이 좋습니다. |
-| 사후 프로세스 스레드 | `com.adobe.fmdita.config.ConfigManager` | 사후 처리 워크플로에 사용할 사후 처리 스레드 수를 설정합니다. <br>기본값은 1입니다. |
-
+| 사후 프로세스 Threads | `com.adobe.fmdita.config.ConfigManager` | 사후 처리 워크플로에 사용할 사후 처리 스레드 수를 설정합니다. <br>기본값은 1입니다. |

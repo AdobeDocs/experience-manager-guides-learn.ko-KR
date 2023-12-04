@@ -1,13 +1,12 @@
 ---
 title: 웹 편집기에서 파일 자동 저장 구성
 description: 웹 편집기에서 파일 자동 저장을 구성하는 방법에 대해 알아봅니다
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
 
 ---
-
 
 # 웹 편집기에서 파일 자동 저장 구성 {#id199CC0J0M5Z}
 
@@ -33,4 +32,3 @@ ht-degree: 1%
 
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

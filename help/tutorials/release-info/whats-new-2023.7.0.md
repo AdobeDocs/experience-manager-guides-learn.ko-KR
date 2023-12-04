@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보 | Adobe Experience Manager Guides의 새로운 기능, 2023년 7월 릴리스
-description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 7월 릴리스의 새로운 기능과 향상된 기능에 대해 알아보십시오
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+description: Adobe Experience Manager Guides as a Cloud Service으로 2023년 7월 릴리스의 새로운 기능과 향상된 기능을 알아보십시오
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,12 @@
 ---
 title: AEM Guides 업그레이드
 description: AEM Guides를 업그레이드하는 방법 알아보기
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # AEM Guides 업그레이드 {#id213BD050YPH}
 
@@ -29,4 +28,3 @@ ht-degree: 0%
 업그레이드 프로세스를 완료한 후 업그레이드된 AEM Guides 버전을 사용하기 전에 모든 사용자가 브라우저 캐시를 지워야 합니다.
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

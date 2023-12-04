@@ -1,13 +1,12 @@
 ---
 title: 워크플로우 구성 및 사용자 정의
 description: 워크플로우 구성 및 사용자 지정 방법 알아보기
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
-
 
 # 워크플로우 구성 및 사용자 정의 {#id181AI0OJ0RO}
 
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 AEM의 워크플로우에 대한 자세한 내용은 다음을 참조하십시오.
 
-- [워크플로 인스턴스 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
+- [워크플로우 인스턴스 관리](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
 
 - 워크플로우 적용 및 참여: [프로젝트 워크플로를 사용하여 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
@@ -153,4 +152,3 @@ generatedPath;
 ```
 
 스크립트를 생성했으면 워크플로우에서 사용자 지정 스크립트를 호출합니다. 그런 다음 요구 사항에 따라 다른 워크플로우 프로세스를 호출할 수 있습니다. 사용자 지정 워크플로우를 디자인했으면 *사후 생성 완료* 워크플로 프로세스의 마지막 단계로 사용됩니다. 다음 *사후 생성 완료* 단계에서는 출력 생성 작업의 상태가 다음으로 업데이트되도록 합니다. *완료됨* 출력 생성 프로세스 완료 시. 사용자 정의 사후 출력 생성 워크플로우를 만든 후 출력 생성 사전 설정을 사용하여 워크플로우를 구성할 수 있습니다. 에서 필요한 워크플로우 선택 *사후 생성 워크플로 실행* 필요한 사전 설정의 속성입니다. 구성된 출력 사전 설정을 사용하여 출력 생성 작업을 실행하면 작업 상태 \([출력] 탭\)가 *후처리*.
-

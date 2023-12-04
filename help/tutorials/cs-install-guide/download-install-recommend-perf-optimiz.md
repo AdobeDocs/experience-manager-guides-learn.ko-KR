@@ -1,13 +1,12 @@
 ---
 title: 성능 최적화를 위한 Recommendations
 description: 성능 최적화를 위한 Recommendations 학습
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
-
 
 # 성능 최적화를 위한 Recommendations {#id213BD0JG0XA}
 
@@ -23,4 +22,3 @@ ht-degree: 3%
 
 
 **상위 항목:**[&#x200B;다운로드 및 설치](download-install.md)
-

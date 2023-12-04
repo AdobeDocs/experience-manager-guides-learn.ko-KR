@@ -1,11 +1,10 @@
 ---
 title: 콘텐츠 번역
 description: 콘텐츠를 여러 언어로 번역하는 방법을 알아봅니다.
-exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -48,8 +47,7 @@ AEM Guides는 강력한 번역 기능을 통해 다국어 콘텐츠 생성을 �
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - On-prem 4.1 이상
-> - Cloud Services 2207 이상
-
+> - Cloud Service 2207 이상
 
 ## 연락처
 

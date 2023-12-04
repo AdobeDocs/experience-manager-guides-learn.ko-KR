@@ -1,13 +1,12 @@
 ---
 title: 요소 ID 자동 생성
 description: 요소 ID를 자동으로 생성하는 방법에 대해 알아봅니다.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 1%
 
 ---
-
 
 # 요소 ID 자동 생성 {#id20CIL40016I}
 
@@ -28,4 +27,3 @@ AEM Guides에서는 ID가 자동 생성되는 요소와 ID에 대한 패턴을 �
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | 이 필드의 기본값은 (으)로 설정됩니다. `${elementName}_${id}`. 다음 `${elementName}` 값이 요소의 이름으로 대체됩니다. 다음 `${id}` 변수는 요소에 대한 순차적 번호를 생성합니다. 예를 들어, 단락 요소를 할당하여 자동 생성된 ID를 갖게 되면 주제나 문서의 첫 번째 단락은 p\_1과 같은 ID를 갖게 되고 다음 단락은 p\_2를 받게 됩니다. 하지만 다른 문서에서는 ID 생성 프로세스가 다시 시작됩니다. 즉, 다른 문서에서 p\_1 및 p\_2와 같은 ID를 단락 요소에 할당할 수 있습니다. **기본값**: ``${elementName}_${id}`` |
 
 **상위 항목:**[&#x200B;웹 편집기 사용자 지정](conf-web-editor.md)
-

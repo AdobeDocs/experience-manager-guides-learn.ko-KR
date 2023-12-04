@@ -1,10 +1,9 @@
 ---
 title: 웹 기반 콘텐츠 작성
 description: 웹 편집기를 사용하여 구조화된 콘텐츠를 작성하는 방법을 알아봅니다.
-exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -48,8 +47,7 @@ AEM Guides에는 구조화된 콘텐츠를 작성할 수 있는 웹 편집기가
 >
 > 이 세션에 표시된 기능은 다음 버전의 AEM Guides에서 사용할 수 있습니다.
 > - On-prem 4.1.3 이상
-> - Cloud Services 2211 이상
-
+> - Cloud Service 2211 이상
 
 ## 연락처
 

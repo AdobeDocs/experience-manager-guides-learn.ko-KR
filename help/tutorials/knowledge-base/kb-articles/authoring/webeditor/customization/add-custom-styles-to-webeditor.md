@@ -1,10 +1,9 @@
 ---
 title: Guides webeditor에 사용자 정의 스타일 추가
 description: 맞춤형 스타일을 추가하여 Guides Webeditor의 모양과 느낌을 변경하는 방법을 알아봅니다.
-exl-id: 3a9dd701-9d9d-4d7f-bc0c-855904404fd1
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---

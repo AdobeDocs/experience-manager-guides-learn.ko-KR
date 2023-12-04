@@ -1,10 +1,9 @@
 ---
 title: 기본 PDF | PDF 출력 생성
 description: 기본 PDF 게시를 사용하고, PDF 출력 사전 설정을 만들고, 기본 PDF 출력을 생성한 후 임시 파일을 다운로드하고, AEM Guides에서 언어 변수를 사용하는 방법에 대해 알아봅니다.
-exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---

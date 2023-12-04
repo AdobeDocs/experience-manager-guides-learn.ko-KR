@@ -1,13 +1,12 @@
 ---
 title: 고급 맵 편집기 를 기본값으로 설정합니다.
 description: 고급 맵 편집기를 기본값으로 설정하는 방법에 대해 알아봅니다
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # 고급 맵 편집기 를 기본값으로 설정합니다. {#id181AI0003PN}
 
@@ -30,5 +29,3 @@ AEM Guides에는 기본 맵 편집기 및 고급 맵 편집기가 포함되어 �
 1. 다음 항목 선택 **기본 맵 편집기 숨기기** 옵션을 선택합니다.
 
    이 옵션을 선택하면 사용자 인터페이스의 모든 위치에 기본 맵 편집기 링크가 표시되지 않습니다. 기본적으로 맵 파일은 고급 맵 편집기에서 열립니다.
-
-
