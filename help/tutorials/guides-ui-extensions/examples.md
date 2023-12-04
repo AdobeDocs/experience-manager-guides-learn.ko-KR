@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: f00c135222adf57a418b4885cff2f3f036ea07ff
+source-git-commit: d99be38f5d69a7472909511faad230bea9bc435b
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 5. [주제 검토 패널](../../src/review_app_examples/topic_reviews.ts): 이 파일은 [인라인 검토 패널](../../src/review_app_examples/inline_review_panel.ts) 따라서 추가된 맞춤화는 검토 앱 측면에서도 작동합니다.
 
 6. [수정 포함 수락 대화 상자](../../src/review_app_examples/accept_with_modification_dialog.ts)
-앱에 새 위젯을 추가하는 예제입니다. 여기에서는 두 개의 입력 텍스트 필드가 있는 새 대화 상자를 만들었습니다. `Revised Text` 및 `Adjudicator Comment Rationale`
+다음은 앱에 새 위젯을 추가하는 예제입니다. 여기에서는 두 개의 입력 텍스트 필드가 있는 새 대화 상자를 만들었습니다. `Revised Text` 및 `Adjudicator Comment Rationale`
 
 ![수정 포함 수락 대화 상자](./imgs/accept_with_modification_dialogue.png)
 
