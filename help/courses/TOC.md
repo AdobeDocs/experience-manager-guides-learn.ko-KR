@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Experience Manager Guides 자습서
+user-guide-title: Adobe Experience Manager Guides 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 비디오 컬렉션입니다.
 breadcrumb-title: AEM Guides 비디오
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
