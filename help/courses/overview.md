@@ -2,14 +2,14 @@
 title: 비디오 튜토리얼 [!DNL Adobe Experience Manager Guides]
 description: 다음에 대한 비디오 튜토리얼 보기 [!DNL Adobe Experience Manager Guides], AEM XML 추가 기능, AEM XML 플러그인, AEM DoX 및 AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: 28aa657e4ab0bb1297469ea60f4b4f87ad07c961
+source-git-commit: 0c2a131c2e8125590e4b624d7fe16ebd1fbbce16
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
-# AEM Guides 비디오
+# AEM Guides용 튜토리얼
 
 이 스페이스에서에 대한 비디오 기반 교육 과정 확인 [!DNL Adobe Experience Manager Guides].
 
