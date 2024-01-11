@@ -1,16 +1,16 @@
 ---
 user-guide-title: Adobe Experience Manager Guides 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 비디오 컬렉션입니다.
-breadcrumb-title: AEM Guides 비디오
-source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
+breadcrumb-title: AEM Guides용 튜토리얼
+source-git-commit: b78894069aa2b1279365d716332b5f6e2e3be865
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 16%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] 튜토리얼 {#videos}
+# Tutorials [!DNL Adobe Experience Manager Guides] {#videos}
 
 + [[!DNL AEM Guides] 비디오](overview.md)
 + 시작하기 [!DNL AEM Guides] {#getting-started}
