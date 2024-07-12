@@ -1,11 +1,11 @@
 ---
-title: 콘텐츠 만들기 [!DNL AEM Guides]
-description: 콘텐츠 만들기 [!DNL Adobe Experience Manager Guides]
+title: ' [!DNL AEM Guides]에서 콘텐츠를 만드는 중'
+description: ' [!DNL Adobe Experience Manager Guides]에서 콘텐츠를 만드는 중'
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
 source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 ## 폴더 만들기
 
-1. 다음 항목 선택 **저장소** 아이콘 을 클릭하여 폴더 및 파일을 봅니다.
+1. 폴더 및 파일을 보려면 **저장소** 아이콘을 선택하십시오.
 
    ![저장소 아이콘](images/common/repository-icon.png)
 
-1. 다음 항목 선택 **+** 아이콘 및 **폴더**.
+1. **+** 아이콘과 **폴더**&#x200B;를 선택합니다.
 
    ![+ 아이콘](images/lesson-3/+-icon.png)
 
@@ -39,10 +39,10 @@ ht-degree: 1%
 
    옵션(Options) 메뉴가 표시됩니다.
 
-1. 선택 **\> 폴더 만들기**.
+1. **폴더 만들기**를 선택합니다.
    ![하위 폴더 만들기](images/lesson-3/create-subfolder-with-markings.png)
 
-1. 하위 폴더에 제목(예: &quot;이미지&quot;)을 지정하고 **만들기**.
+1. 하위 폴더에 제목(예: &quot;이미지&quot;)을 지정하고 **만들기**&#x200B;를 선택합니다.
 
 ## 새 개념 만들기 및 채우기
 
@@ -52,21 +52,21 @@ ht-degree: 1%
 
    옵션 메뉴 가 표시됩니다.
 
-1. 선택 **\> 항목 만들기**.
+1. **주제 만들기 \>**&#x200B;를 선택합니다.
 
    ![새 주제 만들기](images/lesson-3/create-topic-with-markings.png)
 
    새 주제 만들기 대화 상자가 표시됩니다.
 
-1. 대화 상자의 템플릿 드롭다운 메뉴에서 을(를) 선택합니다 **개념**.
+1. 대화 상자의 템플릿 드롭다운 메뉴에서 **개념**&#x200B;을(를) 선택합니다.
 
    ![템플릿 드롭다운](images/lesson-3/dropdown-with-markings.png)
 
-1. 개념에 제목을 지정하고 다음을 선택합니다. **만들기**.
+1. 개념에 제목을 지정하고 **만들기**&#x200B;를 선택하세요.
 
    새 개념이 해당 제목으로 채워져 편집기에 표시됩니다.
 
-   ![새로운 개념](images/lesson-3/new-concept.png)
+   ![새 개념](images/lesson-3/new-concept.png)
 
 1. 짧은 설명 또는 단락을 클릭하고 콘텐츠를 입력하여 개념을 채웁니다.
 
@@ -76,13 +76,13 @@ ht-degree: 1%
 
 ### 버전 관리 없이 작업 저장
 
-1. 다음 항목 선택 **저장** 아이콘.
+1. **저장** 아이콘을 선택합니다.
 
    ![저장 아이콘](images/common/save.png)
 
 ### 새 버전으로 저장
 
-1. 다음 항목 선택 **새 버전으로 저장** 아이콘 을 클릭하여 액세스합니다.
+1. 저장 아이콘 오른쪽에 있는 **새 버전으로 저장** 아이콘을 선택합니다.
 
    ![새 버전으로 저장 아이콘](images/common/save-as-new-version.png)
 

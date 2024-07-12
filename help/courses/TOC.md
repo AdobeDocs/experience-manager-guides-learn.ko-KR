@@ -10,10 +10,10 @@ ht-degree: 16%
 ---
 
 
-# Tutorials [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides]에 대한 Tutorials {#videos}
 
-+ [[!DNL AEM Guides] 비디오](overview.md)
-+ 시작하기 [!DNL AEM Guides] {#getting-started}
++ [[!DNL AEM Guides]개 비디오](overview.md)
++ [!DNL AEM Guides] {#getting-started} 시작
    + [시작하기 개요](./course-1/overview.md)
    + [AEM 사용자 인터페이스 이해](./course-1/understanding-the-aem-user-interface.md)
    + [콘텐츠 만들기 및 구조](./course-1/creating-and-structuring-content.md)
@@ -22,9 +22,9 @@ ht-degree: 16%
    + [목록 작업](./course-1/working-with-lists.md)
    + [버전 콘텐츠](./course-1/versioning-content.md)
    + [맵 만들기](./course-1/creating-a-map.md)
-   + [기본 출력 게시](./course-1/publishing-default-output.md)
+   + [Publish 기본 출력](./course-1/publishing-default-output.md)
    + [요약](./course-1/recap.md)
-+ 을 사용한 출력 생성 [!DNL AEM Guides] {#output-generation}
++ [!DNL AEM Guides] {#output-generation}(으)로 출력 생성
    + [출력 생성 개요](./course-2/overview.md)
    + [맵 대시보드 이해](./course-2/introduction-to-the-map-dashboard.md)
    + [보고서 작업](./course-2/working-with-reports.md)
@@ -34,7 +34,7 @@ ht-degree: 16%
    + [게시 오류 문제 해결](./course-2/troubleshooting-publishing-errors.md)
    + [일괄 게시](./course-2/bulk-publishing.md)
    + [요약](./course-2/recap.md)
-+ 을 사용하여 작성 [!DNL AEM Guides] 편집자 {#advanced-user-guide}
++ [!DNL AEM Guides] 편집기 {#advanced-user-guide}을(를) 사용하여 작성
    + [작성 개요](./course-3/overview.md)
    + [사용자 환경 설정, 편집기 설정 및 편집기 도구 모음](./course-3/user-settings-preferences-toolbars.md)
    + [폴더 프로필](./course-3/folder-profiles.md)

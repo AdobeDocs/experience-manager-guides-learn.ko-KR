@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # 파일이 이동되었습니다.
 
-&quot;자습서&quot; 섹션의 파일은 이제 `experience-manager-guides.en` 저장소:
+&quot;자습서&quot; 섹션의 파일이 이제 `experience-manager-guides.en` 저장소에 있습니다.
 
 <https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
 

@@ -5,7 +5,7 @@ exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -28,5 +28,5 @@ ht-degree: 2%
 - [변경 내용 추적](track-changes.md)
 - [조건](conditions.md)
 - [지도 및 북맵](maps-and-bookmaps.md)
-- [간단한 콘텐츠 작성 워크플로](simple-content-creation-workflows.md)
+- [간단한 콘텐츠 만들기 워크플로](simple-content-creation-workflows.md)
 - [결론/요약](recap.md)

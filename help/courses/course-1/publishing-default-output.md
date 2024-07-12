@@ -1,6 +1,6 @@
 ---
 title: AEM Guides에서 기본 출력 게시
-description: 에서 기본 출력 게시 [!DNL Adobe Experience Manager Guides]
+description: ' [!DNL Adobe Experience Manager Guides]에 기본 출력 게시 중'
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 다양한 출력 사전 설정에서 선택할 수 있습니다. 이 안내서는 AEM 사이트 및 PDF 출력에 중점을 둡니다.
 
-1. 저장소에서 맵의 줄임표 아이콘을 선택하여 옵션 메뉴를 연 다음, **맵 대시보드에서 를 엽니다.**
+1. 저장소에서 맵의 줄임표 아이콘을 선택하여 옵션 메뉴를 연 다음 **맵 대시보드에서 열기**&#x200B;를 클릭합니다.
 
    ![맵 대시보드에서 열기](images/lesson-9/map-dashboard-with-markings.png)
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    ![출력 사전 설정](images/lesson-9/pdf-aem.png)
 
-1. 선택 **생성.**
+1. **생성.** 선택
 
 1. 생성된 출력의 상태를 보려면 출력 페이지로 이동합니다.
 

@@ -4,7 +4,7 @@ description: 맵 대시보드 소개
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 맵 대시보드의 구성 요소
 
-맵 대시보드에는 출력 사전 설정, 출력 결과, 사용된 항목, 기준선 등을 비롯한 많은 탭이 포함되어 있습니다.
+맵 대시보드에는 출력 사전 설정, 출력 결과, 사용된 항목, 기준선 등을 비롯한 여러 탭이 포함되어 있습니다.
 
 ### 출력 사전 설정
 

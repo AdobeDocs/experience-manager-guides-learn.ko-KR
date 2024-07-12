@@ -1,11 +1,11 @@
 ---
 title: 기준선을 사용하여 만들기 및 게시
-description: 에서 기준선을 사용하여 만들기 및 게시 [!DNL Adobe Experience Manager Guides]
+description: ' [!DNL Adobe Experience Manager Guides]에서 기준선을 사용하여 만들기 및 게시'
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
    ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
 맵 대시보드가 다른 탭에서 열립니다.
 
-1. 선택 **기준선**.
+1. **기준선**&#x200B;을(를) 선택하십시오.
 
    ![baseline-tab.png](images/baseline-tab.png)
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 레이블을 기반으로 기준선 만들기
 
-1. 기준선 탭에서 을(를) 선택합니다 **만들기**.
+1. [기준선] 탭에서 **만들기**&#x200B;를 선택합니다.
 
    ![create-baseline.png](images/create-baseline.png)
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >참고: *레이블이 없는 경우 최신 버전 사용* 기본적으로 확인란이 선택됩니다. 이 항목을 선택하지 않고 선택한 레이블이 없는 주제 또는 미디어 파일이 맵에 있는 경우 기준선 만들기 프로세스가 실패합니다.
+   >참고: *레이블이 없는 경우 최신 버전 사용* 확인란이 기본적으로 선택됩니다. 이 항목을 선택하지 않고 선택한 레이블이 없는 주제 또는 미디어 파일이 맵에 있는 경우 기준선 만들기 프로세스가 실패합니다.
 
 1. 사용할 레이블을 입력합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ### 모든 항목 찾아보기 기능 사용
 
-모든 항목 찾아보기 기능을 사용하면 버전 및 레이블을 포함한 항목 정보를 볼 수 있을 뿐만 아니라 사용되는 버전을 지정할 수 있습니다. 다음을 선택하여 액세스할 수 있습니다. **모든 항목 찾아보기** 기준선을 만들거나 편집할 때.
+모든 항목 찾아보기 기능을 사용하면 버전 및 레이블을 포함한 항목 정보를 볼 수 있을 뿐만 아니라 사용되는 버전을 지정할 수 있습니다. 기준선을 만들거나 편집할 때 **모든 항목 찾아보기**&#x200B;를 선택하여 액세스할 수 있습니다.
 
 ![browse-all-topics.png](images/browse-all-topics.png)
 
@@ -87,13 +87,13 @@ ht-degree: 1%
 
 1. 레이블을 추가할 기준선을 선택합니다.
 
-1. 선택 **레이블 추가**.
+1. **레이블 추가**&#x200B;를 선택합니다.
 
    ![add-labels.png](images/add-labels.png)
 
    레이블 추가 대화 상자가 표시됩니다.
 
-1. 할당할 레이블을 입력하고 다음을 선택합니다. **추가**.
+1. 할당할 레이블을 입력하고 **추가**&#x200B;를 선택합니다.
 
 레이블이 모든 주제에 추가되었습니다.
 
@@ -115,11 +115,11 @@ ht-degree: 1%
 
    ![baseline.png](images/baseline.png)
 
-1. 선택 **완료**.
+1. **완료**&#x200B;를 선택합니다.
 
    ![done.png](images/done.png)
 
-1. 선택 **생성**.
+1. **생성**&#x200B;을 선택하십시오.
 
    ![generate.png](images/generate.png)
 
@@ -136,13 +136,13 @@ ht-degree: 1%
 
 1. 기준선 탭에서 제거할 기준선을 선택합니다.
 
-1. 선택 **제거**.
+1. **제거**&#x200B;를 선택합니다.
 
    ![remove-baseline.png](images/remove-baseline.png)
 
    베이스라인 제거 대화 상자가 표시됩니다.
 
-1. 선택 **제거**.
+1. **제거**&#x200B;를 선택합니다.
 
 기준선이 제거됩니다.
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
 1. [기준선] 탭에서 복제할 기준선을 선택합니다.
 
-1. 선택 **복제**.
+1. **복제**&#x200B;를 선택합니다.
 
    ![duplicate.png](images/duplicate.png)
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
    ![edit-aem.png](images/edit-aem.png)
 
-1. 선택 **모든 항목 찾아보기**.
+1. **모든 항목 찾아보기**&#x200B;를 선택합니다.
 
    ![browse-all-topics.png](images/browse-all-topics.png)
 
@@ -202,6 +202,6 @@ ht-degree: 1%
 
    ![baseline.png](images/baseline.png)
 
-1. 선택 **완료**.
+1. **완료**&#x200B;를 선택합니다.
 
 새 출력 사전 설정이 생성되어 [출력 사전 설정] 페이지에 표시됩니다.

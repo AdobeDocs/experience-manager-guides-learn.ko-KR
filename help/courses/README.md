@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager 안내서
+# Adobe Experience Manager Guides
 
-AEM Guides 교육 과정의 비디오와 Markdown 파일을 저장하는 저장소입니다.
+&quot;AEM Guides&quot; 과정에 대한 비디오 및 Markdown 파일을 저장하는 저장소입니다.

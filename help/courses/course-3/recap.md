@@ -1,21 +1,21 @@
 ---
 title: 교육 시리즈 결론
-description: 교육 AEM 안내서 개요 및 요약
+description: AEM Guides 교육 개요 및 요약
 exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
-# 리뷰
+# 검토
 
 >[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
 이 과정에서 학습한 내용은 다음과 같습니다.
 
-- [사용자 환경 설정 및 설정](./user-settings-preferences-toolbars.md)
+- [사용자 환경 설정](./user-settings-preferences-toolbars.md)
 
 - [폴더 프로필](folder-profiles.md)
 
@@ -41,4 +41,4 @@ ht-degree: 8%
 
 - [지도 및 책갈피](maps-and-bookmaps.md)
 
-- [간단한 콘텐츠 작성 워크플로](simple-content-creation-workflows.md)
+- [간단한 콘텐츠 만들기 워크플로](simple-content-creation-workflows.md)

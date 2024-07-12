@@ -1,6 +1,6 @@
 ---
-title: 에서 맵 만들기 [!DNL AEM Guides]
-description: 에서 맵을 만드는 방법을 알아봅니다 [!DNL Adobe Experience Manager Guides]
+title: ' [!DNL AEM Guides]에서 맵 만들기'
+description: ' [!DNL Adobe Experience Manager Guides]에서 맵을 만드는 방법을 알아봅니다.'
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 1%
 다음 위치에서 예제 DITA 파일을 다운로드할 수 있습니다.
 
 * [Documents-with-Visual-Content.dita](assets/working-with-maps/Documents-with-Visual-Content.dita)
-* [Working-with-Tables.dita](assets/working-with-maps/Working-with-Tables.dita)
+* [테이블 작업](assets/working-with-maps/Working-with-Tables.dita)
 
 >[!VIDEO](https://video.tv.adobe.com/v/336725?quality=12&learn=on)
 
@@ -29,18 +29,18 @@ ht-degree: 1%
 
 ## 맵 만들기
 
-1. 을(를) 열려면 [!UICONTROL 옵션] 메뉴에서 기본 폴더의 줄임표 아이콘을 선택합니다.
+1. [!UICONTROL 옵션] 메뉴를 열려면 주 폴더에서 줄임표 아이콘을 선택합니다.
 
    ![줄임표 아이콘](images/lesson-8/ellipses-9.png)
 
-1. 선택 **[!UICONTROL 만들기]** > **[!UICONTROL 맵]**.
+1. **[!UICONTROL 만들기]** > **[!UICONTROL 맵]**&#x200B;을 선택합니다.
 
 
    ![맵 만들기](images/lesson-8/create-map-with-markings.png)
 
-   다음 [!UICONTROL 새 맵 만들기] 대화 상자가 표시됩니다.
+   [!UICONTROL 새 맵 만들기] 대화 상자가 표시됩니다.
 
-1. 다음에서 [!UICONTROL 템플릿] 필드, 선택 **[!UICONTROL 북맵]** 을 클릭하고 맵에 제목을 지정합니다.
+1. [!UICONTROL 템플릿] 필드의 드롭다운 메뉴에서 **[!UICONTROL 북맵]**&#x200B;을(를) 선택하고 맵에 제목을 지정합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
 
    맵이 만들어지고 왼쪽 레일이 자동으로 저장소 보기에서 맵 보기로 변경됩니다.
@@ -67,13 +67,13 @@ ht-degree: 1%
 
 미리보기에서는 기본 형식을 사용하여 콘텐츠를 빠르게 볼 수 있습니다. 제목, 단락, 목록 및 항목의 기타 모든 내용이 표시됩니다.
 
-1. 선택 **[!UICONTROL 미리 보기]** 을 클릭합니다.
+1. 검정색 상단 메뉴 모음에서 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
 
    ![미리보기 버튼](images/common/select-preview.png)
 
-콘텐츠 여는 위치 [!UICONTROL 미리 보기].
+콘텐트가 [!UICONTROL 미리 보기]에서 열립니다.
 
-1. 작성자 보기로 돌아가서 맵 편집을 재개하려면 **작성자.**
+1. 작성자 보기로 돌아가서 맵 편집을 다시 시작하려면 **작성자**&#x200B;를 선택하십시오.
 
    ![작성자 단추](images/lesson-5/author-map.png)
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 맵이 완성되었으므로 이제 작업을 새 버전으로 저장하고 변경 사항을 기록할 수 있습니다.
 
-1. 다음 항목 선택 **[!UICONTROL 새 버전으로 저장]** 아이콘.
+1. **[!UICONTROL 새 버전으로 저장]** 아이콘을 선택합니다.
 
    ![새 버전으로 저장 아이콘](images/common/save-as-new-version.png)
 

@@ -1,6 +1,6 @@
 ---
-title: 에서 목록 작업 [!DNL AEM Guides]
-description: 에서 목록 작업 [!DNL Adobe Experience Manager Guides]
+title: ' [!DNL AEM Guides]의 목록 작업'
+description: ' [!DNL Adobe Experience Manager Guides]의 목록 작업'
 exl-id: 2fde90f1-cb78-4953-ae2e-1fdc3c7798a7
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ### 글머리 기호 목록 삽입
 
-1. 다음 항목 선택 **글머리 기호 목록 삽입** 아이콘을 클릭합니다.
+1. 도구 모음에서 **글머리 기호 목록 삽입** 아이콘을 선택합니다.
 
    ![글머리 기호 목록 삽입 아이콘](images/lesson-6/insert-bulleted-list.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### 순서가 지정된 목록 삽입
 
-1. 다음 항목 선택 **번호 매기기 목록 삽입** 아이콘을 클릭합니다.
+1. 도구 모음에서 **번호 매기기 목록 삽입** 아이콘을 선택합니다.
 
    ![번호 매기기 목록 삽입 아이콘](images/lesson-6/insert-numbered-list.png)
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 이제 개념에 더 많은 콘텐츠를 추가했으므로 작업을 새 버전으로 저장하고 변경 사항을 기록할 수 있습니다.
 
-1. 다음 항목 선택 **새 버전으로 저장** 아이콘.
+1. **새 버전으로 저장** 아이콘을 선택합니다.
 
    ![새 버전으로 저장 아이콘](images/common/save-as-new-version.png)
 

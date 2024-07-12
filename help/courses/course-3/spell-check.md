@@ -4,14 +4,14 @@ description: AEM Guides에서 맞춤법 검사 및 찾기/바꾸기 사용
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
 # 맞춤법 검사 및 찾기/바꾸기
 
-AEM Guides Editor에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기능이 있습니다.
+AEM Guides 편집기에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기능이 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
@@ -29,9 +29,9 @@ AEM Guides Editor에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기�
 
 브라우저의 기본 사전 이외의 맞춤법 검사 도구를 사용할 수 있습니다.
 
-1. 다음으로 이동 **편집기 설정**.
+1. **편집기 설정**(으)로 이동합니다.
 
-1. 다음 항목 선택 **일반** 설정 탭입니다.
+1. **일반** 설정 탭을 선택합니다.
 
    ![맞춤법 검사 구성](images/lesson-11/configure-dictionary.png)
 
@@ -39,9 +39,9 @@ AEM Guides Editor에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기�
 
    - **브라우저 맞춤법 검사** — 맞춤법 검사가 브라우저의 기본 제공 사전을 사용하는 기본 설정입니다.
 
-   - **AEM 맞춤법 검사** — AEM 사용자 지정 사전을 사용하여 사용자 지정 단어 목록을 작성하는 데 사용합니다.
+   - **AEM 맞춤법 검사** — AEM의 사용자 지정 사전을 사용하여 사용자 지정 단어 목록을 만드는 데 사용합니다.
 
-1. 선택 **AEM 맞춤법 검사**.
+1. **AEM 맞춤법 검사**&#x200B;를 선택하세요.
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
@@ -49,13 +49,13 @@ AEM Guides Editor에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기�
 
 관리자는 AEM 사전이 회사 이름과 같은 사용자 정의 단어를 인식하도록 설정을 변경할 수 있습니다.
 
-1. 다음 위치로 이동 **도구** 창.
+1. **도구** 창으로 이동합니다.
 
-1. 에 로그인 **CRXDE Lite**.
+1. **CRXDE Lite**&#x200B;에 로그인합니다.
 
    ![AEM UI CRXDE Lite 아이콘](images/lesson-11/crxde-lite.png)
 
-1. 다음 위치로 이동 **_/apps/fmdita/config 노드_**.
+1. **_/apps/fmdita/config 노드로 이동_**&#x200B;합니다.
 
    ![CRXDE Lite 구성 노드](images/lesson-11/config-node.png)
 
@@ -63,21 +63,21 @@ AEM Guides Editor에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기�
 
    a. 구성 폴더를 마우스 오른쪽 단추로 클릭합니다.
 
-   b. 선택 **만들기 > 파일 만들기**.
+   b. **만들기 > 파일 만들기**&#x200B;를 선택합니다.
 
-   ![새 사전 파일 생성](images/lesson-11/new-dictionary-file.png)
+   ![새 사전 파일 만들기](images/lesson-11/new-dictionary-file.png)
 
-   c. 파일 이름을 지정합니다 _**user_dictionary.txt**_.
+   c. 파일 이름을 _**user_dictionary.txt**_&#x200B;로 지정합니다.
 
    ![사용자 사전 텍스트](images/lesson-11/user-dictionary.png)
 
-   d. 클릭 [!UICONTROL **확인**].
+   d. [!UICONTROL **확인**]&#x200B;을 클릭합니다.
 
 1. 파일을 엽니다.
 
 1. 사용자 지정 사전에 포함할 단어 목록을 추가합니다.
 
-1. 클릭 [!UICONTROL **모두 저장**].
+1. [!UICONTROL **모두 저장**]&#x200B;을 클릭합니다.
 
 1. 파일을 닫습니다.
 
@@ -87,40 +87,40 @@ AEM Guides Editor에는 강력한 맞춤법 검사와 찾기 및 바꾸기 기�
 
 1. 상단 도구 모음에서 찾기 및 바꾸기 아이콘을 클릭합니다.
 
-   ![찾기 바꾸기 아이콘](images/lesson-11/find-replace-icon.png)
+   ![바꾸기 아이콘 찾기](images/lesson-11/find-replace-icon.png)
 
 1. 하단 도구 모음에 단어나 구를 입력합니다.
 
-1. 클릭 [!UICONTROL **찾기**].
+1. [!UICONTROL **찾기**]&#x200B;를 클릭합니다.
 
 1. 필요한 경우 찾은 단어를 대체할 단어를 입력합니다.
 
-1. 클릭 [!UICONTROL **바꾸기**].
+1. [!UICONTROL **바꾸기**]&#x200B;를 클릭합니다.
 
 ## 저장소에서 찾기 및 바꾸기
 
-1. 다음 위치로 이동 **저장소**.
+1. **저장소**&#x200B;로 이동합니다.
 
-1. 다음을 클릭합니다. [!UICONTROL **찾기 및 바꾸기**] 아이콘(화면 왼쪽 하단).
+1. 화면 왼쪽 아래에 있는 [!UICONTROL **찾기 및 바꾸기**] 아이콘을 클릭합니다.
 
-1. 다음을 클릭합니다. [!UICONTROL **설정 표시**] 아이콘.
+1. [!UICONTROL **설정 표시**] 아이콘을 클릭합니다.
 
 1. 다음 중 하나를 선택합니다.
 
-   - **바꾸기 전 파일 체크 아웃** — 관리자가 활성화하면 검색어를 바꾸기 전에 파일이 자동으로 체크 아웃됩니다.
+   - **바꾸기 전 파일 체크 아웃** — 관리자가 사용하도록 설정하면 검색어를 바꾸기 전에 파일이 자동으로 체크 아웃됩니다.
 
-   - **단어 단위만** — 입력한 단어 또는 구문만 정확히 반환하도록 검색을 제한합니다.
+   - **전체 단어만** — 입력한 단어 또는 구문만 반환하도록 검색을 제한합니다.
 
    ![저장소에서 바꾸기 찾기](images/lesson-11/repository-find-replace.png)
 
-1. 다음을 클릭합니다. [!UICONTROL **필터 적용**] 아이콘: 검색을 수행할 저장소의 경로를 선택합니다.
+1. 검색을 수행할 저장소의 경로를 선택하려면 [!UICONTROL **필터 적용**] 아이콘을 클릭합니다.
 
 1. 찾기 및 바꾸기에 사용할 용어를 입력합니다.
 
-1. 필요한 경우 다음을 선택합니다 **바꾸기 후 새 버전 만들기**.
+1. 필요한 경우 **바꾸기 후 새 버전 만들기**&#x200B;를 선택합니다.
 
-1. 클릭 [!UICONTROL **찾기**].
+1. [!UICONTROL **찾기**]&#x200B;를 클릭합니다.
 
 1. 원하는 파일을 열고 화살표를 사용하여 찾은 결과 중 하나에서 다음 결과로 이동합니다.
 
-   ![찾기 대체 탐색 UI](images/lesson-11/find-replace-navigation.png)
+   ![바꾸기 탐색 UI 찾기](images/lesson-11/find-replace-navigation.png)

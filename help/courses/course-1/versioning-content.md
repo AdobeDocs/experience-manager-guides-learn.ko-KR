@@ -1,10 +1,10 @@
 ---
-title: 콘텐츠 버전 관리 [!DNL AEM Guides]
-description: 콘텐츠 버전 관리 [!DNL Adobe Experience Manager Guides]
+title: ' [!DNL AEM Guides]에서 컨텐츠 버전 관리'
+description: ' [!DNL Adobe Experience Manager Guides]에서 컨텐츠 버전 관리'
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
 source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 1. 도구 모음에서 버전 내역 아이콘을 선택합니다.
 
-   ![버전 내역 아이콘](images/lesson-7/version-history.png)
+   ![버전 기록 아이콘](images/lesson-7/version-history.png)
 
    [버전 기록] 대화 상자가 표시됩니다.
 
@@ -55,12 +55,12 @@ ht-degree: 1%
 필요한 경우 버전을 선택하고 버전으로 되돌릴 수 있습니다. 이렇게 하면 현재 버전을 무시하고 이전 버전으로 작업할 수 있습니다.
 
 1. 버전 내역 대화 상자에서 드롭다운에서 되돌아갈 버전을 선택합니다.
-1. 선택 **선택한 버전으로 되돌리기**.
+1. **선택한 버전으로 되돌리기**&#x200B;를 선택합니다.
 
 버전 되돌리기 대화 상자가 표시됩니다.
 
 1. 이전 버전으로 되돌리는 이유에 대한 설명 설명을 추가합니다.
-1. 선택 **확인**.
+1. **확인**&#x200B;을 선택합니다.
 
    주제가 특정 버전으로 복구되었습니다.
 
@@ -68,13 +68,13 @@ ht-degree: 1%
 
 오른쪽 레일의 추적 및 차이점 필터 표시 를 사용하여 미리 보기에서 버전 차이점을 볼 수도 있습니다.
 
-1. 선택 **미리 보기** 을 클릭합니다.
+1. 상단 메뉴 모음에서 **미리 보기**&#x200B;를 선택합니다.
 
    ![미리보기 버튼](images/common/select-preview.png)
 
    주제가 미리보기에서 열립니다.
 
-1. 오른쪽 레일의 추적 드롭다운에서 **마크업 표시**.
+1. 오른쪽 레일의 추적 드롭다운에서 **마크업 표시**&#x200B;를 선택합니다.
 1. 차이 표시 드롭다운에서 비교할 버전을 선택합니다.
 
    변경 사항이 서식이 지정된 콘텐츠로 표시됩니다.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 상이한 재료들의 세트들은 선택된 장소들에서 맞춤화될 필요가 있는 유사한 정보를 포함할 수 있다. 키를 사용하면 DITA로 작업할 때 변수 정보를에 포함할 수 있습니다.
 
-이 단원에서 사용할 수 있는 샘플 파일은 파일에 제공됩니다 [keys.zip](assets/keys.zip).
+이 단원에서 사용할 수 있는 샘플 파일은 [keys.zip](assets/keys.zip) 파일에 제공됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
@@ -29,19 +29,19 @@ ht-degree: 0%
 
    ![Zip 선택](images/lesson-9/select-zip.png)
 
-   d. 클릭 [!UICONTROL **아카이브 추출**] 을 클릭합니다.
+   d. 상단 도구 모음에서 [!UICONTROL **보관 추출**]&#x200B;을 클릭합니다.
 
    ![도구 모음](images/lesson-9/extract-archive.png)
 
    e. 대화 상자에서 키라는 폴더와 같이 추출할 파일의 특정 위치를 선택합니다.
 
-   f. 클릭 [!UICONTROL **다음**].
+   f. [!UICONTROL **다음**]&#x200B;을 클릭합니다.
 
    g. 이전에 업로드한 적이 없는 컨텐츠에 충돌이 없으므로 모든 충돌을 건너뜁니다.
 
-   h. 선택 [!UICONTROL **Extract**] 화면 오른쪽 상단에 있습니다.
+   h. 화면 오른쪽 상단에서 [!UICONTROL **추출**]&#x200B;을(를) 선택합니다.
 
-1. 추출이 완료되면 을 클릭합니다. [!UICONTROL **대상 폴더로 이동**].
+1. 추출이 완료되면 [!UICONTROL **대상 폴더로 이동**]&#x200B;을 클릭합니다.
 
    ![확인](images/lesson-9/go-to-target.png)
 
@@ -55,21 +55,21 @@ ht-degree: 0%
 
    b. 사용자 환경 설정 구성
 
-   c. [!UICONTROL **사용자 환경 설정**] 아이콘을 클릭합니다.
+   c. 상단 도구 모음에서 [!UICONTROL **사용자 환경 설정**] 아이콘을 클릭합니다.
 
    ![상단 도구 모음](images/lesson-9/author-view.png)
 
-   d. 키 아이콘을 클릭하여 **루트 맵** 키를 확인하는 데 사용됩니다.
+   d. 키 아이콘을 클릭하여 키 확인에 사용할 **루트 맵**&#x200B;을(를) 지정합니다.
 
-   e. 원하는 에셋의 확인란을 선택합니다.
+   e. 원하는 Assets에 대한 확인란을 선택합니다.
 
-   ![에셋 드롭다운](images/lesson-9/select-assets.png)
+   ![Assets 드롭다운](images/lesson-9/select-assets.png)
 
-   f. 클릭 [!UICONTROL **선택**].
+   f. [!UICONTROL **선택**]&#x200B;을 클릭합니다.
 
-   g. **저장** 사용자 환경 설정.
+   g. 사용자 환경 설정을 **저장**&#x200B;합니다.
 
-1. 다음 위치로 이동 **맵 보기**.
+1. **맵 보기**(으)로 이동합니다.
 
 1. 지정한 맵을 엽니다.
 
@@ -87,17 +87,17 @@ ht-degree: 0%
 
    a. 맵에서 유효한 위치를 클릭합니다.
 
-   b. 다음을 선택합니다 **Keydef** 아이콘을 클릭합니다.
+   b. 상단 도구 모음에서 **Keydef** 아이콘을 선택합니다.
 
    ![Keydef 도구 모음](images/lesson-9/key-icon.png)
 
    c. [Keydef 삽입] 대화 상자에서 생성 중인 정의에 적합한 Keys의 고유 값을 입력합니다.
 
-   d. 클릭 [!UICONTROL **삽입**].
+   d. [!UICONTROL **삽입**]&#x200B;을 클릭합니다.
 
 1. keydef 내에 topicmeta를 추가합니다.
 
-   a. [!UICONTROL **요소 삽입**] 아이콘을 클릭합니다.
+   a. 상단 도구 모음에서 [!UICONTROL **요소 삽입**] 아이콘을 클릭합니다.
 
    ![Keydef 도구 모음](images/lesson-9/add-icon.png)
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. topicmeta 내에 키워드를 추가합니다.
 
-   a. [!UICONTROL **요소 삽입**] 아이콘을 클릭합니다.
+   a. 상단 도구 모음에서 [!UICONTROL **요소 삽입**] 아이콘을 클릭합니다.
 
    ![Keydef 도구 모음](images/lesson-9/add-icon.png)
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 
 1. topicmeta 내에 키워드를 추가합니다.
 
-   a. [!UICONTROL **요소 삽입**] 아이콘을 클릭합니다.
+   a. 상단 도구 모음에서 [!UICONTROL **요소 삽입**] 아이콘을 클릭합니다.
 
    ![Keydef 도구 모음](images/lesson-9/add-icon.png)
 
-   b. **요소 삽입** 대화 상자, 검색 및 &quot;키워드&quot; 선택
+   b. **요소 삽입** 대화 상자에서 &quot;키워드&quot;를 검색하여 선택합니다.
 
 1. keydef의 값을 키워드에 입력합니다.
 
@@ -131,14 +131,14 @@ ht-degree: 0%
 
 1. 맵에서 keydef 요소를 선택합니다.
 
-1. 상황별 메뉴에서 [!UICONTROL **코드 조각 만들기**].
+1. 상황별 메뉴에서 [!UICONTROL **코드 조각 만들기**]&#x200B;를 클릭합니다.
 
 1. 새 코드 조각 대화 상자에서 제목 및 설명 을 추가합니다.
 콘텐츠에서 기존 키 또는 키워드 정의를 제거할 수도 있습니다.
 
 1. [!UICONTROL **만들기**]&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널에서 을 선택합니다. **코드 조각**.
+1. 왼쪽 패널에서 **코드 조각**&#x200B;을 선택합니다.
 
 1. [코드 조각] 패널에서 방금 만든 코드 조각을 맵으로 끌어서 놓습니다.
 
