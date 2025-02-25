@@ -2,9 +2,9 @@
 title: AEM Guides 편집기 구성
 description: AEM Guides용 편집기 구성
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 988c288fc03e509a3a55e87b1e1ecd8fd07d1c92
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 이제 텍스트 편집기에서 콘텐츠를 열고 수정할 수 있습니다. _AEM Guides 설치 및 구성_ 안내서에는 UI 구성에 기능을 제거, 사용자 지정 또는 추가하는 방법에 대한 샘플이 포함되어 있습니다.
 
-## 수정된 XML 편집기 UI 구성 업로드
+## 수정된 XML 편집기 구성 업로드
 
 UI 구성을 사용자 지정한 후 업로드할 수 있습니다. 샘플 구성 파일 _ui-config-restricted-editor.json_&#x200B;은(는) 이 단원의 지원 항목 집합과 함께 제공됩니다.
 
 1. 폴더 프로필 내에서 [!UICONTROL **XML 편집기 구성**] 탭을 클릭합니다.
 
-1. XML 편집기 UI 구성에서 [!UICONTROL **업로드**]&#x200B;를 클릭합니다.
+1. XML 편집기 구성에서 [!UICONTROL **업로드**]&#x200B;를 클릭합니다.
 
    ![업로드](images/lesson-4/upload.png)
 

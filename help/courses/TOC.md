@@ -2,15 +2,15 @@
 user-guide-title: Adobe Experience Manager Guides 튜토리얼
 user-guide-description: Adobe Experience Manager Guides에 대한 비디오 컬렉션입니다.
 breadcrumb-title: AEM Guides용 튜토리얼
-source-git-commit: b78894069aa2b1279365d716332b5f6e2e3be865
+source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '130'
 ht-degree: 16%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides]에 대한 Tutorials {#videos}
+# [!DNL Adobe Experience Manager Guides]에 대한 자습서 {#videos}
 
 + [[!DNL AEM Guides]개 비디오](overview.md)
 + [!DNL AEM Guides] {#getting-started} 시작
@@ -22,7 +22,7 @@ ht-degree: 16%
    + [목록 작업](./course-1/working-with-lists.md)
    + [버전 콘텐츠](./course-1/versioning-content.md)
    + [맵 만들기](./course-1/creating-a-map.md)
-   + [Publish 기본 출력](./course-1/publishing-default-output.md)
+   + [기본 출력 게시](./course-1/publishing-default-output.md)
    + [요약](./course-1/recap.md)
 + [!DNL AEM Guides] {#output-generation}(으)로 출력 생성
    + [출력 생성 개요](./course-2/overview.md)
@@ -38,6 +38,7 @@ ht-degree: 16%
    + [작성 개요](./course-3/overview.md)
    + [사용자 환경 설정, 편집기 설정 및 편집기 도구 모음](./course-3/user-settings-preferences-toolbars.md)
    + [폴더 프로필](./course-3/folder-profiles.md)
+   + [UI 구성 변환](./course-3/conver-ui-config.md)
    + [편집기 구성](./course-3/editor-configuration.md)
    + [패널](./course-3/panels.md)
    + [개요 보기](./course-3/outline-view.md)
