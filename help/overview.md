@@ -43,5 +43,5 @@ ht-degree: 1%
 ## 추가 리소스
 
 * [[!DNL AEM Guides] 온라인 사용 안내서](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] PDF 가이드](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM 탐색](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [[!DNL AEM Guides] PDF 가이드](https://helpx.adobe.com/kr/support/xml-documentation-for-experience-manager.html)
+* [Experience League - AEM 탐색](https://experienceleague.adobe.com/ko#recommended/solutions/experience-manager)
