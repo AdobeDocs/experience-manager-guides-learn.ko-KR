@@ -67,7 +67,7 @@ AEM Guides 편집기에는 강력한 맞춤법 검사와 찾기 및 바꾸기 �
 
    ![새 사전 파일 만들기](images/lesson-11/new-dictionary-file.png)
 
-   c. 파일 이름을 _**user_dictionary.txt**_&#x200B;로 지정합니다.
+   c. 파일 이름을 _&#x200B;**user_dictionary.txt**&#x200B;_&#x200B;로 지정합니다.
 
    ![사용자 사전 텍스트](images/lesson-11/user-dictionary.png)
 

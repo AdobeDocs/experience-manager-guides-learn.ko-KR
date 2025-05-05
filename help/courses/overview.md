@@ -27,6 +27,6 @@ ht-degree: 5%
 
   *[!DNL Adobe Experience Manager Guides]을(를) 사용하여 콘텐츠를 만들고, 구성하고, 작성하고, 게시하는 방법에 대해 알아봅니다.*
 
-*  [!DNL AEM Guides]](course-2/overview.md)**을(를) 사용하여**[&#x200B;출력 생성
+* [!DNL AEM Guides][&#128279;](course-2/overview.md)**을(를) 사용하여**&#x200B;출력 생성
 
   *[!DNL Adobe Experience Manager Guides]을(를) 사용하여 출력을 생성하는 방법에 대해 알아봅니다. 보고서, 기준선, 조건, 문제 해결, 벌크 게시 및 활성화와 같이 출력 생성에 사용할 수 있는 다양한 기능에 대해 알아봅니다.*
