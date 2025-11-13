@@ -2,7 +2,7 @@
 title: ' [!DNL AEM Guides]에서 맵 만들기'
 description: ' [!DNL Adobe Experience Manager Guides]에서 맵을 만드는 방법을 알아봅니다.'
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 9e3650f4711ca49b923baf445c36d5b460daf70b
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -10,6 +10,8 @@ ht-degree: 1%
 ---
 
 # 맵 만들기
+
+{{test}}
 
 맵은 정보를 계층 구조로 추가하고 구성할 수 있는 조직 도구입니다. 이 작업에서는 맵을 만들고 맵에서 콘텐츠를 구성하는 방법을 보여 줍니다.
 
@@ -24,7 +26,7 @@ ht-degree: 1%
 
 원하는 경우 로컬 샘플 파일을 AEM에 업로드하여 보다 완벽한 자료 세트를 얻을 수 있습니다.
 
-1. 로컬 파일을 AEM에 끌어다 놓아 업로드하십시오.
+1. 로컬 파일을 AEM으로 드래그 앤 드롭하여 업로드하십시오.
 1. 이미지 및 주제를 포함하여 모든 파일에 대해 필요에 따라 반복합니다.
 
 ## 맵 만들기
