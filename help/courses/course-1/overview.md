@@ -20,4 +20,4 @@ ht-degree: 0%
 - [글머리 기호 및 번호 매기기 목록 작업](working-with-lists.md)
 - [콘텐츠 버전 지정](versioning-content.md)
 - [맵 만들기 및 구성](creating-a-map.md)
-- [AEM 사이트 및 PDF으로 맵 Publish](publishing-default-output.md)
+- [맵을 AEM 사이트 및 PDF으로 게시](publishing-default-output.md)

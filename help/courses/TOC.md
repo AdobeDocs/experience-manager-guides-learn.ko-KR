@@ -5,7 +5,7 @@ breadcrumb-title: AEM Guides용 튜토리얼
 source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 16%
 # [!DNL Adobe Experience Manager Guides]에 대한 자습서 {#videos}
 
 + [[!DNL AEM Guides]개 비디오](overview.md)
-+ [!DNL AEM Guides] 시작 {#getting-started}
++ [!DNL AEM Guides] 시작하기 {#getting-started}
    + [시작하기 개요](./course-1/overview.md)
    + [AEM 사용자 인터페이스 이해](./course-1/understanding-the-aem-user-interface.md)
    + [콘텐츠 만들기 및 구조](./course-1/creating-and-structuring-content.md)
@@ -24,7 +24,7 @@ ht-degree: 16%
    + [맵 만들기](./course-1/creating-a-map.md)
    + [기본 출력 게시](./course-1/publishing-default-output.md)
    + [요약](./course-1/recap.md)
-+ [!DNL AEM Guides] (으)로 출력 생성 {#output-generation}
++ [!DNL AEM Guides]를 통한 출력 생성 {#output-generation}
    + [출력 생성 개요](./course-2/overview.md)
    + [맵 대시보드 이해](./course-2/introduction-to-the-map-dashboard.md)
    + [보고서 작업](./course-2/working-with-reports.md)
@@ -34,7 +34,7 @@ ht-degree: 16%
    + [게시 오류 문제 해결](./course-2/troubleshooting-publishing-errors.md)
    + [일괄 게시](./course-2/bulk-publishing.md)
    + [요약](./course-2/recap.md)
-+ [!DNL AEM Guides] 편집기을(를) 사용하여 작성 {#advanced-user-guide}
++ [!DNL AEM Guides] 편집기를 사용하여 작성 {#advanced-user-guide}
    + [작성 개요](./course-3/overview.md)
    + [사용자 환경 설정, 편집기 설정 및 편집기 도구 모음](./course-3/user-settings-preferences-toolbars.md)
    + [폴더 프로필](./course-3/folder-profiles.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 - [맵 대시보드 이해](./introduction-to-the-map-dashboard.md)
 - [보고서 작업](./working-with-reports.md)
 - [기준선을 사용하여 만들기 및 게시](./creating-and-publishing-with-baselines.md)
-- [조건이 있는 Publish](./publishing-with-conditions.md)
+- [조건을 사용하여 게시](./publishing-with-conditions.md)
 - [출력 사전 설정 이해](./output-presets.md)
 - [게시 오류 문제 해결](./troubleshooting-publishing-errors.md)
 - [일괄 게시](./bulk-publishing.md)
