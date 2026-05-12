@@ -2,16 +2,30 @@
 title: 폴더 프로필
 description: AEM Guides용 폴더 프로필 만들기 및 사용
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/ztMvUcFQ-GJTOEU3ikB-2WFgj--ttbY7JoSyGW6Poa8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 0%
+source-wordcount: 917
+ht-degree: 1%
 
 ---
 
 # 폴더 프로필
 
-AEM에서는 구성 도구에 빠르게 액세스할 수 있습니다. 폴더 프로필을 사용자 지정하면 다른 부서나 제품에 고유한 템플릿, 작성 환경, 조건부 속성 프로필, 코드 조각 또는 웹 편집기 구성이 있을 수 있습니다.
+AEM을 사용하면 구성 도구에 빠르게 액세스할 수 있습니다. 폴더 프로필을 사용자 지정하면 다른 부서나 제품에 고유한 템플릿, 작성 환경, 조건부 속성 프로필, 코드 조각 또는 웹 편집기 구성이 있을 수 있습니다.
 
 이 단원에서 사용할 수 있는 샘플 파일은 [folderprofiles.zip](assets/folderprofiles.zip) 파일에 제공됩니다.
 

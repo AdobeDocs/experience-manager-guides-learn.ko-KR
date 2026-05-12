@@ -2,9 +2,24 @@
 title: AEM Guides 편집기 구성
 description: 새 AEM Guides 편집기에 대한 JSON 구성 사용자 지정 및 UI 구성 전환.
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
+TQID: https://experienceleague.adobe.com/-OjsNVIiPAMvXO2UhRf0EpJ5BipU4g2b2HYL1KOQwPE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1311
 ht-degree: 0%
 
 ---
@@ -60,7 +75,7 @@ ht-degree: 0%
    >
    > Experience Manager Guides의 2506 릴리스에서는 새 속성 `displayMode`, `documentType`, `documentSubType` 및 `flag`이(가) 도입되었습니다. 이러한 속성은 버전 2506 이상에서만 지원됩니다. 마찬가지로 모드 속성에서 `toc`에서 `layout`(으)로의 변경도 이 릴리스부터 적용됩니다.
    >
-   > 새 필드 `documentType`을(를) 이제 기존 `editor` 필드와 함께 사용할 수 있습니다.  두 필드는 모두 지원되며 필요에 따라 사용할 수 있습니다. 그러나 구현 간에 일관성을 유지하기 위해, 특히 `documentType` 속성으로 작업할 때는 `documentSubType`을(를) 사용하는 것이 좋습니다. `editor` 필드는 이전 버전과의 호환성 및 기존 통합을 지원하는 데 사용할 수 있습니다.
+   > 새 필드 `documentType`을(를) 이제 기존 `editor` 필드와 함께 사용할 수 있습니다.  두 필드는 모두 지원되며 필요에 따라 사용할 수 있습니다. 그러나 구현 간에 일관성을 유지하기 위해, 특히 `documentSubType` 속성으로 작업할 때는 `documentType`을(를) 사용하는 것이 좋습니다. `editor` 필드는 이전 버전과의 호환성 및 기존 통합을 지원하는 데 사용할 수 있습니다.
 
 
 1. `target`: 새 구성 요소를 추가할 위치를 지정합니다. 고유한 식별을 위해 키-값 쌍 또는 인덱스를 사용합니다. 보기 상태는 다음과 같습니다.
@@ -178,8 +193,8 @@ UI 구성 요소의 가시성 또는 상호 작용을 제어합니다. 지정하
 
 `documentType`을(를) 기반으로 문서를 추가로 분류합니다.
 
-- **의`preset`**: `pdf`, `html5`, `aemsite`, `nativePDF`, `json`, `custom`, `kb`
-- **의`dita`**: `topic`, `reference`, `concept`, `glossary`, `task`, `troubleshooting`
+- `preset`**의**: `pdf`, `html5`, `aemsite`, `nativePDF`, `json`, `custom`, `kb`
+- `dita`**의**: `topic`, `reference`, `concept`, `glossary`, `task`, `troubleshooting`
 
 > 특정 사용 사례에 대해 추가 값이 지원될 수 있습니다.
 
@@ -212,7 +227,7 @@ UI 구성 요소의 가시성 또는 상호 작용을 제어합니다. 지정하
 
 **지원되는 값**: `isOutputGenerated`, `isTemporaryFileDownloadable`, `isPDFDownloadable`, `isLocked`, `isUnlocked`, `isDocumentOpen`
 
-또한 `extensionMap`에서 플래그로 사용되는 `targetEditor` 내에 사용자 지정 플래그를 만들 수도 있습니다. 여기서 `extensionMap`은(는) 사용자 지정 키 또는 관찰할 수 있는 값을 추가하는 데 사용되는 전역 변수입니다.
+또한 `targetEditor`에서 플래그로 사용되는 `extensionMap` 내에 사용자 지정 플래그를 만들 수도 있습니다. 여기서 `extensionMap`은(는) 사용자 지정 키 또는 관찰할 수 있는 값을 추가하는 데 사용되는 전역 변수입니다.
 
 예:
 

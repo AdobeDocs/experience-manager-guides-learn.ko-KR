@@ -2,9 +2,20 @@
 title: 사용자 환경 설정, 편집기 설정 및 편집기 도구 모음
 description: AEM Guides에서 사용자 환경 설정 및 편집기 설정 변경
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/OA2xVO7uyM-70UZKo4oq37HvbpXkTWKmCmQjGkppF7o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: 1171
 ht-degree: 1%
 
 ---
@@ -221,7 +232,7 @@ ht-degree: 1%
 
 ## 편집기 설정에서 게시 프로필 만들기
 
-Publish 프로필을 사용하여 기술 자료를 게시할 수 있습니다. 예를 들어 Salesforce는 소비자 키와 소비자 암호가 있는 구성된 앱을 사용합니다. 이 정보는 Salesforce 게시 프로필을 만드는 데 사용할 수 있습니다.
+게시 프로필을 사용하여 기술 자료를 게시할 수 있습니다. 예를 들어 Salesforce은 소비자 키와 소비자 암호가 있는 구성된 앱을 사용합니다. 이 정보는 Salesforce 게시 프로필을 만드는 데 사용할 수 있습니다.
 
 1. 상단 도구 모음에서 [!UICONTROL **편집기 설정**] 아이콘을 클릭합니다.
 
