@@ -2,9 +2,13 @@
 title: 기준선을 사용하여 만들기 및 게시
 description: ' [!DNL Adobe Experience Manager Guides]에서 기준선을 사용하여 만들기 및 게시'
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/P2NbWdOXSWFs40gpSWNrtDLR3VKofXymN5FlZSQRJ7Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: 764
 ht-degree: 2%
 
 ---
@@ -97,7 +101,7 @@ ht-degree: 2%
 
 레이블이 모든 주제에 추가되었습니다.
 
-## 기준선을 사용하여 AEM Site 출력 생성
+## 기준선을 사용하여 AEM 사이트 출력 생성
 
 1. 맵 대시보드의 출력 사전 설정 탭으로 이동합니다.
 
@@ -183,7 +187,7 @@ ht-degree: 2%
 
 변경 사항이 저장되었습니다. 이제 기준선에서 지정한 항목 버전을 사용합니다.
 
-## 사용자 지정된 AEM Site 출력 사전 설정 만들기
+## 사용자 지정된 AEM 사이트 출력 사전 설정 만들기
 
 출력 탭에서 동일한 유형의 기본 출력을 구별하는 것은 어렵습니다. 고유하고 사용자에게 친숙한 이름으로 사용자 지정된 출력 사전 설정을 사용하면 이 문제를 해결할 수 있습니다.
 

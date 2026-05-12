@@ -2,10 +2,14 @@
 title: 키
 description: 키를 사용하면 AEM Guides에서 DITA로 작업할 때 변수 정보를 포함할 수 있습니다
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/Uw-JiHQLITcmUtAuV-SogA6mM73A6EeCi27gUQC-8Eo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 0%
+source-wordcount: 585
+ht-degree: 1%
 
 ---
 
@@ -37,7 +41,7 @@ ht-degree: 0%
 
    f. [!UICONTROL **다음**]&#x200B;을 클릭합니다.
 
-   g. 이전에 업로드한 적이 없는 컨텐츠에 충돌이 없으므로 모든 충돌을 건너뜁니다.
+   g. 이전에 업로드한 적이 없는 콘텐츠에 대해서는 충돌이 없으므로 모든 충돌을 건너뜁니다.
 
    h. 화면 오른쪽 상단에서 [!UICONTROL **추출**]&#x200B;을(를) 선택합니다.
 
@@ -91,7 +95,7 @@ ht-degree: 0%
 
    ![Keydef 도구 모음](images/lesson-9/key-icon.png)
 
-   c. [Keydef 삽입] 대화 상자에서 생성 중인 정의에 적합한 Keys의 고유 값을 입력합니다.
+   c. Keydef 삽입 대화 상자에서 생성 중인 정의에 적합한 Keys의 고유 값을 입력합니다.
 
    d. [!UICONTROL **삽입**]&#x200B;을 클릭합니다.
 
@@ -117,7 +121,7 @@ ht-degree: 0%
 
    ![Keydef 도구 모음](images/lesson-9/add-icon.png)
 
-   b. **요소 삽입** 대화 상자에서 &quot;키워드&quot;를 검색하여 선택합니다.
+   b. **요소 삽입** 대화 상자에서 &quot;keyword&quot;를 검색하여 선택하십시오.
 
 1. keydef의 값을 키워드에 입력합니다.
 

@@ -1,11 +1,14 @@
 ---
 title: 조건
-description: AEM Guids에서 조건 사용
+description: AEM Guids의 조건 사용
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: 498
+ht-degree: 3%
 
 ---
 
@@ -41,7 +44,7 @@ DITA에서 조건은 종종 제품, 플랫폼 및 대상과 같은 속성을 통
 
 >[!NOTE]
 >
->참고: 전역 프로필 구성은 일관된 스타일 안내서를 따라 속성 및 값의 사용을 제어하는 조기 및 효율적인 방법일 수 있습니다.
+참고: 전역 프로필 구성은 일관된 스타일 안내서를 따라 속성 및 값의 사용을 제어하는 조기 및 효율적인 방법일 수 있습니다.
 
 ## 요소에 속성 할당
 
@@ -93,17 +96,17 @@ DITA에서 조건은 종종 제품, 플랫폼 및 대상과 같은 속성을 통
 
    ![사용자 환경 설정](images/lesson-13/user-prefs-icon-2.png)
 
-   b. **사용자 환경 설정** 대화 상자에서 필드를 채웁니다.
+   b. **사용자 환경 설정** 대화 상자의 필드를 채웁니다.
 
    c. 기본 경로 필드 옆에 있는 폴더 기호를 클릭하여 원하는 파일의 경로를 선택합니다.
 
    d. [!UICONTROL **선택**]&#x200B;을 클릭합니다.
 
-   e. **루트 맵** 필드 옆에 있는 키 기호를 클릭하여 경로를 입력합니다.
+   e. **루트 맵** 필드 옆의 키 기호를 클릭하여 경로를 입력하십시오.
 
    >[!IMPORTANT]
    >
-   >중요: 선택한 루트 맵은 제목 구성표가 포함된 맵이어야 합니다.
+   중요: 선택한 루트 맵은 제목 구성표가 포함된 맵이어야 합니다.
 
    ![사용자 환경 설정](images/lesson-13/user-preferences-2.png)
 
