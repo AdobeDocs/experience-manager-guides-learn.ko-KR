@@ -3,9 +3,13 @@ title: ' [!DNL AEM Guides]에서 콘텐츠를 만드는 중'
 description: ' [!DNL Adobe Experience Manager Guides]에서 콘텐츠를 만드는 중'
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
 TQID: https://experienceleague.adobe.com/Lq5OHK1A0CDSTUHhO-FX2FZVEcJRfyHfGXYi5gZXjbo
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 381
@@ -30,7 +34,7 @@ ht-degree: 1%
    ![+ 아이콘](images/lesson-3/+-icon.png)
 
 1. 폴더에 제목을 지정합니다.
-1. **만들기**를 선택합니다.
+1. **만들기**&#x200B;를 선택합니다.
 이제 저장소에 표시되는 새 폴더를 만들었습니다. 이 폴더는 모든 과정 콘텐츠의 홈입니다.
 
 ## 하위 폴더 만들기
@@ -43,7 +47,7 @@ ht-degree: 1%
 
    옵션(Options) 메뉴가 표시됩니다.
 
-1. **폴더 만들기**를 선택합니다.
+1. **폴더 만들기**&#x200B;를 선택합니다.
    ![하위 폴더 만들기](images/lesson-3/create-subfolder-with-markings.png)
 
 1. 하위 폴더에 제목(예: &quot;이미지&quot;)을 지정하고 **만들기**&#x200B;를 선택합니다.
@@ -99,7 +103,7 @@ ht-degree: 1%
 
    >[!NOTE]
    > 
-   프로그램이 사전 정의된 레이블로 구성된 경우 레이블 지정을 일관되게 유지하기 위해 다음 중에서 선택할 수 있습니다.
+   >프로그램이 사전 정의된 레이블로 구성된 경우 레이블 지정을 일관되게 유지하기 위해 다음 중에서 선택할 수 있습니다.
 
 1. **저장**&#x200B;을 선택합니다.
 

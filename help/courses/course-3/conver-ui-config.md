@@ -3,11 +3,20 @@ title: AEM Guides 편집기 구성
 description: 새 AEM Guides 편집기에 대한 JSON 구성 사용자 지정 및 UI 구성 전환.
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
 TQID: https://experienceleague.adobe.com/-OjsNVIiPAMvXO2UhRf0EpJ5BipU4g2b2HYL1KOQwPE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 1311
@@ -521,7 +530,7 @@ UI 구성 요소의 가시성 또는 상호 작용을 제어합니다. 지정하
 
 UI에서 사용자 정의 추가 단추 또는 이미 존재하는 위젯 또는 단추의 모양과 느낌을 사용자 정의하기 위해 css를 추가할 수도 있습니다.
 
-새로 추가된 사용자 지정 단추의 경우 JSON 내의 사용자 지정 단추 또는 구성 요소에 **extraclass**를 추가합니다.
+새로 추가된 사용자 지정 단추의 경우 JSON 내의 사용자 지정 단추 또는 구성 요소에 **extraclass**&#x200B;를 추가합니다.
 이전 클래스의 경우 요소를 검사하고 기존 클래스를 수정할 수도 있습니다.
 
 ```json
@@ -560,7 +569,7 @@ UI에서 사용자 정의 추가 단추 또는 이미 존재하는 위젯 또는
 
 ### 단추 css 맞춤화 예제
 
-여기서는 **editor_toolbar**&#x200B;에 새 단추 **사용자 지정 테이블 삽입**을 추가하여 미리 보기 모드에서만 볼 수 있는 간단한 테이블을 추가하고 사용자 지정 css를 적용합니다.
+여기서는 **editor_toolbar**&#x200B;에 새 단추 **사용자 지정 테이블 삽입**&#x200B;을 추가하여 미리 보기 모드에서만 볼 수 있는 간단한 테이블을 추가하고 사용자 지정 css를 적용합니다.
 이 css는 버튼의 배경과 제목의 글꼴 크기를 수정합니다.
 
 ![CSS 예제](images/reuse/css-customization.png)
