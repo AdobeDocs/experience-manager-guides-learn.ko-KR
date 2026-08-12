@@ -10,10 +10,10 @@ feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
+source-git-commit: 961580a797f22e35f48a0dc72537f67c9a43677e
 workflow-type: tm+mt
 source-wordcount: 381
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 1. **+** 아이콘과 **폴더**&#x200B;를 선택합니다.
 
-   ![+ 아이콘](images/lesson-3/+-icon.png)
+   ![+ 아이콘](images/lesson-3/plus-icon.png)
 
 1. 폴더에 제목을 지정합니다.
 1. **만들기**&#x200B;를 선택합니다.
@@ -103,7 +103,7 @@ ht-degree: 1%
 
    >[!NOTE]
    > 
-   >프로그램이 사전 정의된 레이블로 구성된 경우 레이블 지정을 일관되게 유지하기 위해 다음 중에서 선택할 수 있습니다.
+   > 프로그램이 사전 정의된 레이블로 구성된 경우 레이블 지정을 일관되게 유지하기 위해 다음 중에서 선택할 수 있습니다.
 
 1. **저장**&#x200B;을 선택합니다.
 
