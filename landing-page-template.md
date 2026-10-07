@@ -3,15 +3,13 @@ title: 안내서 제목
 description: 안내서 설명
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '36'
 ht-degree: 8%
-
 ---
-
 
 # 개요 {#overview}
 
-이 사용 안내서에서 중심으로 하는 제품에 대한 1-2 문장 개요입니다. 이 사용자 안내서에는 *xyz*.
+이 사용 안내서가 중점을 두는 제품에 대한 1-2 문장 개요입니다. 이 사용 안내서에는 *xyz*&#x200B;의 다양한 기능과 성능에 대한 비디오 및 튜토리얼이 포함되어 있습니다.
 
 ## 새로운 기능
 
