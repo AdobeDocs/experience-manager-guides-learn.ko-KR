@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-guides-learn.en
+git-repo: https://github.com/AdobeDocs/experience-manager-guides-learn.ko-KR
 product: Experience Manager
 index: true
 type: Tutorial
